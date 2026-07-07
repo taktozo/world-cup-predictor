@@ -16,7 +16,7 @@ from sklearn.linear_model import PoissonRegressor
 from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import StandardScaler
 
-from features import build_features, build_live_features
+from club_features import build_features, build_live_features
 
 DATA_DIR = Path(__file__).resolve().parent.parent.parent / "data" / "club"
 MAX_GOALS = 10

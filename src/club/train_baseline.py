@@ -10,8 +10,8 @@ import numpy as np
 import pandas as pd
 from sklearn.metrics import accuracy_score, log_loss, mean_absolute_error
 
-from features import FEATURE_COLUMNS, build_features
-from inference import fit_model, outcome_probabilities
+from club_features import FEATURE_COLUMNS, build_features
+from club_inference import fit_model, outcome_probabilities
 
 DATA_DIR = Path(__file__).resolve().parent.parent.parent / "data" / "club"
 REQUIRED_COLUMNS = [

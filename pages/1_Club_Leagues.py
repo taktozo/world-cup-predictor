@@ -10,8 +10,8 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import streamlit as st
 
-from features import LIVE_FEATURE_COLUMNS
-from inference import (
+from club_features import LIVE_FEATURE_COLUMNS
+from club_inference import (
     fit_live_model,
     load_latest_elo,
     load_latest_form,
