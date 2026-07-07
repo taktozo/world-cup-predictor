@@ -5,6 +5,11 @@
 
 Separate from the aggregate snapshots (latest_elo.csv etc.) used for
 prediction -- these are for showing the user context, not model inputs.
+
+build_match_log()/build_h2h_log() are also imported directly by the
+Streamlit page to fold in matches fetched live by live_refresh.py, so the
+displayed "recent form"/"last 5 meetings" tables can reflect new results
+without needing this whole script re-run.
 """
 
 from pathlib import Path
@@ -34,7 +39,13 @@ def export_standings(matches: pd.DataFrame) -> None:
     print(f"standings.csv: {len(combined)} rows across {combined['league'].nunique()} leagues")
 
 
-def export_recent_matches(matches: pd.DataFrame) -> None:
+def build_match_log(matches: pd.DataFrame) -> pd.DataFrame:
+    """One row per team per match (both home and away appearances), full
+    history -- not truncated to a recency window, so callers can combine
+    multiple sources before taking the most recent N."""
+    if matches.empty:
+        return pd.DataFrame(columns=["date", "team", "opponent", "goals_for", "goals_against", "venue", "result"])
+
     home = matches[["Date", "HomeTeam", "AwayTeam", "FTHG", "FTAG"]].copy()
     home.columns = ["date", "team", "opponent", "goals_for", "goals_against"]
     home["venue"] = "H"
@@ -52,24 +63,36 @@ def export_recent_matches(matches: pd.DataFrame) -> None:
         ),
         index=long.index,
     )
+    return long
 
-    recent = long.groupby("team").tail(RECENT_FORM_WINDOW)
+
+def build_h2h_log(matches: pd.DataFrame) -> pd.DataFrame:
+    """One row per match with a team_a/team_b pair key (alphabetical), full
+    history -- not truncated, same reasoning as build_match_log()."""
+    cols = ["date", "home_team", "away_team", "home_score", "away_score", "team_a", "team_b"]
+    if matches.empty:
+        return pd.DataFrame(columns=cols)
+
+    pair_key = [tuple(sorted(pair)) for pair in zip(matches["HomeTeam"], matches["AwayTeam"])]
+    matches = matches.assign(pair_key=pair_key)
+
+    recent = matches[["Date", "HomeTeam", "AwayTeam", "FTHG", "FTAG", "pair_key"]].rename(
+        columns={"Date": "date", "HomeTeam": "home_team", "AwayTeam": "away_team", "FTHG": "home_score", "FTAG": "away_score"}
+    )
+    recent[["team_a", "team_b"]] = pd.DataFrame(recent["pair_key"].tolist(), index=recent.index)
+    return recent.drop(columns="pair_key")[cols]
+
+
+def export_recent_matches(matches: pd.DataFrame) -> None:
+    log = build_match_log(matches)
+    recent = log.groupby("team").tail(RECENT_FORM_WINDOW)
     recent.to_csv(DATA_DIR / "recent_matches.csv", index=False)
     print(f"recent_matches.csv: {len(recent)} rows for {recent['team'].nunique()} teams")
 
 
 def export_recent_h2h(matches: pd.DataFrame) -> None:
-    pair_key = [tuple(sorted(pair)) for pair in zip(matches["HomeTeam"], matches["AwayTeam"])]
-    matches = matches.assign(pair_key=pair_key)
-
-    cols = ["Date", "HomeTeam", "AwayTeam", "FTHG", "FTAG", "pair_key"]
-    recent = matches[cols].sort_values("Date").groupby("pair_key").tail(RECENT_H2H_WINDOW)
-    recent = recent.rename(
-        columns={"Date": "date", "HomeTeam": "home_team", "AwayTeam": "away_team", "FTHG": "home_score", "FTAG": "away_score"}
-    )
-    recent[["team_a", "team_b"]] = pd.DataFrame(recent["pair_key"].tolist(), index=recent.index)
-    recent = recent.drop(columns="pair_key")
-
+    log = build_h2h_log(matches).sort_values("date")
+    recent = log.groupby(["team_a", "team_b"]).tail(RECENT_H2H_WINDOW)
     recent.to_csv(DATA_DIR / "recent_h2h.csv", index=False)
     print(f"recent_h2h.csv: {len(recent)} rows across {recent[['team_a','team_b']].drop_duplicates().shape[0]} pairs")
 

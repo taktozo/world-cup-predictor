@@ -20,6 +20,7 @@ from club_inference import (
     load_latest_squad_value,
     predict_match,
 )
+from export_recent_history import RECENT_H2H_WINDOW, build_h2h_log, build_match_log
 from fixtures import get_upcoming_fixtures
 from live_refresh import get_refreshed_snapshots
 from standings import compute_standings
@@ -283,7 +284,11 @@ else:
         height=min(38 * (len(live_table) + 1), 780),
     )
 
+    # Fold in any matches live_refresh fetched this session so "recent form" and
+    # "last 5 meetings" reflect real new results, not just the last manual export.
     recent_matches = get_club_recent_matches()
+    if not current_season_matches.empty:
+        recent_matches = pd.concat([recent_matches, build_match_log(current_season_matches)])
     col_form1, col_form2 = st.columns(2)
     for col, team in [(col_form1, home_team), (col_form2, away_team)]:
         with col:
@@ -304,10 +309,12 @@ else:
 
     st.subheader("Head-to-head (last 5 meetings)")
     recent_h2h = get_club_recent_h2h()
+    if not current_season_matches.empty:
+        recent_h2h = pd.concat([recent_h2h, build_h2h_log(current_season_matches)])
     pair_meetings = recent_h2h[
         ((recent_h2h["team_a"] == home_team) & (recent_h2h["team_b"] == away_team))
         | ((recent_h2h["team_a"] == away_team) & (recent_h2h["team_b"] == home_team))
-    ].sort_values("date", ascending=False)
+    ].sort_values("date", ascending=False).head(RECENT_H2H_WINDOW)
     if pair_meetings.empty:
         st.caption("These two teams haven't met before in our data.")
     else:
