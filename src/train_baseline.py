@@ -13,17 +13,16 @@ from pathlib import Path
 import joblib
 import numpy as np
 import pandas as pd
-from scipy.stats import poisson
 from sklearn.linear_model import PoissonRegressor
 from sklearn.metrics import accuracy_score, log_loss, mean_absolute_error
 from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import StandardScaler
 
 from features import FEATURE_COLUMNS, build_features
+from inference import outcome_probabilities
 
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 MODELS_DIR = Path(__file__).resolve().parent.parent / "models"
-MAX_GOALS = 10  # grid cutoff for outcome-probability summation
 
 
 def load_training_data() -> pd.DataFrame:
@@ -38,24 +37,6 @@ def time_split(df: pd.DataFrame, test_frac: float = 0.15):
     train = df[df["date"] < cutoff_date]
     test = df[df["date"] >= cutoff_date]
     return train, test, cutoff_date
-
-
-def outcome_probabilities(home_lambda: np.ndarray, away_lambda: np.ndarray) -> np.ndarray:
-    """Return an (n, 3) array of [P(home win), P(draw), P(away win)]."""
-    goals = np.arange(MAX_GOALS + 1)
-    home_pmf = poisson.pmf(goals[None, :], home_lambda[:, None])  # (n, MAX_GOALS+1)
-    away_pmf = poisson.pmf(goals[None, :], away_lambda[:, None])
-
-    joint = home_pmf[:, :, None] * away_pmf[:, None, :]  # (n, home_goals, away_goals)
-    home_win = np.triu(np.ones((MAX_GOALS + 1, MAX_GOALS + 1)), k=1).T  # home > away
-    draw = np.eye(MAX_GOALS + 1)
-    away_win = np.triu(np.ones((MAX_GOALS + 1, MAX_GOALS + 1)), k=1)  # away > home
-
-    p_home = (joint * home_win).sum(axis=(1, 2))
-    p_draw = (joint * draw).sum(axis=(1, 2))
-    p_away = (joint * away_win).sum(axis=(1, 2))
-    probs = np.stack([p_home, p_draw, p_away], axis=1)
-    return probs / probs.sum(axis=1, keepdims=True)  # renormalize for the MAX_GOALS truncation
 
 
 def actual_outcome_labels(df: pd.DataFrame) -> np.ndarray:

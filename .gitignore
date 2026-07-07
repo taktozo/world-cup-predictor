@@ -5,8 +5,11 @@ __pycache__/
 venv/
 *.egg-info/
 .DS_Store
+.claude/
 
 data/*.csv
 data/*.zip
+!data/latest_elo.csv
 
 models/*.joblib
+!models/baseline_poisson.joblib
