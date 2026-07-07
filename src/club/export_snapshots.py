@@ -72,6 +72,19 @@ def export_latest_squad_value(matches: pd.DataFrame) -> None:
     print(f"latest_squad_value.csv: {len(latest)} teams")
 
 
+def export_latest_match_date(matches: pd.DataFrame) -> None:
+    long = pd.concat(
+        [
+            matches[["Date", "HomeTeam"]].rename(columns={"HomeTeam": "team"}),
+            matches[["Date", "AwayTeam"]].rename(columns={"AwayTeam": "team"}),
+        ]
+    )
+    latest = long.sort_values("Date").groupby("team").tail(1)
+    latest.columns = ["last_match_date", "team"]
+    latest[["team", "last_match_date"]].sort_values("team").to_csv(DATA_DIR / "latest_match_date.csv", index=False)
+    print(f"latest_match_date.csv: {len(latest)} teams")
+
+
 def export_team_league(matches: pd.DataFrame) -> None:
     long = pd.concat(
         [
@@ -86,11 +99,12 @@ def export_team_league(matches: pd.DataFrame) -> None:
 
 
 def main() -> None:
-    matches = pd.read_csv(DATA_DIR / "matches_with_referee.csv", low_memory=False, parse_dates=["Date"])
+    matches = pd.read_csv(DATA_DIR / "matches_with_rest.csv", low_memory=False, parse_dates=["Date"])
     export_latest_elo(matches)
     export_latest_form(matches)
     export_latest_h2h(matches)
     export_latest_squad_value(matches)
+    export_latest_match_date(matches)
     export_team_league(matches)
 
 

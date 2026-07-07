@@ -130,23 +130,32 @@ def refresh_h2h(latest_h2h: pd.DataFrame, new_matches: pd.DataFrame) -> pd.DataF
     return result
 
 
-def get_refreshed_snapshots(latest_elo, latest_form, latest_h2h, committed_max_date: pd.Timestamp):
-    """Returns (elo, form, h2h, n_new_matches, current_season_matches). Falls
-    back to the committed snapshots unchanged if the live fetch fails or has
-    nothing new. current_season_matches is returned even when empty (e.g.
+def refresh_last_match_date(latest_match_date: pd.Series, new_matches: pd.DataFrame) -> pd.Series:
+    dates = latest_match_date.to_dict()
+    for row in new_matches.itertuples():
+        dates[row.HomeTeam] = row.Date
+        dates[row.AwayTeam] = row.Date
+    return pd.Series(dates, name="last_match_date")
+
+
+def get_refreshed_snapshots(latest_elo, latest_form, latest_h2h, latest_match_date, committed_max_date: pd.Timestamp):
+    """Returns (elo, form, h2h, last_match_date, n_new_matches, current_season_matches).
+    Falls back to the committed snapshots unchanged if the live fetch fails or
+    has nothing new. current_season_matches is returned even when empty (e.g.
     the new season hasn't started) so callers can build a live, zero-filled
     standings table rather than just skipping the update."""
     empty_matches = pd.DataFrame(columns=["Date", "HomeTeam", "AwayTeam", "FTHG", "FTAG", "League"])
     try:
         fetched = fetch_current_season_matches()
     except Exception:
-        return latest_elo, latest_form, latest_h2h, 0, empty_matches
+        return latest_elo, latest_form, latest_h2h, latest_match_date, 0, empty_matches
 
     new_matches = fetched[fetched["Date"] > committed_max_date]
     if new_matches.empty:
-        return latest_elo, latest_form, latest_h2h, 0, empty_matches
+        return latest_elo, latest_form, latest_h2h, latest_match_date, 0, empty_matches
 
     updated_elo = refresh_elo(latest_elo, new_matches)
     updated_form = refresh_form(latest_form, new_matches)
     updated_h2h = refresh_h2h(latest_h2h, new_matches)
-    return updated_elo, updated_form, updated_h2h, len(new_matches), new_matches
+    updated_match_date = refresh_last_match_date(latest_match_date, new_matches)
+    return updated_elo, updated_form, updated_h2h, updated_match_date, len(new_matches), new_matches

@@ -17,13 +17,14 @@ DATA_DIR = Path(__file__).resolve().parent.parent.parent / "data" / "club"
 REQUIRED_COLUMNS = [
     "home_elo", "away_elo", "home_form_goals_for", "home_form_goals_against",
     "away_form_goals_for", "away_form_goals_against", "h2h_diff",
+    "home_rest_days", "away_rest_days",
     "odds_p_home", "odds_p_draw", "odds_p_away", "home_squad_value",
     "away_squad_value", "referee_avg_cards", "FTHG", "FTAG",
 ]
 
 
 def load_training_data() -> pd.DataFrame:
-    df = pd.read_csv(DATA_DIR / "matches_with_referee.csv", low_memory=False, parse_dates=["Date"])
+    df = pd.read_csv(DATA_DIR / "matches_with_rest.csv", low_memory=False, parse_dates=["Date"])
     df = df.dropna(subset=REQUIRED_COLUMNS)
     return df.sort_values("Date").reset_index(drop=True)
 

@@ -19,6 +19,9 @@ FEATURE_COLUMNS = [
     "away_form_goals_for",
     "away_form_goals_against",
     "h2h_diff",
+    "home_rest_days",
+    "away_rest_days",
+    "rest_days_diff",
     "odds_p_home",
     "odds_p_draw",
     "odds_p_away",
@@ -35,6 +38,9 @@ LIVE_FEATURE_COLUMNS = [
     "away_form_goals_for",
     "away_form_goals_against",
     "h2h_diff",
+    "home_rest_days",
+    "away_rest_days",
+    "rest_days_diff",
     "squad_value_diff",
 ]
 
@@ -49,6 +55,9 @@ def _base_features(df: pd.DataFrame) -> pd.DataFrame:
     features["away_form_goals_for"] = df["away_form_goals_for"]
     features["away_form_goals_against"] = df["away_form_goals_against"]
     features["h2h_diff"] = df["h2h_diff"]
+    features["home_rest_days"] = df["home_rest_days"]
+    features["away_rest_days"] = df["away_rest_days"]
+    features["rest_days_diff"] = df["home_rest_days"] - df["away_rest_days"]
     features["squad_value_diff"] = np.log1p(df["home_squad_value"]) - np.log1p(df["away_squad_value"])
     return features
 

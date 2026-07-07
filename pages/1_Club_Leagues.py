@@ -17,6 +17,7 @@ from club_inference import (
     load_latest_elo,
     load_latest_form,
     load_latest_h2h,
+    load_latest_match_date,
     load_latest_squad_value,
     predict_match,
 )
@@ -69,6 +70,11 @@ def get_club_latest_squad_value():
 
 
 @st.cache_data
+def get_club_latest_match_date():
+    return load_latest_match_date()
+
+
+@st.cache_data
 def get_club_team_league():
     return pd.read_csv(DATA_DIR / "team_league.csv").set_index("team")["league"]
 
@@ -79,8 +85,8 @@ def get_club_committed_max_date():
 
 
 @st.cache_data(ttl=6 * 60 * 60)  # re-check for new results every 6 hours
-def get_club_live_snapshots(_elo, _form, _h2h, committed_max_date):
-    return get_refreshed_snapshots(_elo, _form, _h2h, committed_max_date)
+def get_club_live_snapshots(_elo, _form, _h2h, _match_date, committed_max_date):
+    return get_refreshed_snapshots(_elo, _form, _h2h, _match_date, committed_max_date)
 
 
 @st.cache_data
@@ -118,6 +124,7 @@ st.caption(
 committed_elo = get_club_latest_elo()
 committed_form = get_club_latest_form()
 committed_h2h = get_club_latest_h2h()
+committed_match_date = get_club_latest_match_date()
 latest_squad_value = get_club_latest_squad_value()
 team_league = get_club_team_league()
 model = get_club_model(_club_model_cache_key())
@@ -133,7 +140,7 @@ mode = st.radio("Mode", mode_options, horizontal=True)
 if not api_token:
     st.caption("Real fixtures unavailable (no football-data.org API token configured).")
 
-home_team = away_team = selected_league = None
+home_team = away_team = selected_league = fixture_date = None
 
 # Fetch the raw fixture list once regardless of mode -- used as the picker in
 # "Real upcoming fixture" mode, and as the current season's team roster (so the
@@ -158,7 +165,7 @@ if mode == "Real upcoming fixture":
         labels = [row.date.strftime("%a %d %b") + f": {row.home_team} vs {row.away_team}" for row in fixtures.itertuples()]
         choice = st.selectbox("Upcoming fixture", labels)
         chosen = fixtures.iloc[labels.index(choice)]
-        home_team, away_team = chosen["home_team"], chosen["away_team"]
+        home_team, away_team, fixture_date = chosen["home_team"], chosen["away_team"], chosen["date"]
 else:
     league = st.radio("League", ["EPL", "La Liga"], horizontal=True)
     selected_league = league
@@ -174,11 +181,12 @@ else:
 # if it's slow or fails, fall back to the committed snapshots rather than blocking the page.
 committed_max_date = get_club_committed_max_date()
 try:
-    latest_elo, latest_form, latest_h2h, n_new_matches, current_season_matches = get_club_live_snapshots(
-        committed_elo, committed_form, committed_h2h, committed_max_date
+    latest_elo, latest_form, latest_h2h, latest_match_date, n_new_matches, current_season_matches = (
+        get_club_live_snapshots(committed_elo, committed_form, committed_h2h, committed_match_date, committed_max_date)
     )
 except Exception:
     latest_elo, latest_form, latest_h2h = committed_elo, committed_form, committed_h2h
+    latest_match_date = committed_match_date
     n_new_matches, current_season_matches = 0, pd.DataFrame(columns=["League", "HomeTeam", "AwayTeam", "FTHG", "FTAG"])
 if n_new_matches:
     st.caption(f"Ratings updated with {n_new_matches} match(es) played since the last full data refresh.")
@@ -186,7 +194,10 @@ if n_new_matches:
 if home_team == away_team:
     st.warning("Pick two different teams.")
 else:
-    result = predict_match(home_team, away_team, latest_elo, latest_form, latest_h2h, latest_squad_value, model)
+    result = predict_match(
+        home_team, away_team, latest_elo, latest_form, latest_h2h, latest_squad_value,
+        latest_match_date, model, match_date=fixture_date,
+    )
 
     col_elo1, col_elo2, col_h2h = st.columns(3)
     with col_elo1:
@@ -201,6 +212,10 @@ else:
     st.caption(
         f"Squad value: {home_team} €{result['home_squad_value'] / 1e6:.0f}m vs. "
         f"{away_team} €{result['away_squad_value'] / 1e6:.0f}m"
+    )
+    st.caption(
+        f"Rest: {home_team} {result['home_rest_days']:.0f} day(s) vs. "
+        f"{away_team} {result['away_rest_days']:.0f} day(s)"
     )
 
     st.subheader("Expected score")
