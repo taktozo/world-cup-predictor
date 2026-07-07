@@ -14,11 +14,13 @@ import streamlit as st
 
 from features import FEATURE_COLUMNS
 from inference import fit_model, h2h_diff_for_pair, load_latest_elo, load_latest_form, load_latest_h2h, predict_match
+from ui import apply_theme, render_footer
 
 OUTCOME_COLORS = {"Home win": "#4C72B0", "Draw": "#8C8C8C", "Away win": "#C44E52"}
 TRAINING_DATA_PATH = Path(__file__).resolve().parent / "data" / "training_data.csv"
 
 st.set_page_config(page_title="World Cup Score Predictor", page_icon="⚽")
+apply_theme()
 
 
 def _model_cache_key() -> str:
@@ -148,3 +150,4 @@ st.caption(
     "Elo ratings from eloratings.net (via Kaggle), snapshotted at build time. "
     "Match history from martj42/international-football-results-from-1872-to-2017."
 )
+render_footer()

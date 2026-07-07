@@ -5,6 +5,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "src" / "club"))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -22,11 +23,13 @@ from club_inference import (
 from fixtures import get_upcoming_fixtures
 from live_refresh import get_refreshed_snapshots
 from standings import compute_standings
+from ui import apply_theme, render_footer
 
 OUTCOME_COLORS = {"Home win": "#4C72B0", "Draw": "#8C8C8C", "Away win": "#C44E52"}
 DATA_DIR = Path(__file__).resolve().parent.parent / "data" / "club"
 
 st.set_page_config(page_title="Club League Score Predictor", page_icon="⚽")
+apply_theme()
 
 
 def _model_cache_key() -> str:
@@ -317,3 +320,4 @@ st.caption(
     "Match/odds/referee data from football-data.co.uk. Squad market value from "
     "Transfermarkt (davidcariboo/player-scores on Kaggle). Elo computed in-house."
 )
+render_footer()
