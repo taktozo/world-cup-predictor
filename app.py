@@ -3,6 +3,7 @@
 Run locally with: streamlit run app.py
 """
 
+import hashlib
 import sys
 from pathlib import Path
 
@@ -11,15 +12,31 @@ sys.path.insert(0, str(Path(__file__).resolve().parent / "src"))
 import matplotlib.pyplot as plt
 import streamlit as st
 
+from features import FEATURE_COLUMNS
 from inference import fit_model, load_latest_elo, load_latest_form, predict_match
 
 OUTCOME_COLORS = {"Home win": "#4C72B0", "Draw": "#8C8C8C", "Away win": "#C44E52"}
+TRAINING_DATA_PATH = Path(__file__).resolve().parent / "data" / "training_data.csv"
 
 st.set_page_config(page_title="World Cup Score Predictor", page_icon="⚽")
 
 
+def _model_cache_key() -> str:
+    """Changes whenever the training data or feature set changes.
+
+    st.cache_resource keys on the wrapped function's own source code, not on
+    what it calls into -- so a code push that only changes build_features()
+    or training_data.csv (not fit_model() itself) can otherwise leave a stale
+    cached model in memory if the host reuses the running process instead of
+    a full restart. Passing this in makes that impossible to miss.
+    """
+    file_hash = hashlib.md5(TRAINING_DATA_PATH.read_bytes()).hexdigest()
+    columns_hash = hashlib.md5(",".join(FEATURE_COLUMNS).encode()).hexdigest()
+    return f"{file_hash}-{columns_hash}"
+
+
 @st.cache_resource
-def get_model():
+def get_model(cache_key: str):
     return fit_model()
 
 
@@ -41,7 +58,7 @@ st.caption(
 
 latest_elo = get_latest_elo()
 latest_form = get_latest_form()
-model = get_model()
+model = get_model(_model_cache_key())
 teams = sorted(set(latest_elo.index) & set(latest_form.index))
 
 col1, col2 = st.columns(2)
