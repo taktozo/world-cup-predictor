@@ -15,3 +15,11 @@ data/*.zip
 !data/training_data.csv
 
 models/*.joblib
+
+data/club/*.csv
+!data/club/latest_elo.csv
+!data/club/latest_form.csv
+!data/club/latest_h2h.csv
+!data/club/latest_squad_value.csv
+!data/club/team_league.csv
+!data/club/training_data.csv

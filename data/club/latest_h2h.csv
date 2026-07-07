@@ -1,0 +1,1792 @@
+team_a,team_b,mean_diff_team_a,count
+Alaves,Almeria,2.0,2
+Alaves,Ath Bilbao,-0.6333333333333333,30
+Alaves,Ath Madrid,-0.5,26
+Alaves,Barcelona,-1.6333333333333333,30
+Alaves,Betis,-0.21428571428571427,28
+Alaves,Cadiz,-0.125,8
+Alaves,Celta,-0.26666666666666666,30
+Alaves,Eibar,0.0,10
+Alaves,Elche,0.16666666666666666,6
+Alaves,Espanol,-0.11538461538461539,26
+Alaves,Extremadura,-1.0,2
+Alaves,Getafe,-0.6111111111111112,18
+Alaves,Girona,-0.3,10
+Alaves,Granada,-0.5,10
+Alaves,Huesca,0.75,4
+Alaves,La Coruna,-0.1875,16
+Alaves,Las Palmas,0.9166666666666666,12
+Alaves,Leganes,-0.2,10
+Alaves,Levante,0.3333333333333333,12
+Alaves,Malaga,0.2857142857142857,14
+Alaves,Mallorca,-0.5909090909090909,22
+Alaves,Numancia,-0.75,4
+Alaves,Osasuna,-0.6818181818181818,22
+Alaves,Oviedo,0.5,8
+Alaves,Real Madrid,-1.9333333333333333,30
+Alaves,Recreativo,1.0,2
+Alaves,Salamanca,0.0,2
+Alaves,Santander,-0.1,10
+Alaves,Sevilla,-0.3076923076923077,26
+Alaves,Sociedad,-0.23333333333333334,30
+Alaves,Sp Gijon,1.0,2
+Alaves,Tenerife,1.5,4
+Alaves,Valencia,-0.5666666666666667,30
+Alaves,Valladolid,0.7222222222222222,18
+Alaves,Vallecano,-0.2222222222222222,18
+Alaves,Villareal,-0.5,2
+Alaves,Villarreal,-0.38461538461538464,26
+Alaves,Zaragoza,-0.3,10
+Albacete,Ath Bilbao,0.1111111111111111,9
+Albacete,Ath Madrid,-1.1,10
+Albacete,Barcelona,-1.3,10
+Albacete,Betis,-0.125,8
+Albacete,Celta,0.125,8
+Albacete,Compostela,-0.75,4
+Albacete,Espanol,-0.5,8
+Albacete,La Coruna,-2.1,10
+Albacete,Lerida,1.0,2
+Albacete,Levante,1.0,2
+Albacete,Logrones,0.0,4
+Albacete,Malaga,-0.5,2
+Albacete,Mallorca,0.6666666666666666,3
+Albacete,Merida,1.0,2
+Albacete,Murcia,0.0,2
+Albacete,Numancia,0.0,1
+Albacete,Osasuna,-0.6666666666666666,6
+Albacete,Oviedo,1.0,6
+Albacete,Real Madrid,-1.125,8
+Albacete,Salamanca,1.0,2
+Albacete,Santander,0.9,10
+Albacete,Sevilla,-0.7,10
+Albacete,Sociedad,-0.7,10
+Albacete,Sp Gijon,-1.0,6
+Albacete,Tenerife,0.16666666666666666,6
+Albacete,Valencia,-0.7,10
+Albacete,Valladolid,-0.125,8
+Albacete,Vallecano,-0.75,4
+Albacete,Villarreal,0.0,4
+Albacete,Zaragoza,-0.4444444444444444,9
+Almeria,Ath Bilbao,-1.3125,16
+Almeria,Ath Madrid,-0.6875,16
+Almeria,Barcelona,-2.125,16
+Almeria,Betis,-0.5,10
+Almeria,Cadiz,1.25,4
+Almeria,Celta,-0.375,8
+Almeria,Cordoba,0.5,2
+Almeria,Eibar,-0.5,2
+Almeria,Elche,-0.16666666666666666,6
+Almeria,Espanol,-0.21428571428571427,14
+Almeria,Getafe,-0.3125,16
+Almeria,Girona,-1.5,4
+Almeria,Granada,1.3333333333333333,6
+Almeria,Hercules,0.5,2
+Almeria,La Coruna,0.4,10
+Almeria,Las Palmas,0.0,2
+Almeria,Levante,-1.125,8
+Almeria,Malaga,-0.2,10
+Almeria,Mallorca,-0.16666666666666666,12
+Almeria,Murcia,1.0,2
+Almeria,Numancia,0.0,2
+Almeria,Osasuna,-0.35714285714285715,14
+Almeria,Real Madrid,-2.125,16
+Almeria,Recreativo,-0.25,4
+Almeria,Santander,0.125,8
+Almeria,Sevilla,-0.5625,16
+Almeria,Sociedad,-0.8,10
+Almeria,Sp Gijon,0.16666666666666666,6
+Almeria,Tenerife,0.0,2
+Almeria,Valencia,-0.6875,16
+Almeria,Valladolid,-0.2,10
+Almeria,Vallecano,-0.875,8
+Almeria,Villarreal,-0.4375,16
+Almeria,Xerez,0.0,2
+Almeria,Zaragoza,-0.3333333333333333,6
+Arsenal,Aston Villa,0.8333333333333334,60
+Arsenal,Barnsley,3.5,2
+Arsenal,Birmingham,1.6153846153846154,13
+Arsenal,Blackburn,1.0588235294117647,34
+Arsenal,Blackpool,4.0,2
+Arsenal,Bolton,0.7307692307692307,26
+Arsenal,Bournemouth,1.2222222222222223,18
+Arsenal,Bradford,0.75,4
+Arsenal,Brentford,0.8,10
+Arsenal,Brighton,0.3888888888888889,18
+Arsenal,Burnley,1.45,20
+Arsenal,Cardiff,1.75,4
+Arsenal,Charlton,1.5,16
+Arsenal,Chelsea,0.13636363636363635,66
+Arsenal,Coventry,0.4375,16
+Arsenal,Crystal Palace,1.0,32
+Arsenal,Derby,1.1428571428571428,14
+Arsenal,Everton,0.9384615384615385,65
+Arsenal,Fulham,1.3783783783783783,37
+Arsenal,Huddersfield,2.0,4
+Arsenal,Hull,1.7,10
+Arsenal,Ipswich,2.3,10
+Arsenal,Leeds,1.206896551724138,29
+Arsenal,Leicester,1.0857142857142856,35
+Arsenal,Liverpool,-0.53125,64
+Arsenal,Luton,1.5,2
+Arsenal,Man City,0.07142857142857142,56
+Arsenal,Man United,-0.16666666666666666,66
+Arsenal,Middlesbrough,1.3571428571428572,28
+Arsenal,Newcastle,0.8688524590163934,61
+Arsenal,Norwich,1.5555555555555556,18
+Arsenal,Nott'm Forest,1.0625,16
+Arsenal,Oldham,0.0,2
+Arsenal,Portsmouth,1.4285714285714286,14
+Arsenal,QPR,0.25,12
+Arsenal,Reading,2.5,6
+Arsenal,Sheffield United,1.9,10
+Arsenal,Sheffield Weds,0.35714285714285715,14
+Arsenal,Southampton,0.8958333333333334,48
+Arsenal,Stoke,1.0,20
+Arsenal,Sunderland,1.1764705882352942,34
+Arsenal,Swansea,0.35714285714285715,14
+Arsenal,Swindon,2.0,2
+Arsenal,Tottenham,0.5230769230769231,65
+Arsenal,Watford,1.375,16
+Arsenal,West Brom,1.08,25
+Arsenal,West Ham,1.1666666666666667,60
+Arsenal,Wigan,1.5,16
+Arsenal,Wimbledon,1.1428571428571428,14
+Arsenal,Wolves,1.25,24
+Aston Villa,Barnsley,1.0,2
+Aston Villa,Birmingham,0.14285714285714285,14
+Aston Villa,Blackburn,0.029411764705882353,34
+Aston Villa,Blackpool,0.5,2
+Aston Villa,Bolton,0.5416666666666666,24
+Aston Villa,Bournemouth,0.5,12
+Aston Villa,Bradford,1.5,4
+Aston Villa,Brentford,0.5,10
+Aston Villa,Brighton,1.0714285714285714,14
+Aston Villa,Burnley,0.5714285714285714,14
+Aston Villa,Cardiff,1.0,2
+Aston Villa,Charlton,0.1875,16
+Aston Villa,Chelsea,-0.711864406779661,59
+Aston Villa,Coventry,0.8125,16
+Aston Villa,Crystal Palace,-0.2692307692307692,26
+Aston Villa,Derby,1.1428571428571428,14
+Aston Villa,Everton,0.31666666666666665,60
+Aston Villa,Fulham,0.5,36
+Aston Villa,Hull,1.0,8
+Aston Villa,Ipswich,0.6,10
+Aston Villa,Leeds,0.16666666666666666,30
+Aston Villa,Leicester,-0.2,30
+Aston Villa,Liverpool,-0.7796610169491526,59
+Aston Villa,Luton,1.5,2
+Aston Villa,Man City,-1.1041666666666667,48
+Aston Villa,Man United,-1.152542372881356,59
+Aston Villa,Middlesbrough,0.6538461538461539,26
+Aston Villa,Newcastle,-0.43103448275862066,58
+Aston Villa,Norwich,0.9444444444444444,18
+Aston Villa,Nott'm Forest,0.4375,16
+Aston Villa,Oldham,-0.5,2
+Aston Villa,Portsmouth,0.35714285714285715,14
+Aston Villa,QPR,0.16666666666666666,12
+Aston Villa,Reading,0.6666666666666666,6
+Aston Villa,Sheffield United,0.8,10
+Aston Villa,Sheffield Weds,0.2857142857142857,14
+Aston Villa,Southampton,0.07142857142857142,42
+Aston Villa,Stoke,-0.3125,16
+Aston Villa,Sunderland,0.40625,32
+Aston Villa,Swansea,-0.7,10
+Aston Villa,Swindon,3.0,2
+Aston Villa,Tottenham,-0.3389830508474576,59
+Aston Villa,Watford,0.1,10
+Aston Villa,West Brom,0.2727272727272727,22
+Aston Villa,West Ham,0.1111111111111111,54
+Aston Villa,Wigan,-0.0625,16
+Aston Villa,Wimbledon,0.9285714285714286,14
+Aston Villa,Wolves,0.13636363636363635,22
+Ath Bilbao,Ath Madrid,-0.5,62
+Ath Bilbao,Barcelona,-1.3846153846153846,65
+Ath Bilbao,Betis,0.2,55
+Ath Bilbao,Cadiz,1.3,10
+Ath Bilbao,Celta,0.18518518518518517,54
+Ath Bilbao,Compostela,0.75,8
+Ath Bilbao,Cordoba,0.0,2
+Ath Bilbao,Eibar,0.5714285714285714,14
+Ath Bilbao,Elche,0.25,12
+Ath Bilbao,Espanol,-0.18333333333333332,60
+Ath Bilbao,Extremadura,0.5,4
+Ath Bilbao,Getafe,0.21428571428571427,42
+Ath Bilbao,Gimnastic,-0.5,2
+Ath Bilbao,Girona,0.0,12
+Ath Bilbao,Granada,-0.05,20
+Ath Bilbao,Hercules,2.0,4
+Ath Bilbao,Huesca,0.5,4
+Ath Bilbao,La Coruna,-0.26666666666666666,45
+Ath Bilbao,Las Palmas,0.35714285714285715,14
+Ath Bilbao,Leganes,0.3,10
+Ath Bilbao,Lerida,2.5,2
+Ath Bilbao,Levante,0.6666666666666666,30
+Ath Bilbao,Logrones,1.5,6
+Ath Bilbao,Malaga,0.058823529411764705,34
+Ath Bilbao,Mallorca,0.18181818181818182,44
+Ath Bilbao,Merida,0.75,4
+Ath Bilbao,Murcia,0.5,4
+Ath Bilbao,Numancia,0.5,8
+Ath Bilbao,Osasuna,0.391304347826087,46
+Ath Bilbao,Oviedo,-0.1111111111111111,18
+Ath Bilbao,Real Madrid,-1.3076923076923077,65
+Ath Bilbao,Recreativo,0.5,8
+Ath Bilbao,Salamanca,0.3333333333333333,6
+Ath Bilbao,Santander,0.47058823529411764,34
+Ath Bilbao,Sevilla,-0.26666666666666666,60
+Ath Bilbao,Sociedad,-0.1206896551724138,58
+Ath Bilbao,Sp Gijon,1.3181818181818181,22
+Ath Bilbao,Tenerife,0.8125,16
+Ath Bilbao,Valencia,-0.27692307692307694,65
+Ath Bilbao,Valladolid,0.4523809523809524,42
+Ath Bilbao,Vallecano,0.6944444444444444,36
+Ath Bilbao,Villareal,1.5,2
+Ath Bilbao,Villarreal,-0.3541666666666667,48
+Ath Bilbao,Xerez,1.0,2
+Ath Bilbao,Zaragoza,0.2777777777777778,36
+Ath Madrid,Barcelona,-0.7049180327868853,61
+Ath Madrid,Betis,0.5185185185185185,54
+Ath Madrid,Cadiz,1.5,10
+Ath Madrid,Celta,0.64,50
+Ath Madrid,Compostela,0.75,8
+Ath Madrid,Cordoba,2.0,2
+Ath Madrid,Eibar,1.2142857142857142,14
+Ath Madrid,Elche,1.25,12
+Ath Madrid,Espanol,0.16666666666666666,54
+Ath Madrid,Extremadura,1.5,4
+Ath Madrid,Getafe,1.0952380952380953,42
+Ath Madrid,Gimnastic,1.0,2
+Ath Madrid,Girona,1.3333333333333333,12
+Ath Madrid,Granada,1.65,20
+Ath Madrid,Hercules,0.75,4
+Ath Madrid,Huesca,2.0,4
+Ath Madrid,La Coruna,0.5,42
+Ath Madrid,Las Palmas,2.2,10
+Ath Madrid,Leganes,0.9,10
+Ath Madrid,Lerida,0.5,2
+Ath Madrid,Levante,0.6896551724137931,29
+Ath Madrid,Logrones,1.3333333333333333,6
+Ath Madrid,Malaga,0.6,30
+Ath Madrid,Mallorca,0.3157894736842105,38
+Ath Madrid,Merida,1.0,4
+Ath Madrid,Murcia,0.5,4
+Ath Madrid,Numancia,0.0,4
+Ath Madrid,Osasuna,0.6666666666666666,42
+Ath Madrid,Oviedo,0.625,16
+Ath Madrid,Real Madrid,-0.6612903225806451,62
+Ath Madrid,Recreativo,0.875,8
+Ath Madrid,Salamanca,0.5,6
+Ath Madrid,Santander,0.7575757575757576,33
+Ath Madrid,Sevilla,0.3684210526315789,57
+Ath Madrid,Sociedad,0.48214285714285715,56
+Ath Madrid,Sp Gijon,1.5,22
+Ath Madrid,Tenerife,0.42857142857142855,14
+Ath Madrid,Valencia,0.11290322580645161,62
+Ath Madrid,Valladolid,1.394736842105263,38
+Ath Madrid,Vallecano,1.03125,32
+Ath Madrid,Villareal,-0.5,2
+Ath Madrid,Villarreal,0.06521739130434782,46
+Ath Madrid,Xerez,0.5,2
+Ath Madrid,Zaragoza,0.45161290322580644,31
+Barcelona,Betis,1.5740740740740742,54
+Barcelona,Cadiz,1.0,10
+Barcelona,Celta,0.7777777777777778,54
+Barcelona,Compostela,1.75,8
+Barcelona,Cordoba,6.5,2
+Barcelona,Eibar,2.5714285714285716,14
+Barcelona,Elche,2.5833333333333335,12
+Barcelona,Espanol,1.4166666666666667,60
+Barcelona,Extremadura,1.75,4
+Barcelona,Getafe,1.475,40
+Barcelona,Gimnastic,3.5,2
+Barcelona,Girona,1.0833333333333333,12
+Barcelona,Granada,1.5,20
+Barcelona,Hercules,-0.25,4
+Barcelona,Huesca,2.5,4
+Barcelona,La Coruna,0.8260869565217391,46
+Barcelona,Las Palmas,1.4285714285714286,14
+Barcelona,Leganes,1.4,10
+Barcelona,Lerida,0.0,2
+Barcelona,Levante,1.9666666666666666,30
+Barcelona,Logrones,2.5,6
+Barcelona,Malaga,1.4705882352941178,34
+Barcelona,Mallorca,1.441860465116279,43
+Barcelona,Merida,0.75,4
+Barcelona,Murcia,2.75,4
+Barcelona,Numancia,0.875,8
+Barcelona,Osasuna,1.5333333333333334,45
+Barcelona,Oviedo,0.7777777777777778,18
+Barcelona,Real Madrid,0.515625,64
+Barcelona,Recreativo,2.375,8
+Barcelona,Salamanca,0.6666666666666666,6
+Barcelona,Santander,1.0833333333333333,36
+Barcelona,Sevilla,1.2333333333333334,60
+Barcelona,Sociedad,1.2333333333333334,60
+Barcelona,Sp Gijon,2.1818181818181817,22
+Barcelona,Tenerife,1.1875,16
+Barcelona,Valencia,0.9090909090909091,66
+Barcelona,Valladolid,1.7619047619047619,42
+Barcelona,Vallecano,1.75,36
+Barcelona,Villareal,-0.5,2
+Barcelona,Villarreal,1.0,50
+Barcelona,Xerez,2.0,2
+Barcelona,Zaragoza,1.4285714285714286,35
+Barnsley,Blackburn,-0.5,2
+Barnsley,Bolton,0.5,2
+Barnsley,Chelsea,-4.0,2
+Barnsley,Coventry,0.5,2
+Barnsley,Crystal Palace,1.0,2
+Barnsley,Derby,0.0,2
+Barnsley,Everton,-1.0,2
+Barnsley,Leeds,-1.0,2
+Barnsley,Leicester,-1.5,2
+Barnsley,Liverpool,0.0,2
+Barnsley,Man United,-4.5,2
+Barnsley,Newcastle,-0.5,2
+Barnsley,Sheffield Weds,0.0,2
+Barnsley,Southampton,-1.0,2
+Barnsley,Tottenham,-1.5,2
+Barnsley,West Ham,-3.5,2
+Barnsley,Wimbledon,-1.0,2
+Betis,Cadiz,0.3,10
+Betis,Celta,-0.25,48
+Betis,Compostela,1.375,8
+Betis,Eibar,-0.8333333333333334,12
+Betis,Elche,0.8,10
+Betis,Espanol,-0.07692307692307693,52
+Betis,Extremadura,1.0,4
+Betis,Getafe,0.08571428571428572,35
+Betis,Gimnastic,0.5,2
+Betis,Girona,0.5833333333333334,12
+Betis,Granada,0.16666666666666666,18
+Betis,Hercules,1.0,2
+Betis,Huesca,0.75,4
+Betis,La Coruna,-0.5428571428571428,35
+Betis,Las Palmas,0.16666666666666666,12
+Betis,Leganes,0.0,10
+Betis,Levante,0.2916666666666667,24
+Betis,Logrones,1.0,4
+Betis,Malaga,0.04,25
+Betis,Mallorca,0.23684210526315788,38
+Betis,Merida,0.5,4
+Betis,Murcia,1.25,4
+Betis,Numancia,1.0,6
+Betis,Osasuna,0.2972972972972973,37
+Betis,Oviedo,1.1428571428571428,14
+Betis,Real Madrid,-0.7857142857142857,56
+Betis,Recreativo,-0.5,8
+Betis,Salamanca,1.1666666666666667,6
+Betis,Santander,0.14285714285714285,28
+Betis,Sevilla,-0.40384615384615385,52
+Betis,Sociedad,0.17307692307692307,52
+Betis,Sp Gijon,0.6875,16
+Betis,Tenerife,0.9166666666666666,12
+Betis,Valencia,-0.39285714285714285,56
+Betis,Valladolid,0.7777777777777778,36
+Betis,Vallecano,0.23333333333333334,30
+Betis,Villareal,2.0,2
+Betis,Villarreal,-0.225,40
+Betis,Zaragoza,0.25,28
+Birmingham,Blackburn,-0.25,12
+Birmingham,Blackpool,1.5,2
+Birmingham,Bolton,-0.07142857142857142,14
+Birmingham,Burnley,0.0,2
+Birmingham,Charlton,-0.5714285714285714,7
+Birmingham,Chelsea,-1.0,14
+Birmingham,Crystal Palace,-1.5,2
+Birmingham,Derby,0.5,2
+Birmingham,Everton,-0.3076923076923077,13
+Birmingham,Fulham,-0.14285714285714285,14
+Birmingham,Hull,0.5,2
+Birmingham,Leeds,1.0,4
+Birmingham,Leicester,0.5,2
+Birmingham,Liverpool,-0.42857142857142855,14
+Birmingham,Man City,-0.7857142857142857,14
+Birmingham,Man United,-1.4615384615384615,13
+Birmingham,Middlesbrough,0.0,10
+Birmingham,Newcastle,-0.6666666666666666,12
+Birmingham,Norwich,0.0,1
+Birmingham,Portsmouth,0.5555555555555556,9
+Birmingham,Reading,-0.5,2
+Birmingham,Southampton,0.16666666666666666,6
+Birmingham,Stoke,0.25,4
+Birmingham,Sunderland,0.4,10
+Birmingham,Tottenham,-0.42857142857142855,14
+Birmingham,West Brom,0.0,8
+Birmingham,West Ham,-0.4,10
+Birmingham,Wigan,0.25,8
+Birmingham,Wolves,0.16666666666666666,6
+Blackburn,Blackpool,0.5,2
+Blackburn,Bolton,0.3076923076923077,26
+Blackburn,Burnley,1.0,2
+Blackburn,Charlton,0.7142857142857143,14
+Blackburn,Chelsea,-0.5,34
+Blackburn,Coventry,0.3333333333333333,12
+Blackburn,Crystal Palace,0.6666666666666666,6
+Blackburn,Derby,-0.2,10
+Blackburn,Everton,0.0,34
+Blackburn,Fulham,0.5,20
+Blackburn,Hull,0.5,4
+Blackburn,Ipswich,0.8333333333333334,6
+Blackburn,Leeds,-0.35294117647058826,17
+Blackburn,Leicester,0.09090909090909091,11
+Blackburn,Liverpool,-0.45454545454545453,33
+Blackburn,Man City,0.0,25
+Blackburn,Man United,-0.8529411764705882,34
+Blackburn,Middlesbrough,0.0,22
+Blackburn,Newcastle,0.03125,32
+Blackburn,Norwich,0.375,8
+Blackburn,Nott'm Forest,1.875,8
+Blackburn,Oldham,1.0,2
+Blackburn,Portsmouth,0.42857142857142855,14
+Blackburn,QPR,0.875,8
+Blackburn,Reading,0.75,4
+Blackburn,Sheffield United,0.5,4
+Blackburn,Sheffield Weds,0.6666666666666666,12
+Blackburn,Southampton,0.0,20
+Blackburn,Stoke,-0.875,8
+Blackburn,Sunderland,-0.1111111111111111,18
+Blackburn,Swansea,-0.5,2
+Blackburn,Swindon,2.0,2
+Blackburn,Tottenham,-0.30303030303030304,33
+Blackburn,Watford,0.5,2
+Blackburn,West Brom,0.18181818181818182,11
+Blackburn,West Ham,-0.03571428571428571,28
+Blackburn,Wigan,0.42857142857142855,14
+Blackburn,Wimbledon,0.75,12
+Blackburn,Wolves,1.375,8
+Blackpool,Bolton,0.5,2
+Blackpool,Chelsea,-3.0,2
+Blackpool,Everton,-1.0,2
+Blackpool,Fulham,-1.5,2
+Blackpool,Liverpool,1.0,2
+Blackpool,Man City,-1.0,2
+Blackpool,Man United,-1.5,2
+Blackpool,Newcastle,1.0,2
+Blackpool,Stoke,0.5,2
+Blackpool,Sunderland,0.5,2
+Blackpool,Tottenham,1.0,2
+Blackpool,West Brom,0.0,2
+Blackpool,West Ham,-1.0,2
+Blackpool,Wigan,1.0,2
+Blackpool,Wolves,-1.5,2
+Bolton,Burnley,0.5,2
+Bolton,Charlton,0.5833333333333334,12
+Bolton,Chelsea,-1.4,25
+Bolton,Coventry,-0.75,4
+Bolton,Crystal Palace,1.25,4
+Bolton,Derby,-1.0,6
+Bolton,Everton,-0.4,25
+Bolton,Fulham,-0.8571428571428571,21
+Bolton,Hull,0.0,4
+Bolton,Ipswich,2.0,2
+Bolton,Leeds,-0.3,10
+Bolton,Leicester,1.1666666666666667,6
+Bolton,Liverpool,-1.0384615384615385,26
+Bolton,Man City,-0.5,22
+Bolton,Man United,-1.8076923076923077,26
+Bolton,Middlesbrough,0.2222222222222222,18
+Bolton,Newcastle,-0.2916666666666667,24
+Bolton,Norwich,-0.75,4
+Bolton,Nott'm Forest,-0.5,2
+Bolton,Portsmouth,-0.23076923076923078,13
+Bolton,QPR,0.75,4
+Bolton,Reading,0.5,4
+Bolton,Sheffield United,0.5,2
+Bolton,Sheffield Weds,-1.25,4
+Bolton,Southampton,0.0,12
+Bolton,Stoke,0.625,8
+Bolton,Sunderland,-0.3125,16
+Bolton,Swansea,-1.0,2
+Bolton,Tottenham,-0.32,25
+Bolton,Watford,1.0,2
+Bolton,West Brom,0.16666666666666666,12
+Bolton,West Ham,0.6,20
+Bolton,Wigan,0.42857142857142855,14
+Bolton,Wimbledon,0.25,4
+Bolton,Wolves,0.42857142857142855,7
+Bournemouth,Brentford,-1.0,8
+Bournemouth,Brighton,0.35714285714285715,14
+Bournemouth,Burnley,-0.5833333333333334,12
+Bournemouth,Cardiff,0.0,2
+Bournemouth,Chelsea,-0.4444444444444444,18
+Bournemouth,Crystal Palace,-0.16666666666666666,18
+Bournemouth,Everton,0.05555555555555555,18
+Bournemouth,Fulham,0.8,10
+Bournemouth,Huddersfield,1.0,4
+Bournemouth,Hull,1.5,2
+Bournemouth,Ipswich,0.0,2
+Bournemouth,Leeds,0.5,4
+Bournemouth,Leicester,0.35714285714285715,14
+Bournemouth,Liverpool,-2.1666666666666665,18
+Bournemouth,Luton,0.0,2
+Bournemouth,Man City,-2.2777777777777777,18
+Bournemouth,Man United,-0.5555555555555556,18
+Bournemouth,Middlesbrough,1.0,2
+Bournemouth,Newcastle,0.1875,16
+Bournemouth,Norwich,0.0,4
+Bournemouth,Nott'm Forest,1.125,8
+Bournemouth,Sheffield United,0.25,4
+Bournemouth,Southampton,0.07142857142857142,14
+Bournemouth,Stoke,0.0,6
+Bournemouth,Sunderland,0.16666666666666666,6
+Bournemouth,Swansea,1.1666666666666667,6
+Bournemouth,Tottenham,-1.1666666666666667,18
+Bournemouth,Watford,-0.1,10
+Bournemouth,West Brom,0.16666666666666666,6
+Bournemouth,West Ham,-0.4444444444444444,18
+Bournemouth,Wolves,0.08333333333333333,12
+Bradford,Charlton,0.0,2
+Bradford,Chelsea,-0.5,4
+Bradford,Coventry,-0.75,4
+Bradford,Derby,0.25,4
+Bradford,Everton,-1.5,4
+Bradford,Ipswich,-2.0,2
+Bradford,Leeds,-1.75,4
+Bradford,Leicester,0.0,4
+Bradford,Liverpool,-1.0,4
+Bradford,Man City,-1.0,2
+Bradford,Man United,-4.25,4
+Bradford,Middlesbrough,0.25,4
+Bradford,Newcastle,-0.25,4
+Bradford,Sheffield Weds,-1.0,2
+Bradford,Southampton,-1.25,4
+Bradford,Sunderland,-1.5,4
+Bradford,Tottenham,-0.25,4
+Bradford,Watford,0.0,2
+Bradford,West Ham,-1.25,4
+Bradford,Wimbledon,1.0,2
+Brentford,Brighton,-0.3,10
+Brentford,Burnley,0.8333333333333334,6
+Brentford,Chelsea,0.3,10
+Brentford,Crystal Palace,-0.2,10
+Brentford,Everton,0.0,10
+Brentford,Fulham,-0.125,8
+Brentford,Ipswich,1.0,2
+Brentford,Leeds,0.3333333333333333,6
+Brentford,Leicester,0.8333333333333334,6
+Brentford,Liverpool,-1.1,10
+Brentford,Luton,3.0,2
+Brentford,Man City,-0.9,10
+Brentford,Man United,-0.2,10
+Brentford,Newcastle,-0.6,10
+Brentford,Norwich,0.5,2
+Brentford,Nott'm Forest,-0.25,8
+Brentford,Sheffield United,0.5,2
+Brentford,Southampton,2.0,6
+Brentford,Sunderland,1.0,2
+Brentford,Tottenham,-0.7,10
+Brentford,Watford,1.0,2
+Brentford,West Ham,1.2,10
+Brentford,Wolves,0.2,10
+Brighton,Burnley,0.0,14
+Brighton,Cardiff,-1.5,2
+Brighton,Chelsea,-0.3333333333333333,18
+Brighton,Crystal Palace,0.0,18
+Brighton,Everton,-0.3888888888888889,18
+Brighton,Fulham,-0.75,12
+Brighton,Huddersfield,0.0,4
+Brighton,Ipswich,1.0,2
+Brighton,Leeds,0.75,8
+Brighton,Leicester,-0.5,14
+Brighton,Liverpool,-0.7222222222222222,18
+Brighton,Luton,-0.5,2
+Brighton,Man City,-1.6111111111111112,18
+Brighton,Man United,-0.2777777777777778,18
+Brighton,Newcastle,0.3333333333333333,18
+Brighton,Norwich,0.75,4
+Brighton,Nott'm Forest,-0.5,8
+Brighton,Sheffield United,0.5,6
+Brighton,Southampton,0.35714285714285715,14
+Brighton,Stoke,0.0,2
+Brighton,Sunderland,0.5,2
+Brighton,Swansea,2.0,2
+Brighton,Tottenham,0.0,18
+Brighton,Watford,0.75,8
+Brighton,West Brom,-0.25,4
+Brighton,West Ham,0.7222222222222222,18
+Brighton,Wolves,1.0625,16
+Burnley,Cardiff,1.5,2
+Burnley,Chelsea,-1.6,20
+Burnley,Crystal Palace,-0.2222222222222222,18
+Burnley,Everton,-0.7,20
+Burnley,Fulham,-0.3,10
+Burnley,Huddersfield,0.25,4
+Burnley,Hull,1.1666666666666667,6
+Burnley,Leeds,-1.1666666666666667,6
+Burnley,Leicester,-0.5714285714285714,14
+Burnley,Liverpool,-1.4,20
+Burnley,Luton,0.5,2
+Burnley,Man City,-2.2,20
+Burnley,Man United,-0.8,20
+Burnley,Middlesbrough,0.5,2
+Burnley,Newcastle,-0.875,16
+Burnley,Norwich,0.5,4
+Burnley,Nott'm Forest,-1.0,4
+Burnley,Portsmouth,-1.5,2
+Burnley,QPR,-0.5,2
+Burnley,Sheffield United,0.8333333333333334,6
+Burnley,Southampton,0.21428571428571427,14
+Burnley,Stoke,-0.125,8
+Burnley,Sunderland,0.125,8
+Burnley,Swansea,-0.5,6
+Burnley,Tottenham,-1.35,20
+Burnley,Watford,0.6,10
+Burnley,West Brom,-1.0,8
+Burnley,West Ham,-0.25,20
+Burnley,Wigan,-1.5,2
+Burnley,Wolves,0.2857142857142857,14
+Cadiz,Celta,-0.7,10
+Cadiz,Eibar,1.5,2
+Cadiz,Elche,-0.16666666666666666,6
+Cadiz,Espanol,0.3333333333333333,6
+Cadiz,Getafe,-0.6,10
+Cadiz,Girona,-0.5,4
+Cadiz,Granada,0.0,6
+Cadiz,Huesca,1.5,2
+Cadiz,La Coruna,-0.5,2
+Cadiz,Las Palmas,0.0,2
+Cadiz,Levante,0.5,4
+Cadiz,Malaga,3.5,2
+Cadiz,Mallorca,-0.25,8
+Cadiz,Osasuna,-1.5,10
+Cadiz,Real Madrid,-1.4,10
+Cadiz,Santander,0.5,2
+Cadiz,Sevilla,-1.2,10
+Cadiz,Sociedad,-1.4,10
+Cadiz,Valencia,-0.5,10
+Cadiz,Valladolid,0.75,4
+Cadiz,Vallecano,-0.5,6
+Cadiz,Villarreal,0.0,10
+Cadiz,Zaragoza,0.0,2
+Cardiff,Chelsea,-2.0,4
+Cardiff,Crystal Palace,-1.5,4
+Cardiff,Everton,-1.25,4
+Cardiff,Fulham,1.0,4
+Cardiff,Huddersfield,0.0,2
+Cardiff,Hull,-2.0,2
+Cardiff,Leicester,0.0,2
+Cardiff,Liverpool,-2.5,4
+Cardiff,Man City,-2.0,4
+Cardiff,Man United,-1.0,4
+Cardiff,Newcastle,-1.75,4
+Cardiff,Norwich,0.5,2
+Cardiff,Southampton,0.0,4
+Cardiff,Stoke,0.0,2
+Cardiff,Sunderland,-2.0,2
+Cardiff,Swansea,-1.0,2
+Cardiff,Tottenham,-1.5,4
+Cardiff,Watford,-2.5,2
+Cardiff,West Brom,0.5,2
+Cardiff,West Ham,-1.0,4
+Cardiff,Wolves,-0.5,2
+Celta,Compostela,-0.75,8
+Celta,Cordoba,0.5,2
+Celta,Eibar,0.35714285714285715,14
+Celta,Elche,0.3333333333333333,12
+Celta,Espanol,-0.041666666666666664,48
+Celta,Extremadura,0.25,4
+Celta,Getafe,-0.2,30
+Celta,Gimnastic,0.5,2
+Celta,Girona,-0.08333333333333333,12
+Celta,Granada,0.6666666666666666,18
+Celta,Hercules,2.5,2
+Celta,Huesca,1.0,4
+Celta,La Coruna,-0.16666666666666666,36
+Celta,Las Palmas,0.5,14
+Celta,Leganes,-0.1,10
+Celta,Lerida,0.5,2
+Celta,Levante,0.36363636363636365,22
+Celta,Logrones,1.8333333333333333,6
+Celta,Malaga,0.125,24
+Celta,Mallorca,0.03125,32
+Celta,Merida,-0.5,4
+Celta,Murcia,0.0,2
+Celta,Numancia,-1.0,4
+Celta,Osasuna,0.5294117647058824,34
+Celta,Oviedo,0.2777777777777778,18
+Celta,Real Madrid,-1.1296296296296295,54
+Celta,Recreativo,0.75,4
+Celta,Salamanca,1.1666666666666667,6
+Celta,Santander,-0.4583333333333333,24
+Celta,Sevilla,0.0625,48
+Celta,Sociedad,-0.05555555555555555,54
+Celta,Sp Gijon,0.21428571428571427,14
+Celta,Tenerife,0.6428571428571429,14
+Celta,Valencia,-0.42592592592592593,54
+Celta,Valladolid,0.4722222222222222,36
+Celta,Vallecano,-0.14705882352941177,34
+Celta,Villareal,1.5,2
+Celta,Villarreal,-0.3684210526315789,38
+Celta,Zaragoza,0.038461538461538464,26
+Charlton,Chelsea,-0.5333333333333333,15
+Charlton,Coventry,-0.25,4
+Charlton,Crystal Palace,1.0,1
+Charlton,Derby,0.5,6
+Charlton,Everton,-0.1875,16
+Charlton,Fulham,-0.25,12
+Charlton,Ipswich,0.25,4
+Charlton,Leeds,-1.3,10
+Charlton,Leicester,0.25,8
+Charlton,Liverpool,-0.8,15
+Charlton,Man City,-0.16666666666666666,12
+Charlton,Man United,-1.9333333333333333,15
+Charlton,Middlesbrough,0.0,16
+Charlton,Newcastle,-0.0625,16
+Charlton,Norwich,4.0,1
+Charlton,Nott'm Forest,0.5,2
+Charlton,Portsmouth,0.2857142857142857,7
+Charlton,Reading,-1.0,2
+Charlton,Sheffield United,-0.5,2
+Charlton,Sheffield Weds,-2.0,2
+Charlton,Southampton,0.18181818181818182,11
+Charlton,Sunderland,0.5,8
+Charlton,Tottenham,-0.4375,16
+Charlton,Watford,0.0,2
+Charlton,West Brom,0.16666666666666666,6
+Charlton,West Ham,0.3333333333333333,12
+Charlton,Wigan,-0.5,4
+Charlton,Wimbledon,0.5,2
+Charlton,Wolves,3.0,2
+Chelsea,Coventry,0.3125,16
+Chelsea,Crystal Palace,1.28125,32
+Chelsea,Derby,1.7142857142857142,14
+Chelsea,Everton,0.5384615384615384,65
+Chelsea,Fulham,0.8378378378378378,37
+Chelsea,Huddersfield,2.5,4
+Chelsea,Hull,1.5,10
+Chelsea,Ipswich,0.3,10
+Chelsea,Leeds,-0.20689655172413793,29
+Chelsea,Leicester,0.8055555555555556,36
+Chelsea,Liverpool,-0.045454545454545456,66
+Chelsea,Luton,2.0,2
+Chelsea,Man City,0.19642857142857142,56
+Chelsea,Man United,-0.06153846153846154,65
+Chelsea,Middlesbrough,1.0,27
+Chelsea,Newcastle,0.5081967213114754,61
+Chelsea,Norwich,1.3888888888888888,18
+Chelsea,Nott'm Forest,0.1875,16
+Chelsea,Oldham,-1.0,2
+Chelsea,Portsmouth,2.0714285714285716,14
+Chelsea,QPR,0.6666666666666666,12
+Chelsea,Reading,0.8333333333333334,6
+Chelsea,Sheffield United,0.8,10
+Chelsea,Sheffield Weds,0.42857142857142855,14
+Chelsea,Southampton,0.9166666666666666,48
+Chelsea,Stoke,1.75,20
+Chelsea,Sunderland,1.0588235294117647,34
+Chelsea,Swansea,1.2142857142857142,14
+Chelsea,Swindon,2.0,2
+Chelsea,Tottenham,0.8923076923076924,65
+Chelsea,Watford,1.0,16
+Chelsea,West Brom,1.2307692307692308,26
+Chelsea,West Ham,0.8833333333333333,60
+Chelsea,Wigan,1.875,16
+Chelsea,Wimbledon,0.6428571428571429,14
+Chelsea,Wolves,1.3333333333333333,24
+Compostela,Espanol,0.25,8
+Compostela,Extremadura,2.0,2
+Compostela,Hercules,-0.5,2
+Compostela,La Coruna,0.375,8
+Compostela,Logrones,1.25,4
+Compostela,Mallorca,-0.5,2
+Compostela,Merida,1.5,4
+Compostela,Oviedo,0.0,8
+Compostela,Real Madrid,-0.5,8
+Compostela,Salamanca,0.5,4
+Compostela,Santander,0.5,8
+Compostela,Sevilla,-0.5,6
+Compostela,Sociedad,-1.125,8
+Compostela,Sp Gijon,0.75,8
+Compostela,Tenerife,-1.625,8
+Compostela,Valencia,-1.875,8
+Compostela,Valladolid,-1.0,8
+Compostela,Vallecano,1.0,4
+Compostela,Zaragoza,0.5,8
+Cordoba,Eibar,-1.5,2
+Cordoba,Elche,-1.0,2
+Cordoba,Espanol,-0.5,2
+Cordoba,Getafe,-0.5,2
+Cordoba,Granada,0.0,2
+Cordoba,La Coruna,0.0,2
+Cordoba,Levante,-0.5,2
+Cordoba,Malaga,-1.5,2
+Cordoba,Real Madrid,-1.5,2
+Cordoba,Sevilla,-2.5,2
+Cordoba,Sociedad,-1.0,2
+Cordoba,Valencia,-2.0,2
+Cordoba,Vallecano,0.0,2
+Cordoba,Villarreal,-1.0,2
+Coventry,Crystal Palace,0.5,4
+Coventry,Derby,0.0,10
+Coventry,Everton,0.3125,16
+Coventry,Ipswich,0.0,6
+Coventry,Leeds,-0.6875,16
+Coventry,Leicester,0.16666666666666666,12
+Coventry,Liverpool,-0.625,16
+Coventry,Man City,0.875,8
+Coventry,Man United,-1.4375,16
+Coventry,Middlesbrough,-0.8,10
+Coventry,Newcastle,-1.5,16
+Coventry,Norwich,0.25,4
+Coventry,Nott'm Forest,-0.125,8
+Coventry,Oldham,0.0,2
+Coventry,QPR,-0.8333333333333334,6
+Coventry,Sheffield United,0.0,2
+Coventry,Sheffield Weds,0.14285714285714285,14
+Coventry,Southampton,-0.125,16
+Coventry,Sunderland,0.0,6
+Coventry,Swindon,-1.0,2
+Coventry,Tottenham,-0.1875,16
+Coventry,Watford,1.5,2
+Coventry,West Ham,-0.6875,16
+Coventry,Wimbledon,0.21428571428571427,14
+Crystal Palace,Derby,1.0,2
+Crystal Palace,Everton,-0.65625,32
+Crystal Palace,Fulham,0.0,16
+Crystal Palace,Huddersfield,0.5,4
+Crystal Palace,Hull,0.3333333333333333,6
+Crystal Palace,Ipswich,1.75,4
+Crystal Palace,Leeds,-0.08333333333333333,12
+Crystal Palace,Leicester,0.2916666666666667,24
+Crystal Palace,Liverpool,-1.1290322580645162,31
+Crystal Palace,Luton,-0.5,2
+Crystal Palace,Man City,-1.4666666666666666,30
+Crystal Palace,Man United,-0.75,32
+Crystal Palace,Middlesbrough,0.0,4
+Crystal Palace,Newcastle,-0.5172413793103449,29
+Crystal Palace,Norwich,0.5,12
+Crystal Palace,Nott'm Forest,-0.4,10
+Crystal Palace,Portsmouth,-1.5,2
+Crystal Palace,QPR,0.75,4
+Crystal Palace,Sheffield United,0.6666666666666666,6
+Crystal Palace,Sheffield Weds,0.75,4
+Crystal Palace,Southampton,-0.37037037037037035,27
+Crystal Palace,Stoke,0.7,10
+Crystal Palace,Sunderland,-0.2,10
+Crystal Palace,Swansea,-0.5,10
+Crystal Palace,Tottenham,-0.65625,32
+Crystal Palace,Watford,0.4166666666666667,12
+Crystal Palace,West Brom,0.7142857142857143,14
+Crystal Palace,West Ham,-0.06666666666666667,30
+Crystal Palace,Wimbledon,-1.0,4
+Crystal Palace,Wolves,0.5625,16
+Derby,Everton,-0.14285714285714285,14
+Derby,Fulham,-0.25,4
+Derby,Ipswich,-0.75,4
+Derby,Leeds,-1.1666666666666667,12
+Derby,Leicester,0.5833333333333334,12
+Derby,Liverpool,-1.5,14
+Derby,Man City,-0.25,4
+Derby,Man United,-1.1428571428571428,14
+Derby,Middlesbrough,-1.0833333333333333,12
+Derby,Newcastle,-0.42857142857142855,14
+Derby,Nott'm Forest,0.25,4
+Derby,Portsmouth,-1.0,2
+Derby,Reading,-2.5,2
+Derby,Sheffield Weds,1.25,8
+Derby,Southampton,0.4166666666666667,12
+Derby,Sunderland,-0.8,10
+Derby,Tottenham,-0.6428571428571429,14
+Derby,Watford,1.0,2
+Derby,West Ham,-1.1428571428571428,14
+Derby,Wigan,-1.5,2
+Derby,Wimbledon,0.125,8
+Eibar,Elche,-0.25,4
+Eibar,Espanol,0.3333333333333333,12
+Eibar,Getafe,0.0,12
+Eibar,Girona,2.5,4
+Eibar,Granada,1.4,10
+Eibar,Huesca,-0.75,4
+Eibar,La Coruna,-0.5,8
+Eibar,Las Palmas,0.6666666666666666,6
+Eibar,Leganes,0.75,8
+Eibar,Levante,0.08333333333333333,12
+Eibar,Malaga,0.25,8
+Eibar,Mallorca,-1.0,2
+Eibar,Osasuna,-0.6666666666666666,6
+Eibar,Real Madrid,-2.0,14
+Eibar,Sevilla,-0.5,14
+Eibar,Sociedad,-0.2857142857142857,14
+Eibar,Sp Gijon,0.0,4
+Eibar,Valencia,-0.21428571428571427,14
+Eibar,Valladolid,0.0,6
+Eibar,Vallecano,0.16666666666666666,6
+Eibar,Villarreal,-0.6428571428571429,14
+Elche,Espanol,-0.1,10
+Elche,Getafe,0.0,12
+Elche,Girona,0.0,4
+Elche,Granada,-0.5,8
+Elche,Huesca,-1.0,2
+Elche,La Coruna,1.5,2
+Elche,Levante,-0.1,10
+Elche,Malaga,0.0,4
+Elche,Mallorca,0.5,6
+Elche,Osasuna,-0.4,10
+Elche,Oviedo,1.0,2
+Elche,Real Madrid,-1.8333333333333333,12
+Elche,Sevilla,-1.0833333333333333,12
+Elche,Sociedad,-1.5,12
+Elche,Valencia,-0.75,12
+Elche,Valladolid,-0.16666666666666666,6
+Elche,Vallecano,0.8,10
+Elche,Villarreal,-0.75,12
+Espanol,Extremadura,0.0,4
+Espanol,Getafe,-0.21621621621621623,37
+Espanol,Gimnastic,-2.5,2
+Espanol,Girona,-0.6,10
+Espanol,Granada,0.375,16
+Espanol,Hercules,1.25,4
+Espanol,Huesca,1.0,2
+Espanol,La Coruna,-0.11363636363636363,44
+Espanol,Las Palmas,-0.08333333333333333,12
+Espanol,Leganes,0.1,10
+Espanol,Levante,-0.07407407407407407,27
+Espanol,Logrones,1.25,4
+Espanol,Malaga,0.09090909090909091,33
+Espanol,Mallorca,-0.047619047619047616,42
+Espanol,Merida,1.0,4
+Espanol,Murcia,-0.25,4
+Espanol,Numancia,0.375,8
+Espanol,Osasuna,-0.175,40
+Espanol,Oviedo,0.625,16
+Espanol,Real Madrid,-1.4745762711864407,59
+Espanol,Recreativo,0.125,8
+Espanol,Salamanca,1.5,6
+Espanol,Santander,-0.0625,32
+Espanol,Sevilla,-0.5576923076923077,52
+Espanol,Sociedad,-0.32075471698113206,53
+Espanol,Sp Gijon,-0.05,20
+Espanol,Tenerife,0.2857142857142857,14
+Espanol,Valencia,-0.05,60
+Espanol,Valladolid,0.2631578947368421,38
+Espanol,Vallecano,0.6875,32
+Espanol,Villareal,0.0,2
+Espanol,Villarreal,-0.6304347826086957,46
+Espanol,Xerez,0.0,2
+Espanol,Zaragoza,0.2647058823529412,34
+Everton,Fulham,0.6486486486486487,37
+Everton,Huddersfield,1.25,4
+Everton,Hull,1.0,10
+Everton,Ipswich,0.2,10
+Everton,Leeds,0.27586206896551724,29
+Everton,Leicester,0.19444444444444445,36
+Everton,Liverpool,-0.5606060606060606,66
+Everton,Luton,-0.5,2
+Everton,Man City,-0.509090909090909,55
+Everton,Man United,-0.9545454545454546,66
+Everton,Middlesbrough,0.5714285714285714,28
+Everton,Newcastle,-0.04918032786885246,61
+Everton,Norwich,0.0,18
+Everton,Nott'm Forest,0.6875,16
+Everton,Oldham,1.0,2
+Everton,Portsmouth,0.35714285714285715,14
+Everton,QPR,0.08333333333333333,12
+Everton,Reading,0.5,6
+Everton,Sheffield United,0.4,10
+Everton,Sheffield Weds,-0.5714285714285714,14
+Everton,Southampton,0.22916666666666666,48
+Everton,Stoke,0.4,20
+Everton,Sunderland,0.6470588235294118,34
+Everton,Swansea,0.5714285714285714,14
+Everton,Swindon,2.0,2
+Everton,Tottenham,-0.7230769230769231,65
+Everton,Watford,0.375,16
+Everton,West Brom,0.34615384615384615,26
+Everton,West Ham,0.6,60
+Everton,Wigan,0.6875,16
+Everton,Wimbledon,0.07142857142857142,14
+Everton,Wolves,0.041666666666666664,24
+Extremadura,Hercules,-0.5,2
+Extremadura,La Coruna,-0.25,4
+Extremadura,Logrones,1.5,2
+Extremadura,Mallorca,-0.5,2
+Extremadura,Oviedo,-1.0,4
+Extremadura,Real Madrid,-2.75,4
+Extremadura,Salamanca,-0.5,2
+Extremadura,Santander,-1.25,4
+Extremadura,Sevilla,-0.5,2
+Extremadura,Sociedad,-0.75,4
+Extremadura,Sp Gijon,-0.5,2
+Extremadura,Tenerife,0.5,4
+Extremadura,Valencia,0.5,4
+Extremadura,Valladolid,-1.0,4
+Extremadura,Vallecano,-1.0,2
+Extremadura,Villareal,0.0,2
+Extremadura,Zaragoza,-1.25,4
+Fulham,Huddersfield,0.0,2
+Fulham,Hull,-1.3333333333333333,6
+Fulham,Ipswich,-0.25,4
+Fulham,Leeds,0.08333333333333333,12
+Fulham,Leicester,0.45454545454545453,11
+Fulham,Liverpool,-0.972972972972973,37
+Fulham,Luton,1.5,2
+Fulham,Man City,-1.3055555555555556,36
+Fulham,Man United,-1.105263157894737,38
+Fulham,Middlesbrough,-0.0625,16
+Fulham,Newcastle,-0.11428571428571428,35
+Fulham,Norwich,1.2857142857142858,7
+Fulham,Nott'm Forest,1.125,8
+Fulham,Portsmouth,0.21428571428571427,14
+Fulham,QPR,1.75,4
+Fulham,Reading,0.0,6
+Fulham,Sheffield United,0.3333333333333333,6
+Fulham,Southampton,-0.1,20
+Fulham,Stoke,0.0,12
+Fulham,Sunderland,0.3181818181818182,22
+Fulham,Swansea,-1.0,6
+Fulham,Tottenham,-0.47368421052631576,38
+Fulham,Watford,-0.75,4
+Fulham,West Brom,0.9444444444444444,18
+Fulham,West Ham,-0.40625,32
+Fulham,Wigan,0.5,16
+Fulham,Wolves,0.0,20
+Getafe,Gimnastic,0.5,2
+Getafe,Girona,-0.08333333333333333,12
+Getafe,Granada,0.05555555555555555,18
+Getafe,Hercules,1.5,2
+Getafe,Huesca,1.0,4
+Getafe,La Coruna,0.36363636363636365,22
+Getafe,Las Palmas,0.0,8
+Getafe,Leganes,0.375,8
+Getafe,Levante,0.06666666666666667,30
+Getafe,Malaga,-0.25,20
+Getafe,Mallorca,0.13333333333333333,30
+Getafe,Murcia,2.5,2
+Getafe,Numancia,-0.6666666666666666,3
+Getafe,Osasuna,0.42424242424242425,33
+Getafe,Oviedo,1.0,2
+Getafe,Real Madrid,-1.3095238095238095,42
+Getafe,Recreativo,0.6666666666666666,6
+Getafe,Santander,0.25,16
+Getafe,Sevilla,-0.3333333333333333,42
+Getafe,Sociedad,-0.027777777777777776,36
+Getafe,Sp Gijon,0.7,10
+Getafe,Tenerife,0.0,2
+Getafe,Valencia,-0.4146341463414634,41
+Getafe,Valladolid,0.1,20
+Getafe,Vallecano,-0.7727272727272727,22
+Getafe,Villarreal,-0.325,40
+Getafe,Xerez,2.5,2
+Getafe,Zaragoza,-0.125,16
+Gimnastic,La Coruna,-0.5,2
+Gimnastic,Levante,-0.5,2
+Gimnastic,Mallorca,-1.0,2
+Gimnastic,Osasuna,-1.5,2
+Gimnastic,Real Madrid,-2.0,2
+Gimnastic,Recreativo,-0.5,2
+Gimnastic,Santander,-1.5,2
+Gimnastic,Sevilla,0.0,2
+Gimnastic,Sociedad,-1.5,2
+Gimnastic,Valencia,-2.0,2
+Gimnastic,Villarreal,-2.5,2
+Gimnastic,Zaragoza,-1.0,2
+Girona,Granada,4.5,2
+Girona,Huesca,-1.0,2
+Girona,La Coruna,1.5,2
+Girona,Las Palmas,1.6666666666666667,6
+Girona,Leganes,1.0,6
+Girona,Levante,-0.6666666666666666,6
+Girona,Malaga,0.5,2
+Girona,Mallorca,0.25,8
+Girona,Osasuna,0.75,8
+Girona,Oviedo,-0.5,2
+Girona,Real Madrid,-1.1666666666666667,12
+Girona,Sevilla,0.3333333333333333,12
+Girona,Sociedad,-0.6666666666666666,12
+Girona,Valencia,-0.08333333333333333,12
+Girona,Valladolid,0.5,6
+Girona,Vallecano,0.4,10
+Girona,Villarreal,-0.5,12
+Granada,Huesca,-0.5,2
+Granada,La Coruna,0.625,8
+Granada,Las Palmas,-1.0,6
+Granada,Leganes,-0.25,4
+Granada,Levante,-0.125,16
+Granada,Malaga,-0.75,12
+Granada,Mallorca,0.9,10
+Granada,Osasuna,0.375,16
+Granada,Real Madrid,-2.55,20
+Granada,Santander,0.5,2
+Granada,Sevilla,-1.05,20
+Granada,Sociedad,-0.65,20
+Granada,Sp Gijon,-0.16666666666666666,6
+Granada,Valencia,-1.0,20
+Granada,Valladolid,0.5,8
+Granada,Vallecano,-0.9285714285714286,14
+Granada,Villarreal,-1.1666666666666667,18
+Granada,Zaragoza,-0.25,4
+Hercules,La Coruna,-1.5,4
+Hercules,Levante,0.5,2
+Hercules,Logrones,0.0,2
+Hercules,Malaga,0.5,2
+Hercules,Mallorca,-1.5,2
+Hercules,Osasuna,-3.5,2
+Hercules,Oviedo,-1.0,2
+Hercules,Real Madrid,-2.0,4
+Hercules,Santander,-0.25,4
+Hercules,Sevilla,-0.25,4
+Hercules,Sociedad,0.75,4
+Hercules,Sp Gijon,-1.0,4
+Hercules,Tenerife,0.0,2
+Hercules,Valencia,-2.0,4
+Hercules,Valladolid,0.0,2
+Hercules,Vallecano,0.0,2
+Hercules,Villarreal,-0.5,2
+Hercules,Zaragoza,-0.25,4
+Huddersfield,Leicester,-2.0,4
+Huddersfield,Liverpool,-3.0,4
+Huddersfield,Man City,-2.25,4
+Huddersfield,Man United,-0.75,4
+Huddersfield,Newcastle,-0.75,4
+Huddersfield,Southampton,-0.5,4
+Huddersfield,Stoke,-1.0,2
+Huddersfield,Swansea,-1.0,2
+Huddersfield,Tottenham,-3.0,4
+Huddersfield,Watford,0.0,4
+Huddersfield,West Brom,1.0,2
+Huddersfield,West Ham,-1.5,4
+Huddersfield,Wolves,1.5,2
+Huesca,Leganes,0.0,2
+Huesca,Levante,0.5,4
+Huesca,Osasuna,0.0,2
+Huesca,Real Madrid,-1.5,4
+Huesca,Sevilla,-0.5,4
+Huesca,Sociedad,-0.75,4
+Huesca,Valencia,-1.25,4
+Huesca,Valladolid,1.25,4
+Huesca,Vallecano,-0.5,2
+Huesca,Villarreal,0.0,4
+Hull,Leicester,-0.5,4
+Hull,Liverpool,-0.8,10
+Hull,Man City,-1.4,10
+Hull,Man United,-1.5,10
+Hull,Middlesbrough,0.0,4
+Hull,Newcastle,-0.6666666666666666,6
+Hull,Norwich,0.0,2
+Hull,Portsmouth,-0.25,4
+Hull,QPR,1.0,2
+Hull,Southampton,-1.0,6
+Hull,Stoke,-0.8,10
+Hull,Sunderland,-0.8,10
+Hull,Swansea,0.16666666666666666,6
+Hull,Tottenham,-1.7,10
+Hull,Watford,0.5,2
+Hull,West Brom,0.25,8
+Hull,West Ham,-0.7,10
+Hull,Wigan,-1.25,4
+Hull,Wolves,0.0,2
+Ipswich,Leeds,-0.625,8
+Ipswich,Leicester,0.25,8
+Ipswich,Liverpool,-1.8,10
+Ipswich,Man City,-1.375,8
+Ipswich,Man United,-1.7,10
+Ipswich,Middlesbrough,0.75,4
+Ipswich,Newcastle,-1.2,10
+Ipswich,Norwich,-1.0,4
+Ipswich,Nott'm Forest,-1.75,4
+Ipswich,Oldham,1.5,2
+Ipswich,QPR,-1.25,4
+Ipswich,Sheffield United,0.5,2
+Ipswich,Sheffield Weds,-3.0,4
+Ipswich,Southampton,0.3,10
+Ipswich,Sunderland,0.5,4
+Ipswich,Swindon,0.0,2
+Ipswich,Tottenham,-0.4,10
+Ipswich,West Ham,-0.8,10
+Ipswich,Wimbledon,0.5,4
+Ipswich,Wolves,0.0,2
+La Coruna,Las Palmas,0.9,10
+La Coruna,Leganes,-1.0,4
+La Coruna,Lerida,1.0,2
+La Coruna,Levante,0.35714285714285715,14
+La Coruna,Logrones,2.5,6
+La Coruna,Malaga,0.5517241379310345,29
+La Coruna,Mallorca,-0.13333333333333333,30
+La Coruna,Merida,0.25,4
+La Coruna,Murcia,1.25,4
+La Coruna,Numancia,0.375,8
+La Coruna,Osasuna,0.32142857142857145,28
+La Coruna,Oviedo,1.25,16
+La Coruna,Real Madrid,-0.8260869565217391,46
+La Coruna,Recreativo,0.375,8
+La Coruna,Salamanca,0.6666666666666666,6
+La Coruna,Santander,0.47058823529411764,34
+La Coruna,Sevilla,0.1,40
+La Coruna,Sociedad,0.13157894736842105,38
+La Coruna,Sp Gijon,0.15,20
+La Coruna,Tenerife,0.6875,16
+La Coruna,Valencia,-0.35555555555555557,45
+La Coruna,Valladolid,-0.06666666666666667,30
+La Coruna,Vallecano,0.55,20
+La Coruna,Villareal,1.0,2
+La Coruna,Villarreal,-0.07142857142857142,28
+La Coruna,Xerez,2.0,2
+La Coruna,Zaragoza,0.14705882352941177,34
+Las Palmas,Leganes,-1.1666666666666667,6
+Las Palmas,Levante,-1.0,4
+Las Palmas,Malaga,0.0,10
+Las Palmas,Mallorca,0.125,8
+Las Palmas,Numancia,0.5,2
+Las Palmas,Osasuna,0.2,10
+Las Palmas,Oviedo,0.5,2
+Las Palmas,Real Madrid,-1.7857142857142858,14
+Las Palmas,Santander,0.0,2
+Las Palmas,Sevilla,-0.5833333333333334,12
+Las Palmas,Sociedad,-0.35714285714285715,14
+Las Palmas,Sp Gijon,-0.5,4
+Las Palmas,Tenerife,0.5,2
+Las Palmas,Valencia,-0.14285714285714285,14
+Las Palmas,Valladolid,-0.16666666666666666,6
+Las Palmas,Vallecano,-0.2,10
+Las Palmas,Villarreal,-0.7142857142857143,14
+Las Palmas,Zaragoza,-0.5,4
+Leeds,Leicester,-0.14285714285714285,21
+Leeds,Liverpool,-1.2333333333333334,30
+Leeds,Man City,-0.35,20
+Leeds,Man United,-0.9,30
+Leeds,Middlesbrough,0.125,16
+Leeds,Newcastle,-0.16666666666666666,30
+Leeds,Norwich,-0.5,6
+Leeds,Nott'm Forest,-0.08333333333333333,12
+Leeds,Oldham,0.5,2
+Leeds,Portsmouth,-3.0,2
+Leeds,QPR,1.0,6
+Leeds,Sheffield United,0.75,4
+Leeds,Sheffield Weds,0.2857142857142857,14
+Leeds,Southampton,0.6785714285714286,28
+Leeds,Sunderland,0.75,12
+Leeds,Swindon,4.0,2
+Leeds,Tottenham,-0.3,30
+Leeds,Watford,1.75,4
+Leeds,West Brom,2.25,4
+Leeds,West Ham,0.5357142857142857,28
+Leeds,Wimbledon,0.42857142857142855,14
+Leeds,Wolves,0.8,10
+Leganes,Levante,-1.1666666666666667,6
+Leganes,Malaga,0.0,4
+Leganes,Mallorca,0.0,4
+Leganes,Osasuna,-0.16666666666666666,6
+Leganes,Real Madrid,-2.0,10
+Leganes,Sevilla,-0.1,10
+Leganes,Sociedad,-1.0,10
+Leganes,Sp Gijon,-1.5,2
+Leganes,Valencia,-0.7,10
+Leganes,Valladolid,0.8333333333333334,6
+Leganes,Vallecano,0.25,4
+Leganes,Villarreal,-1.0,10
+Leicester,Liverpool,-0.6666666666666666,36
+Leicester,Man City,-0.6153846153846154,26
+Leicester,Man United,-1.2571428571428571,35
+Leicester,Middlesbrough,0.07142857142857142,14
+Leicester,Newcastle,0.058823529411764705,34
+Leicester,Norwich,0.625,8
+Leicester,Nott'm Forest,-0.2,10
+Leicester,Portsmouth,2.0,2
+Leicester,QPR,0.25,4
+Leicester,Sheffield United,2.25,4
+Leicester,Sheffield Weds,-0.5,10
+Leicester,Southampton,0.4166666666666667,36
+Leicester,Stoke,0.625,8
+Leicester,Sunderland,0.5714285714285714,14
+Leicester,Swansea,0.875,8
+Leicester,Tottenham,-0.25,36
+Leicester,Watford,1.0714285714285714,14
+Leicester,West Brom,1.0,10
+Leicester,West Ham,-0.20588235294117646,34
+Leicester,Wimbledon,0.0,10
+Leicester,Wolves,0.0,14
+Lerida,Logrones,-0.5,2
+Lerida,Osasuna,-1.0,2
+Lerida,Oviedo,0.0,2
+Lerida,Real Madrid,-2.0,2
+Lerida,Santander,-0.5,2
+Lerida,Sevilla,-2.0,2
+Lerida,Sociedad,1.5,2
+Lerida,Sp Gijon,0.0,2
+Lerida,Tenerife,-0.5,2
+Lerida,Valencia,0.0,2
+Lerida,Valladolid,1.5,2
+Lerida,Vallecano,0.0,2
+Lerida,Zaragoza,-0.5,2
+Levante,Malaga,-0.0625,16
+Levante,Mallorca,0.05555555555555555,18
+Levante,Murcia,0.5,2
+Levante,Numancia,1.0,2
+Levante,Osasuna,-0.5,22
+Levante,Oviedo,2.0,2
+Levante,Real Madrid,-1.6551724137931034,29
+Levante,Recreativo,-0.5,4
+Levante,Santander,0.6,10
+Levante,Sevilla,-0.9310344827586207,29
+Levante,Sociedad,-0.10714285714285714,28
+Levante,Sp Gijon,1.0,6
+Levante,Valencia,-0.7666666666666667,30
+Levante,Valladolid,-0.16666666666666666,12
+Levante,Vallecano,-0.5,16
+Levante,Villarreal,-1.1071428571428572,28
+Levante,Zaragoza,-0.45454545454545453,11
+Liverpool,Luton,1.5,2
+Liverpool,Man City,0.14285714285714285,56
+Liverpool,Man United,0.07575757575757576,66
+Liverpool,Middlesbrough,0.6666666666666666,27
+Liverpool,Newcastle,1.0491803278688525,61
+Liverpool,Norwich,1.8888888888888888,18
+Liverpool,Nott'm Forest,0.5625,16
+Liverpool,Oldham,2.0,2
+Liverpool,Portsmouth,0.9285714285714286,14
+Liverpool,QPR,0.8333333333333334,12
+Liverpool,Reading,0.5,6
+Liverpool,Sheffield United,1.3,10
+Liverpool,Sheffield Weds,0.7142857142857143,14
+Liverpool,Southampton,0.875,48
+Liverpool,Stoke,0.55,20
+Liverpool,Sunderland,0.8529411764705882,34
+Liverpool,Swansea,0.8571428571428571,14
+Liverpool,Swindon,2.5,2
+Liverpool,Tottenham,0.6515151515151515,66
+Liverpool,Watford,1.8125,16
+Liverpool,West Brom,1.0384615384615385,26
+Liverpool,West Ham,1.1,60
+Liverpool,Wigan,1.125,16
+Liverpool,Wimbledon,0.5714285714285714,14
+Liverpool,Wolves,1.1666666666666667,24
+Logrones,Osasuna,1.5,2
+Logrones,Oviedo,-0.5,6
+Logrones,Real Madrid,-1.5,6
+Logrones,Santander,-1.0,6
+Logrones,Sevilla,-0.16666666666666666,6
+Logrones,Sociedad,-1.3333333333333333,6
+Logrones,Sp Gijon,-1.0,6
+Logrones,Tenerife,-1.3333333333333333,6
+Logrones,Valencia,-0.16666666666666666,6
+Logrones,Valladolid,-0.8333333333333334,6
+Logrones,Vallecano,-1.25,4
+Logrones,Zaragoza,-0.6666666666666666,6
+Luton,Man City,-2.5,2
+Luton,Man United,-1.0,2
+Luton,Newcastle,0.5,2
+Luton,Nott'm Forest,0.0,2
+Luton,Sheffield United,-0.5,2
+Luton,Tottenham,-1.0,2
+Luton,West Ham,-1.5,2
+Luton,Wolves,-0.5,2
+Malaga,Mallorca,0.34782608695652173,23
+Malaga,Murcia,1.0,2
+Malaga,Numancia,0.2857142857142857,7
+Malaga,Osasuna,0.5384615384615384,26
+Malaga,Oviedo,0.75,4
+Malaga,Real Madrid,-1.393939393939394,33
+Malaga,Recreativo,1.75,4
+Malaga,Santander,0.65,20
+Malaga,Sevilla,0.0,32
+Malaga,Sociedad,-0.2,30
+Malaga,Sp Gijon,0.4166666666666667,12
+Malaga,Tenerife,0.25,4
+Malaga,Valencia,-0.9375,32
+Malaga,Valladolid,0.1111111111111111,18
+Malaga,Vallecano,0.05555555555555555,18
+Malaga,Villarreal,-0.2,30
+Malaga,Xerez,-1.0,2
+Malaga,Zaragoza,0.3684210526315789,19
+Mallorca,Merida,0.5,2
+Mallorca,Murcia,1.0,4
+Mallorca,Numancia,1.125,8
+Mallorca,Osasuna,-0.05263157894736842,38
+Mallorca,Oviedo,0.8,10
+Mallorca,Real Madrid,-1.0227272727272727,44
+Mallorca,Recreativo,1.25,8
+Mallorca,Salamanca,0.5,4
+Mallorca,Santander,0.03571428571428571,28
+Mallorca,Sevilla,-0.40540540540540543,37
+Mallorca,Sociedad,-0.35135135135135137,37
+Mallorca,Sp Gijon,-0.1,10
+Mallorca,Tenerife,1.5,8
+Mallorca,Valencia,-0.5348837209302325,43
+Mallorca,Valladolid,0.25,28
+Mallorca,Vallecano,0.8181818181818182,22
+Mallorca,Villareal,1.5,2
+Mallorca,Villarreal,-0.37142857142857144,35
+Mallorca,Xerez,0.5,2
+Mallorca,Zaragoza,0.19230769230769232,26
+Man City,Man United,0.07142857142857142,56
+Man City,Middlesbrough,-0.6842105263157895,19
+Man City,Newcastle,1.1538461538461537,52
+Man City,Norwich,1.8333333333333333,18
+Man City,Nott'm Forest,0.75,12
+Man City,Oldham,0.0,2
+Man City,Portsmouth,0.6153846153846154,13
+Man City,QPR,1.1666666666666667,12
+Man City,Reading,-0.16666666666666666,6
+Man City,Sheffield United,1.0,10
+Man City,Sheffield Weds,0.0,6
+Man City,Southampton,0.918918918918919,37
+Man City,Stoke,1.4,20
+Man City,Sunderland,1.2142857142857142,28
+Man City,Swansea,1.7142857142857142,14
+Man City,Swindon,1.5,2
+Man City,Tottenham,0.0,55
+Man City,Watford,2.7857142857142856,14
+Man City,West Brom,1.3461538461538463,26
+Man City,West Ham,1.04,50
+Man City,Wigan,0.375,16
+Man City,Wimbledon,-0.6666666666666666,6
+Man City,Wolves,1.4782608695652173,23
+Man United,Middlesbrough,0.6428571428571429,28
+Man United,Newcastle,0.819672131147541,61
+Man United,Norwich,1.2777777777777777,18
+Man United,Nott'm Forest,1.5625,16
+Man United,Oldham,2.0,2
+Man United,Portsmouth,1.6923076923076923,13
+Man United,QPR,1.6666666666666667,12
+Man United,Reading,0.8333333333333334,6
+Man United,Sheffield United,1.5,10
+Man United,Sheffield Weds,1.2142857142857142,14
+Man United,Southampton,1.0425531914893618,47
+Man United,Stoke,1.25,20
+Man United,Sunderland,1.3529411764705883,34
+Man United,Swansea,1.0714285714285714,14
+Man United,Swindon,1.0,2
+Man United,Tottenham,0.6060606060606061,66
+Man United,Watford,0.875,16
+Man United,West Brom,1.2,25
+Man United,West Ham,0.9,60
+Man United,Wigan,2.8125,16
+Man United,Wimbledon,1.5714285714285714,14
+Man United,Wolves,0.75,24
+Merida,Oviedo,0.25,4
+Merida,Real Madrid,-1.25,4
+Merida,Salamanca,-0.25,4
+Merida,Santander,-0.75,4
+Merida,Sevilla,-1.0,2
+Merida,Sociedad,0.25,4
+Merida,Sp Gijon,0.0,4
+Merida,Tenerife,0.25,4
+Merida,Valencia,-1.75,4
+Merida,Valladolid,0.25,4
+Merida,Vallecano,-2.0,2
+Merida,Zaragoza,-0.75,4
+Middlesbrough,Newcastle,-0.72,25
+Middlesbrough,Norwich,1.0,2
+Middlesbrough,Nott'm Forest,0.0,6
+Middlesbrough,Portsmouth,-0.36363636363636365,11
+Middlesbrough,QPR,0.5,2
+Middlesbrough,Reading,-0.25,4
+Middlesbrough,Sheffield United,0.5,2
+Middlesbrough,Sheffield Weds,0.625,8
+Middlesbrough,Southampton,-0.3157894736842105,19
+Middlesbrough,Stoke,-0.5,4
+Middlesbrough,Sunderland,0.3333333333333333,18
+Middlesbrough,Swansea,1.5,2
+Middlesbrough,Tottenham,-0.14814814814814814,27
+Middlesbrough,Watford,0.3333333333333333,6
+Middlesbrough,West Brom,0.1111111111111111,9
+Middlesbrough,West Ham,-0.16666666666666666,24
+Middlesbrough,Wigan,0.125,8
+Middlesbrough,Wimbledon,0.25,8
+Middlesbrough,Wolves,0.0,2
+Murcia,Osasuna,-0.25,4
+Murcia,Real Madrid,-0.25,4
+Murcia,Recreativo,-0.5,2
+Murcia,Santander,-0.25,4
+Murcia,Sevilla,-1.25,4
+Murcia,Sociedad,-1.0,2
+Murcia,Valencia,-1.0,4
+Murcia,Valladolid,0.75,4
+Murcia,Villarreal,-1.0,4
+Murcia,Zaragoza,-0.75,4
+Newcastle,Norwich,0.5555555555555556,18
+Newcastle,Nott'm Forest,1.125,16
+Newcastle,Oldham,1.5,2
+Newcastle,Portsmouth,0.4166666666666667,12
+Newcastle,QPR,0.25,12
+Newcastle,Reading,0.16666666666666666,6
+Newcastle,Sheffield United,1.9,10
+Newcastle,Sheffield Weds,1.2142857142857142,14
+Newcastle,Southampton,0.24444444444444444,45
+Newcastle,Stoke,0.1875,16
+Newcastle,Sunderland,-0.03333333333333333,30
+Newcastle,Swansea,-0.25,12
+Newcastle,Swindon,3.0,2
+Newcastle,Tottenham,0.08064516129032258,62
+Newcastle,Watford,-0.2857142857142857,14
+Newcastle,West Brom,0.5416666666666666,24
+Newcastle,West Ham,0.39285714285714285,56
+Newcastle,Wigan,0.0,14
+Newcastle,Wimbledon,0.5,14
+Newcastle,Wolves,0.5714285714285714,21
+Norwich,Nott'm Forest,-1.0,2
+Norwich,Oldham,-0.5,2
+Norwich,Portsmouth,0.0,2
+Norwich,QPR,0.125,8
+Norwich,Reading,0.5,2
+Norwich,Sheffield United,-0.5,4
+Norwich,Sheffield Weds,0.0,4
+Norwich,Southampton,-0.4666666666666667,15
+Norwich,Stoke,-0.25,8
+Norwich,Sunderland,0.0,8
+Norwich,Swansea,0.125,8
+Norwich,Swindon,0.0,2
+Norwich,Tottenham,-1.1666666666666667,18
+Norwich,Watford,-0.3333333333333333,6
+Norwich,West Brom,0.5,10
+Norwich,West Ham,-0.8571428571428571,14
+Norwich,Wigan,0.0,4
+Norwich,Wimbledon,-1.25,4
+Norwich,Wolves,-0.5,6
+Nott'm Forest,QPR,1.0,4
+Nott'm Forest,Sheffield United,1.5,2
+Nott'm Forest,Sheffield Weds,1.0,8
+Nott'm Forest,Southampton,0.6666666666666666,12
+Nott'm Forest,Sunderland,0.25,4
+Nott'm Forest,Tottenham,0.25,16
+Nott'm Forest,West Ham,-0.3125,16
+Nott'm Forest,Wimbledon,0.5,8
+Nott'm Forest,Wolves,0.375,8
+Numancia,Osasuna,-0.8333333333333334,6
+Numancia,Oviedo,-0.75,4
+Numancia,Real Madrid,-0.875,8
+Numancia,Recreativo,-0.5,2
+Numancia,Santander,-0.7142857142857143,7
+Numancia,Sevilla,-1.25,4
+Numancia,Sociedad,-1.3333333333333333,6
+Numancia,Sp Gijon,-0.5,2
+Numancia,Valencia,-1.875,8
+Numancia,Valladolid,-0.3333333333333333,6
+Numancia,Vallecano,-0.25,4
+Numancia,Villarreal,-1.6,5
+Numancia,Zaragoza,-0.75,4
+Oldham,QPR,0.5,2
+Oldham,Sheffield United,-0.5,2
+Oldham,Sheffield Weds,-1.5,2
+Oldham,Southampton,1.5,2
+Oldham,Swindon,1.0,2
+Oldham,Tottenham,-3.5,2
+Oldham,West Ham,-1.5,2
+Oldham,Wimbledon,-1.5,2
+Osasuna,Oviedo,0.5,6
+Osasuna,Real Madrid,-1.2444444444444445,45
+Osasuna,Recreativo,-0.875,8
+Osasuna,Santander,-0.45454545454545453,22
+Osasuna,Sevilla,-0.3488372093023256,43
+Osasuna,Sociedad,-0.47368421052631576,38
+Osasuna,Sp Gijon,-0.5,12
+Osasuna,Tenerife,-0.6666666666666666,6
+Osasuna,Valencia,-0.6521739130434783,46
+Osasuna,Valladolid,0.35714285714285715,28
+Osasuna,Vallecano,0.041666666666666664,24
+Osasuna,Villarreal,-0.5121951219512195,41
+Osasuna,Xerez,0.5,2
+Osasuna,Zaragoza,-0.041666666666666664,24
+Oviedo,Real Madrid,-1.1111111111111112,18
+Oviedo,Salamanca,1.0,6
+Oviedo,Santander,-0.25,16
+Oviedo,Sevilla,-0.3333333333333333,12
+Oviedo,Sociedad,-0.2777777777777778,18
+Oviedo,Sp Gijon,0.4,10
+Oviedo,Tenerife,-0.25,12
+Oviedo,Valencia,-0.6111111111111112,18
+Oviedo,Valladolid,-0.3125,16
+Oviedo,Vallecano,0.9166666666666666,12
+Oviedo,Villareal,0.0,2
+Oviedo,Villarreal,-1.25,4
+Oviedo,Zaragoza,-0.3125,16
+Portsmouth,Reading,1.75,4
+Portsmouth,Sheffield United,1.0,2
+Portsmouth,Southampton,-1.0,3
+Portsmouth,Stoke,-0.25,4
+Portsmouth,Sunderland,0.75,8
+Portsmouth,Tottenham,-0.6428571428571429,14
+Portsmouth,Watford,-0.5,2
+Portsmouth,West Brom,0.2,5
+Portsmouth,West Ham,0.1,10
+Portsmouth,Wigan,0.5,10
+Portsmouth,Wolves,0.75,4
+QPR,Reading,0.0,2
+QPR,Sheffield United,0.5,2
+QPR,Sheffield Weds,-0.16666666666666666,6
+QPR,Southampton,-0.1,10
+QPR,Stoke,-0.5,6
+QPR,Sunderland,0.3333333333333333,6
+QPR,Swansea,-1.1666666666666667,6
+QPR,Swindon,-1.5,2
+QPR,Tottenham,-0.5833333333333334,12
+QPR,West Brom,0.16666666666666666,6
+QPR,West Ham,0.4,10
+QPR,Wigan,0.0,4
+QPR,Wimbledon,-0.3333333333333333,6
+QPR,Wolves,1.0,2
+Reading,Sheffield United,1.5,2
+Reading,Southampton,-1.5,2
+Reading,Stoke,-0.5,2
+Reading,Sunderland,-0.5,4
+Reading,Swansea,0.0,2
+Reading,Tottenham,-1.0,6
+Reading,Watford,-1.0,2
+Reading,West Brom,0.0,2
+Reading,West Ham,0.5,6
+Reading,Wigan,-0.5,6
+Real Madrid,Recreativo,0.625,8
+Real Madrid,Salamanca,2.0,6
+Real Madrid,Santander,0.9444444444444444,36
+Real Madrid,Sevilla,1.1333333333333333,60
+Real Madrid,Sociedad,0.9166666666666666,60
+Real Madrid,Sp Gijon,1.4545454545454546,22
+Real Madrid,Tenerife,1.3125,16
+Real Madrid,Valencia,0.7846153846153846,65
+Real Madrid,Valladolid,1.5238095238095237,42
+Real Madrid,Vallecano,1.5,36
+Real Madrid,Villareal,2.5,2
+Real Madrid,Villarreal,0.94,50
+Real Madrid,Xerez,4.0,2
+Real Madrid,Zaragoza,0.9444444444444444,36
+Recreativo,Santander,-0.25,8
+Recreativo,Sevilla,-1.25,8
+Recreativo,Sociedad,-0.25,4
+Recreativo,Sp Gijon,0.5,2
+Recreativo,Valencia,-0.5,8
+Recreativo,Valladolid,-0.6666666666666666,6
+Recreativo,Vallecano,0.5,2
+Recreativo,Villarreal,0.25,8
+Recreativo,Zaragoza,-0.5,4
+Salamanca,Santander,-0.16666666666666666,6
+Salamanca,Sevilla,0.5,2
+Salamanca,Sociedad,-1.0,6
+Salamanca,Sp Gijon,1.5,4
+Salamanca,Tenerife,-1.1666666666666667,6
+Salamanca,Valencia,1.1666666666666667,6
+Salamanca,Valladolid,-0.16666666666666666,6
+Salamanca,Vallecano,1.0,2
+Salamanca,Villareal,-2.0,2
+Salamanca,Zaragoza,-0.8333333333333334,6
+Santander,Sevilla,-0.7333333333333333,30
+Santander,Sociedad,-0.3793103448275862,29
+Santander,Sp Gijon,0.7222222222222222,18
+Santander,Tenerife,-0.2857142857142857,14
+Santander,Valencia,-0.37142857142857144,35
+Santander,Valladolid,0.2692307692307692,26
+Santander,Vallecano,-0.2857142857142857,14
+Santander,Villareal,-2.0,2
+Santander,Villarreal,-0.5238095238095238,21
+Santander,Xerez,0.5,2
+Santander,Zaragoza,-0.3548387096774194,31
+Sevilla,Sociedad,0.1509433962264151,53
+Sevilla,Sp Gijon,0.4,20
+Sevilla,Tenerife,0.6666666666666666,12
+Sevilla,Valencia,-0.2542372881355932,59
+Sevilla,Valladolid,0.6666666666666666,36
+Sevilla,Vallecano,0.7058823529411765,34
+Sevilla,Villarreal,0.1276595744680851,47
+Sevilla,Xerez,1.0,2
+Sevilla,Zaragoza,0.5666666666666667,30
+Sheffield United,Sheffield Weds,-1.0,2
+Sheffield United,Southampton,-1.3333333333333333,6
+Sheffield United,Swindon,1.0,2
+Sheffield United,Tottenham,-0.9,10
+Sheffield United,Watford,0.5,4
+Sheffield United,West Brom,0.0,2
+Sheffield United,West Ham,-0.2,10
+Sheffield United,Wigan,0.0,2
+Sheffield United,Wimbledon,-0.5,2
+Sheffield United,Wolves,-0.3333333333333333,6
+Sheffield Weds,Southampton,0.14285714285714285,14
+Sheffield Weds,Sunderland,-0.5,4
+Sheffield Weds,Swindon,0.5,2
+Sheffield Weds,Tottenham,0.07142857142857142,14
+Sheffield Weds,Watford,-0.5,2
+Sheffield Weds,West Ham,0.2857142857142857,14
+Sheffield Weds,Wimbledon,0.2857142857142857,14
+Sociedad,Sp Gijon,0.6666666666666666,18
+Sociedad,Tenerife,0.07142857142857142,14
+Sociedad,Valencia,-0.13559322033898305,59
+Sociedad,Valladolid,0.5555555555555556,36
+Sociedad,Vallecano,0.2222222222222222,36
+Sociedad,Villareal,0.0,2
+Sociedad,Villarreal,-0.3953488372093023,43
+Sociedad,Zaragoza,-0.0967741935483871,31
+Southampton,Stoke,-0.16666666666666666,12
+Southampton,Sunderland,0.75,20
+Southampton,Swansea,0.5833333333333334,12
+Southampton,Swindon,1.5,2
+Southampton,Tottenham,-0.7916666666666666,48
+Southampton,Watford,0.35714285714285715,14
+Southampton,West Brom,0.0,18
+Southampton,West Ham,-0.4090909090909091,44
+Southampton,Wigan,-1.0,2
+Southampton,Wimbledon,0.2857142857142857,14
+Southampton,Wolves,-0.6153846153846154,13
+Sp Gijon,Tenerife,-1.9166666666666667,12
+Sp Gijon,Valencia,-0.5454545454545454,22
+Sp Gijon,Valladolid,-0.2857142857142857,14
+Sp Gijon,Vallecano,0.7,10
+Sp Gijon,Villarreal,-0.8333333333333334,12
+Sp Gijon,Xerez,0.0,2
+Sp Gijon,Zaragoza,-0.5625,16
+Stoke,Sunderland,-0.2777777777777778,18
+Stoke,Swansea,0.14285714285714285,14
+Stoke,Tottenham,-1.0,20
+Stoke,Watford,0.5,6
+Stoke,West Brom,0.4444444444444444,18
+Stoke,West Ham,-0.16666666666666666,18
+Stoke,Wigan,-0.1,10
+Stoke,Wolves,0.6666666666666666,6
+Sunderland,Swansea,-0.5833333333333334,12
+Sunderland,Tottenham,-0.7941176470588235,34
+Sunderland,Watford,0.3333333333333333,6
+Sunderland,West Brom,-0.6,20
+Sunderland,West Ham,-0.21875,32
+Sunderland,Wigan,0.07142857142857142,14
+Sunderland,Wimbledon,-0.75,4
+Sunderland,Wolves,0.0,8
+Swansea,Tottenham,-1.3571428571428572,14
+Swansea,Watford,-0.16666666666666666,6
+Swansea,West Brom,0.5714285714285714,14
+Swansea,West Ham,-0.08333333333333333,12
+Swansea,Wigan,1.0,4
+Swansea,Wolves,0.0,2
+Swindon,Tottenham,0.5,2
+Swindon,West Ham,0.0,2
+Swindon,Wimbledon,-2.5,2
+Tenerife,Valencia,0.0,16
+Tenerife,Valladolid,-0.5,16
+Tenerife,Vallecano,0.375,8
+Tenerife,Villareal,1.5,2
+Tenerife,Villarreal,-1.0,4
+Tenerife,Xerez,0.0,2
+Tenerife,Zaragoza,-0.3125,16
+Tottenham,Watford,1.1875,16
+Tottenham,West Brom,0.5,26
+Tottenham,West Ham,0.3333333333333333,60
+Tottenham,Wigan,1.125,16
+Tottenham,Wimbledon,0.42857142857142855,14
+Tottenham,Wolves,0.08695652173913043,23
+Valencia,Valladolid,0.4523809523809524,42
+Valencia,Vallecano,0.75,36
+Valencia,Villareal,0.0,2
+Valencia,Villarreal,-0.08,50
+Valencia,Xerez,2.0,2
+Valencia,Zaragoza,0.4117647058823529,34
+Valladolid,Vallecano,0.3333333333333333,24
+Valladolid,Villareal,0.0,2
+Valladolid,Villarreal,-0.46153846153846156,26
+Valladolid,Xerez,-1.5,2
+Valladolid,Zaragoza,0.23076923076923078,26
+Vallecano,Villarreal,-0.8461538461538461,26
+Vallecano,Zaragoza,-1.0,16
+Villareal,Zaragoza,-2.0,2
+Villarreal,Xerez,0.5,2
+Villarreal,Zaragoza,0.15,20
+Watford,West Brom,0.3333333333333333,6
+Watford,West Ham,-0.5,16
+Watford,Wigan,0.0,2
+Watford,Wimbledon,-3.0,2
+Watford,Wolves,-1.0,6
+West Brom,West Ham,-0.36363636363636365,22
+West Brom,Wigan,-0.1,10
+West Brom,Wolves,0.8333333333333334,6
+West Ham,Wigan,0.21428571428571427,14
+West Ham,Wimbledon,0.21428571428571427,14
+West Ham,Wolves,0.25,20
+Wigan,Wolves,0.5,6
+Xerez,Zaragoza,0.5,2
