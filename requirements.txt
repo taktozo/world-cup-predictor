@@ -4,3 +4,5 @@ scikit-learn
 jupyter
 matplotlib
 kaggle
+scipy
+joblib
