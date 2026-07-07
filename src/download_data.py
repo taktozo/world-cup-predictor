@@ -7,25 +7,29 @@ KAGGLE_API_TOKEN environment variable set). See kaggle.com/settings > API.
 import subprocess
 from pathlib import Path
 
-DATASET = "martj42/international-football-results-from-1872-to-2017"
+DATASETS = [
+    "martj42/international-football-results-from-1872-to-2017",
+    "saifalnimri/international-football-elo-ratings",
+]
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 
 
 def main() -> None:
     DATA_DIR.mkdir(exist_ok=True)
-    subprocess.run(
-        [
-            "kaggle",
-            "datasets",
-            "download",
-            "-d",
-            DATASET,
-            "-p",
-            str(DATA_DIR),
-            "--unzip",
-        ],
-        check=True,
-    )
+    for dataset in DATASETS:
+        subprocess.run(
+            [
+                "kaggle",
+                "datasets",
+                "download",
+                "-d",
+                dataset,
+                "-p",
+                str(DATA_DIR),
+                "--unzip",
+            ],
+            check=True,
+        )
 
 
 if __name__ == "__main__":
