@@ -83,6 +83,21 @@ def get_fixtures(_api_token):
     return get_upcoming_fixtures(_api_token)
 
 
+@st.cache_data
+def get_standings():
+    return pd.read_csv(DATA_DIR / "standings.csv", index_col="position")
+
+
+@st.cache_data
+def get_recent_matches():
+    return pd.read_csv(DATA_DIR / "recent_matches.csv", parse_dates=["date"])
+
+
+@st.cache_data
+def get_recent_h2h():
+    return pd.read_csv(DATA_DIR / "recent_h2h.csv", parse_dates=["date"])
+
+
 st.title("⚽ Club League Score Predictor")
 st.caption(
     "EPL & La Liga. Baseline model: independent Poisson regressions on Elo, recent form, "
@@ -109,7 +124,7 @@ mode = st.radio("Mode", mode_options, horizontal=True)
 if not api_token:
     st.caption("Real fixtures unavailable (no football-data.org API token configured).")
 
-home_team = away_team = None
+home_team = away_team = selected_league = None
 
 if mode == "Real upcoming fixture":
     try:
@@ -128,9 +143,10 @@ if mode == "Real upcoming fixture":
         ]
         choice = st.selectbox("Upcoming fixture", labels)
         chosen = fixtures.iloc[labels.index(choice)]
-        home_team, away_team = chosen["home_team"], chosen["away_team"]
+        home_team, away_team, selected_league = chosen["home_team"], chosen["away_team"], chosen["league"]
 else:
     league = st.radio("League", ["EPL", "La Liga"], horizontal=True)
+    selected_league = league
     teams = sorted(t for t in usable_teams if team_league.get(t) == league)
 
     col1, col2 = st.columns(2)
@@ -220,6 +236,51 @@ else:
         ax.set_ylabel("P(over)")
         ax.spines[["top", "right"]].set_visible(False)
         st.pyplot(fig)
+
+    st.divider()
+
+    standings = get_standings()
+    league_table = standings[standings["league"] == selected_league]
+    if not league_table.empty:
+        season_label = f"20{league_table['season'].iloc[0] // 100}/{league_table['season'].iloc[0] % 100:02d}"
+        st.subheader(f"{selected_league} table ({season_label})")
+
+        def _highlight_selected(row):
+            if row["team"] in (home_team, away_team):
+                return ["background-color: rgba(76, 114, 176, 0.25)"] * len(row)
+            return [""] * len(row)
+
+        display_cols = ["team", "played", "wins", "draws", "losses", "goal_diff", "points"]
+        st.dataframe(
+            league_table[display_cols].style.apply(_highlight_selected, axis=1),
+            use_container_width=True,
+        )
+
+    recent_matches = get_recent_matches()
+    col_form1, col_form2 = st.columns(2)
+    for col, team in [(col_form1, home_team), (col_form2, away_team)]:
+        with col:
+            st.subheader(f"{team} — recent form")
+            team_recent = recent_matches[recent_matches["team"] == team].sort_values("date", ascending=False).head(5)
+            if team_recent.empty:
+                st.caption("No recent match data available.")
+            else:
+                display = team_recent[["date", "opponent", "venue", "goals_for", "goals_against", "result"]].copy()
+                display["date"] = display["date"].dt.strftime("%d %b %Y")
+                st.dataframe(display, use_container_width=True, hide_index=True)
+
+    st.subheader("Head-to-head (last 5 meetings)")
+    recent_h2h = get_recent_h2h()
+    pair_meetings = recent_h2h[
+        ((recent_h2h["team_a"] == home_team) & (recent_h2h["team_b"] == away_team))
+        | ((recent_h2h["team_a"] == away_team) & (recent_h2h["team_b"] == home_team))
+    ].sort_values("date", ascending=False)
+    if pair_meetings.empty:
+        st.caption("These two teams haven't met before in our data.")
+    else:
+        display = pair_meetings[["date", "home_team", "away_team", "home_score", "away_score"]].copy()
+        display["date"] = display["date"].dt.strftime("%d %b %Y")
+        st.dataframe(display, use_container_width=True, hide_index=True)
 
 st.divider()
 st.caption(

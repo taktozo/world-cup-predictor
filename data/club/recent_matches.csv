@@ -1,0 +1,1001 @@
+date,team,opponent,goals_for,goals_against,venue,result
+2026-03-22,Alaves,Celta,4.0,3.0,A,W
+2026-04-05,Alaves,Osasuna,2.0,2.0,H,D
+2026-04-11,Alaves,Sociedad,3.0,3.0,A,D
+2026-04-21,Alaves,Real Madrid,1.0,2.0,A,L
+2026-04-25,Alaves,Mallorca,2.0,1.0,H,W
+2026-05-02,Alaves,Ath Bilbao,2.0,4.0,H,L
+2026-05-09,Alaves,Elche,1.0,1.0,A,D
+2026-05-13,Alaves,Barcelona,1.0,0.0,H,W
+2026-05-17,Alaves,Oviedo,1.0,0.0,A,W
+2026-05-23,Alaves,Vallecano,1.0,2.0,H,L
+2005-02-26,Albacete,Espanol,1.0,2.0,A,L
+2005-03-02,Albacete,Osasuna,1.0,1.0,H,D
+2005-03-13,Albacete,La Coruna,0.0,1.0,H,L
+2005-03-19,Albacete,Betis,1.0,2.0,A,L
+2005-04-24,Albacete,Valencia,0.0,2.0,A,L
+2005-05-01,Albacete,Barcelona,0.0,2.0,A,L
+2005-05-08,Albacete,Levante,3.0,1.0,H,W
+2005-05-15,Albacete,Villarreal,0.0,1.0,A,L
+2005-05-22,Albacete,Sociedad,2.0,2.0,H,D
+2005-05-29,Albacete,Santander,0.0,1.0,A,L
+2024-03-17,Almeria,Las Palmas,1.0,0.0,A,W
+2024-03-30,Almeria,Osasuna,0.0,3.0,H,L
+2024-04-14,Almeria,Sociedad,2.0,2.0,A,D
+2024-04-21,Almeria,Villarreal,1.0,2.0,H,L
+2024-04-27,Almeria,Getafe,1.0,3.0,H,L
+2024-05-05,Almeria,Vallecano,1.0,0.0,A,W
+2024-05-12,Almeria,Betis,2.0,3.0,A,L
+2024-05-16,Almeria,Barcelona,0.0,2.0,H,L
+2024-05-19,Almeria,Mallorca,2.0,2.0,A,D
+2024-05-25,Almeria,Cadiz,6.0,1.0,H,W
+2026-03-01,Arsenal,Chelsea,2.0,1.0,H,W
+2026-03-04,Arsenal,Brighton,1.0,0.0,A,W
+2026-03-14,Arsenal,Everton,2.0,0.0,H,W
+2026-04-11,Arsenal,Bournemouth,1.0,2.0,H,L
+2026-04-19,Arsenal,Man City,1.0,2.0,A,L
+2026-04-25,Arsenal,Newcastle,1.0,0.0,H,W
+2026-05-02,Arsenal,Fulham,3.0,0.0,H,W
+2026-05-10,Arsenal,West Ham,1.0,0.0,A,W
+2026-05-18,Arsenal,Burnley,1.0,0.0,H,W
+2026-05-24,Arsenal,Crystal Palace,2.0,1.0,A,W
+2026-03-04,Aston Villa,Chelsea,1.0,4.0,H,L
+2026-03-15,Aston Villa,Man United,1.0,3.0,A,L
+2026-03-22,Aston Villa,West Ham,2.0,0.0,H,W
+2026-04-12,Aston Villa,Nott'm Forest,1.0,1.0,A,D
+2026-04-19,Aston Villa,Sunderland,4.0,3.0,H,W
+2026-04-25,Aston Villa,Fulham,0.0,1.0,A,L
+2026-05-03,Aston Villa,Tottenham,1.0,2.0,H,L
+2026-05-10,Aston Villa,Burnley,2.0,2.0,A,D
+2026-05-15,Aston Villa,Liverpool,4.0,2.0,H,W
+2026-05-24,Aston Villa,Man City,2.0,1.0,A,W
+2026-03-22,Ath Bilbao,Betis,2.0,1.0,H,W
+2026-04-05,Ath Bilbao,Getafe,0.0,2.0,A,L
+2026-04-12,Ath Bilbao,Villarreal,1.0,2.0,H,L
+2026-04-21,Ath Bilbao,Osasuna,1.0,0.0,H,W
+2026-04-25,Ath Bilbao,Ath Madrid,2.0,3.0,A,L
+2026-05-02,Ath Bilbao,Alaves,4.0,2.0,A,W
+2026-05-10,Ath Bilbao,Valencia,0.0,1.0,H,L
+2026-05-13,Ath Bilbao,Espanol,0.0,2.0,A,L
+2026-05-17,Ath Bilbao,Celta,1.0,1.0,H,D
+2026-05-23,Ath Bilbao,Real Madrid,2.0,4.0,A,L
+2026-03-22,Ath Madrid,Real Madrid,2.0,3.0,A,L
+2026-04-04,Ath Madrid,Barcelona,1.0,2.0,H,L
+2026-04-11,Ath Madrid,Sevilla,1.0,2.0,A,L
+2026-04-22,Ath Madrid,Elche,2.0,3.0,A,L
+2026-04-25,Ath Madrid,Ath Bilbao,3.0,2.0,H,W
+2026-05-02,Ath Madrid,Valencia,2.0,0.0,A,W
+2026-05-09,Ath Madrid,Celta,0.0,1.0,H,L
+2026-05-12,Ath Madrid,Osasuna,2.0,1.0,A,W
+2026-05-17,Ath Madrid,Girona,1.0,0.0,H,W
+2026-05-24,Ath Madrid,Villarreal,1.0,5.0,A,L
+2026-03-22,Barcelona,Vallecano,1.0,0.0,H,W
+2026-04-04,Barcelona,Ath Madrid,2.0,1.0,A,W
+2026-04-11,Barcelona,Espanol,4.0,1.0,H,W
+2026-04-22,Barcelona,Celta,1.0,0.0,H,W
+2026-04-25,Barcelona,Getafe,2.0,0.0,A,W
+2026-05-02,Barcelona,Osasuna,2.0,1.0,A,W
+2026-05-10,Barcelona,Real Madrid,2.0,0.0,H,W
+2026-05-13,Barcelona,Alaves,0.0,1.0,A,L
+2026-05-17,Barcelona,Betis,3.0,1.0,H,W
+2026-05-23,Barcelona,Valencia,1.0,3.0,A,L
+1998-03-14,Barnsley,Southampton,4.0,3.0,H,W
+1998-03-28,Barnsley,Liverpool,2.0,3.0,H,L
+1998-03-31,Barnsley,Blackburn,1.0,2.0,A,L
+1998-04-04,Barnsley,Leeds,1.0,2.0,A,L
+1998-04-11,Barnsley,Sheffield Weds,2.0,1.0,H,W
+1998-04-13,Barnsley,Newcastle,1.0,2.0,A,L
+1998-04-18,Barnsley,Tottenham,1.0,1.0,H,D
+1998-04-25,Barnsley,Arsenal,0.0,2.0,H,L
+1998-05-02,Barnsley,Leicester,0.0,1.0,A,L
+1998-05-10,Barnsley,Man United,0.0,2.0,H,L
+2026-03-22,Betis,Ath Bilbao,1.0,2.0,A,L
+2026-04-04,Betis,Espanol,0.0,0.0,H,D
+2026-04-12,Betis,Osasuna,1.0,1.0,A,D
+2026-04-21,Betis,Girona,3.0,2.0,A,W
+2026-04-24,Betis,Real Madrid,1.0,1.0,H,D
+2026-05-03,Betis,Oviedo,3.0,0.0,H,W
+2026-05-09,Betis,Sociedad,2.0,2.0,A,D
+2026-05-12,Betis,Elche,2.0,1.0,H,W
+2026-05-17,Betis,Barcelona,1.0,3.0,A,L
+2026-05-23,Betis,Levante,2.0,1.0,H,W
+2011-03-19,Birmingham,Wigan,1.0,2.0,A,L
+2011-04-02,Birmingham,Bolton,2.0,1.0,H,W
+2011-04-09,Birmingham,Blackburn,1.0,1.0,A,D
+2011-04-16,Birmingham,Sunderland,2.0,0.0,H,W
+2011-04-20,Birmingham,Chelsea,1.0,3.0,A,L
+2011-04-23,Birmingham,Liverpool,0.0,5.0,A,L
+2011-05-01,Birmingham,Wolves,1.0,1.0,H,D
+2011-05-07,Birmingham,Newcastle,1.0,2.0,A,L
+2011-05-15,Birmingham,Fulham,0.0,2.0,H,L
+2011-05-22,Birmingham,Tottenham,1.0,2.0,A,L
+2012-03-20,Blackburn,Sunderland,2.0,0.0,H,W
+2012-03-24,Blackburn,Bolton,1.0,2.0,A,L
+2012-04-02,Blackburn,Man United,0.0,2.0,H,L
+2012-04-07,Blackburn,West Brom,0.0,3.0,A,L
+2012-04-10,Blackburn,Liverpool,2.0,3.0,H,L
+2012-04-14,Blackburn,Swansea,0.0,3.0,A,L
+2012-04-21,Blackburn,Norwich,2.0,0.0,H,W
+2012-04-29,Blackburn,Tottenham,0.0,2.0,A,L
+2012-05-07,Blackburn,Wigan,0.0,1.0,H,L
+2012-05-13,Blackburn,Chelsea,1.0,2.0,A,L
+2011-03-07,Blackpool,Chelsea,1.0,3.0,H,L
+2011-03-19,Blackpool,Blackburn,2.0,2.0,A,D
+2011-04-03,Blackpool,Fulham,0.0,3.0,A,L
+2011-04-10,Blackpool,Arsenal,1.0,3.0,H,L
+2011-04-16,Blackpool,Wigan,1.0,3.0,H,L
+2011-04-23,Blackpool,Newcastle,1.0,1.0,H,D
+2011-04-30,Blackpool,Stoke,0.0,0.0,H,D
+2011-05-07,Blackpool,Tottenham,1.0,1.0,A,D
+2011-05-14,Blackpool,Bolton,4.0,3.0,H,W
+2011-05-22,Blackpool,Man United,2.0,4.0,A,L
+2012-03-24,Bolton,Blackburn,2.0,1.0,H,W
+2012-03-31,Bolton,Wolves,3.0,2.0,A,W
+2012-04-07,Bolton,Fulham,0.0,3.0,H,L
+2012-04-09,Bolton,Newcastle,0.0,2.0,A,L
+2012-04-21,Bolton,Swansea,1.0,1.0,H,D
+2012-04-24,Bolton,Aston Villa,2.0,1.0,A,W
+2012-04-28,Bolton,Sunderland,2.0,2.0,A,D
+2012-05-02,Bolton,Tottenham,1.0,4.0,H,L
+2012-05-06,Bolton,West Brom,2.0,2.0,H,D
+2012-05-13,Bolton,Stoke,2.0,2.0,A,D
+2026-03-03,Bournemouth,Brentford,0.0,0.0,H,D
+2026-03-14,Bournemouth,Burnley,0.0,0.0,A,D
+2026-03-20,Bournemouth,Man United,2.0,2.0,H,D
+2026-04-11,Bournemouth,Arsenal,2.0,1.0,A,W
+2026-04-18,Bournemouth,Newcastle,2.0,1.0,A,W
+2026-04-22,Bournemouth,Leeds,2.0,2.0,H,D
+2026-05-03,Bournemouth,Crystal Palace,3.0,0.0,H,W
+2026-05-09,Bournemouth,Fulham,1.0,0.0,A,W
+2026-05-19,Bournemouth,Man City,1.0,1.0,H,D
+2026-05-24,Bournemouth,Nott'm Forest,1.0,1.0,A,D
+2001-03-17,Bradford,Man City,2.0,2.0,H,D
+2001-03-31,Bradford,Newcastle,2.0,2.0,H,D
+2001-04-10,Bradford,Tottenham,1.0,2.0,A,L
+2001-04-13,Bradford,Charlton,2.0,0.0,H,W
+2001-04-21,Bradford,Derby,2.0,0.0,H,W
+2001-04-28,Bradford,Everton,1.0,2.0,A,L
+2001-05-01,Bradford,Liverpool,0.0,2.0,H,L
+2001-05-05,Bradford,Middlesbrough,1.0,1.0,H,D
+2001-05-13,Bradford,Leeds,1.0,6.0,A,L
+2001-05-19,Bradford,Coventry,0.0,0.0,A,D
+2026-03-03,Brentford,Bournemouth,0.0,0.0,A,D
+2026-03-16,Brentford,Wolves,2.0,2.0,H,D
+2026-03-21,Brentford,Leeds,0.0,0.0,A,D
+2026-04-11,Brentford,Everton,2.0,2.0,H,D
+2026-04-18,Brentford,Fulham,0.0,0.0,H,D
+2026-04-27,Brentford,Man United,1.0,2.0,A,L
+2026-05-02,Brentford,West Ham,3.0,0.0,H,W
+2026-05-09,Brentford,Man City,0.0,3.0,A,L
+2026-05-17,Brentford,Crystal Palace,2.0,2.0,H,D
+2026-05-24,Brentford,Liverpool,1.0,1.0,A,D
+2026-03-04,Brighton,Arsenal,0.0,1.0,H,L
+2026-03-14,Brighton,Sunderland,1.0,0.0,A,W
+2026-03-21,Brighton,Liverpool,2.0,1.0,H,W
+2026-04-11,Brighton,Burnley,2.0,0.0,A,W
+2026-04-18,Brighton,Tottenham,2.0,2.0,A,D
+2026-04-21,Brighton,Chelsea,3.0,0.0,H,W
+2026-05-02,Brighton,Newcastle,1.0,3.0,A,L
+2026-05-09,Brighton,Wolves,3.0,0.0,H,W
+2026-05-17,Brighton,Leeds,0.0,1.0,A,L
+2026-05-24,Brighton,Man United,0.0,3.0,H,L
+2026-03-03,Burnley,Everton,0.0,2.0,A,L
+2026-03-14,Burnley,Bournemouth,0.0,0.0,H,D
+2026-03-21,Burnley,Fulham,1.0,3.0,A,L
+2026-04-11,Burnley,Brighton,0.0,2.0,H,L
+2026-04-19,Burnley,Nott'm Forest,1.0,4.0,A,L
+2026-04-22,Burnley,Man City,0.0,1.0,H,L
+2026-05-01,Burnley,Leeds,1.0,3.0,A,L
+2026-05-10,Burnley,Aston Villa,2.0,2.0,H,D
+2026-05-18,Burnley,Arsenal,0.0,1.0,A,L
+2026-05-24,Burnley,Wolves,1.0,1.0,H,D
+2024-03-15,Cadiz,Sociedad,0.0,2.0,A,L
+2024-03-29,Cadiz,Granada,1.0,0.0,H,W
+2024-04-13,Cadiz,Barcelona,0.0,1.0,H,L
+2024-04-20,Cadiz,Girona,1.0,4.0,A,L
+2024-04-28,Cadiz,Mallorca,1.0,1.0,H,D
+2024-05-04,Cadiz,Real Madrid,0.0,3.0,A,L
+2024-05-12,Cadiz,Getafe,1.0,0.0,H,W
+2024-05-15,Cadiz,Sevilla,1.0,0.0,A,W
+2024-05-19,Cadiz,Las Palmas,0.0,0.0,H,D
+2024-05-25,Cadiz,Almeria,1.0,6.0,A,L
+2019-03-02,Cardiff,Wolves,0.0,2.0,A,L
+2019-03-09,Cardiff,West Ham,2.0,0.0,H,W
+2019-03-31,Cardiff,Chelsea,1.0,2.0,H,L
+2019-04-03,Cardiff,Man City,0.0,2.0,A,L
+2019-04-13,Cardiff,Burnley,0.0,2.0,A,L
+2019-04-16,Cardiff,Brighton,2.0,0.0,A,W
+2019-04-21,Cardiff,Liverpool,0.0,2.0,H,L
+2019-04-27,Cardiff,Fulham,0.0,1.0,A,L
+2019-05-04,Cardiff,Crystal Palace,2.0,3.0,H,L
+2019-05-12,Cardiff,Man United,2.0,0.0,A,W
+2026-03-22,Celta,Alaves,3.0,4.0,H,L
+2026-04-05,Celta,Valencia,3.0,2.0,A,W
+2026-04-12,Celta,Oviedo,0.0,3.0,H,L
+2026-04-22,Celta,Barcelona,0.0,1.0,A,L
+2026-04-26,Celta,Villarreal,1.0,2.0,A,L
+2026-05-03,Celta,Elche,3.0,1.0,H,W
+2026-05-09,Celta,Ath Madrid,1.0,0.0,A,W
+2026-05-12,Celta,Levante,2.0,3.0,H,L
+2026-05-17,Celta,Ath Bilbao,1.0,1.0,A,D
+2026-05-23,Celta,Sevilla,1.0,0.0,H,W
+2007-03-03,Charlton,Watford,2.0,2.0,A,D
+2007-03-18,Charlton,Newcastle,2.0,0.0,H,W
+2007-03-31,Charlton,Wigan,1.0,0.0,H,W
+2007-04-06,Charlton,Man City,0.0,0.0,A,D
+2007-04-09,Charlton,Reading,0.0,0.0,H,D
+2007-04-15,Charlton,Everton,1.0,2.0,A,L
+2007-04-21,Charlton,Sheffield United,1.0,1.0,H,D
+2007-04-28,Charlton,Blackburn,1.0,4.0,A,L
+2007-05-07,Charlton,Tottenham,0.0,2.0,H,L
+2007-05-13,Charlton,Liverpool,2.0,2.0,A,D
+2026-03-04,Chelsea,Aston Villa,4.0,1.0,A,W
+2026-03-14,Chelsea,Newcastle,0.0,1.0,H,L
+2026-03-21,Chelsea,Everton,0.0,3.0,A,L
+2026-04-12,Chelsea,Man City,0.0,3.0,H,L
+2026-04-18,Chelsea,Man United,0.0,1.0,H,L
+2026-04-21,Chelsea,Brighton,0.0,3.0,A,L
+2026-05-04,Chelsea,Nott'm Forest,1.0,3.0,H,L
+2026-05-09,Chelsea,Liverpool,1.0,1.0,A,D
+2026-05-19,Chelsea,Tottenham,2.0,1.0,H,W
+2026-05-24,Chelsea,Sunderland,1.0,2.0,A,L
+1998-03-14,Compostela,Ath Madrid,2.0,1.0,H,W
+1998-03-22,Compostela,Real Madrid,1.0,2.0,A,L
+1998-03-29,Compostela,Salamanca,2.0,0.0,H,W
+1998-04-05,Compostela,Valladolid,1.0,4.0,A,L
+1998-04-12,Compostela,Sociedad,1.0,3.0,H,L
+1998-04-19,Compostela,Ath Bilbao,0.0,2.0,A,L
+1998-04-26,Compostela,Valencia,3.0,1.0,H,W
+1998-05-03,Compostela,Celta,3.0,3.0,A,D
+1998-05-10,Compostela,La Coruna,6.0,2.0,A,W
+1998-05-15,Compostela,Oviedo,1.0,0.0,H,W
+2015-04-04,Cordoba,Ath Madrid,0.0,2.0,H,L
+2015-04-08,Cordoba,La Coruna,1.0,1.0,A,D
+2015-04-12,Cordoba,Elche,0.0,2.0,H,L
+2015-04-19,Cordoba,Villarreal,0.0,0.0,A,D
+2015-04-24,Cordoba,Ath Bilbao,0.0,1.0,H,L
+2015-04-28,Cordoba,Levante,0.0,1.0,A,L
+2015-05-02,Cordoba,Barcelona,0.0,8.0,H,L
+2015-05-09,Cordoba,Granada,0.0,2.0,A,L
+2015-05-17,Cordoba,Vallecano,1.0,2.0,H,L
+2015-05-23,Cordoba,Eibar,0.0,3.0,A,L
+2001-03-03,Coventry,Chelsea,0.0,0.0,H,D
+2001-03-17,Coventry,Tottenham,0.0,3.0,A,L
+2001-03-31,Coventry,Derby,2.0,0.0,H,W
+2001-04-07,Coventry,Leicester,3.0,1.0,A,W
+2001-04-14,Coventry,Man United,2.0,4.0,A,L
+2001-04-16,Coventry,Sunderland,1.0,0.0,H,W
+2001-04-21,Coventry,Ipswich,0.0,2.0,A,L
+2001-04-28,Coventry,Liverpool,0.0,2.0,H,L
+2001-05-05,Coventry,Aston Villa,2.0,3.0,A,L
+2001-05-19,Coventry,Bradford,0.0,0.0,H,D
+2026-03-05,Crystal Palace,Tottenham,3.0,1.0,A,W
+2026-03-15,Crystal Palace,Leeds,0.0,0.0,H,D
+2026-04-12,Crystal Palace,Newcastle,2.0,1.0,H,W
+2026-04-20,Crystal Palace,West Ham,0.0,0.0,H,D
+2026-04-25,Crystal Palace,Liverpool,1.0,3.0,A,L
+2026-05-03,Crystal Palace,Bournemouth,0.0,3.0,A,L
+2026-05-10,Crystal Palace,Everton,2.0,2.0,H,D
+2026-05-13,Crystal Palace,Man City,0.0,3.0,A,L
+2026-05-17,Crystal Palace,Brentford,2.0,2.0,A,D
+2026-05-24,Crystal Palace,Arsenal,1.0,2.0,H,L
+2008-03-12,Derby,Chelsea,1.0,6.0,A,L
+2008-03-15,Derby,Man United,0.0,1.0,H,L
+2008-03-22,Derby,Middlesbrough,0.0,1.0,A,L
+2008-03-29,Derby,Fulham,2.0,2.0,H,D
+2008-04-06,Derby,Everton,0.0,1.0,A,L
+2008-04-12,Derby,Aston Villa,0.0,6.0,H,L
+2008-04-19,Derby,West Ham,1.0,2.0,A,L
+2008-04-28,Derby,Arsenal,2.0,6.0,H,L
+2008-05-03,Derby,Blackburn,1.0,3.0,A,L
+2008-05-11,Derby,Reading,0.0,4.0,H,L
+2021-04-03,Eibar,Real Madrid,0.0,2.0,A,L
+2021-04-10,Eibar,Levante,0.0,1.0,H,L
+2021-04-18,Eibar,Ath Madrid,0.0,5.0,A,L
+2021-04-22,Eibar,Granada,1.0,4.0,A,L
+2021-04-26,Eibar,Sociedad,0.0,1.0,H,L
+2021-05-01,Eibar,Alaves,3.0,0.0,H,W
+2021-05-09,Eibar,Getafe,1.0,0.0,A,W
+2021-05-13,Eibar,Betis,1.0,1.0,H,D
+2021-05-16,Eibar,Valencia,1.0,4.0,A,L
+2021-05-22,Eibar,Barcelona,0.0,1.0,H,L
+2026-03-21,Elche,Mallorca,2.0,1.0,H,W
+2026-04-03,Elche,Vallecano,0.0,1.0,A,L
+2026-04-11,Elche,Valencia,1.0,0.0,H,W
+2026-04-22,Elche,Ath Madrid,3.0,2.0,H,W
+2026-04-26,Elche,Oviedo,2.0,1.0,A,W
+2026-05-03,Elche,Celta,1.0,3.0,A,L
+2026-05-09,Elche,Alaves,1.0,1.0,H,D
+2026-05-12,Elche,Betis,1.0,2.0,A,L
+2026-05-17,Elche,Getafe,1.0,0.0,H,W
+2026-05-23,Elche,Girona,1.0,1.0,A,D
+2026-03-21,Espanol,Getafe,1.0,2.0,H,L
+2026-04-04,Espanol,Betis,0.0,0.0,A,D
+2026-04-11,Espanol,Barcelona,1.0,4.0,A,L
+2026-04-23,Espanol,Vallecano,0.0,1.0,A,L
+2026-04-27,Espanol,Levante,0.0,0.0,H,D
+2026-05-03,Espanol,Real Madrid,0.0,2.0,H,L
+2026-05-09,Espanol,Sevilla,1.0,2.0,A,L
+2026-05-13,Espanol,Ath Bilbao,2.0,0.0,H,W
+2026-05-17,Espanol,Osasuna,2.0,1.0,A,W
+2026-05-23,Espanol,Sociedad,1.0,1.0,H,D
+2026-03-03,Everton,Burnley,2.0,0.0,H,W
+2026-03-14,Everton,Arsenal,0.0,2.0,A,L
+2026-03-21,Everton,Chelsea,3.0,0.0,H,W
+2026-04-11,Everton,Brentford,2.0,2.0,A,D
+2026-04-19,Everton,Liverpool,1.0,2.0,H,L
+2026-04-25,Everton,West Ham,1.0,2.0,A,L
+2026-05-04,Everton,Man City,3.0,3.0,H,D
+2026-05-10,Everton,Crystal Palace,2.0,2.0,A,D
+2026-05-17,Everton,Sunderland,1.0,3.0,H,L
+2026-05-24,Everton,Tottenham,0.0,1.0,A,L
+1999-04-11,Extremadura,Valencia,1.0,1.0,A,D
+1999-04-18,Extremadura,Salamanca,1.0,1.0,H,D
+1999-04-25,Extremadura,Espanol,0.0,0.0,A,D
+1999-05-02,Extremadura,Sociedad,1.0,0.0,H,W
+1999-05-09,Extremadura,Oviedo,0.0,1.0,A,L
+1999-05-16,Extremadura,Tenerife,1.0,0.0,H,W
+1999-05-23,Extremadura,Mallorca,0.0,2.0,A,L
+1999-05-30,Extremadura,Ath Madrid,2.0,1.0,H,W
+1999-06-12,Extremadura,La Coruna,1.0,1.0,A,D
+1999-06-20,Extremadura,Villareal,2.0,2.0,H,D
+2026-03-04,Fulham,West Ham,0.0,1.0,H,L
+2026-03-15,Fulham,Nott'm Forest,0.0,0.0,A,D
+2026-03-21,Fulham,Burnley,3.0,1.0,H,W
+2026-04-11,Fulham,Liverpool,0.0,2.0,A,L
+2026-04-18,Fulham,Brentford,0.0,0.0,A,D
+2026-04-25,Fulham,Aston Villa,1.0,0.0,H,W
+2026-05-02,Fulham,Arsenal,0.0,3.0,A,L
+2026-05-09,Fulham,Bournemouth,0.0,1.0,H,L
+2026-05-17,Fulham,Wolves,1.0,1.0,A,D
+2026-05-24,Fulham,Newcastle,2.0,0.0,H,W
+2026-03-21,Getafe,Espanol,2.0,1.0,A,W
+2026-04-05,Getafe,Ath Bilbao,2.0,0.0,H,W
+2026-04-13,Getafe,Levante,0.0,1.0,A,L
+2026-04-22,Getafe,Sociedad,1.0,0.0,A,W
+2026-04-25,Getafe,Barcelona,0.0,2.0,H,L
+2026-05-03,Getafe,Vallecano,0.0,2.0,H,L
+2026-05-10,Getafe,Oviedo,0.0,0.0,A,D
+2026-05-13,Getafe,Mallorca,3.0,1.0,H,W
+2026-05-17,Getafe,Elche,0.0,1.0,A,L
+2026-05-23,Getafe,Osasuna,1.0,0.0,H,W
+2007-04-08,Gimnastic,La Coruna,0.0,1.0,A,L
+2007-04-15,Gimnastic,Zaragoza,1.0,0.0,H,W
+2007-04-22,Gimnastic,Mallorca,0.0,1.0,A,L
+2007-04-29,Gimnastic,Villarreal,0.0,3.0,H,L
+2007-05-06,Gimnastic,Levante,0.0,2.0,A,L
+2007-05-13,Gimnastic,Sociedad,1.0,3.0,H,L
+2007-05-19,Gimnastic,Betis,1.0,1.0,A,D
+2007-05-27,Gimnastic,Ath Madrid,0.0,2.0,H,L
+2007-06-10,Gimnastic,Getafe,1.0,0.0,A,W
+2007-06-17,Gimnastic,Barcelona,1.0,5.0,H,L
+2026-03-21,Girona,Osasuna,0.0,1.0,A,L
+2026-04-06,Girona,Villarreal,1.0,0.0,H,W
+2026-04-10,Girona,Real Madrid,1.0,1.0,A,D
+2026-04-21,Girona,Betis,2.0,3.0,H,L
+2026-04-25,Girona,Valencia,1.0,2.0,A,L
+2026-05-01,Girona,Mallorca,0.0,1.0,H,L
+2026-05-11,Girona,Vallecano,1.0,1.0,A,D
+2026-05-14,Girona,Sociedad,1.0,1.0,H,D
+2026-05-17,Girona,Ath Madrid,0.0,1.0,A,L
+2026-05-23,Girona,Elche,1.0,1.0,H,D
+2024-03-29,Granada,Cadiz,0.0,1.0,A,L
+2024-04-04,Granada,Valencia,0.0,1.0,H,L
+2024-04-14,Granada,Alaves,2.0,0.0,H,W
+2024-04-19,Granada,Ath Bilbao,1.0,1.0,A,D
+2024-04-28,Granada,Osasuna,3.0,0.0,H,W
+2024-05-05,Granada,Sevilla,0.0,3.0,A,L
+2024-05-11,Granada,Real Madrid,0.0,4.0,H,L
+2024-05-15,Granada,Vallecano,1.0,2.0,A,L
+2024-05-19,Granada,Celta,1.0,2.0,H,L
+2024-05-24,Granada,Girona,0.0,7.0,A,L
+2011-03-20,Hercules,Osasuna,0.0,4.0,H,L
+2011-04-03,Hercules,Sociedad,3.0,1.0,A,W
+2011-04-10,Hercules,Espanol,0.0,0.0,H,D
+2011-04-17,Hercules,Levante,1.0,2.0,A,L
+2011-04-24,Hercules,La Coruna,1.0,0.0,H,W
+2011-05-01,Hercules,Malaga,1.0,3.0,A,L
+2011-05-07,Hercules,Santander,2.0,3.0,H,L
+2011-05-11,Hercules,Mallorca,2.0,2.0,H,D
+2011-05-15,Hercules,Ath Madrid,1.0,2.0,A,L
+2011-05-21,Hercules,Sp Gijon,0.0,0.0,H,D
+2019-03-02,Huddersfield,Brighton,0.0,1.0,A,L
+2019-03-09,Huddersfield,Bournemouth,0.0,2.0,H,L
+2019-03-16,Huddersfield,West Ham,3.0,4.0,A,L
+2019-03-30,Huddersfield,Crystal Palace,0.0,2.0,A,L
+2019-04-06,Huddersfield,Leicester,1.0,4.0,H,L
+2019-04-13,Huddersfield,Tottenham,0.0,4.0,A,L
+2019-04-20,Huddersfield,Watford,1.0,2.0,H,L
+2019-04-26,Huddersfield,Liverpool,0.0,5.0,A,L
+2019-05-05,Huddersfield,Man United,1.0,1.0,H,D
+2019-05-12,Huddersfield,Southampton,1.0,1.0,A,D
+2021-04-02,Huesca,Levante,2.0,0.0,A,W
+2021-04-09,Huesca,Elche,3.0,1.0,H,W
+2021-04-18,Huesca,Alaves,0.0,1.0,A,L
+2021-04-22,Huesca,Ath Madrid,0.0,2.0,A,L
+2021-04-25,Huesca,Getafe,0.0,2.0,H,L
+2021-05-01,Huesca,Sociedad,1.0,0.0,H,W
+2021-05-08,Huesca,Cadiz,1.0,2.0,A,L
+2021-05-12,Huesca,Ath Bilbao,1.0,0.0,H,W
+2021-05-16,Huesca,Betis,0.0,1.0,A,L
+2021-05-22,Huesca,Valencia,0.0,0.0,H,D
+2017-03-18,Hull,Everton,0.0,4.0,A,L
+2017-04-01,Hull,West Ham,2.0,1.0,H,W
+2017-04-05,Hull,Middlesbrough,4.0,2.0,H,W
+2017-04-08,Hull,Man City,1.0,3.0,A,L
+2017-04-15,Hull,Stoke,1.0,3.0,A,L
+2017-04-22,Hull,Watford,2.0,0.0,H,W
+2017-04-29,Hull,Southampton,0.0,0.0,A,D
+2017-05-06,Hull,Sunderland,0.0,2.0,H,L
+2017-05-14,Hull,Crystal Palace,0.0,4.0,A,L
+2017-05-21,Hull,Tottenham,1.0,7.0,H,L
+2025-03-15,Ipswich,Nott'm Forest,2.0,4.0,H,L
+2025-04-02,Ipswich,Bournemouth,2.0,1.0,A,W
+2025-04-05,Ipswich,Wolves,1.0,2.0,H,L
+2025-04-13,Ipswich,Chelsea,2.0,2.0,A,D
+2025-04-20,Ipswich,Arsenal,0.0,4.0,H,L
+2025-04-26,Ipswich,Newcastle,0.0,3.0,A,L
+2025-05-03,Ipswich,Everton,2.0,2.0,A,D
+2025-05-10,Ipswich,Brentford,0.0,1.0,H,L
+2025-05-18,Ipswich,Leicester,0.0,2.0,A,L
+2025-05-25,Ipswich,West Ham,1.0,3.0,H,L
+2018-03-17,La Coruna,Las Palmas,1.0,1.0,H,D
+2018-04-01,La Coruna,Ath Madrid,0.0,1.0,A,L
+2018-04-06,La Coruna,Malaga,3.0,2.0,H,W
+2018-04-14,La Coruna,Ath Bilbao,3.0,2.0,A,W
+2018-04-17,La Coruna,Sevilla,0.0,0.0,H,D
+2018-04-20,La Coruna,Leganes,0.0,0.0,A,D
+2018-04-29,La Coruna,Barcelona,2.0,4.0,H,L
+2018-05-05,La Coruna,Celta,1.0,1.0,A,D
+2018-05-12,La Coruna,Villarreal,2.0,4.0,H,L
+2018-05-20,La Coruna,Valencia,1.0,2.0,A,L
+2025-03-31,Las Palmas,Celta,1.0,1.0,A,D
+2025-04-06,Las Palmas,Sociedad,1.0,3.0,H,L
+2025-04-12,Las Palmas,Getafe,3.0,1.0,A,W
+2025-04-19,Las Palmas,Ath Madrid,1.0,0.0,H,W
+2025-04-23,Las Palmas,Ath Bilbao,0.0,1.0,A,L
+2025-05-03,Las Palmas,Valencia,2.0,3.0,H,L
+2025-05-09,Las Palmas,Vallecano,0.0,1.0,H,L
+2025-05-13,Las Palmas,Sevilla,0.0,1.0,A,L
+2025-05-18,Las Palmas,Leganes,0.0,1.0,H,L
+2025-05-24,Las Palmas,Espanol,0.0,2.0,A,L
+2026-03-03,Leeds,Sunderland,0.0,1.0,H,L
+2026-03-15,Leeds,Crystal Palace,0.0,0.0,A,D
+2026-03-21,Leeds,Brentford,0.0,0.0,H,D
+2026-04-13,Leeds,Man United,2.0,1.0,A,W
+2026-04-18,Leeds,Wolves,3.0,0.0,H,W
+2026-04-22,Leeds,Bournemouth,2.0,2.0,A,D
+2026-05-01,Leeds,Burnley,3.0,1.0,H,W
+2026-05-11,Leeds,Tottenham,1.0,1.0,A,D
+2026-05-17,Leeds,Brighton,1.0,0.0,H,W
+2026-05-24,Leeds,West Ham,0.0,3.0,A,L
+2025-03-29,Leganes,Real Madrid,2.0,3.0,A,L
+2025-04-07,Leganes,Osasuna,1.0,1.0,H,D
+2025-04-12,Leganes,Barcelona,0.0,1.0,H,L
+2025-04-19,Leganes,Mallorca,0.0,0.0,A,D
+2025-04-24,Leganes,Girona,1.0,1.0,H,D
+2025-05-04,Leganes,Sevilla,2.0,2.0,A,D
+2025-05-11,Leganes,Espanol,3.0,2.0,H,W
+2025-05-14,Leganes,Villarreal,0.0,3.0,A,L
+2025-05-18,Leganes,Las Palmas,1.0,0.0,A,W
+2025-05-24,Leganes,Valladolid,3.0,0.0,H,W
+2025-03-16,Leicester,Man United,0.0,3.0,H,L
+2025-04-02,Leicester,Man City,0.0,2.0,A,L
+2025-04-07,Leicester,Newcastle,0.0,3.0,H,L
+2025-04-12,Leicester,Brighton,2.0,2.0,A,D
+2025-04-20,Leicester,Liverpool,0.0,1.0,H,L
+2025-04-26,Leicester,Wolves,0.0,3.0,A,L
+2025-05-03,Leicester,Southampton,2.0,0.0,H,W
+2025-05-11,Leicester,Nott'm Forest,2.0,2.0,A,D
+2025-05-18,Leicester,Ipswich,2.0,0.0,H,W
+2025-05-25,Leicester,Bournemouth,0.0,2.0,A,L
+1994-03-20,Lerida,Sociedad,1.0,0.0,H,W
+1994-03-27,Lerida,Albacete,1.0,2.0,A,L
+1994-04-03,Lerida,Barcelona,1.0,2.0,H,L
+1994-04-06,Lerida,Zaragoza,1.0,1.0,A,D
+1994-04-10,Lerida,Osasuna,1.0,2.0,H,L
+1994-04-17,Lerida,Valladolid,2.0,0.0,A,W
+1994-04-24,Lerida,La Coruna,0.0,0.0,H,D
+1994-05-01,Lerida,Oviedo,0.0,0.0,A,D
+1994-05-08,Lerida,Ath Madrid,0.0,1.0,H,L
+1994-05-15,Lerida,Santander,1.0,2.0,A,L
+2026-03-21,Levante,Oviedo,4.0,2.0,H,W
+2026-04-04,Levante,Sociedad,0.0,2.0,A,L
+2026-04-13,Levante,Getafe,1.0,0.0,H,W
+2026-04-23,Levante,Sevilla,2.0,0.0,H,W
+2026-04-27,Levante,Espanol,0.0,0.0,A,D
+2026-05-02,Levante,Villarreal,1.0,5.0,A,L
+2026-05-08,Levante,Osasuna,3.0,2.0,H,W
+2026-05-12,Levante,Celta,3.0,2.0,A,W
+2026-05-17,Levante,Mallorca,2.0,0.0,H,W
+2026-05-23,Levante,Betis,1.0,2.0,A,L
+2026-03-03,Liverpool,Wolves,1.0,2.0,A,L
+2026-03-15,Liverpool,Tottenham,1.0,1.0,H,D
+2026-03-21,Liverpool,Brighton,1.0,2.0,A,L
+2026-04-11,Liverpool,Fulham,2.0,0.0,H,W
+2026-04-19,Liverpool,Everton,2.0,1.0,A,W
+2026-04-25,Liverpool,Crystal Palace,3.0,1.0,H,W
+2026-05-03,Liverpool,Man United,2.0,3.0,A,L
+2026-05-09,Liverpool,Chelsea,1.0,1.0,H,D
+2026-05-15,Liverpool,Aston Villa,2.0,4.0,A,L
+2026-05-24,Liverpool,Brentford,1.0,1.0,H,D
+1997-04-13,Logrones,Real Madrid,0.0,2.0,H,L
+1997-04-16,Logrones,Celta,0.0,4.0,A,L
+1997-04-20,Logrones,La Coruna,1.0,2.0,H,L
+1997-05-04,Logrones,Hercules,0.0,1.0,A,L
+1997-05-11,Logrones,Betis,2.0,1.0,H,W
+1997-05-18,Logrones,Vallecano,0.0,1.0,A,L
+1997-05-25,Logrones,Oviedo,1.0,1.0,H,D
+1997-06-01,Logrones,Espanol,1.0,5.0,A,L
+1997-06-15,Logrones,Santander,1.0,1.0,H,D
+1997-06-22,Logrones,Sociedad,1.0,2.0,A,L
+2024-03-16,Luton,Nott'm Forest,1.0,1.0,H,D
+2024-03-30,Luton,Tottenham,1.0,2.0,A,L
+2024-04-03,Luton,Arsenal,0.0,2.0,A,L
+2024-04-06,Luton,Bournemouth,2.0,1.0,H,W
+2024-04-13,Luton,Man City,1.0,5.0,A,L
+2024-04-20,Luton,Brentford,1.0,5.0,H,L
+2024-04-27,Luton,Wolves,1.0,2.0,A,L
+2024-05-03,Luton,Everton,1.0,1.0,H,D
+2024-05-11,Luton,West Ham,1.0,3.0,A,L
+2024-05-19,Luton,Fulham,2.0,4.0,H,L
+2018-03-18,Malaga,Celta,0.0,0.0,A,D
+2018-04-01,Malaga,Villarreal,1.0,0.0,H,W
+2018-04-06,Malaga,La Coruna,2.0,3.0,A,L
+2018-04-15,Malaga,Real Madrid,1.0,2.0,H,L
+2018-04-19,Malaga,Levante,0.0,1.0,A,L
+2018-04-22,Malaga,Sociedad,2.0,0.0,H,W
+2018-04-30,Malaga,Betis,1.0,2.0,A,L
+2018-05-06,Malaga,Alaves,0.0,3.0,H,L
+2018-05-13,Malaga,Espanol,1.0,4.0,A,L
+2018-05-19,Malaga,Getafe,0.0,1.0,H,L
+2026-03-21,Mallorca,Elche,1.0,2.0,A,L
+2026-04-04,Mallorca,Real Madrid,2.0,1.0,H,W
+2026-04-12,Mallorca,Vallecano,3.0,0.0,H,W
+2026-04-21,Mallorca,Valencia,1.0,1.0,H,D
+2026-04-25,Mallorca,Alaves,1.0,2.0,A,L
+2026-05-01,Mallorca,Girona,1.0,0.0,A,W
+2026-05-10,Mallorca,Villarreal,1.0,1.0,H,D
+2026-05-13,Mallorca,Getafe,1.0,3.0,A,L
+2026-05-17,Mallorca,Levante,0.0,2.0,A,L
+2026-05-23,Mallorca,Oviedo,3.0,0.0,H,W
+2026-03-04,Man City,Nott'm Forest,2.0,2.0,H,D
+2026-03-14,Man City,West Ham,1.0,1.0,A,D
+2026-04-12,Man City,Chelsea,3.0,0.0,A,W
+2026-04-19,Man City,Arsenal,2.0,1.0,H,W
+2026-04-22,Man City,Burnley,1.0,0.0,A,W
+2026-05-04,Man City,Everton,3.0,3.0,A,D
+2026-05-09,Man City,Brentford,3.0,0.0,H,W
+2026-05-13,Man City,Crystal Palace,3.0,0.0,H,W
+2026-05-19,Man City,Bournemouth,1.0,1.0,A,D
+2026-05-24,Man City,Aston Villa,1.0,2.0,H,L
+2026-03-04,Man United,Newcastle,1.0,2.0,A,L
+2026-03-15,Man United,Aston Villa,3.0,1.0,H,W
+2026-03-20,Man United,Bournemouth,2.0,2.0,A,D
+2026-04-13,Man United,Leeds,1.0,2.0,H,L
+2026-04-18,Man United,Chelsea,1.0,0.0,A,W
+2026-04-27,Man United,Brentford,2.0,1.0,H,W
+2026-05-03,Man United,Liverpool,3.0,2.0,H,W
+2026-05-09,Man United,Sunderland,0.0,0.0,A,D
+2026-05-17,Man United,Nott'm Forest,3.0,2.0,H,W
+2026-05-24,Man United,Brighton,3.0,0.0,A,W
+1998-03-15,Merida,La Coruna,1.0,0.0,H,W
+1998-03-22,Merida,Sp Gijon,0.0,0.0,A,D
+1998-03-29,Merida,Tenerife,1.0,1.0,H,D
+1998-04-05,Merida,Mallorca,0.0,1.0,A,L
+1998-04-11,Merida,Barcelona,1.0,2.0,H,L
+1998-04-19,Merida,Santander,0.0,2.0,A,L
+1998-04-26,Merida,Real Madrid,2.0,2.0,H,D
+1998-05-03,Merida,Valladolid,0.0,0.0,A,D
+1998-05-10,Merida,Ath Bilbao,0.0,0.0,H,D
+1998-05-15,Merida,Celta,0.0,2.0,A,L
+2017-04-02,Middlesbrough,Swansea,0.0,0.0,A,D
+2017-04-05,Middlesbrough,Hull,2.0,4.0,A,L
+2017-04-08,Middlesbrough,Burnley,0.0,0.0,H,D
+2017-04-17,Middlesbrough,Arsenal,1.0,2.0,H,L
+2017-04-22,Middlesbrough,Bournemouth,0.0,4.0,A,L
+2017-04-26,Middlesbrough,Sunderland,1.0,0.0,H,W
+2017-04-30,Middlesbrough,Man City,2.0,2.0,H,D
+2017-05-08,Middlesbrough,Chelsea,0.0,3.0,A,L
+2017-05-13,Middlesbrough,Southampton,1.0,2.0,H,L
+2017-05-21,Middlesbrough,Liverpool,0.0,3.0,A,L
+2008-03-23,Murcia,Espanol,4.0,0.0,H,W
+2008-03-30,Murcia,La Coruna,1.0,3.0,A,L
+2008-04-06,Murcia,Valencia,1.0,0.0,H,W
+2008-04-13,Murcia,Real Madrid,0.0,1.0,A,L
+2008-04-20,Murcia,Mallorca,1.0,4.0,H,L
+2008-04-26,Murcia,Sevilla,0.0,0.0,H,D
+2008-05-04,Murcia,Santander,2.0,3.0,A,L
+2008-05-07,Murcia,Ath Bilbao,1.0,2.0,H,L
+2008-05-11,Murcia,Osasuna,1.0,2.0,A,L
+2008-05-17,Murcia,Barcelona,3.0,5.0,H,L
+2026-03-04,Newcastle,Man United,2.0,1.0,H,W
+2026-03-14,Newcastle,Chelsea,1.0,0.0,A,W
+2026-03-22,Newcastle,Sunderland,1.0,2.0,H,L
+2026-04-12,Newcastle,Crystal Palace,1.0,2.0,A,L
+2026-04-18,Newcastle,Bournemouth,1.0,2.0,H,L
+2026-04-25,Newcastle,Arsenal,0.0,1.0,A,L
+2026-05-02,Newcastle,Brighton,3.0,1.0,H,W
+2026-05-10,Newcastle,Nott'm Forest,1.0,1.0,A,D
+2026-05-17,Newcastle,West Ham,3.0,1.0,H,W
+2026-05-24,Newcastle,Fulham,0.0,2.0,A,L
+2022-03-13,Norwich,Leeds,1.0,2.0,A,L
+2022-04-02,Norwich,Brighton,0.0,0.0,A,D
+2022-04-10,Norwich,Burnley,2.0,0.0,H,W
+2022-04-16,Norwich,Man United,2.0,3.0,A,L
+2022-04-23,Norwich,Newcastle,0.0,3.0,H,L
+2022-04-30,Norwich,Aston Villa,0.0,2.0,A,L
+2022-05-08,Norwich,West Ham,0.0,4.0,H,L
+2022-05-11,Norwich,Leicester,0.0,3.0,A,L
+2022-05-15,Norwich,Wolves,1.0,1.0,A,D
+2022-05-22,Norwich,Tottenham,0.0,5.0,H,L
+2026-03-04,Nott'm Forest,Man City,2.0,2.0,A,D
+2026-03-15,Nott'm Forest,Fulham,0.0,0.0,H,D
+2026-03-22,Nott'm Forest,Tottenham,3.0,0.0,A,W
+2026-04-12,Nott'm Forest,Aston Villa,1.0,1.0,H,D
+2026-04-19,Nott'm Forest,Burnley,4.0,1.0,H,W
+2026-04-24,Nott'm Forest,Sunderland,5.0,0.0,A,W
+2026-05-04,Nott'm Forest,Chelsea,3.0,1.0,A,W
+2026-05-10,Nott'm Forest,Newcastle,1.0,1.0,H,D
+2026-05-17,Nott'm Forest,Man United,2.0,3.0,A,L
+2026-05-24,Nott'm Forest,Bournemouth,1.0,1.0,H,D
+2009-04-04,Numancia,Betis,3.0,3.0,A,D
+2009-04-12,Numancia,Espanol,0.0,0.0,H,D
+2009-04-18,Numancia,Ath Madrid,0.0,3.0,A,L
+2009-04-21,Numancia,Ath Bilbao,1.0,2.0,H,L
+2009-04-25,Numancia,Almeria,1.0,2.0,A,L
+2009-05-02,Numancia,Malaga,2.0,0.0,H,W
+2009-05-10,Numancia,Valladolid,0.0,0.0,A,D
+2009-05-17,Numancia,Recreativo,1.0,0.0,H,W
+2009-05-23,Numancia,Getafe,0.0,1.0,A,L
+2009-05-31,Numancia,Sevilla,0.0,2.0,H,L
+1994-03-30,Oldham,Southampton,3.0,1.0,A,W
+1994-04-02,Oldham,QPR,4.0,1.0,H,W
+1994-04-04,Oldham,Man United,2.0,3.0,A,L
+1994-04-16,Oldham,West Ham,1.0,2.0,H,L
+1994-04-23,Oldham,Newcastle,2.0,3.0,A,L
+1994-04-26,Oldham,Wimbledon,0.0,3.0,A,L
+1994-04-30,Oldham,Sheffield Weds,0.0,0.0,H,D
+1994-05-03,Oldham,Sheffield United,1.0,1.0,H,D
+1994-05-05,Oldham,Tottenham,0.0,2.0,H,L
+1994-05-07,Oldham,Norwich,1.0,1.0,A,D
+2026-03-21,Osasuna,Girona,1.0,0.0,H,W
+2026-04-05,Osasuna,Alaves,2.0,2.0,A,D
+2026-04-12,Osasuna,Betis,1.0,1.0,H,D
+2026-04-21,Osasuna,Ath Bilbao,0.0,1.0,A,L
+2026-04-26,Osasuna,Sevilla,2.0,1.0,H,W
+2026-05-02,Osasuna,Barcelona,1.0,2.0,H,L
+2026-05-08,Osasuna,Levante,2.0,3.0,A,L
+2026-05-12,Osasuna,Ath Madrid,1.0,2.0,H,L
+2026-05-17,Osasuna,Espanol,1.0,2.0,H,L
+2026-05-23,Osasuna,Getafe,0.0,1.0,A,L
+2026-03-21,Oviedo,Levante,2.0,4.0,A,L
+2026-04-05,Oviedo,Sevilla,1.0,0.0,H,W
+2026-04-12,Oviedo,Celta,3.0,0.0,A,W
+2026-04-23,Oviedo,Villarreal,1.0,1.0,H,D
+2026-04-26,Oviedo,Elche,1.0,2.0,H,L
+2026-05-03,Oviedo,Betis,0.0,3.0,A,L
+2026-05-10,Oviedo,Getafe,0.0,0.0,H,D
+2026-05-14,Oviedo,Real Madrid,0.0,2.0,A,L
+2026-05-17,Oviedo,Alaves,0.0,1.0,H,L
+2026-05-23,Oviedo,Mallorca,0.0,3.0,A,L
+2010-03-15,Portsmouth,Liverpool,1.0,4.0,A,L
+2010-03-20,Portsmouth,Hull,3.0,2.0,H,W
+2010-03-24,Portsmouth,Chelsea,0.0,5.0,H,L
+2010-03-27,Portsmouth,Tottenham,0.0,2.0,A,L
+2010-04-03,Portsmouth,Blackburn,0.0,0.0,H,D
+2010-04-14,Portsmouth,Wigan,0.0,0.0,A,D
+2010-04-18,Portsmouth,Aston Villa,1.0,2.0,H,L
+2010-04-24,Portsmouth,Bolton,2.0,2.0,A,D
+2010-05-01,Portsmouth,Wolves,3.0,1.0,H,W
+2010-05-09,Portsmouth,Everton,0.0,1.0,A,L
+2015-03-14,QPR,Crystal Palace,1.0,3.0,A,L
+2015-03-22,QPR,Everton,1.0,2.0,H,L
+2015-04-04,QPR,West Brom,4.0,1.0,A,W
+2015-04-07,QPR,Aston Villa,3.0,3.0,A,D
+2015-04-12,QPR,Chelsea,0.0,1.0,H,L
+2015-04-25,QPR,West Ham,0.0,0.0,H,D
+2015-05-02,QPR,Liverpool,1.0,2.0,A,L
+2015-05-10,QPR,Man City,0.0,6.0,A,L
+2015-05-16,QPR,Newcastle,2.0,1.0,H,W
+2015-05-24,QPR,Leicester,1.0,5.0,A,L
+2013-03-09,Reading,Aston Villa,1.0,2.0,H,L
+2013-03-16,Reading,Man United,0.0,1.0,A,L
+2013-03-30,Reading,Arsenal,1.0,4.0,A,L
+2013-04-06,Reading,Southampton,0.0,2.0,H,L
+2013-04-13,Reading,Liverpool,0.0,0.0,H,D
+2013-04-20,Reading,Norwich,1.0,2.0,A,L
+2013-04-28,Reading,QPR,0.0,0.0,H,D
+2013-05-04,Reading,Fulham,4.0,2.0,A,W
+2013-05-14,Reading,Man City,0.0,2.0,H,L
+2013-05-19,Reading,West Ham,2.0,4.0,A,L
+2026-03-22,Real Madrid,Ath Madrid,3.0,2.0,H,W
+2026-04-04,Real Madrid,Mallorca,1.0,2.0,A,L
+2026-04-10,Real Madrid,Girona,1.0,1.0,H,D
+2026-04-21,Real Madrid,Alaves,2.0,1.0,H,W
+2026-04-24,Real Madrid,Betis,1.0,1.0,A,D
+2026-05-03,Real Madrid,Espanol,2.0,0.0,A,W
+2026-05-10,Real Madrid,Barcelona,0.0,2.0,A,L
+2026-05-14,Real Madrid,Oviedo,2.0,0.0,H,W
+2026-05-17,Real Madrid,Sevilla,1.0,0.0,A,W
+2026-05-23,Real Madrid,Ath Bilbao,4.0,2.0,H,W
+2009-04-04,Recreativo,Sevilla,0.0,1.0,H,L
+2009-04-11,Recreativo,Barcelona,0.0,2.0,A,L
+2009-04-18,Recreativo,Real Madrid,0.0,1.0,H,L
+2009-04-23,Recreativo,Villarreal,1.0,2.0,A,L
+2009-04-26,Recreativo,Mallorca,2.0,4.0,H,L
+2009-05-03,Recreativo,Osasuna,2.0,1.0,A,W
+2009-05-10,Recreativo,La Coruna,1.0,2.0,H,L
+2009-05-17,Recreativo,Numancia,0.0,1.0,A,L
+2009-05-23,Recreativo,Santander,0.0,1.0,H,L
+2009-05-31,Recreativo,Sp Gijon,1.0,2.0,A,L
+1999-04-11,Salamanca,Santander,1.0,2.0,H,L
+1999-04-18,Salamanca,Extremadura,1.0,1.0,A,D
+1999-04-25,Salamanca,Real Madrid,1.0,1.0,H,D
+1999-05-02,Salamanca,Celta,0.0,1.0,A,L
+1999-05-09,Salamanca,Valencia,0.0,1.0,H,L
+1999-05-16,Salamanca,Alaves,1.0,0.0,H,W
+1999-05-23,Salamanca,Espanol,0.0,4.0,A,L
+1999-05-30,Salamanca,Sociedad,0.0,1.0,H,L
+1999-06-13,Salamanca,Oviedo,2.0,3.0,A,L
+1999-06-19,Salamanca,Tenerife,1.0,2.0,H,L
+2012-03-25,Santander,Betis,1.0,1.0,A,D
+2012-03-31,Santander,Granada,0.0,1.0,H,L
+2012-04-09,Santander,Malaga,0.0,3.0,A,L
+2012-04-12,Santander,Mallorca,0.0,3.0,H,L
+2012-04-15,Santander,Villarreal,1.0,1.0,A,D
+2012-04-22,Santander,Ath Bilbao,0.0,1.0,H,L
+2012-04-28,Santander,Sociedad,0.0,3.0,A,L
+2012-05-01,Santander,Getafe,1.0,1.0,A,D
+2012-05-05,Santander,Zaragoza,1.0,2.0,A,L
+2012-05-13,Santander,Osasuna,2.0,4.0,H,L
+2026-03-21,Sevilla,Valencia,0.0,2.0,H,L
+2026-04-05,Sevilla,Oviedo,0.0,1.0,A,L
+2026-04-11,Sevilla,Ath Madrid,2.0,1.0,H,W
+2026-04-23,Sevilla,Levante,0.0,2.0,A,L
+2026-04-26,Sevilla,Osasuna,1.0,2.0,A,L
+2026-05-04,Sevilla,Sociedad,1.0,0.0,H,W
+2026-05-09,Sevilla,Espanol,2.0,1.0,H,W
+2026-05-13,Sevilla,Villarreal,3.0,2.0,A,W
+2026-05-17,Sevilla,Real Madrid,0.0,1.0,H,L
+2026-05-23,Sevilla,Celta,0.0,1.0,A,L
+2024-03-30,Sheffield United,Fulham,3.0,3.0,H,D
+2024-04-04,Sheffield United,Liverpool,1.0,3.0,A,L
+2024-04-07,Sheffield United,Chelsea,2.0,2.0,H,D
+2024-04-13,Sheffield United,Brentford,0.0,2.0,A,L
+2024-04-20,Sheffield United,Burnley,1.0,4.0,H,L
+2024-04-24,Sheffield United,Man United,2.0,4.0,A,L
+2024-04-27,Sheffield United,Newcastle,1.0,5.0,A,L
+2024-05-04,Sheffield United,Nott'm Forest,1.0,3.0,H,L
+2024-05-11,Sheffield United,Everton,0.0,1.0,A,L
+2024-05-19,Sheffield United,Tottenham,0.0,3.0,H,L
+2000-03-18,Sheffield Weds,Watford,0.0,1.0,A,L
+2000-03-25,Sheffield Weds,Middlesbrough,0.0,1.0,A,L
+2000-04-05,Sheffield Weds,Aston Villa,0.0,1.0,H,L
+2000-04-12,Sheffield Weds,Wimbledon,2.0,0.0,A,W
+2000-04-15,Sheffield Weds,Chelsea,1.0,0.0,H,W
+2000-04-22,Sheffield Weds,Sunderland,0.0,2.0,H,L
+2000-04-30,Sheffield Weds,Leeds,0.0,3.0,H,L
+2000-05-06,Sheffield Weds,Coventry,1.0,4.0,A,L
+2000-05-09,Sheffield Weds,Arsenal,3.0,3.0,A,D
+2000-05-14,Sheffield Weds,Leicester,4.0,0.0,H,W
+2026-03-20,Sociedad,Villarreal,1.0,3.0,A,L
+2026-04-04,Sociedad,Levante,2.0,0.0,H,W
+2026-04-11,Sociedad,Alaves,3.0,3.0,H,D
+2026-04-22,Sociedad,Getafe,0.0,1.0,H,L
+2026-04-26,Sociedad,Vallecano,3.0,3.0,A,D
+2026-05-04,Sociedad,Sevilla,0.0,1.0,A,L
+2026-05-09,Sociedad,Betis,2.0,2.0,H,D
+2026-05-14,Sociedad,Girona,1.0,1.0,A,D
+2026-05-17,Sociedad,Valencia,3.0,4.0,H,L
+2026-05-23,Sociedad,Espanol,1.0,1.0,A,D
+2025-03-15,Southampton,Wolves,1.0,2.0,H,L
+2025-04-02,Southampton,Crystal Palace,1.0,1.0,H,D
+2025-04-06,Southampton,Tottenham,1.0,3.0,A,L
+2025-04-12,Southampton,Aston Villa,0.0,3.0,H,L
+2025-04-19,Southampton,West Ham,1.0,1.0,A,D
+2025-04-26,Southampton,Fulham,1.0,2.0,H,L
+2025-05-03,Southampton,Leicester,0.0,2.0,A,L
+2025-05-10,Southampton,Man City,0.0,0.0,H,D
+2025-05-18,Southampton,Everton,0.0,2.0,A,L
+2025-05-25,Southampton,Arsenal,1.0,2.0,H,L
+2017-04-02,Sp Gijon,Sevilla,0.0,0.0,A,D
+2017-04-05,Sp Gijon,Malaga,0.0,1.0,H,L
+2017-04-10,Sp Gijon,Sociedad,1.0,3.0,A,L
+2017-04-15,Sp Gijon,Real Madrid,2.0,3.0,H,L
+2017-04-22,Sp Gijon,Osasuna,2.0,2.0,A,D
+2017-04-25,Sp Gijon,Espanol,1.0,1.0,H,D
+2017-04-28,Sp Gijon,Villarreal,1.0,3.0,A,L
+2017-05-06,Sp Gijon,Las Palmas,1.0,0.0,H,W
+2017-05-14,Sp Gijon,Eibar,1.0,0.0,A,W
+2017-05-20,Sp Gijon,Betis,2.0,2.0,H,D
+2018-03-03,Stoke,Southampton,0.0,0.0,A,D
+2018-03-12,Stoke,Man City,0.0,2.0,H,L
+2018-03-17,Stoke,Everton,1.0,2.0,H,L
+2018-04-01,Stoke,Arsenal,0.0,3.0,A,L
+2018-04-07,Stoke,Tottenham,1.0,2.0,H,L
+2018-04-16,Stoke,West Ham,1.0,1.0,A,D
+2018-04-22,Stoke,Burnley,1.0,1.0,H,D
+2018-04-28,Stoke,Liverpool,0.0,0.0,A,D
+2018-05-05,Stoke,Crystal Palace,1.0,2.0,H,L
+2018-05-13,Stoke,Swansea,2.0,1.0,A,W
+2026-03-03,Sunderland,Leeds,1.0,0.0,A,W
+2026-03-14,Sunderland,Brighton,0.0,1.0,H,L
+2026-03-22,Sunderland,Newcastle,2.0,1.0,A,W
+2026-04-12,Sunderland,Tottenham,1.0,0.0,H,W
+2026-04-19,Sunderland,Aston Villa,3.0,4.0,A,L
+2026-04-24,Sunderland,Nott'm Forest,0.0,5.0,H,L
+2026-05-02,Sunderland,Wolves,1.0,1.0,A,D
+2026-05-09,Sunderland,Man United,0.0,0.0,H,D
+2026-05-17,Sunderland,Everton,3.0,1.0,A,W
+2026-05-24,Sunderland,Chelsea,2.0,1.0,H,W
+2018-03-03,Swansea,West Ham,4.0,1.0,H,W
+2018-03-10,Swansea,Huddersfield,0.0,0.0,A,D
+2018-03-31,Swansea,Man United,0.0,2.0,A,L
+2018-04-07,Swansea,West Brom,1.0,1.0,A,D
+2018-04-14,Swansea,Everton,1.0,1.0,H,D
+2018-04-22,Swansea,Man City,0.0,5.0,A,L
+2018-04-28,Swansea,Chelsea,0.0,1.0,H,L
+2018-05-05,Swansea,Bournemouth,0.0,1.0,A,L
+2018-05-08,Swansea,Southampton,0.0,1.0,H,L
+2018-05-13,Swansea,Stoke,1.0,2.0,H,L
+1994-03-12,Swindon,Newcastle,1.0,7.0,A,L
+1994-03-19,Swindon,Man United,2.0,2.0,H,D
+1994-03-26,Swindon,Blackburn,1.0,3.0,A,L
+1994-04-02,Swindon,Arsenal,1.0,1.0,A,D
+1994-04-04,Swindon,Sheffield Weds,0.0,1.0,H,L
+1994-04-16,Swindon,Ipswich,1.0,1.0,A,D
+1994-04-23,Swindon,Wimbledon,2.0,4.0,H,L
+1994-04-27,Swindon,Chelsea,0.0,2.0,A,L
+1994-04-30,Swindon,QPR,3.0,1.0,A,W
+1994-05-07,Swindon,Leeds,0.0,5.0,H,L
+2010-03-27,Tenerife,Malaga,1.0,1.0,A,D
+2010-04-03,Tenerife,Sevilla,0.0,3.0,A,L
+2010-04-10,Tenerife,Valladolid,0.0,0.0,H,D
+2010-04-13,Tenerife,Sp Gijon,2.0,0.0,A,W
+2010-04-18,Tenerife,Getafe,3.0,2.0,H,W
+2010-04-25,Tenerife,Ath Madrid,1.0,3.0,A,L
+2010-05-01,Tenerife,Santander,2.0,1.0,H,W
+2010-05-04,Tenerife,Barcelona,1.0,4.0,A,L
+2010-05-08,Tenerife,Almeria,2.0,2.0,H,D
+2010-05-16,Tenerife,Valencia,0.0,1.0,A,L
+2026-03-05,Tottenham,Crystal Palace,1.0,3.0,H,L
+2026-03-15,Tottenham,Liverpool,1.0,1.0,A,D
+2026-03-22,Tottenham,Nott'm Forest,0.0,3.0,H,L
+2026-04-12,Tottenham,Sunderland,0.0,1.0,A,L
+2026-04-18,Tottenham,Brighton,2.0,2.0,H,D
+2026-04-25,Tottenham,Wolves,1.0,0.0,A,W
+2026-05-03,Tottenham,Aston Villa,2.0,1.0,A,W
+2026-05-11,Tottenham,Leeds,1.0,1.0,H,D
+2026-05-19,Tottenham,Chelsea,1.0,2.0,A,L
+2026-05-24,Tottenham,Everton,1.0,0.0,H,W
+2026-03-21,Valencia,Sevilla,2.0,0.0,A,W
+2026-04-05,Valencia,Celta,2.0,3.0,H,L
+2026-04-11,Valencia,Elche,0.0,1.0,A,L
+2026-04-21,Valencia,Mallorca,1.0,1.0,A,D
+2026-04-25,Valencia,Girona,2.0,1.0,H,W
+2026-05-02,Valencia,Ath Madrid,0.0,2.0,H,L
+2026-05-10,Valencia,Ath Bilbao,1.0,0.0,A,W
+2026-05-14,Valencia,Vallecano,1.0,1.0,H,D
+2026-05-17,Valencia,Sociedad,4.0,3.0,A,W
+2026-05-23,Valencia,Barcelona,3.0,1.0,H,W
+2025-03-29,Valladolid,Sociedad,1.0,2.0,A,L
+2025-04-06,Valladolid,Getafe,0.0,4.0,H,L
+2025-04-14,Valladolid,Ath Madrid,2.0,4.0,A,L
+2025-04-20,Valladolid,Osasuna,2.0,3.0,H,L
+2025-04-24,Valladolid,Betis,1.0,5.0,A,L
+2025-05-03,Valladolid,Barcelona,1.0,2.0,H,L
+2025-05-10,Valladolid,Mallorca,1.0,2.0,A,L
+2025-05-13,Valladolid,Girona,0.0,1.0,H,L
+2025-05-18,Valladolid,Alaves,0.0,1.0,H,L
+2025-05-24,Valladolid,Leganes,0.0,3.0,A,L
+2026-03-22,Vallecano,Barcelona,0.0,1.0,A,L
+2026-04-03,Vallecano,Elche,1.0,0.0,H,W
+2026-04-12,Vallecano,Mallorca,0.0,3.0,A,L
+2026-04-23,Vallecano,Espanol,1.0,0.0,H,W
+2026-04-26,Vallecano,Sociedad,3.0,3.0,H,D
+2026-05-03,Vallecano,Getafe,2.0,0.0,A,W
+2026-05-11,Vallecano,Girona,1.0,1.0,H,D
+2026-05-14,Vallecano,Valencia,1.0,1.0,A,D
+2026-05-17,Vallecano,Villarreal,2.0,0.0,H,W
+2026-05-23,Vallecano,Alaves,2.0,1.0,A,W
+1999-04-11,Villareal,Ath Madrid,2.0,2.0,A,D
+1999-04-18,Villareal,La Coruna,1.0,2.0,H,L
+1999-04-25,Villareal,Alaves,1.0,2.0,A,L
+1999-05-02,Villareal,Valladolid,0.0,1.0,A,L
+1999-05-09,Villareal,Barcelona,2.0,3.0,H,L
+1999-05-16,Villareal,Ath Bilbao,0.0,2.0,A,L
+1999-05-23,Villareal,Betis,3.0,4.0,H,L
+1999-05-30,Villareal,Zaragoza,0.0,4.0,A,L
+1999-06-13,Villareal,Santander,3.0,0.0,H,W
+1999-06-20,Villareal,Extremadura,2.0,2.0,A,D
+2026-03-20,Villarreal,Sociedad,3.0,1.0,H,W
+2026-04-06,Villarreal,Girona,0.0,1.0,A,L
+2026-04-12,Villarreal,Ath Bilbao,2.0,1.0,A,W
+2026-04-23,Villarreal,Oviedo,1.0,1.0,A,D
+2026-04-26,Villarreal,Celta,2.0,1.0,H,W
+2026-05-02,Villarreal,Levante,5.0,1.0,H,W
+2026-05-10,Villarreal,Mallorca,1.0,1.0,A,D
+2026-05-13,Villarreal,Sevilla,2.0,3.0,H,L
+2026-05-17,Villarreal,Vallecano,0.0,2.0,A,L
+2026-05-24,Villarreal,Ath Madrid,5.0,1.0,H,W
+2022-03-13,Watford,Southampton,2.0,1.0,A,W
+2022-04-02,Watford,Liverpool,0.0,2.0,A,L
+2022-04-09,Watford,Leeds,0.0,3.0,H,L
+2022-04-16,Watford,Brentford,1.0,2.0,H,L
+2022-04-23,Watford,Man City,1.0,5.0,A,L
+2022-04-30,Watford,Burnley,1.0,2.0,H,L
+2022-05-07,Watford,Crystal Palace,0.0,1.0,A,L
+2022-05-11,Watford,Everton,0.0,0.0,H,D
+2022-05-15,Watford,Leicester,1.0,5.0,H,L
+2022-05-22,Watford,Chelsea,1.0,2.0,A,L
+2021-03-13,West Brom,Crystal Palace,0.0,1.0,A,L
+2021-04-03,West Brom,Chelsea,5.0,2.0,A,W
+2021-04-12,West Brom,Southampton,3.0,0.0,H,W
+2021-04-22,West Brom,Leicester,0.0,3.0,A,L
+2021-04-25,West Brom,Aston Villa,2.0,2.0,A,D
+2021-05-03,West Brom,Wolves,1.0,1.0,H,D
+2021-05-09,West Brom,Arsenal,1.0,3.0,A,L
+2021-05-16,West Brom,Liverpool,1.0,2.0,H,L
+2021-05-19,West Brom,West Ham,1.0,3.0,H,L
+2021-05-23,West Brom,Leeds,1.0,3.0,A,L
+2026-03-04,West Ham,Fulham,1.0,0.0,A,W
+2026-03-14,West Ham,Man City,1.0,1.0,H,D
+2026-03-22,West Ham,Aston Villa,0.0,2.0,A,L
+2026-04-10,West Ham,Wolves,4.0,0.0,H,W
+2026-04-20,West Ham,Crystal Palace,0.0,0.0,A,D
+2026-04-25,West Ham,Everton,2.0,1.0,H,W
+2026-05-02,West Ham,Brentford,0.0,3.0,A,L
+2026-05-10,West Ham,Arsenal,0.0,1.0,H,L
+2026-05-17,West Ham,Newcastle,1.0,3.0,A,L
+2026-05-24,West Ham,Leeds,3.0,0.0,H,W
+2013-03-17,Wigan,Newcastle,2.0,1.0,H,W
+2013-03-30,Wigan,Norwich,1.0,0.0,H,W
+2013-04-07,Wigan,QPR,1.0,1.0,A,D
+2013-04-17,Wigan,Man City,0.0,1.0,A,L
+2013-04-20,Wigan,West Ham,0.0,2.0,A,L
+2013-04-27,Wigan,Tottenham,2.0,2.0,H,D
+2013-05-04,Wigan,West Brom,3.0,2.0,A,W
+2013-05-07,Wigan,Swansea,2.0,3.0,H,L
+2013-05-14,Wigan,Arsenal,1.0,4.0,A,L
+2013-05-19,Wigan,Aston Villa,2.0,2.0,H,D
+2000-03-19,Wimbledon,Leeds,1.0,4.0,A,L
+2000-03-26,Wimbledon,West Ham,1.0,2.0,A,L
+2000-04-01,Wimbledon,Arsenal,1.0,3.0,H,L
+2000-04-08,Wimbledon,Sunderland,1.0,2.0,A,L
+2000-04-12,Wimbledon,Sheffield Weds,0.0,2.0,H,L
+2000-04-16,Wimbledon,Liverpool,1.0,2.0,H,L
+2000-04-22,Wimbledon,Tottenham,0.0,2.0,A,L
+2000-04-30,Wimbledon,Bradford,0.0,3.0,A,L
+2000-05-06,Wimbledon,Aston Villa,2.0,2.0,H,D
+2000-05-14,Wimbledon,Southampton,0.0,2.0,A,L
+2026-02-27,Wolves,Aston Villa,2.0,0.0,H,W
+2026-03-03,Wolves,Liverpool,2.0,1.0,H,W
+2026-03-16,Wolves,Brentford,2.0,2.0,A,D
+2026-04-10,Wolves,West Ham,0.0,4.0,A,L
+2026-04-18,Wolves,Leeds,0.0,3.0,A,L
+2026-04-25,Wolves,Tottenham,0.0,1.0,H,L
+2026-05-02,Wolves,Sunderland,1.0,1.0,H,D
+2026-05-09,Wolves,Brighton,0.0,3.0,A,L
+2026-05-17,Wolves,Fulham,1.0,1.0,H,D
+2026-05-24,Wolves,Burnley,1.0,1.0,A,D
+2010-03-28,Xerez,Valladolid,3.0,0.0,H,W
+2010-04-04,Xerez,Sp Gijon,2.0,2.0,A,D
+2010-04-10,Xerez,Getafe,0.0,1.0,H,L
+2010-04-14,Xerez,Ath Madrid,2.0,1.0,A,W
+2010-04-18,Xerez,Santander,2.0,2.0,H,D
+2010-04-24,Xerez,Barcelona,1.0,3.0,A,L
+2010-05-01,Xerez,Almeria,2.0,1.0,H,W
+2010-05-04,Xerez,Valencia,1.0,3.0,A,L
+2010-05-08,Xerez,Zaragoza,3.0,2.0,H,W
+2010-05-16,Xerez,Osasuna,1.0,1.0,A,D
+2013-03-30,Zaragoza,Real Madrid,1.0,1.0,H,D
+2013-04-06,Zaragoza,La Coruna,2.0,3.0,A,L
+2013-04-14,Zaragoza,Barcelona,0.0,3.0,H,L
+2013-04-22,Zaragoza,Celta,1.0,2.0,A,L
+2013-04-27,Zaragoza,Mallorca,3.0,2.0,H,W
+2013-05-05,Zaragoza,Vallecano,3.0,0.0,H,W
+2013-05-10,Zaragoza,Levante,0.0,0.0,A,D
+2013-05-19,Zaragoza,Ath Bilbao,1.0,2.0,H,L
+2013-05-26,Zaragoza,Betis,0.0,4.0,A,L
+2013-06-01,Zaragoza,Ath Madrid,1.0,3.0,H,L

@@ -24,3 +24,6 @@ data/club/*.csv
 !data/club/latest_squad_value.csv
 !data/club/team_league.csv
 !data/club/training_data.csv
+!data/club/standings.csv
+!data/club/recent_matches.csv
+!data/club/recent_h2h.csv
