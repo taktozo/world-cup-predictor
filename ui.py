@@ -49,8 +49,7 @@ footer[data-testid="stFooter"] { visibility: hidden; }
 
 _FOOTER = """
 <div style="text-align:center; color:#8A97AB; font-size:0.8rem; padding-top:0.5rem;">
-    Built by <b>Taktozo Productions</b> &middot;
-    <a href="https://github.com/taktozo/world-cup-predictor" style="color:#8A97AB;" target="_blank">README / source</a>
+    Built by <b>Taktozo Productions</b>
 </div>
 """
 
