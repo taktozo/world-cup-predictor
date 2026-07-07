@@ -142,19 +142,19 @@ if api_token:
         st.error(f"Couldn't fetch fixtures right now ({e}).")
 
 if mode == "Real upcoming fixture":
+    selected_league = st.radio("League", ["EPL", "La Liga"], horizontal=True)
     fixtures = all_fixtures[
-        all_fixtures["home_team"].isin(usable_teams) & all_fixtures["away_team"].isin(usable_teams)
+        (all_fixtures["league"] == selected_league)
+        & all_fixtures["home_team"].isin(usable_teams)
+        & all_fixtures["away_team"].isin(usable_teams)
     ]
     if fixtures.empty:
         st.warning("No predictable upcoming fixtures found. Try hypothetical matchup mode instead.")
     else:
-        labels = [
-            f"{row.date.strftime('%a %d %b')} ({row.league}): {row.home_team} vs {row.away_team}"
-            for row in fixtures.itertuples()
-        ]
+        labels = [row.date.strftime("%a %d %b") + f": {row.home_team} vs {row.away_team}" for row in fixtures.itertuples()]
         choice = st.selectbox("Upcoming fixture", labels)
         chosen = fixtures.iloc[labels.index(choice)]
-        home_team, away_team, selected_league = chosen["home_team"], chosen["away_team"], chosen["league"]
+        home_team, away_team = chosen["home_team"], chosen["away_team"]
 else:
     league = st.radio("League", ["EPL", "La Liga"], horizontal=True)
     selected_league = league
