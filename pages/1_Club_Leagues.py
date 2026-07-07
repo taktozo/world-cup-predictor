@@ -19,6 +19,7 @@ from club_inference import (
     load_latest_squad_value,
     predict_match,
 )
+from fixtures import get_upcoming_fixtures
 from live_refresh import get_refreshed_snapshots
 
 OUTCOME_COLORS = {"Home win": "#4C72B0", "Draw": "#8C8C8C", "Away win": "#C44E52"}
@@ -77,6 +78,11 @@ def get_live_snapshots(_elo, _form, _h2h, committed_max_date):
     return get_refreshed_snapshots(_elo, _form, _h2h, committed_max_date)
 
 
+@st.cache_data(ttl=12 * 60 * 60)  # fixture list barely changes once released
+def get_fixtures(_api_token):
+    return get_upcoming_fixtures(_api_token)
+
+
 st.title("⚽ Club League Score Predictor")
 st.caption(
     "EPL & La Liga. Baseline model: independent Poisson regressions on Elo, recent form, "
@@ -94,14 +100,44 @@ model = get_model(_model_cache_key())
 
 usable_teams = set(committed_elo.index) & set(committed_form.index) & set(latest_squad_value.index)
 
-league = st.radio("League", ["EPL", "La Liga"], horizontal=True)
-teams = sorted(t for t in usable_teams if team_league.get(t) == league)
+try:
+    api_token = st.secrets.get("FOOTBALL_DATA_API_TOKEN")
+except FileNotFoundError:
+    api_token = None  # no secrets.toml configured at all -- fall back gracefully
+mode_options = ["Real upcoming fixture", "Hypothetical matchup"] if api_token else ["Hypothetical matchup"]
+mode = st.radio("Mode", mode_options, horizontal=True)
+if not api_token:
+    st.caption("Real fixtures unavailable (no football-data.org API token configured).")
 
-col1, col2 = st.columns(2)
-with col1:
-    home_team = st.selectbox("Home team", teams, index=0)
-with col2:
-    away_team = st.selectbox("Away team", teams, index=min(1, len(teams) - 1))
+home_team = away_team = None
+
+if mode == "Real upcoming fixture":
+    try:
+        fixtures = get_fixtures(api_token)
+    except Exception as e:
+        st.error(f"Couldn't fetch fixtures right now ({e}). Try hypothetical matchup mode instead.")
+        fixtures = pd.DataFrame(columns=["date", "league", "home_team", "away_team"])
+
+    fixtures = fixtures[fixtures["home_team"].isin(usable_teams) & fixtures["away_team"].isin(usable_teams)]
+    if fixtures.empty:
+        st.warning("No predictable upcoming fixtures found. Try hypothetical matchup mode instead.")
+    else:
+        labels = [
+            f"{row.date.strftime('%a %d %b')} ({row.league}): {row.home_team} vs {row.away_team}"
+            for row in fixtures.itertuples()
+        ]
+        choice = st.selectbox("Upcoming fixture", labels)
+        chosen = fixtures.iloc[labels.index(choice)]
+        home_team, away_team = chosen["home_team"], chosen["away_team"]
+else:
+    league = st.radio("League", ["EPL", "La Liga"], horizontal=True)
+    teams = sorted(t for t in usable_teams if team_league.get(t) == league)
+
+    col1, col2 = st.columns(2)
+    with col1:
+        home_team = st.selectbox("Home team", teams, index=0)
+    with col2:
+        away_team = st.selectbox("Away team", teams, index=min(1, len(teams) - 1))
 
 # Only now attempt the live refresh (hits football-data.co.uk over the network) --
 # if it's slow or fails, fall back to the committed snapshots rather than blocking the page.
