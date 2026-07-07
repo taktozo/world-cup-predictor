@@ -35,7 +35,7 @@ def fetch_current_season_matches() -> pd.DataFrame:
     for div, league_name in LEAGUES.items():
         url = f"https://www.football-data.co.uk/mmz4281/{season}/{div}.csv"
         try:
-            resp = requests.get(url, timeout=15)
+            resp = requests.get(url, timeout=5)
         except requests.RequestException:
             continue
         if resp.status_code != 200 or not resp.content:

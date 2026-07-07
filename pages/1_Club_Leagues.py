@@ -83,6 +83,8 @@ st.caption(
     "head-to-head, and squad market value. Predictions are a starting point, not betting advice."
 )
 
+# Load committed snapshots first (instant, no network) so the team pickers
+# always render regardless of whether the live-refresh call below succeeds.
 committed_elo = get_latest_elo()
 committed_form = get_latest_form()
 committed_h2h = get_latest_h2h()
@@ -90,14 +92,7 @@ latest_squad_value = get_latest_squad_value()
 team_league = get_team_league()
 model = get_model(_model_cache_key())
 
-committed_max_date = get_committed_max_date()
-latest_elo, latest_form, latest_h2h, n_new_matches = get_live_snapshots(
-    committed_elo, committed_form, committed_h2h, committed_max_date
-)
-if n_new_matches:
-    st.caption(f"Ratings updated with {n_new_matches} match(es) played since the last full data refresh.")
-
-usable_teams = set(latest_elo.index) & set(latest_form.index) & set(latest_squad_value.index)
+usable_teams = set(committed_elo.index) & set(committed_form.index) & set(latest_squad_value.index)
 
 league = st.radio("League", ["EPL", "La Liga"], horizontal=True)
 teams = sorted(t for t in usable_teams if team_league.get(t) == league)
@@ -107,6 +102,18 @@ with col1:
     home_team = st.selectbox("Home team", teams, index=0)
 with col2:
     away_team = st.selectbox("Away team", teams, index=min(1, len(teams) - 1))
+
+# Only now attempt the live refresh (hits football-data.co.uk over the network) --
+# if it's slow or fails, fall back to the committed snapshots rather than blocking the page.
+committed_max_date = get_committed_max_date()
+try:
+    latest_elo, latest_form, latest_h2h, n_new_matches = get_live_snapshots(
+        committed_elo, committed_form, committed_h2h, committed_max_date
+    )
+except Exception:
+    latest_elo, latest_form, latest_h2h, n_new_matches = committed_elo, committed_form, committed_h2h, 0
+if n_new_matches:
+    st.caption(f"Ratings updated with {n_new_matches} match(es) played since the last full data refresh.")
 
 if home_team == away_team:
     st.warning("Pick two different teams.")
