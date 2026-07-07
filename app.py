@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 import streamlit as st
 
 from features import FEATURE_COLUMNS
-from inference import fit_model, load_latest_elo, load_latest_form, predict_match
+from inference import fit_model, h2h_diff_for_pair, load_latest_elo, load_latest_form, load_latest_h2h, predict_match
 
 OUTCOME_COLORS = {"Home win": "#4C72B0", "Draw": "#8C8C8C", "Away win": "#C44E52"}
 TRAINING_DATA_PATH = Path(__file__).resolve().parent / "data" / "training_data.csv"
@@ -50,6 +50,11 @@ def get_latest_form():
     return load_latest_form()
 
 
+@st.cache_data
+def get_latest_h2h():
+    return load_latest_h2h()
+
+
 st.title("⚽ World Cup Score Predictor")
 st.caption(
     "Baseline model: independent Poisson regressions on Elo rating and venue. "
@@ -58,6 +63,7 @@ st.caption(
 
 latest_elo = get_latest_elo()
 latest_form = get_latest_form()
+latest_h2h = get_latest_h2h()
 model = get_model(_model_cache_key())
 teams = sorted(set(latest_elo.index) & set(latest_form.index))
 
@@ -73,10 +79,19 @@ neutral = st.checkbox("Neutral venue (e.g. World Cup match)", value=True)
 if home_team == away_team:
     st.warning("Pick two different teams.")
 else:
-    result = predict_match(home_team, away_team, neutral, latest_elo, latest_form, model)
+    result = predict_match(home_team, away_team, neutral, latest_elo, latest_form, latest_h2h, model)
 
-    st.metric(f"{home_team} Elo", f"{result['home_elo']:.0f}")
-    st.metric(f"{away_team} Elo", f"{result['away_elo']:.0f}", delta=None)
+    col_elo1, col_elo2, col_h2h = st.columns(3)
+    with col_elo1:
+        st.metric(f"{home_team} Elo", f"{result['home_elo']:.0f}")
+    with col_elo2:
+        st.metric(f"{away_team} Elo", f"{result['away_elo']:.0f}")
+    with col_h2h:
+        h2h_pair_key = tuple(sorted([home_team, away_team]))
+        h2h_count = (
+            int(latest_h2h.loc[h2h_pair_key, "count"]) if h2h_pair_key in latest_h2h.index else 0
+        )
+        st.metric("Past meetings", h2h_count)
 
     st.subheader("Expected score")
     st.markdown(

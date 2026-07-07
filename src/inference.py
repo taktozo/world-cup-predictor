@@ -20,6 +20,7 @@ DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 MODELS_DIR = Path(__file__).resolve().parent.parent / "models"
 MAX_GOALS = 10  # grid cutoff for outcome-probability summation
 OVER_UNDER_LINES = [0.5, 1.5, 2.5, 3.5, 4.5]
+H2H_SHRINKAGE_K = 4  # head-to-head history is shrunk toward 0 as count/(count+K)
 
 
 def load_latest_elo() -> pd.Series:
@@ -30,6 +31,24 @@ def load_latest_elo() -> pd.Series:
 def load_latest_form() -> pd.DataFrame:
     latest = pd.read_csv(DATA_DIR / "latest_form.csv")
     return latest.set_index("team")
+
+
+def load_latest_h2h() -> pd.DataFrame:
+    """Pairwise head-to-head snapshot: one row per pair of teams that have ever met."""
+    latest = pd.read_csv(DATA_DIR / "latest_h2h.csv")
+    latest.index = pd.MultiIndex.from_arrays([latest["team_a"], latest["team_b"]])
+    return latest
+
+
+def h2h_diff_for_pair(home_team: str, away_team: str, latest_h2h: pd.DataFrame) -> float:
+    """Home team's shrunk historical goal-difference edge over away_team, or 0 if they've never met."""
+    pair_key = tuple(sorted([home_team, away_team]))
+    if pair_key not in latest_h2h.index:
+        return 0.0
+
+    row = latest_h2h.loc[pair_key]
+    sign = 1 if home_team == pair_key[0] else -1
+    return sign * row["mean_diff_team_a"] * row["count"] / (row["count"] + H2H_SHRINKAGE_K)
 
 
 def fit_model() -> dict:
@@ -106,6 +125,7 @@ def predict_match(
     neutral: bool,
     latest_elo: pd.Series,
     latest_form: pd.DataFrame,
+    latest_h2h: pd.DataFrame,
     model: dict,
 ) -> dict:
     row = pd.DataFrame(
@@ -118,6 +138,7 @@ def predict_match(
                 "home_form_goals_against": latest_form.loc[home_team, "form_goals_against"],
                 "away_form_goals_for": latest_form.loc[away_team, "form_goals_for"],
                 "away_form_goals_against": latest_form.loc[away_team, "form_goals_against"],
+                "h2h_diff": h2h_diff_for_pair(home_team, away_team, latest_h2h),
             }
         ]
     )

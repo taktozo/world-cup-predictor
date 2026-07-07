@@ -7,12 +7,13 @@ Usage:
 
 import argparse
 
-from inference import fit_model, load_latest_elo, load_latest_form, predict_match
+from inference import fit_model, h2h_diff_for_pair, load_latest_elo, load_latest_form, load_latest_h2h, predict_match
 
 
 def predict(home_team: str, away_team: str, neutral: bool) -> None:
     latest_elo = load_latest_elo()
     latest_form = load_latest_form()
+    latest_h2h = load_latest_h2h()
     for team in (home_team, away_team):
         if team not in latest_elo.index:
             raise SystemExit(f"No Elo rating found for {team!r}. Check spelling against data/latest_elo.csv.")
@@ -20,10 +21,12 @@ def predict(home_team: str, away_team: str, neutral: bool) -> None:
             raise SystemExit(f"No form data found for {team!r}. Check spelling against data/latest_form.csv.")
 
     model = fit_model()
-    result = predict_match(home_team, away_team, neutral, latest_elo, latest_form, model)
+    result = predict_match(home_team, away_team, neutral, latest_elo, latest_form, latest_h2h, model)
 
     print(f"{home_team} (Elo {result['home_elo']:.0f}) vs {away_team} (Elo {result['away_elo']:.0f})")
     print(f"Neutral venue: {neutral}")
+    h2h = h2h_diff_for_pair(home_team, away_team, latest_h2h)
+    print(f"Head-to-head (shrunk goal diff, {home_team}'s favor): {h2h:+.2f}")
     print(f"\nExpected score: {home_team} {result['home_goals']:.2f} - {result['away_goals']:.2f} {away_team}")
     print(f"\nP({home_team} win) = {result['p_home_win']:.1%}")
     print(f"P(draw)            = {result['p_draw']:.1%}")

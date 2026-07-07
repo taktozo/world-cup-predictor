@@ -11,6 +11,7 @@ data/*.csv
 data/*.zip
 !data/latest_elo.csv
 !data/latest_form.csv
+!data/latest_h2h.csv
 !data/training_data.csv
 
 models/*.joblib
