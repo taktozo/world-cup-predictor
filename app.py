@@ -11,7 +11,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent / "src"))
 import matplotlib.pyplot as plt
 import streamlit as st
 
-from inference import fit_model, load_latest_elo, predict_match
+from inference import fit_model, load_latest_elo, load_latest_form, predict_match
 
 OUTCOME_COLORS = {"Home win": "#4C72B0", "Draw": "#8C8C8C", "Away win": "#C44E52"}
 
@@ -28,6 +28,11 @@ def get_latest_elo():
     return load_latest_elo()
 
 
+@st.cache_data
+def get_latest_form():
+    return load_latest_form()
+
+
 st.title("⚽ World Cup Score Predictor")
 st.caption(
     "Baseline model: independent Poisson regressions on Elo rating and venue. "
@@ -35,8 +40,9 @@ st.caption(
 )
 
 latest_elo = get_latest_elo()
+latest_form = get_latest_form()
 model = get_model()
-teams = sorted(latest_elo.index)
+teams = sorted(set(latest_elo.index) & set(latest_form.index))
 
 col1, col2 = st.columns(2)
 with col1:
@@ -50,7 +56,7 @@ neutral = st.checkbox("Neutral venue (e.g. World Cup match)", value=True)
 if home_team == away_team:
     st.warning("Pick two different teams.")
 else:
-    result = predict_match(home_team, away_team, neutral, latest_elo, model)
+    result = predict_match(home_team, away_team, neutral, latest_elo, latest_form, model)
 
     st.metric(f"{home_team} Elo", f"{result['home_elo']:.0f}")
     st.metric(f"{away_team} Elo", f"{result['away_elo']:.0f}", delta=None)
@@ -74,6 +80,36 @@ else:
     ax.spines[["top", "right"]].set_visible(False)
     ax.invert_yaxis()
     st.pyplot(fig)
+
+    col_btts, col_ou = st.columns(2)
+
+    with col_btts:
+        st.subheader("Both teams to score")
+        btts_labels = ["Yes", "No"]
+        btts_values = [result["p_btts_yes"], result["p_btts_no"]]
+        btts_colors = [OUTCOME_COLORS["Home win"], OUTCOME_COLORS["Draw"]]
+
+        fig, ax = plt.subplots(figsize=(4, 3))
+        bars = ax.bar(btts_labels, btts_values, color=btts_colors, width=0.5)
+        for bar, val in zip(bars, btts_values):
+            ax.text(bar.get_x() + bar.get_width() / 2, val + 0.01, f"{val:.0%}", ha="center", fontsize=10)
+        ax.set_ylim(0, 1)
+        ax.set_ylabel("Probability")
+        ax.spines[["top", "right"]].set_visible(False)
+        st.pyplot(fig)
+
+    with col_ou:
+        st.subheader("Over/under total goals")
+        lines = list(result["over_under"].keys())
+        over_values = list(result["over_under"].values())
+
+        fig, ax = plt.subplots(figsize=(4.5, 3))
+        ax.bar([str(line) for line in lines], over_values, color=OUTCOME_COLORS["Home win"], width=0.6)
+        ax.set_ylim(0, 1)
+        ax.set_xlabel("Line")
+        ax.set_ylabel("P(over)")
+        ax.spines[["top", "right"]].set_visible(False)
+        st.pyplot(fig)
 
 st.divider()
 st.caption(

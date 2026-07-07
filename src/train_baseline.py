@@ -25,9 +25,12 @@ DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 MODELS_DIR = Path(__file__).resolve().parent.parent / "models"
 
 
+FORM_COLUMNS = ["home_form_goals_for", "home_form_goals_against", "away_form_goals_for", "away_form_goals_against"]
+
+
 def load_training_data() -> pd.DataFrame:
-    df = pd.read_csv(DATA_DIR / "results_with_elo.csv", parse_dates=["date"])
-    df = df.dropna(subset=["home_elo", "away_elo", "home_score", "away_score"])
+    df = pd.read_csv(DATA_DIR / "results_with_form.csv", parse_dates=["date"])
+    df = df.dropna(subset=["home_elo", "away_elo", "home_score", "away_score", *FORM_COLUMNS])
     return df.sort_values("date").reset_index(drop=True)
 
 

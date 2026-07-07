@@ -7,17 +7,20 @@ Usage:
 
 import argparse
 
-from inference import fit_model, load_latest_elo, predict_match
+from inference import fit_model, load_latest_elo, load_latest_form, predict_match
 
 
 def predict(home_team: str, away_team: str, neutral: bool) -> None:
     latest_elo = load_latest_elo()
+    latest_form = load_latest_form()
     for team in (home_team, away_team):
         if team not in latest_elo.index:
             raise SystemExit(f"No Elo rating found for {team!r}. Check spelling against data/latest_elo.csv.")
+        if team not in latest_form.index:
+            raise SystemExit(f"No form data found for {team!r}. Check spelling against data/latest_form.csv.")
 
     model = fit_model()
-    result = predict_match(home_team, away_team, neutral, latest_elo, model)
+    result = predict_match(home_team, away_team, neutral, latest_elo, latest_form, model)
 
     print(f"{home_team} (Elo {result['home_elo']:.0f}) vs {away_team} (Elo {result['away_elo']:.0f})")
     print(f"Neutral venue: {neutral}")
@@ -25,6 +28,10 @@ def predict(home_team: str, away_team: str, neutral: bool) -> None:
     print(f"\nP({home_team} win) = {result['p_home_win']:.1%}")
     print(f"P(draw)            = {result['p_draw']:.1%}")
     print(f"P({away_team} win) = {result['p_away_win']:.1%}")
+    print(f"\nBoth teams to score: Yes {result['p_btts_yes']:.1%} / No {result['p_btts_no']:.1%}")
+    print("\nOver/Under total goals:")
+    for line, p_over in result["over_under"].items():
+        print(f"  Over {line} = {p_over:.1%}  |  Under {line} = {1 - p_over:.1%}")
 
 
 def main() -> None:

@@ -10,6 +10,7 @@ venv/
 data/*.csv
 data/*.zip
 !data/latest_elo.csv
+!data/latest_form.csv
 !data/training_data.csv
 
 models/*.joblib
