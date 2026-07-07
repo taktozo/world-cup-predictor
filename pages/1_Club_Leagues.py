@@ -32,7 +32,7 @@ st.set_page_config(page_title="Club League Score Predictor", page_icon="⚽")
 apply_theme()
 
 
-def _model_cache_key() -> str:
+def _club_model_cache_key() -> str:
     """See app.py's _model_cache_key for why this exists: st.cache_resource
     keys on this function's own source, not on the training data it reads,
     so a data/feature update wouldn't otherwise invalidate a running app's
@@ -43,47 +43,47 @@ def _model_cache_key() -> str:
 
 
 @st.cache_resource
-def get_model(cache_key: str):
+def get_club_model(cache_key: str):
     return fit_live_model()
 
 
 @st.cache_data
-def get_latest_elo():
+def get_club_latest_elo():
     return load_latest_elo()
 
 
 @st.cache_data
-def get_latest_form():
+def get_club_latest_form():
     return load_latest_form()
 
 
 @st.cache_data
-def get_latest_h2h():
+def get_club_latest_h2h():
     return load_latest_h2h()
 
 
 @st.cache_data
-def get_latest_squad_value():
+def get_club_latest_squad_value():
     return load_latest_squad_value()
 
 
 @st.cache_data
-def get_team_league():
+def get_club_team_league():
     return pd.read_csv(DATA_DIR / "team_league.csv").set_index("team")["league"]
 
 
 @st.cache_data
-def get_committed_max_date():
+def get_club_committed_max_date():
     return pd.read_csv(DATA_DIR / "training_data.csv", usecols=["Date"], parse_dates=["Date"])["Date"].max()
 
 
 @st.cache_data(ttl=6 * 60 * 60)  # re-check for new results every 6 hours
-def get_live_snapshots(_elo, _form, _h2h, committed_max_date):
+def get_club_live_snapshots(_elo, _form, _h2h, committed_max_date):
     return get_refreshed_snapshots(_elo, _form, _h2h, committed_max_date)
 
 
 @st.cache_data
-def get_last_season_roster():
+def get_club_last_season_roster():
     """Fallback team roster (per league) if fixtures aren't available -- last
     completed season's 20 teams, close to but not guaranteed identical to the
     current season's (promotion/relegation can differ by a few teams)."""
@@ -92,17 +92,17 @@ def get_last_season_roster():
 
 
 @st.cache_data(ttl=12 * 60 * 60)  # fixture list barely changes once released
-def get_fixtures(_api_token):
+def get_club_fixtures(_api_token):
     return get_upcoming_fixtures(_api_token)
 
 
 @st.cache_data
-def get_recent_matches():
+def get_club_recent_matches():
     return pd.read_csv(DATA_DIR / "recent_matches.csv", parse_dates=["date"])
 
 
 @st.cache_data
-def get_recent_h2h():
+def get_club_recent_h2h():
     return pd.read_csv(DATA_DIR / "recent_h2h.csv", parse_dates=["date"])
 
 
@@ -114,12 +114,12 @@ st.caption(
 
 # Load committed snapshots first (instant, no network) so the team pickers
 # always render regardless of whether the live-refresh call below succeeds.
-committed_elo = get_latest_elo()
-committed_form = get_latest_form()
-committed_h2h = get_latest_h2h()
-latest_squad_value = get_latest_squad_value()
-team_league = get_team_league()
-model = get_model(_model_cache_key())
+committed_elo = get_club_latest_elo()
+committed_form = get_club_latest_form()
+committed_h2h = get_club_latest_h2h()
+latest_squad_value = get_club_latest_squad_value()
+team_league = get_club_team_league()
+model = get_club_model(_club_model_cache_key())
 
 usable_teams = set(committed_elo.index) & set(committed_form.index) & set(latest_squad_value.index)
 
@@ -140,7 +140,7 @@ home_team = away_team = selected_league = None
 all_fixtures = pd.DataFrame(columns=["date", "league", "home_team", "away_team"])
 if api_token:
     try:
-        all_fixtures = get_fixtures(api_token)
+        all_fixtures = get_club_fixtures(api_token)
     except Exception as e:
         st.error(f"Couldn't fetch fixtures right now ({e}).")
 
@@ -171,9 +171,9 @@ else:
 
 # Only now attempt the live refresh (hits football-data.co.uk over the network) --
 # if it's slow or fails, fall back to the committed snapshots rather than blocking the page.
-committed_max_date = get_committed_max_date()
+committed_max_date = get_club_committed_max_date()
 try:
-    latest_elo, latest_form, latest_h2h, n_new_matches, current_season_matches = get_live_snapshots(
+    latest_elo, latest_form, latest_h2h, n_new_matches, current_season_matches = get_club_live_snapshots(
         committed_elo, committed_form, committed_h2h, committed_max_date
     )
 except Exception:
@@ -258,7 +258,7 @@ else:
     if not league_fixtures.empty:
         roster = sorted(set(league_fixtures["home_team"]) | set(league_fixtures["away_team"]))
     else:
-        roster = get_last_season_roster().get(selected_league, [])
+        roster = get_club_last_season_roster().get(selected_league, [])
 
     league_matches = (
         current_season_matches[current_season_matches["League"] == selected_league]
@@ -283,7 +283,7 @@ else:
         height=min(38 * (len(live_table) + 1), 780),
     )
 
-    recent_matches = get_recent_matches()
+    recent_matches = get_club_recent_matches()
     col_form1, col_form2 = st.columns(2)
     for col, team in [(col_form1, home_team), (col_form2, away_team)]:
         with col:
@@ -303,7 +303,7 @@ else:
                 st.dataframe(display, use_container_width=True, hide_index=True)
 
     st.subheader("Head-to-head (last 5 meetings)")
-    recent_h2h = get_recent_h2h()
+    recent_h2h = get_club_recent_h2h()
     pair_meetings = recent_h2h[
         ((recent_h2h["team_a"] == home_team) & (recent_h2h["team_b"] == away_team))
         | ((recent_h2h["team_a"] == away_team) & (recent_h2h["team_b"] == home_team))
