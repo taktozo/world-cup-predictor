@@ -4,12 +4,15 @@ Used by predict.py (CLI), train_baseline.py (evaluation), and app.py
 (Streamlit dashboard) so the outcome-probability math lives in one place.
 """
 
+import warnings
 from pathlib import Path
 
-import joblib
 import numpy as np
 import pandas as pd
 from scipy.stats import poisson
+from sklearn.linear_model import PoissonRegressor
+from sklearn.pipeline import make_pipeline
+from sklearn.preprocessing import StandardScaler
 
 from features import build_features
 
@@ -23,8 +26,25 @@ def load_latest_elo() -> pd.Series:
     return latest.set_index("team")["rating"]
 
 
-def load_model() -> dict:
-    return joblib.load(MODELS_DIR / "baseline_poisson.joblib")
+def fit_model() -> dict:
+    """Fit the Poisson model from the committed training CSV.
+
+    Training only takes a couple of seconds, so the deployed app does this
+    once at startup (cached) instead of loading a pickled model -- pickles
+    are fragile across scikit-learn versions/Python versions, which is
+    exactly what broke the first deploy attempt.
+    """
+    df = pd.read_csv(DATA_DIR / "training_data.csv")
+    X = build_features(df)
+
+    with warnings.catch_warnings():
+        warnings.simplefilter("ignore", category=UserWarning)
+        home_model = make_pipeline(StandardScaler(), PoissonRegressor(alpha=1.0, max_iter=500))
+        home_model.fit(X, df["home_score"])
+        away_model = make_pipeline(StandardScaler(), PoissonRegressor(alpha=1.0, max_iter=500))
+        away_model.fit(X, df["away_score"])
+
+    return {"home_model": home_model, "away_model": away_model}
 
 
 def outcome_probabilities(home_lambda: np.ndarray, away_lambda: np.ndarray) -> np.ndarray:

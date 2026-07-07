@@ -11,7 +11,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent / "src"))
 import matplotlib.pyplot as plt
 import streamlit as st
 
-from inference import load_latest_elo, load_model, predict_match
+from inference import fit_model, load_latest_elo, predict_match
 
 OUTCOME_COLORS = {"Home win": "#4C72B0", "Draw": "#8C8C8C", "Away win": "#C44E52"}
 
@@ -20,7 +20,7 @@ st.set_page_config(page_title="World Cup Score Predictor", page_icon="⚽")
 
 @st.cache_resource
 def get_model():
-    return load_model()
+    return fit_model()
 
 
 @st.cache_data

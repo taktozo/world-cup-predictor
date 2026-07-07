@@ -1,0 +1,7 @@
+# Extra dependencies for local development (data pipeline, notebooks) --
+# not needed by the deployed app, so kept out of requirements.txt to
+# keep the Streamlit Cloud build lean.
+-r requirements.txt
+jupyter
+kaggle
+joblib

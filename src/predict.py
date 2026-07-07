@@ -7,7 +7,7 @@ Usage:
 
 import argparse
 
-from inference import load_latest_elo, load_model, predict_match
+from inference import fit_model, load_latest_elo, predict_match
 
 
 def predict(home_team: str, away_team: str, neutral: bool) -> None:
@@ -16,7 +16,7 @@ def predict(home_team: str, away_team: str, neutral: bool) -> None:
         if team not in latest_elo.index:
             raise SystemExit(f"No Elo rating found for {team!r}. Check spelling against data/latest_elo.csv.")
 
-    model = load_model()
+    model = fit_model()
     result = predict_match(home_team, away_team, neutral, latest_elo, model)
 
     print(f"{home_team} (Elo {result['home_elo']:.0f}) vs {away_team} (Elo {result['away_elo']:.0f})")
