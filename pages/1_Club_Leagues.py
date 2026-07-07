@@ -21,6 +21,7 @@ from club_inference import (
 )
 from fixtures import get_upcoming_fixtures
 from live_refresh import get_refreshed_snapshots
+from standings import compute_standings
 
 OUTCOME_COLORS = {"Home win": "#4C72B0", "Draw": "#8C8C8C", "Away win": "#C44E52"}
 DATA_DIR = Path(__file__).resolve().parent.parent / "data" / "club"
@@ -78,14 +79,18 @@ def get_live_snapshots(_elo, _form, _h2h, committed_max_date):
     return get_refreshed_snapshots(_elo, _form, _h2h, committed_max_date)
 
 
+@st.cache_data
+def get_last_season_roster():
+    """Fallback team roster (per league) if fixtures aren't available -- last
+    completed season's 20 teams, close to but not guaranteed identical to the
+    current season's (promotion/relegation can differ by a few teams)."""
+    standings = pd.read_csv(DATA_DIR / "standings.csv")
+    return {league: sorted(df["team"]) for league, df in standings.groupby("league")}
+
+
 @st.cache_data(ttl=12 * 60 * 60)  # fixture list barely changes once released
 def get_fixtures(_api_token):
     return get_upcoming_fixtures(_api_token)
-
-
-@st.cache_data
-def get_standings():
-    return pd.read_csv(DATA_DIR / "standings.csv", index_col="position")
 
 
 @st.cache_data
@@ -126,14 +131,20 @@ if not api_token:
 
 home_team = away_team = selected_league = None
 
-if mode == "Real upcoming fixture":
+# Fetch the raw fixture list once regardless of mode -- used as the picker in
+# "Real upcoming fixture" mode, and as the current season's team roster (so the
+# live table below can show newly promoted/relegated teams correctly) either way.
+all_fixtures = pd.DataFrame(columns=["date", "league", "home_team", "away_team"])
+if api_token:
     try:
-        fixtures = get_fixtures(api_token)
+        all_fixtures = get_fixtures(api_token)
     except Exception as e:
-        st.error(f"Couldn't fetch fixtures right now ({e}). Try hypothetical matchup mode instead.")
-        fixtures = pd.DataFrame(columns=["date", "league", "home_team", "away_team"])
+        st.error(f"Couldn't fetch fixtures right now ({e}).")
 
-    fixtures = fixtures[fixtures["home_team"].isin(usable_teams) & fixtures["away_team"].isin(usable_teams)]
+if mode == "Real upcoming fixture":
+    fixtures = all_fixtures[
+        all_fixtures["home_team"].isin(usable_teams) & all_fixtures["away_team"].isin(usable_teams)
+    ]
     if fixtures.empty:
         st.warning("No predictable upcoming fixtures found. Try hypothetical matchup mode instead.")
     else:
@@ -159,11 +170,12 @@ else:
 # if it's slow or fails, fall back to the committed snapshots rather than blocking the page.
 committed_max_date = get_committed_max_date()
 try:
-    latest_elo, latest_form, latest_h2h, n_new_matches = get_live_snapshots(
+    latest_elo, latest_form, latest_h2h, n_new_matches, current_season_matches = get_live_snapshots(
         committed_elo, committed_form, committed_h2h, committed_max_date
     )
 except Exception:
-    latest_elo, latest_form, latest_h2h, n_new_matches = committed_elo, committed_form, committed_h2h, 0
+    latest_elo, latest_form, latest_h2h = committed_elo, committed_form, committed_h2h
+    n_new_matches, current_season_matches = 0, pd.DataFrame(columns=["League", "HomeTeam", "AwayTeam", "FTHG", "FTAG"])
 if n_new_matches:
     st.caption(f"Ratings updated with {n_new_matches} match(es) played since the last full data refresh.")
 
@@ -239,22 +251,34 @@ else:
 
     st.divider()
 
-    standings = get_standings()
-    league_table = standings[standings["league"] == selected_league]
-    if not league_table.empty:
-        season_label = f"20{league_table['season'].iloc[0] // 100}/{league_table['season'].iloc[0] % 100:02d}"
-        st.subheader(f"{selected_league} table ({season_label})")
+    league_fixtures = all_fixtures[all_fixtures["league"] == selected_league] if not all_fixtures.empty else all_fixtures
+    if not league_fixtures.empty:
+        roster = sorted(set(league_fixtures["home_team"]) | set(league_fixtures["away_team"]))
+    else:
+        roster = get_last_season_roster().get(selected_league, [])
 
-        def _highlight_selected(row):
-            if row["team"] in (home_team, away_team):
-                return ["background-color: rgba(76, 114, 176, 0.25)"] * len(row)
-            return [""] * len(row)
+    league_matches = (
+        current_season_matches[current_season_matches["League"] == selected_league]
+        if not current_season_matches.empty
+        else current_season_matches
+    )
+    live_table = compute_standings(league_matches, teams=roster if roster else None)
 
-        display_cols = ["team", "played", "wins", "draws", "losses", "goal_diff", "points"]
-        st.dataframe(
-            league_table[display_cols].style.apply(_highlight_selected, axis=1),
-            use_container_width=True,
-        )
+    st.subheader(f"{selected_league} table (current season)")
+    if live_table["played"].sum() == 0:
+        st.caption("Season hasn't started yet -- every team is at 0 played / 0 points.")
+
+    def _highlight_selected(row):
+        if row["team"] in (home_team, away_team):
+            return ["background-color: rgba(76, 114, 176, 0.25)"] * len(row)
+        return [""] * len(row)
+
+    display_cols = ["team", "played", "wins", "draws", "losses", "goal_diff", "points"]
+    st.dataframe(
+        live_table[display_cols].style.apply(_highlight_selected, axis=1),
+        use_container_width=True,
+        height=min(38 * (len(live_table) + 1), 780),
+    )
 
     recent_matches = get_recent_matches()
     col_form1, col_form2 = st.columns(2)
@@ -265,7 +289,13 @@ else:
             if team_recent.empty:
                 st.caption("No recent match data available.")
             else:
-                display = team_recent[["date", "opponent", "venue", "goals_for", "goals_against", "result"]].copy()
+                display = team_recent[["date", "opponent", "venue"]].copy()
+                display["score"] = (
+                    team_recent["goals_for"].astype(int).astype(str)
+                    + "-"
+                    + team_recent["goals_against"].astype(int).astype(str)
+                )
+                display["result"] = team_recent["result"]
                 display["date"] = display["date"].dt.strftime("%d %b %Y")
                 st.dataframe(display, use_container_width=True, hide_index=True)
 

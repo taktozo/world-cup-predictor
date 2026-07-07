@@ -1,16 +1,22 @@
 """Compute a league standings table from a set of matches.
 
-Shared between the committed export (last completed season) and the live
-page (recomputing the in-progress season fresh from live_refresh's fetched
-matches, since that's small enough -- at most 380 rows -- to redo from
-scratch each time rather than needing incremental updates).
+Used to build the live, current-season table -- since it needs to show
+every team in the league at 0 played/0 points before a ball is kicked
+(not last season's final table), it takes the season's full team roster
+separately from the played-matches data, so teams with no results yet
+still appear correctly at zero rather than being absent.
 """
 
 import pandas as pd
 
 
-def compute_standings(matches: pd.DataFrame) -> pd.DataFrame:
-    """matches needs HomeTeam, AwayTeam, FTHG, FTAG columns."""
+def compute_standings(matches: pd.DataFrame, teams: list[str] | None = None) -> pd.DataFrame:
+    """matches needs HomeTeam, AwayTeam, FTHG, FTAG columns (can be empty).
+
+    If `teams` is given, every one of those teams appears in the output
+    (zero-filled if they haven't played yet) -- otherwise only teams that
+    appear in `matches` are included.
+    """
     home = matches[["HomeTeam", "FTHG", "FTAG"]].rename(
         columns={"HomeTeam": "team", "FTHG": "goals_for", "FTAG": "goals_against"}
     )
@@ -31,11 +37,15 @@ def compute_standings(matches: pd.DataFrame) -> pd.DataFrame:
         goals_for=("goals_for", "sum"),
         goals_against=("goals_against", "sum"),
     )
+
+    if teams is not None:
+        table = table.reindex(teams, fill_value=0)
+
     table["goal_diff"] = table["goals_for"] - table["goals_against"]
     table["points"] = table["wins"] * 3 + table["draws"]
 
     table = table.sort_values(["points", "goal_diff", "goals_for"], ascending=False)
-    table = table.reset_index()
+    table = table.reset_index(names="team")
     table.index = table.index + 1
     table.index.name = "position"
     return table

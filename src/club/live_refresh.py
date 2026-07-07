@@ -131,18 +131,22 @@ def refresh_h2h(latest_h2h: pd.DataFrame, new_matches: pd.DataFrame) -> pd.DataF
 
 
 def get_refreshed_snapshots(latest_elo, latest_form, latest_h2h, committed_max_date: pd.Timestamp):
-    """Returns (elo, form, h2h, n_new_matches). Falls back to the committed
-    snapshots unchanged if the live fetch fails or has nothing new."""
+    """Returns (elo, form, h2h, n_new_matches, current_season_matches). Falls
+    back to the committed snapshots unchanged if the live fetch fails or has
+    nothing new. current_season_matches is returned even when empty (e.g.
+    the new season hasn't started) so callers can build a live, zero-filled
+    standings table rather than just skipping the update."""
+    empty_matches = pd.DataFrame(columns=["Date", "HomeTeam", "AwayTeam", "FTHG", "FTAG", "League"])
     try:
         fetched = fetch_current_season_matches()
     except Exception:
-        return latest_elo, latest_form, latest_h2h, 0
+        return latest_elo, latest_form, latest_h2h, 0, empty_matches
 
     new_matches = fetched[fetched["Date"] > committed_max_date]
     if new_matches.empty:
-        return latest_elo, latest_form, latest_h2h, 0
+        return latest_elo, latest_form, latest_h2h, 0, empty_matches
 
     updated_elo = refresh_elo(latest_elo, new_matches)
     updated_form = refresh_form(latest_form, new_matches)
     updated_h2h = refresh_h2h(latest_h2h, new_matches)
-    return updated_elo, updated_form, updated_h2h, len(new_matches)
+    return updated_elo, updated_form, updated_h2h, len(new_matches), new_matches
