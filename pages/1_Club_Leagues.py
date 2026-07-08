@@ -21,7 +21,7 @@ from club_inference import (
     load_latest_squad_value,
     predict_match,
 )
-from export_recent_history import RECENT_H2H_WINDOW, build_h2h_log, build_match_log
+from club_export_recent_history import RECENT_H2H_WINDOW, build_h2h_log, build_match_log
 from club_fixtures import get_upcoming_fixtures
 from live_refresh import get_refreshed_snapshots
 from standings import compute_standings

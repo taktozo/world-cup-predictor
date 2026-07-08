@@ -10,8 +10,10 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent / "src"))
 
 import matplotlib.pyplot as plt
+import pandas as pd
 import streamlit as st
 
+from export_recent_history import RECENT_H2H_WINDOW
 from features import FEATURE_COLUMNS
 from fixtures import get_upcoming_fixtures
 from inference import (
@@ -74,6 +76,19 @@ def get_latest_match_date():
 @st.cache_data(ttl=6 * 60 * 60)  # tournament fixtures/results can change during an active World Cup
 def get_fixtures(_api_token):
     return get_upcoming_fixtures(_api_token)
+
+
+DATA_DIR = Path(__file__).resolve().parent / "data"
+
+
+@st.cache_data
+def get_recent_matches():
+    return pd.read_csv(DATA_DIR / "recent_matches.csv", parse_dates=["date"])
+
+
+@st.cache_data
+def get_recent_h2h():
+    return pd.read_csv(DATA_DIR / "recent_h2h.csv", parse_dates=["date"])
 
 
 st.title("⚽ World Cup Score Predictor")
@@ -204,6 +219,40 @@ else:
         ax.set_ylabel("P(over)")
         ax.spines[["top", "right"]].set_visible(False)
         st.pyplot(fig)
+
+    st.divider()
+
+    recent_matches = get_recent_matches()
+    col_form1, col_form2 = st.columns(2)
+    for col, team in [(col_form1, home_team), (col_form2, away_team)]:
+        with col:
+            st.subheader(f"{team} — recent form")
+            team_recent = recent_matches[recent_matches["team"] == team].sort_values("date", ascending=False).head(5)
+            if team_recent.empty:
+                st.caption("No recent match data available.")
+            else:
+                display = team_recent[["date", "opponent", "venue"]].copy()
+                display["score"] = (
+                    team_recent["goals_for"].astype(int).astype(str)
+                    + "-"
+                    + team_recent["goals_against"].astype(int).astype(str)
+                )
+                display["result"] = team_recent["result"]
+                display["date"] = display["date"].dt.strftime("%d %b %Y")
+                st.dataframe(display, use_container_width=True, hide_index=True)
+
+    st.subheader("Head-to-head (last 5 meetings)")
+    recent_h2h = get_recent_h2h()
+    pair_meetings = recent_h2h[
+        ((recent_h2h["team_a"] == home_team) & (recent_h2h["team_b"] == away_team))
+        | ((recent_h2h["team_a"] == away_team) & (recent_h2h["team_b"] == home_team))
+    ].sort_values("date", ascending=False).head(RECENT_H2H_WINDOW)
+    if pair_meetings.empty:
+        st.caption("These two teams haven't met before in our data.")
+    else:
+        display = pair_meetings[["date", "home_team", "away_team", "home_score", "away_score"]].copy()
+        display["date"] = display["date"].dt.strftime("%d %b %Y")
+        st.dataframe(display, use_container_width=True, hide_index=True)
 
 st.divider()
 st.caption(

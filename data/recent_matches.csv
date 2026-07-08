@@ -1,0 +1,3049 @@
+date,team,opponent,goals_for,goals_against,venue,result
+2018-06-02,Abkhazia,Kárpátalja,0.0,2.0,H,L
+2018-06-03,Abkhazia,Northern Cyprus,2.0,2.0,H,D
+2018-06-05,Abkhazia,Tamil Eelam,6.0,0.0,H,W
+2018-06-07,Abkhazia,United Koreans in Japan,2.0,0.0,H,W
+2018-06-09,Abkhazia,Kabylia,2.0,0.0,A,W
+2019-06-02,Abkhazia,Chameria,3.0,1.0,H,W
+2019-06-03,Abkhazia,Sápmi,1.0,0.0,A,W
+2019-06-04,Abkhazia,Artsakh,1.0,1.0,A,D
+2019-06-06,Abkhazia,Western Armenia,1.0,1.0,H,D
+2019-06-08,Abkhazia,Chameria,0.0,0.0,H,D
+2024-11-16,Afghanistan,Nepal,0.0,2.0,A,L
+2024-11-19,Afghanistan,Tajikistan,1.0,3.0,A,L
+2025-03-21,Afghanistan,Thailand,0.0,2.0,A,L
+2025-03-25,Afghanistan,Myanmar,1.0,2.0,A,L
+2025-06-10,Afghanistan,Syria,0.0,1.0,H,L
+2025-10-09,Afghanistan,Pakistan,0.0,0.0,A,D
+2025-10-14,Afghanistan,Pakistan,1.0,1.0,H,D
+2026-06-01,Afghanistan,Maldives,1.0,0.0,A,W
+2026-06-07,Afghanistan,Pakistan,0.0,2.0,H,L
+2026-06-10,Afghanistan,Pakistan,0.0,2.0,H,L
+2025-09-04,Albania,Gibraltar,1.0,0.0,A,W
+2025-09-09,Albania,Latvia,1.0,0.0,H,W
+2025-10-11,Albania,Serbia,1.0,0.0,A,W
+2025-10-14,Albania,Jordan,4.0,2.0,H,W
+2025-11-13,Albania,Andorra,1.0,0.0,A,W
+2025-11-16,Albania,England,0.0,2.0,H,L
+2026-03-26,Albania,Poland,1.0,2.0,A,L
+2026-03-31,Albania,Ukraine,0.0,1.0,A,L
+2026-06-03,Albania,Israel,0.0,1.0,H,L
+2026-06-06,Albania,Luxembourg,0.0,1.0,H,L
+2017-06-26,Alderney,Orkney,0.0,3.0,A,L
+2017-06-27,Alderney,Menorca,0.0,6.0,A,L
+2017-06-29,Alderney,Falkland Islands,3.0,0.0,A,W
+2018-03-24,Alderney,Guernsey,0.0,2.0,H,L
+2019-03-23,Alderney,Jersey,0.0,2.0,H,L
+2019-06-16,Alderney,Hitra,2.0,4.0,H,L
+2019-06-18,Alderney,Isle of Man,1.0,6.0,A,L
+2019-06-20,Alderney,Orkney,2.0,1.0,A,W
+2022-03-25,Alderney,Jersey,1.0,6.0,H,L
+2022-04-23,Alderney,Guernsey,0.0,2.0,H,L
+2026-01-06,Algeria,DR Congo,1.0,0.0,H,W
+2026-01-10,Algeria,Nigeria,0.0,2.0,H,L
+2026-03-27,Algeria,Guatemala,7.0,0.0,H,W
+2026-03-31,Algeria,Uruguay,0.0,0.0,H,D
+2026-06-03,Algeria,Netherlands,1.0,0.0,A,W
+2026-06-10,Algeria,Bolivia,4.0,0.0,A,W
+2026-06-16,Algeria,Argentina,0.0,3.0,A,L
+2026-06-22,Algeria,Jordan,2.0,1.0,A,W
+2026-06-27,Algeria,Austria,3.0,3.0,H,D
+2026-07-02,Algeria,Switzerland,0.0,2.0,A,L
+2005-06-23,Ambazonia,Chechnya,2.0,2.0,A,D
+2006-11-20,Ambazonia,Monaco,0.0,3.0,A,L
+2006-11-21,Ambazonia,Sápmi,0.0,3.0,A,L
+2006-11-23,Ambazonia,Occitania,0.0,3.0,A,L
+2006-11-24,Ambazonia,Occitania,0.0,3.0,A,L
+2007-06-07,Ambazonia,Romani people,1.0,3.0,A,L
+2019-07-12,American Samoa,Tuvalu,1.0,1.0,H,D
+2019-07-15,American Samoa,Solomon Islands,0.0,13.0,A,L
+2019-07-18,American Samoa,Tahiti,1.0,8.0,A,L
+2023-11-20,American Samoa,Samoa,0.0,10.0,A,L
+2023-11-23,American Samoa,Solomon Islands,0.0,11.0,A,L
+2023-11-27,American Samoa,Northern Mariana Islands,0.0,4.0,A,L
+2023-11-30,American Samoa,Tonga,2.0,6.0,H,L
+2024-09-06,American Samoa,Samoa,0.0,2.0,A,L
+2026-03-25,American Samoa,United States Virgin Islands,2.0,5.0,A,L
+2026-03-28,American Samoa,Guam,0.0,6.0,H,L
+1999-12-28,Andalusia,Estonia,1.0,0.0,H,W
+2000-12-22,Andalusia,Morocco,2.0,0.0,H,W
+2001-05-17,Andalusia,Iraq,3.0,1.0,H,W
+2001-12-27,Andalusia,Tunisia,3.0,3.0,H,D
+2002-12-27,Andalusia,Chile,3.0,2.0,H,W
+2003-12-27,Andalusia,Latvia,1.0,0.0,H,W
+2004-12-29,Andalusia,Malta,0.0,0.0,H,D
+2005-12-28,Andalusia,China,4.0,1.0,H,W
+2007-12-27,Andalusia,Zambia,4.0,1.0,H,W
+2013-06-07,Andalusia,Madrid,2.0,1.0,A,W
+2025-09-09,Andorra,Estonia,0.0,0.0,A,D
+2025-10-11,Andorra,Latvia,2.0,2.0,A,D
+2025-10-14,Andorra,Serbia,1.0,3.0,H,L
+2025-11-13,Andorra,Albania,0.0,1.0,H,L
+2025-11-17,Andorra,Finland,0.0,4.0,A,L
+2026-03-27,Andorra,Montenegro,0.0,2.0,A,L
+2026-03-31,Andorra,San Marino,0.0,0.0,A,D
+2026-05-29,Andorra,Iraq,0.0,1.0,H,L
+2026-06-04,Andorra,Liechtenstein,2.0,0.0,H,W
+2026-06-07,Andorra,Kosovo,0.0,3.0,A,L
+2025-09-09,Angola,Mauritius,3.0,1.0,H,W
+2025-10-08,Angola,Eswatini,2.0,2.0,A,D
+2025-10-13,Angola,Cameroon,0.0,0.0,A,D
+2025-11-14,Angola,Argentina,0.0,2.0,H,L
+2025-11-18,Angola,Zambia,3.0,2.0,H,W
+2025-12-22,Angola,South Africa,1.0,2.0,A,L
+2025-12-26,Angola,Zimbabwe,1.0,1.0,H,D
+2025-12-29,Angola,Egypt,0.0,0.0,H,D
+2026-06-05,Angola,Mauritania,1.0,1.0,H,D
+2026-06-09,Angola,Central African Republic,3.0,0.0,H,W
+2024-10-09,Anguilla,Belize,0.0,1.0,A,L
+2024-10-12,Anguilla,Turks and Caicos Islands,1.0,2.0,A,L
+2025-05-25,Anguilla,Saint Kitts and Nevis,2.0,4.0,H,L
+2025-06-01,Anguilla,Grenada,0.0,2.0,A,L
+2025-06-04,Anguilla,Saint Vincent and the Grenadines,0.0,6.0,A,L
+2025-06-07,Anguilla,El Salvador,0.0,3.0,H,L
+2025-11-12,Anguilla,Bahamas,2.0,1.0,A,W
+2025-11-15,Anguilla,Cayman Islands,0.0,4.0,A,L
+2026-03-26,Anguilla,Bahamas,3.0,1.0,A,W
+2026-03-29,Anguilla,British Virgin Islands,0.0,4.0,A,L
+2024-09-07,Antigua and Barbuda,Dominica,1.0,2.0,H,L
+2024-09-10,Antigua and Barbuda,Bermuda,0.0,1.0,H,L
+2024-10-12,Antigua and Barbuda,Dominican Republic,0.0,5.0,H,L
+2024-10-15,Antigua and Barbuda,Dominican Republic,0.0,5.0,A,L
+2024-11-16,Antigua and Barbuda,Bermuda,1.0,2.0,A,L
+2024-11-19,Antigua and Barbuda,Dominica,0.0,0.0,H,D
+2025-06-06,Antigua and Barbuda,Cuba,0.0,1.0,H,L
+2025-06-10,Antigua and Barbuda,Honduras,0.0,2.0,A,L
+2025-11-12,Antigua and Barbuda,Aruba,0.0,0.0,H,D
+2025-11-18,Antigua and Barbuda,Guyana,1.0,4.0,H,L
+2008-07-09,Arameans Suryoye,Sápmi,1.0,0.0,A,W
+2008-07-10,Arameans Suryoye,Provence,5.0,0.0,H,W
+2008-07-11,Arameans Suryoye,Iraqi Kurdistan,0.0,0.0,A,D
+2008-07-12,Arameans Suryoye,Padania,1.0,4.0,A,L
+2008-07-13,Arameans Suryoye,Padania,0.0,2.0,A,L
+2014-06-01,Arameans Suryoye,Iraqi Kurdistan,2.0,1.0,A,W
+2014-06-02,Arameans Suryoye,Tamil Eelam,2.0,0.0,A,W
+2014-06-04,Arameans Suryoye,Occitania,0.0,0.0,H,D
+2014-06-06,Arameans Suryoye,Ellan Vannin,1.0,4.0,H,L
+2014-06-08,Arameans Suryoye,South Ossetia,4.0,1.0,A,W
+2025-10-14,Argentina,Puerto Rico,6.0,0.0,A,W
+2025-11-14,Argentina,Angola,2.0,0.0,A,W
+2026-03-27,Argentina,Mauritania,2.0,1.0,H,W
+2026-03-31,Argentina,Zambia,5.0,0.0,H,W
+2026-06-06,Argentina,Honduras,2.0,0.0,H,W
+2026-06-09,Argentina,Iceland,3.0,0.0,H,W
+2026-06-16,Argentina,Algeria,3.0,0.0,H,W
+2026-06-22,Argentina,Austria,2.0,0.0,H,W
+2026-06-27,Argentina,Jordan,3.0,1.0,A,W
+2026-07-03,Argentina,Cape Verde,3.0,2.0,H,W
+2025-06-09,Armenia,Montenegro,2.0,2.0,A,D
+2025-09-06,Armenia,Portugal,0.0,5.0,H,L
+2025-09-09,Armenia,Republic of Ireland,2.0,1.0,H,W
+2025-10-11,Armenia,Hungary,0.0,2.0,A,L
+2025-10-14,Armenia,Republic of Ireland,0.0,1.0,A,L
+2025-11-13,Armenia,Hungary,0.0,1.0,H,L
+2025-11-16,Armenia,Portugal,1.0,9.0,A,L
+2026-03-29,Armenia,Belarus,1.0,2.0,H,L
+2026-06-06,Armenia,Kazakhstan,1.0,1.0,H,D
+2026-06-09,Armenia,Moldova,1.0,1.0,H,D
+2012-10-21,Artsakh,Abkhazia,3.0,0.0,H,W
+2014-06-01,Artsakh,Ellan Vannin,2.0,3.0,A,L
+2014-06-03,Artsakh,County of Nice,0.0,1.0,H,L
+2014-06-05,Artsakh,Darfur,12.0,0.0,A,W
+2014-06-07,Artsakh,Sápmi,5.0,1.0,A,W
+2019-06-02,Artsakh,Sápmi,3.0,2.0,H,W
+2019-06-03,Artsakh,Chameria,1.0,4.0,H,L
+2019-06-04,Artsakh,Abkhazia,1.0,1.0,H,D
+2019-06-06,Artsakh,Székely Land,2.0,1.0,H,W
+2019-06-08,Artsakh,Padania,2.0,0.0,H,W
+2024-11-15,Aruba,Puerto Rico,1.0,5.0,A,L
+2024-11-18,Aruba,Sint Maarten,0.0,1.0,H,L
+2025-03-25,Aruba,Cambodia,2.0,1.0,A,W
+2025-06-04,Aruba,Barbados,1.0,1.0,A,D
+2025-06-07,Aruba,Haiti,0.0,5.0,H,L
+2025-11-12,Aruba,Antigua and Barbuda,0.0,0.0,A,D
+2025-11-15,Aruba,Barbados,3.0,0.0,A,W
+2026-03-26,Aruba,Macau,4.0,1.0,H,W
+2026-03-29,Aruba,Liechtenstein,4.0,1.0,H,W
+2026-06-06,Aruba,Curaçao,0.0,4.0,A,L
+1923-02-25,Asturias,Galicia,3.0,1.0,A,W
+2025-11-14,Australia,Venezuela,0.0,1.0,H,L
+2025-11-18,Australia,Colombia,0.0,3.0,A,L
+2026-03-27,Australia,Cameroon,1.0,0.0,H,W
+2026-03-31,Australia,Curaçao,5.0,1.0,H,W
+2026-05-30,Australia,Mexico,0.0,1.0,A,L
+2026-06-06,Australia,Switzerland,1.0,1.0,H,D
+2026-06-13,Australia,Turkey,2.0,0.0,H,W
+2026-06-19,Australia,United States,0.0,2.0,A,L
+2026-06-25,Australia,Paraguay,0.0,0.0,A,D
+2026-07-03,Australia,Egypt,1.0,1.0,H,D
+2025-10-12,Austria,Romania,0.0,1.0,A,L
+2025-11-15,Austria,Cyprus,2.0,0.0,A,W
+2025-11-18,Austria,Bosnia and Herzegovina,1.0,1.0,H,D
+2026-03-27,Austria,Ghana,5.0,1.0,H,W
+2026-03-31,Austria,South Korea,1.0,0.0,H,W
+2026-06-01,Austria,Tunisia,1.0,0.0,H,W
+2026-06-16,Austria,Jordan,3.0,1.0,H,W
+2026-06-22,Austria,Argentina,0.0,2.0,A,L
+2026-06-27,Austria,Algeria,3.0,3.0,A,D
+2026-07-02,Austria,Spain,0.0,3.0,A,L
+2022-06-18,Aymara,Mapuche,1.0,3.0,A,L
+2022-06-19,Aymara,Maule Sur,0.0,1.0,H,L
+2025-09-05,Azerbaijan,Iceland,0.0,5.0,A,L
+2025-09-09,Azerbaijan,Ukraine,1.0,1.0,H,D
+2025-10-10,Azerbaijan,France,0.0,3.0,A,L
+2025-10-13,Azerbaijan,Ukraine,1.0,2.0,A,L
+2025-11-13,Azerbaijan,Iceland,0.0,2.0,H,L
+2025-11-16,Azerbaijan,France,1.0,3.0,H,L
+2026-03-27,Azerbaijan,Saint Lucia,6.0,1.0,H,W
+2026-03-30,Azerbaijan,Sierra Leone,1.0,1.0,H,D
+2026-06-05,Azerbaijan,Malta,0.0,2.0,H,L
+2026-06-09,Azerbaijan,San Marino,2.0,1.0,H,W
+2024-09-04,Bahamas,United States Virgin Islands,3.0,3.0,A,D
+2024-09-07,Bahamas,Barbados,2.0,3.0,H,L
+2024-10-12,Bahamas,United States Virgin Islands,3.0,1.0,H,W
+2024-10-15,Bahamas,Barbados,2.0,6.0,A,L
+2025-06-04,Bahamas,Grenada,0.0,6.0,A,L
+2025-06-07,Bahamas,Costa Rica,0.0,8.0,H,L
+2025-11-12,Bahamas,Anguilla,1.0,2.0,H,L
+2025-11-15,Bahamas,British Virgin Islands,0.0,6.0,H,L
+2026-03-26,Bahamas,Anguilla,1.0,3.0,H,L
+2026-03-29,Bahamas,Cayman Islands,0.0,1.0,A,L
+2025-06-10,Bahrain,China,0.0,1.0,A,L
+2025-09-03,Bahrain,Qatar,2.0,2.0,A,D
+2025-09-08,Bahrain,United Arab Emirates,0.0,1.0,A,L
+2025-10-09,Bahrain,Morocco,0.0,1.0,A,L
+2025-11-17,Bahrain,Somalia,1.0,2.0,H,L
+2025-11-26,Bahrain,Djibouti,1.0,0.0,H,W
+2025-12-03,Bahrain,Iraq,1.0,2.0,A,L
+2025-12-06,Bahrain,Algeria,1.0,5.0,H,L
+2025-12-09,Bahrain,Sudan,3.0,1.0,H,W
+2026-06-05,Bahrain,Georgia,0.0,2.0,A,L
+2025-03-25,Bangladesh,India,0.0,0.0,A,D
+2025-06-04,Bangladesh,Bhutan,2.0,0.0,H,W
+2025-06-10,Bangladesh,Singapore,1.0,2.0,H,L
+2025-09-06,Bangladesh,Nepal,0.0,0.0,A,D
+2025-10-09,Bangladesh,Hong Kong,3.0,4.0,H,L
+2025-10-14,Bangladesh,Hong Kong,1.0,1.0,A,D
+2025-11-13,Bangladesh,Nepal,2.0,2.0,H,D
+2025-11-18,Bangladesh,India,1.0,0.0,H,W
+2026-03-26,Bangladesh,Vietnam,0.0,3.0,A,L
+2026-06-05,Bangladesh,San Marino,2.0,1.0,A,W
+2018-04-08,Barawa,Chagos Islands,4.0,1.0,H,W
+2018-04-15,Barawa,Yorkshire,2.0,7.0,H,L
+2018-05-06,Barawa,Surrey,1.0,3.0,H,L
+2018-05-31,Barawa,Tamil Eelam,4.0,0.0,H,W
+2018-06-02,Barawa,Cascadia,1.0,2.0,H,L
+2018-06-03,Barawa,Ellan Vannin,2.0,0.0,H,W
+2018-06-05,Barawa,Northern Cyprus,0.0,8.0,H,L
+2018-06-07,Barawa,Panjab,0.0,5.0,H,L
+2018-06-09,Barawa,Western Armenia,0.0,7.0,H,L
+2019-05-25,Barawa,Kernow,0.0,5.0,A,L
+2024-11-15,Barbados,Guyana,1.0,4.0,H,L
+2024-11-19,Barbados,Guyana,3.0,5.0,A,L
+2025-05-09,Barbados,Dominica,0.0,0.0,A,D
+2025-05-11,Barbados,Dominica,0.0,0.0,A,D
+2025-06-04,Barbados,Aruba,1.0,1.0,H,D
+2025-06-10,Barbados,Saint Lucia,1.0,2.0,A,L
+2025-11-12,Barbados,Bonaire,3.0,2.0,H,W
+2025-11-15,Barbados,Aruba,0.0,3.0,H,L
+2026-03-26,Barbados,Saint Martin,1.0,3.0,A,L
+2026-03-29,Barbados,Saint Vincent and the Grenadines,2.0,3.0,H,L
+2013-12-28,Basque Country,Peru,6.0,0.0,H,W
+2014-12-28,Basque Country,Catalonia,1.0,1.0,H,D
+2015-12-26,Basque Country,Catalonia,1.0,0.0,A,W
+2016-05-27,Basque Country,Corsica,1.0,1.0,A,D
+2016-12-30,Basque Country,Tunisia,3.0,1.0,H,W
+2018-10-12,Basque Country,Venezuela,4.0,2.0,H,W
+2019-05-29,Basque Country,Panama,0.0,0.0,A,D
+2020-11-16,Basque Country,Costa Rica,2.0,1.0,H,W
+2024-05-21,Basque Country,Uruguay,1.0,1.0,H,D
+2025-11-15,Basque Country,Palestine,3.0,0.0,H,W
+2025-09-05,Belarus,Greece,1.0,5.0,A,L
+2025-09-08,Belarus,Scotland,0.0,2.0,H,L
+2025-10-09,Belarus,Denmark,0.0,6.0,H,L
+2025-10-12,Belarus,Scotland,1.0,2.0,A,L
+2025-11-15,Belarus,Denmark,2.0,2.0,A,D
+2025-11-18,Belarus,Greece,0.0,0.0,H,D
+2026-03-26,Belarus,Cyprus,1.0,0.0,A,W
+2026-03-29,Belarus,Armenia,2.0,1.0,A,W
+2026-06-05,Belarus,Syria,4.0,1.0,H,W
+2026-06-09,Belarus,Burkina Faso,2.0,2.0,H,D
+2025-11-15,Belgium,Kazakhstan,1.0,1.0,A,D
+2025-11-18,Belgium,Liechtenstein,7.0,0.0,H,W
+2026-03-28,Belgium,United States,5.0,2.0,A,W
+2026-03-31,Belgium,Mexico,1.0,1.0,A,D
+2026-06-02,Belgium,Croatia,2.0,0.0,A,W
+2026-06-06,Belgium,Tunisia,5.0,0.0,H,W
+2026-06-15,Belgium,Egypt,1.0,1.0,H,D
+2026-06-21,Belgium,Iran,0.0,0.0,H,D
+2026-06-26,Belgium,New Zealand,5.0,1.0,A,W
+2026-07-01,Belgium,Senegal,3.0,2.0,H,W
+2024-11-14,Belize,French Guiana,2.0,1.0,H,W
+2024-11-19,Belize,French Guiana,2.0,2.0,A,D
+2025-03-21,Belize,Costa Rica,0.0,7.0,H,L
+2025-03-25,Belize,Costa Rica,1.0,6.0,A,L
+2025-06-04,Belize,Montserrat,0.0,1.0,A,L
+2025-06-07,Belize,Panama,0.0,2.0,H,L
+2025-11-15,Belize,Saint Martin,1.0,0.0,A,W
+2025-11-18,Belize,Saint Kitts and Nevis,6.0,2.0,A,W
+2026-03-27,Belize,Sint Maarten,2.0,3.0,H,L
+2026-03-30,Belize,Guyana,1.0,3.0,A,L
+2025-10-14,Benin,Nigeria,0.0,4.0,A,L
+2025-11-18,Benin,Burkina Faso,0.0,3.0,H,L
+2025-12-23,Benin,DR Congo,0.0,1.0,A,L
+2025-12-27,Benin,Botswana,1.0,0.0,H,W
+2025-12-30,Benin,Senegal,0.0,3.0,H,L
+2026-01-05,Benin,Egypt,1.0,3.0,A,L
+2026-03-27,Benin,Liberia,1.0,0.0,A,W
+2026-03-31,Benin,Guinea,1.0,0.0,H,W
+2026-06-05,Benin,Niger,1.0,1.0,H,D
+2026-06-09,Benin,Togo,1.0,5.0,A,L
+2025-06-04,Bermuda,Cayman Islands,5.0,0.0,H,W
+2025-06-10,Bermuda,Cuba,2.0,1.0,A,W
+2025-09-05,Bermuda,Jamaica,0.0,4.0,H,L
+2025-09-09,Bermuda,Curaçao,2.0,3.0,A,L
+2025-10-10,Bermuda,Trinidad and Tobago,0.0,3.0,H,L
+2025-10-14,Bermuda,Jamaica,0.0,4.0,A,L
+2025-11-13,Bermuda,Curaçao,0.0,7.0,H,L
+2025-11-18,Bermuda,Trinidad and Tobago,2.0,2.0,A,D
+2026-03-25,Bermuda,DR Congo,0.0,2.0,H,L
+2026-06-06,Bermuda,Cape Verde,3.0,0.0,H,W
+2024-03-25,Bhutan,Sri Lanka,0.0,2.0,A,L
+2024-09-05,Bhutan,Bangladesh,0.0,1.0,H,L
+2024-09-08,Bhutan,Bangladesh,1.0,0.0,H,W
+2025-03-25,Bhutan,Yemen,0.0,0.0,H,D
+2025-06-04,Bhutan,Bangladesh,0.0,2.0,A,L
+2025-06-10,Bhutan,Brunei,1.0,2.0,A,L
+2025-10-09,Bhutan,Lebanon,0.0,2.0,A,L
+2025-10-14,Bhutan,Lebanon,0.0,4.0,H,L
+2025-11-18,Bhutan,Yemen,1.0,7.0,A,L
+2026-06-04,Bhutan,Cambodia,0.0,4.0,A,L
+2022-05-22,Biafra,Matabeleland,0.0,1.0,H,L
+2022-05-23,Biafra,Yoruba Nation,1.0,0.0,A,W
+2022-05-25,Biafra,Matabeleland,1.0,0.0,H,W
+2025-10-14,Bolivia,Russia,0.0,3.0,A,L
+2025-11-14,Bolivia,South Korea,0.0,2.0,A,L
+2025-11-18,Bolivia,Japan,0.0,3.0,A,L
+2026-01-18,Bolivia,Panama,1.0,1.0,H,D
+2026-01-25,Bolivia,Mexico,0.0,1.0,H,L
+2026-03-15,Bolivia,Trinidad and Tobago,3.0,0.0,H,W
+2026-03-26,Bolivia,Suriname,2.0,1.0,H,W
+2026-03-31,Bolivia,Iraq,1.0,2.0,A,L
+2026-06-06,Bolivia,Scotland,0.0,4.0,H,L
+2026-06-10,Bolivia,Algeria,0.0,4.0,H,L
+2024-10-10,Bonaire,Montserrat,0.0,1.0,H,L
+2024-10-13,Bonaire,Montserrat,1.0,0.0,A,W
+2024-11-14,Bonaire,El Salvador,0.0,1.0,A,L
+2024-11-17,Bonaire,Saint Vincent and the Grenadines,1.0,3.0,A,L
+2025-03-25,Bonaire,Niger,0.0,6.0,A,L
+2025-11-12,Bonaire,Barbados,2.0,3.0,A,L
+2025-11-15,Bonaire,Guyana,1.0,2.0,A,L
+2026-03-26,Bonaire,Saint Vincent and the Grenadines,3.0,1.0,H,W
+2026-03-29,Bonaire,Saint Martin,0.0,3.0,H,L
+2026-06-06,Bonaire,British Virgin Islands,0.0,2.0,A,L
+2025-11-15,Bosnia and Herzegovina,Romania,3.0,1.0,H,W
+2025-11-18,Bosnia and Herzegovina,Austria,1.0,1.0,A,D
+2026-03-26,Bosnia and Herzegovina,Wales,1.0,1.0,A,D
+2026-03-31,Bosnia and Herzegovina,Italy,1.0,1.0,H,D
+2026-05-29,Bosnia and Herzegovina,North Macedonia,0.0,0.0,H,D
+2026-06-06,Bosnia and Herzegovina,Panama,1.0,1.0,A,D
+2026-06-12,Bosnia and Herzegovina,Canada,1.0,1.0,A,D
+2026-06-18,Bosnia and Herzegovina,Switzerland,1.0,4.0,A,L
+2026-06-24,Bosnia and Herzegovina,Qatar,3.0,1.0,H,W
+2026-07-01,Bosnia and Herzegovina,United States,0.0,2.0,A,L
+2025-03-25,Botswana,Somalia,2.0,0.0,H,W
+2025-09-04,Botswana,Algeria,1.0,3.0,A,L
+2025-09-08,Botswana,Mozambique,0.0,2.0,A,L
+2025-10-09,Botswana,Uganda,0.0,1.0,H,L
+2025-10-14,Botswana,Guinea,2.0,2.0,A,D
+2025-12-23,Botswana,Senegal,0.0,3.0,A,L
+2025-12-27,Botswana,Benin,0.0,1.0,A,L
+2025-12-30,Botswana,DR Congo,0.0,3.0,H,L
+2026-03-28,Botswana,Zimbabwe,0.0,3.0,H,L
+2026-03-31,Botswana,Malawi,1.0,0.0,H,W
+2025-11-15,Brazil,Senegal,2.0,0.0,H,W
+2025-11-18,Brazil,Tunisia,1.0,1.0,H,D
+2026-03-26,Brazil,France,1.0,2.0,H,L
+2026-03-31,Brazil,Croatia,3.0,1.0,H,W
+2026-05-31,Brazil,Panama,6.0,2.0,H,W
+2026-06-06,Brazil,Egypt,2.0,1.0,H,W
+2026-06-13,Brazil,Morocco,1.0,1.0,H,D
+2026-06-19,Brazil,Haiti,3.0,0.0,H,W
+2026-06-24,Brazil,Scotland,3.0,0.0,A,W
+2026-06-29,Brazil,Japan,2.0,1.0,H,W
+2025-05-30,British Virgin Islands,Saint Vincent and the Grenadines,1.0,1.0,A,D
+2025-06-04,British Virgin Islands,Dominica,0.0,3.0,A,L
+2025-06-07,British Virgin Islands,Jamaica,0.0,1.0,H,L
+2025-10-09,British Virgin Islands,Grenada,1.0,4.0,A,L
+2025-11-12,British Virgin Islands,Cayman Islands,2.0,1.0,A,W
+2025-11-15,British Virgin Islands,Bahamas,6.0,0.0,A,W
+2026-03-26,British Virgin Islands,Cayman Islands,1.0,1.0,A,D
+2026-03-29,British Virgin Islands,Anguilla,4.0,0.0,H,W
+2026-06-03,British Virgin Islands,Gibraltar,0.0,4.0,A,L
+2026-06-06,British Virgin Islands,Bonaire,2.0,0.0,H,W
+1923-11-01,Brittany,Norway,1.0,5.0,H,L
+1924-03-23,Brittany,Luxembourg,1.0,1.0,H,D
+1925-02-22,Brittany,Luxembourg,1.0,1.0,A,D
+1939-04-23,Brittany,Luxembourg,3.0,1.0,H,W
+1998-05-21,Brittany,Cameroon,1.0,1.0,H,D
+2008-05-20,Brittany,Congo,3.0,1.0,H,W
+2010-05-19,Brittany,Corsica,0.0,2.0,A,L
+2010-05-21,Brittany,Togo,2.0,1.0,H,W
+2011-06-02,Brittany,Equatorial Guinea,0.0,1.0,H,L
+2013-05-28,Brittany,Mali,1.0,0.0,H,W
+2024-09-10,Brunei,Macau,1.0,0.0,A,W
+2024-10-08,Brunei,Timor-Leste,0.0,1.0,H,L
+2024-10-15,Brunei,Timor-Leste,0.0,0.0,A,D
+2024-11-15,Brunei,Russia,1.0,2.0,A,L
+2025-03-25,Brunei,Lebanon,0.0,5.0,A,L
+2025-06-05,Brunei,Sri Lanka,0.0,1.0,A,L
+2025-06-10,Brunei,Bhutan,2.0,1.0,H,W
+2025-10-09,Brunei,Yemen,0.0,2.0,H,L
+2025-10-14,Brunei,Yemen,0.0,9.0,A,L
+2025-11-18,Brunei,Lebanon,0.0,3.0,H,L
+2025-09-04,Bulgaria,Spain,0.0,3.0,H,L
+2025-09-07,Bulgaria,Georgia,0.0,3.0,A,L
+2025-10-11,Bulgaria,Turkey,1.0,6.0,H,L
+2025-10-14,Bulgaria,Spain,0.0,4.0,A,L
+2025-11-15,Bulgaria,Turkey,0.0,2.0,A,L
+2025-11-18,Bulgaria,Georgia,2.0,1.0,H,W
+2026-03-27,Bulgaria,Solomon Islands,10.0,2.0,A,W
+2026-03-30,Bulgaria,Indonesia,1.0,0.0,A,W
+2026-06-01,Bulgaria,Montenegro,0.0,1.0,H,L
+2026-06-05,Bulgaria,Moldova,2.0,2.0,A,D
+2025-11-14,Burkina Faso,Niger,3.0,2.0,H,W
+2025-11-18,Burkina Faso,Benin,3.0,0.0,A,W
+2025-12-24,Burkina Faso,Equatorial Guinea,2.0,1.0,H,W
+2025-12-28,Burkina Faso,Algeria,0.0,1.0,A,L
+2025-12-31,Burkina Faso,Sudan,2.0,0.0,A,W
+2026-01-06,Burkina Faso,Ivory Coast,0.0,3.0,A,L
+2026-03-28,Burkina Faso,Guinea-Bissau,5.0,0.0,H,W
+2026-03-31,Burkina Faso,Guinea-Bissau,1.0,1.0,H,D
+2026-06-05,Burkina Faso,Russia,0.0,3.0,A,L
+2026-06-09,Burkina Faso,Belarus,2.0,2.0,A,D
+2024-11-19,Burundi,Senegal,0.0,2.0,A,L
+2025-03-21,Burundi,Ivory Coast,0.0,1.0,H,L
+2025-03-25,Burundi,Seychelles,5.0,0.0,H,W
+2025-06-06,Burundi,Guinea-Bissau,1.0,0.0,H,W
+2025-06-10,Burundi,Mauritania,0.0,0.0,H,D
+2025-09-05,Burundi,Ivory Coast,0.0,1.0,A,L
+2025-09-09,Burundi,Gambia,0.0,2.0,A,L
+2025-10-09,Burundi,Kenya,0.0,1.0,H,L
+2025-10-14,Burundi,Gabon,0.0,2.0,A,L
+2026-05-26,Burundi,Morocco,0.0,5.0,A,L
+2024-12-08,Cambodia,Malaysia,2.0,2.0,H,D
+2024-12-11,Cambodia,Singapore,1.0,2.0,A,L
+2024-12-17,Cambodia,Timor-Leste,2.0,1.0,H,W
+2024-12-20,Cambodia,Thailand,2.0,3.0,A,L
+2025-03-19,Cambodia,Vietnam,1.0,2.0,A,L
+2025-03-25,Cambodia,Aruba,1.0,2.0,H,L
+2025-06-05,Cambodia,Tajikistan,1.0,2.0,H,L
+2025-11-13,Cambodia,Hong Kong,1.0,1.0,A,D
+2026-06-04,Cambodia,Bhutan,4.0,0.0,H,W
+2026-06-09,Cambodia,Hong Kong,2.0,0.0,H,W
+2025-10-08,Cameroon,Mauritius,2.0,0.0,A,W
+2025-10-13,Cameroon,Angola,0.0,0.0,H,D
+2025-11-13,Cameroon,DR Congo,0.0,1.0,H,L
+2025-12-24,Cameroon,Gabon,1.0,0.0,H,W
+2025-12-28,Cameroon,Ivory Coast,1.0,1.0,A,D
+2025-12-31,Cameroon,Mozambique,2.0,1.0,A,W
+2026-01-04,Cameroon,South Africa,2.0,1.0,A,W
+2026-01-09,Cameroon,Morocco,0.0,2.0,A,L
+2026-03-27,Cameroon,Australia,0.0,1.0,A,L
+2026-03-31,Cameroon,China,2.0,0.0,H,W
+2025-11-18,Canada,Venezuela,2.0,0.0,H,W
+2026-03-28,Canada,Iceland,2.0,2.0,H,D
+2026-03-31,Canada,Tunisia,0.0,0.0,H,D
+2026-06-01,Canada,Uzbekistan,2.0,0.0,H,W
+2026-06-05,Canada,Republic of Ireland,1.0,1.0,H,D
+2026-06-12,Canada,Bosnia and Herzegovina,1.0,1.0,H,D
+2026-06-18,Canada,Qatar,6.0,0.0,H,W
+2026-06-24,Canada,Switzerland,1.0,2.0,H,L
+2026-06-28,Canada,South Africa,1.0,0.0,A,W
+2026-07-04,Canada,Morocco,0.0,3.0,H,L
+1996-02-06,Canary Islands,Venezuela,5.0,1.0,H,W
+1998-12-22,Canary Islands,Latvia,4.0,0.0,H,W
+2002-05-17,Canary Islands,Venezuela,0.0,2.0,H,L
+2007-12-29,Canary Islands,Angola,2.0,0.0,H,W
+2025-11-13,Cape Verde,Iran,0.0,0.0,A,D
+2025-11-17,Cape Verde,Egypt,1.0,1.0,H,D
+2026-03-27,Cape Verde,Chile,2.0,4.0,A,L
+2026-03-30,Cape Verde,Finland,1.0,1.0,H,D
+2026-05-31,Cape Verde,Serbia,3.0,0.0,H,W
+2026-06-06,Cape Verde,Bermuda,0.0,3.0,A,L
+2026-06-15,Cape Verde,Spain,0.0,0.0,A,D
+2026-06-21,Cape Verde,Uruguay,2.0,2.0,A,D
+2026-06-26,Cape Verde,Saudi Arabia,0.0,0.0,H,D
+2026-07-03,Cape Verde,Argentina,2.0,3.0,A,L
+2018-05-31,Cascadia,Ellan Vannin,1.0,4.0,A,L
+2018-06-02,Cascadia,Barawa,2.0,1.0,A,W
+2018-06-03,Cascadia,Tamil Eelam,6.0,0.0,A,W
+2018-06-05,Cascadia,Kárpátalja,1.0,3.0,A,L
+2018-06-07,Cascadia,Western Armenia,4.0,0.0,H,W
+2018-06-09,Cascadia,Panjab,3.0,3.0,A,D
+2019-05-25,Cascadia,Chagos Islands,6.0,3.0,H,W
+2008-12-28,Catalonia,Colombia,2.0,1.0,H,W
+2009-12-22,Catalonia,Argentina,4.0,2.0,H,W
+2010-12-28,Catalonia,Honduras,4.0,0.0,H,W
+2011-12-30,Catalonia,Tunisia,0.0,0.0,H,D
+2013-01-02,Catalonia,Nigeria,1.0,1.0,H,D
+2013-12-30,Catalonia,Cape Verde,4.0,1.0,H,W
+2014-12-28,Catalonia,Basque Country,1.0,1.0,A,D
+2015-12-26,Catalonia,Basque Country,0.0,1.0,H,L
+2016-12-28,Catalonia,Tunisia,3.0,3.0,H,D
+2019-03-25,Catalonia,Venezuela,2.0,1.0,H,W
+2024-11-15,Cayman Islands,Guadeloupe,0.0,6.0,H,L
+2024-11-19,Cayman Islands,Guadeloupe,0.0,1.0,A,L
+2025-06-04,Cayman Islands,Bermuda,0.0,5.0,A,L
+2025-06-07,Cayman Islands,Honduras,0.0,1.0,H,L
+2025-11-12,Cayman Islands,British Virgin Islands,1.0,2.0,H,L
+2025-11-15,Cayman Islands,Anguilla,4.0,0.0,H,W
+2026-03-26,Cayman Islands,British Virgin Islands,1.0,1.0,H,D
+2026-03-29,Cayman Islands,Bahamas,1.0,0.0,H,W
+2026-06-06,Cayman Islands,Gibraltar,1.0,4.0,A,L
+2026-06-06,Cayman Islands,Gibraltar,1.0,4.0,A,L
+2024-11-18,Central African Republic,Gabon,0.0,1.0,H,L
+2025-03-19,Central African Republic,Madagascar,1.0,4.0,H,L
+2025-03-24,Central African Republic,Mali,0.0,0.0,H,D
+2025-06-06,Central African Republic,Mauritania,2.0,1.0,H,W
+2025-09-04,Central African Republic,Madagascar,0.0,2.0,A,L
+2025-09-07,Central African Republic,Comoros,0.0,2.0,H,L
+2025-10-08,Central African Republic,Ghana,0.0,5.0,H,L
+2025-10-12,Central African Republic,Chad,3.0,2.0,A,W
+2026-06-05,Central African Republic,Togo,1.0,1.0,H,D
+2026-06-09,Central African Republic,Angola,0.0,3.0,A,L
+1922-11-19,Central Spain,Galicia,1.0,4.0,A,L
+1923-11-25,Central Spain,Galicia,1.0,0.0,H,W
+2025-03-21,Chad,Ghana,0.0,5.0,A,L
+2025-03-25,Chad,Comoros,0.0,1.0,A,L
+2025-06-07,Chad,Kenya,0.0,0.0,A,D
+2025-06-10,Chad,Kenya,1.0,2.0,H,L
+2025-09-04,Chad,Ghana,1.0,1.0,H,D
+2025-09-08,Chad,Madagascar,1.0,3.0,A,L
+2025-10-08,Chad,Mali,0.0,2.0,H,L
+2025-10-12,Chad,Central African Republic,2.0,3.0,H,L
+2025-11-14,Chad,Uganda,1.0,2.0,A,L
+2025-11-17,Chad,Mozambique,2.0,2.0,A,D
+2016-05-30,Chagos Islands,Western Armenia,0.0,12.0,H,L
+2016-06-02,Chagos Islands,Somaliland,2.0,3.0,H,L
+2016-06-03,Chagos Islands,Raetia,3.0,3.0,H,D
+2016-08-26,Chagos Islands,Barawa,3.0,2.0,A,W
+2016-08-28,Chagos Islands,Tamil Eelam,1.0,5.0,H,L
+2018-03-25,Chagos Islands,Yorkshire,0.0,6.0,A,L
+2018-04-08,Chagos Islands,Barawa,1.0,4.0,A,L
+2019-05-25,Chagos Islands,Cascadia,3.0,6.0,A,L
+2019-06-02,Chagos Islands,Parishes of Jersey,2.0,9.0,A,L
+2019-12-29,Chagos Islands,Panjab,0.0,6.0,H,L
+2019-06-02,Chameria,Abkhazia,1.0,3.0,A,L
+2019-06-03,Chameria,Artsakh,4.0,1.0,A,W
+2019-06-04,Chameria,Sápmi,4.0,0.0,H,W
+2019-06-06,Chameria,South Ossetia,0.0,0.0,A,D
+2019-06-08,Chameria,Abkhazia,0.0,0.0,A,D
+2023-06-30,Chameria,Székely Land,2.0,3.0,A,L
+2023-07-01,Chameria,Two Sicilies,3.0,1.0,H,W
+2005-05-03,Chechnya,Occitania,0.0,14.0,A,L
+2005-06-23,Chechnya,Ambazonia,2.0,2.0,H,D
+2006-02-18,Chechnya,Monaco,1.0,13.0,A,L
+2025-06-10,Chile,Bolivia,0.0,2.0,A,L
+2025-09-04,Chile,Brazil,0.0,3.0,A,L
+2025-09-09,Chile,Uruguay,0.0,0.0,H,D
+2025-10-10,Chile,Peru,2.0,1.0,H,W
+2025-11-15,Chile,Russia,2.0,0.0,A,W
+2025-11-18,Chile,Peru,2.0,1.0,H,W
+2026-03-27,Chile,Cape Verde,4.0,2.0,H,W
+2026-03-30,Chile,New Zealand,1.0,4.0,A,L
+2026-06-06,Chile,Portugal,1.0,2.0,A,L
+2026-06-09,Chile,DR Congo,2.0,1.0,A,W
+2024-11-19,China,Japan,1.0,3.0,H,L
+2025-03-20,China,Saudi Arabia,0.0,1.0,A,L
+2025-03-25,China,Australia,0.0,2.0,H,L
+2025-06-05,China,Indonesia,0.0,1.0,A,L
+2025-06-10,China,Bahrain,1.0,0.0,H,W
+2026-01-26,China,Uzbekistan,2.0,2.0,A,D
+2026-03-27,China,Curaçao,2.0,0.0,H,W
+2026-03-31,China,Cameroon,0.0,2.0,A,L
+2026-06-05,China,Singapore,2.0,1.0,A,W
+2026-06-09,China,Thailand,0.0,0.0,H,D
+2011-12-29,Cilento,Occitania,0.0,2.0,A,L
+2025-11-15,Colombia,New Zealand,2.0,1.0,H,W
+2025-11-18,Colombia,Australia,3.0,0.0,H,W
+2026-03-26,Colombia,Croatia,1.0,2.0,H,L
+2026-03-29,Colombia,France,1.0,3.0,H,L
+2026-06-01,Colombia,Costa Rica,3.0,1.0,H,W
+2026-06-07,Colombia,Jordan,2.0,0.0,A,W
+2026-06-17,Colombia,Uzbekistan,3.0,1.0,A,W
+2026-06-23,Colombia,DR Congo,1.0,0.0,H,W
+2026-06-27,Colombia,Portugal,0.0,0.0,H,D
+2026-07-03,Colombia,Ghana,1.0,0.0,H,W
+2025-11-26,Comoros,Yemen,4.0,4.0,H,D
+2025-12-02,Comoros,Morocco,1.0,3.0,A,L
+2025-12-05,Comoros,Saudi Arabia,1.0,3.0,H,L
+2025-12-08,Comoros,Oman,1.0,2.0,A,L
+2025-12-21,Comoros,Morocco,0.0,2.0,A,L
+2025-12-26,Comoros,Zambia,0.0,0.0,A,D
+2025-12-29,Comoros,Mali,0.0,0.0,H,D
+2026-03-28,Comoros,Namibia,0.0,0.0,A,D
+2026-03-31,Comoros,Kazakhstan,0.0,1.0,A,L
+2026-06-09,Comoros,Equatorial Guinea,1.0,0.0,A,W
+2024-06-11,Congo,Morocco,0.0,6.0,A,L
+2024-09-05,Congo,South Sudan,1.0,0.0,H,W
+2024-09-09,Congo,Uganda,0.0,2.0,A,L
+2024-10-11,Congo,South Africa,0.0,5.0,A,L
+2024-10-15,Congo,South Africa,1.0,1.0,H,D
+2024-11-14,Congo,South Sudan,2.0,3.0,A,L
+2024-11-19,Congo,Uganda,0.0,1.0,H,L
+2025-09-05,Congo,Tanzania,1.0,1.0,H,D
+2025-10-08,Congo,Niger,1.0,3.0,A,L
+2025-10-14,Congo,Morocco,0.0,1.0,A,L
+2022-03-17,Cook Islands,Solomon Islands,0.0,2.0,H,L
+2023-08-28,Cook Islands,Tahiti,1.0,9.0,A,L
+2023-08-31,Cook Islands,Tahiti,0.0,3.0,A,L
+2023-11-21,Cook Islands,Tonga,2.0,1.0,A,W
+2023-11-24,Cook Islands,New Caledonia,0.0,8.0,H,L
+2023-11-27,Cook Islands,Papua New Guinea,0.0,3.0,H,L
+2023-11-30,Cook Islands,Samoa,0.0,3.0,A,L
+2024-03-23,Cook Islands,Samoa,0.0,1.0,A,L
+2024-03-26,Cook Islands,Tonga,1.0,0.0,A,W
+2024-09-06,Cook Islands,Tonga,1.0,3.0,H,L
+1967-02-28,Corsica,France,2.0,0.0,A,W
+1998-05-14,Corsica,Cameroon,0.0,1.0,H,L
+2009-06-06,Corsica,Congo,1.0,1.0,H,D
+2010-05-19,Corsica,Brittany,2.0,0.0,H,W
+2010-05-21,Corsica,Gabon,1.0,1.0,H,D
+2011-05-31,Corsica,Bulgaria,1.0,0.0,H,W
+2015-05-29,Corsica,Burkina Faso,1.0,0.0,H,W
+2016-05-27,Corsica,Basque Country,1.0,1.0,H,D
+2017-05-26,Corsica,Nigeria,1.0,1.0,H,D
+2025-09-05,Costa Rica,Nicaragua,1.0,1.0,A,D
+2025-09-09,Costa Rica,Haiti,3.0,3.0,H,D
+2025-10-09,Costa Rica,Honduras,0.0,0.0,A,D
+2025-10-13,Costa Rica,Nicaragua,4.0,1.0,H,W
+2025-11-13,Costa Rica,Haiti,0.0,1.0,A,L
+2025-11-18,Costa Rica,Honduras,0.0,0.0,H,D
+2026-03-27,Costa Rica,Jordan,2.0,2.0,H,D
+2026-03-31,Costa Rica,Iran,0.0,5.0,H,L
+2026-06-01,Costa Rica,Colombia,1.0,3.0,A,L
+2026-06-10,Costa Rica,England,0.0,3.0,A,L
+2014-06-02,County of Nice,Ellan Vannin,2.0,4.0,A,L
+2014-06-03,County of Nice,Artsakh,1.0,0.0,A,W
+2014-06-04,County of Nice,Padania,2.0,1.0,A,W
+2014-06-06,County of Nice,South Ossetia,3.0,0.0,H,W
+2014-06-08,County of Nice,Ellan Vannin,0.0,0.0,H,D
+2015-06-17,County of Nice,Székely Land,3.0,2.0,A,W
+2015-06-19,County of Nice,Felvidék,4.0,1.0,A,W
+2015-06-20,County of Nice,Ellan Vannin,3.0,1.0,H,W
+2015-06-21,County of Nice,Padania,1.0,4.0,H,L
+2006-11-19,Crimea,Northern Cyprus,0.0,5.0,A,L
+2006-11-20,Crimea,Tibet,1.0,0.0,A,W
+2006-11-21,Crimea,Tajikistan,2.0,1.0,A,W
+2006-11-23,Crimea,Kyrgyzstan,3.0,2.0,A,W
+2006-11-25,Crimea,Northern Cyprus,1.0,3.0,A,L
+2025-11-14,Croatia,Faroe Islands,3.0,1.0,H,W
+2025-11-17,Croatia,Montenegro,3.0,2.0,A,W
+2026-03-26,Croatia,Colombia,2.0,1.0,A,W
+2026-03-31,Croatia,Brazil,1.0,3.0,A,L
+2026-06-02,Croatia,Belgium,0.0,2.0,H,L
+2026-06-07,Croatia,Slovenia,2.0,1.0,H,W
+2026-06-17,Croatia,England,2.0,4.0,A,L
+2026-06-23,Croatia,Panama,1.0,0.0,A,W
+2026-06-27,Croatia,Ghana,2.0,1.0,H,W
+2026-07-02,Croatia,Portugal,1.0,2.0,A,L
+2025-03-25,Cuba,Trinidad and Tobago,0.0,4.0,A,L
+2025-06-06,Cuba,Antigua and Barbuda,1.0,0.0,A,W
+2025-06-10,Cuba,Bermuda,1.0,2.0,H,L
+2025-10-05,Cuba,Saint Vincent and the Grenadines,0.0,7.0,A,L
+2025-10-08,Cuba,Saint Vincent and the Grenadines,0.0,1.0,A,L
+2025-10-11,Cuba,Grenada,0.0,2.0,A,L
+2025-11-12,Cuba,Saint Lucia,3.0,0.0,H,W
+2025-11-15,Cuba,Martinique,2.0,0.0,A,W
+2026-03-26,Cuba,Martinique,2.0,2.0,A,D
+2026-03-29,Cuba,Dominican Republic,1.0,1.0,A,D
+2025-10-14,Curaçao,Trinidad and Tobago,1.0,1.0,H,D
+2025-11-13,Curaçao,Bermuda,7.0,0.0,A,W
+2025-11-18,Curaçao,Jamaica,0.0,0.0,A,D
+2026-03-27,Curaçao,China,0.0,2.0,A,L
+2026-03-31,Curaçao,Australia,1.0,5.0,A,L
+2026-05-30,Curaçao,Scotland,1.0,4.0,A,L
+2026-06-06,Curaçao,Aruba,4.0,0.0,H,W
+2026-06-14,Curaçao,Germany,1.0,7.0,A,L
+2026-06-20,Curaçao,Ecuador,0.0,0.0,A,D
+2026-06-25,Curaçao,Ivory Coast,0.0,2.0,H,L
+2025-09-06,Cyprus,Austria,0.0,1.0,A,L
+2025-09-09,Cyprus,Romania,2.0,2.0,H,D
+2025-10-09,Cyprus,Bosnia and Herzegovina,2.0,2.0,H,D
+2025-10-12,Cyprus,San Marino,4.0,0.0,A,W
+2025-11-15,Cyprus,Austria,0.0,2.0,H,L
+2025-11-18,Cyprus,Estonia,2.0,4.0,H,L
+2026-03-26,Cyprus,Belarus,0.0,1.0,H,L
+2026-03-30,Cyprus,Moldova,3.0,2.0,H,W
+2026-06-04,Cyprus,Slovenia,1.0,1.0,A,D
+2026-06-07,Cyprus,Liechtenstein,2.0,0.0,A,W
+2025-10-12,Czech Republic,Faroe Islands,1.0,2.0,A,L
+2025-11-13,Czech Republic,San Marino,1.0,0.0,H,W
+2025-11-17,Czech Republic,Gibraltar,6.0,0.0,H,W
+2026-03-26,Czech Republic,Republic of Ireland,2.0,2.0,H,D
+2026-03-31,Czech Republic,Denmark,2.0,2.0,H,D
+2026-05-31,Czech Republic,Kosovo,2.0,1.0,H,W
+2026-06-04,Czech Republic,Guatemala,5.0,1.0,A,W
+2026-06-11,Czech Republic,South Korea,1.0,2.0,A,L
+2026-06-18,Czech Republic,South Africa,1.0,1.0,H,D
+2026-06-24,Czech Republic,Mexico,0.0,3.0,A,L
+1992-09-02,Czechoslovakia,Belgium,1.0,2.0,H,L
+1992-09-23,Czechoslovakia,Faroe Islands,4.0,0.0,H,W
+1992-11-14,Czechoslovakia,Romania,1.0,1.0,A,D
+1993-03-24,Czechoslovakia,Cyprus,1.0,1.0,A,D
+1993-04-28,Czechoslovakia,Wales,1.0,1.0,H,D
+1993-06-02,Czechoslovakia,Romania,5.0,2.0,H,W
+1993-06-16,Czechoslovakia,Faroe Islands,3.0,0.0,A,W
+1993-09-08,Czechoslovakia,Wales,2.0,2.0,A,D
+1993-10-27,Czechoslovakia,Cyprus,3.0,0.0,H,W
+1993-11-17,Czechoslovakia,Belgium,0.0,0.0,A,D
+2025-12-30,DR Congo,Botswana,3.0,0.0,A,W
+2026-01-06,DR Congo,Algeria,0.0,1.0,A,L
+2026-03-25,DR Congo,Bermuda,2.0,0.0,A,W
+2026-03-31,DR Congo,Jamaica,1.0,0.0,H,W
+2026-06-03,DR Congo,Denmark,0.0,0.0,H,D
+2026-06-09,DR Congo,Chile,1.0,2.0,H,L
+2026-06-17,DR Congo,Portugal,1.0,1.0,A,D
+2026-06-23,DR Congo,Colombia,0.0,1.0,A,L
+2026-06-27,DR Congo,Uzbekistan,3.0,1.0,H,W
+2026-07-01,DR Congo,England,1.0,2.0,A,L
+2012-06-04,Darfur,Northern Cyprus,0.0,15.0,A,L
+2012-06-05,Darfur,Provence,0.0,18.0,H,L
+2012-06-07,Darfur,Western Sahara,1.0,5.0,A,L
+2014-06-01,Darfur,Padania,0.0,20.0,H,L
+2014-06-02,Darfur,South Ossetia,0.0,19.0,H,L
+2014-06-05,Darfur,Artsakh,0.0,12.0,H,L
+2014-06-07,Darfur,Tamil Eelam,0.0,10.0,A,L
+2025-09-05,Denmark,Scotland,0.0,0.0,H,D
+2025-09-08,Denmark,Greece,3.0,0.0,A,W
+2025-10-09,Denmark,Belarus,6.0,0.0,A,W
+2025-10-12,Denmark,Greece,3.0,1.0,H,W
+2025-11-15,Denmark,Belarus,2.0,2.0,H,D
+2025-11-18,Denmark,Scotland,2.0,4.0,A,L
+2026-03-26,Denmark,North Macedonia,4.0,0.0,H,W
+2026-03-31,Denmark,Czech Republic,2.0,2.0,A,D
+2026-06-03,Denmark,DR Congo,0.0,0.0,A,D
+2026-06-07,Denmark,Ukraine,2.0,1.0,H,W
+2024-03-26,Djibouti,Liberia,0.0,0.0,A,D
+2024-06-05,Djibouti,Sierra Leone,1.0,2.0,A,L
+2024-06-09,Djibouti,Ethiopia,1.0,1.0,H,D
+2025-03-21,Djibouti,Burkina Faso,1.0,4.0,A,L
+2025-03-24,Djibouti,Ethiopia,1.0,6.0,A,L
+2025-09-05,Djibouti,Burkina Faso,0.0,6.0,H,L
+2025-09-08,Djibouti,Guinea-Bissau,0.0,2.0,A,L
+2025-10-08,Djibouti,Egypt,0.0,3.0,H,L
+2025-10-12,Djibouti,Sierra Leone,1.0,2.0,H,L
+2025-11-26,Djibouti,Bahrain,0.0,1.0,A,L
+2024-11-16,Dominica,Dominican Republic,1.0,6.0,A,L
+2024-11-19,Dominica,Antigua and Barbuda,0.0,0.0,A,D
+2025-05-09,Dominica,Barbados,0.0,0.0,H,D
+2025-05-11,Dominica,Barbados,0.0,0.0,H,D
+2025-06-04,Dominica,British Virgin Islands,3.0,0.0,H,W
+2025-06-10,Dominica,Dominican Republic,0.0,5.0,A,L
+2025-11-12,Dominica,Saint Martin,1.0,2.0,H,L
+2025-11-15,Dominica,Sint Maarten,2.0,3.0,H,L
+2026-03-27,Dominica,Guyana,0.0,2.0,A,L
+2026-03-30,Dominica,Sint Maarten,0.0,0.0,H,D
+2025-06-14,Dominican Republic,Mexico,2.0,3.0,A,L
+2025-06-18,Dominican Republic,Costa Rica,1.0,2.0,A,L
+2025-06-22,Dominican Republic,Suriname,0.0,0.0,H,D
+2025-09-09,Dominican Republic,Jordan,0.0,3.0,A,L
+2025-10-10,Dominican Republic,Uruguay,0.0,1.0,A,L
+2025-11-12,Dominican Republic,Saint Vincent and the Grenadines,2.0,0.0,H,W
+2025-11-18,Dominican Republic,Martinique,0.0,0.0,H,D
+2026-03-26,Dominican Republic,El Salvador,2.0,2.0,H,D
+2026-03-29,Dominican Republic,Cuba,1.0,1.0,H,D
+2026-06-03,Dominican Republic,Panama,2.0,4.0,A,L
+2015-05-14,Donetsk PR,Abkhazia,0.0,1.0,A,L
+2015-07-09,Donetsk PR,Luhansk PR,1.0,3.0,A,L
+2015-08-08,Donetsk PR,Luhansk PR,4.0,1.0,H,W
+2016-05-21,Donetsk PR,Abkhazia,0.0,0.0,A,D
+2016-08-13,Donetsk PR,Luhansk PR,1.0,1.0,H,D
+2017-08-31,Donetsk PR,Abkhazia,2.0,1.0,A,W
+2016-08-01,Délvidék,Székely Land,3.0,1.0,H,W
+2016-08-03,Délvidék,Felvidék,1.0,2.0,H,L
+2019-10-19,East Turkestan,West Papua,8.0,2.0,A,W
+2019-12-14,East Turkestan,Tamil Eelam,0.0,3.0,A,L
+2025-07-02,East Turkestan,Tamil Eelam,1.0,2.0,A,L
+2025-07-03,East Turkestan,Tibet,6.0,4.0,A,W
+2025-07-04,East Turkestan,Tamil Eelam,0.0,5.0,A,L
+2025-11-13,Ecuador,Canada,0.0,0.0,A,D
+2025-11-18,Ecuador,New Zealand,2.0,0.0,H,W
+2026-03-27,Ecuador,Morocco,1.0,1.0,A,D
+2026-03-31,Ecuador,Netherlands,1.0,1.0,A,D
+2026-05-30,Ecuador,Saudi Arabia,2.0,1.0,H,W
+2026-06-07,Ecuador,Guatemala,3.0,0.0,H,W
+2026-06-14,Ecuador,Ivory Coast,0.0,1.0,A,L
+2026-06-20,Ecuador,Curaçao,0.0,0.0,H,D
+2026-06-25,Ecuador,Germany,2.0,1.0,H,W
+2026-06-30,Ecuador,Mexico,0.0,2.0,A,L
+2026-01-14,Egypt,Senegal,0.0,1.0,A,L
+2026-01-17,Egypt,Nigeria,0.0,0.0,H,D
+2026-03-27,Egypt,Saudi Arabia,4.0,0.0,A,W
+2026-03-31,Egypt,Spain,0.0,0.0,A,D
+2026-05-28,Egypt,Russia,1.0,0.0,H,W
+2026-06-06,Egypt,Brazil,1.0,2.0,A,L
+2026-06-15,Egypt,Belgium,1.0,1.0,A,D
+2026-06-21,Egypt,New Zealand,3.0,1.0,A,W
+2026-06-26,Egypt,Iran,1.0,1.0,H,D
+2026-07-03,Egypt,Australia,1.0,1.0,A,D
+2025-09-04,El Salvador,Guatemala,1.0,0.0,A,W
+2025-09-08,El Salvador,Suriname,1.0,2.0,H,L
+2025-10-10,El Salvador,Panama,0.0,1.0,H,L
+2025-10-14,El Salvador,Guatemala,0.0,1.0,H,L
+2025-11-13,El Salvador,Suriname,0.0,4.0,A,L
+2025-11-18,El Salvador,Panama,0.0,3.0,A,L
+2026-03-26,El Salvador,Dominican Republic,2.0,2.0,A,D
+2026-03-29,El Salvador,Martinique,1.0,0.0,A,W
+2026-06-03,El Salvador,South Korea,0.0,1.0,A,L
+2026-06-06,El Salvador,Qatar,0.0,0.0,A,D
+2022-04-22,Elba Island,Vatican City,4.0,2.0,H,W
+2022-07-16,Elba Island,Raetia,5.0,0.0,H,W
+2015-06-21,Ellan Vannin,Felvidék,1.0,1.0,H,D
+2017-06-05,Ellan Vannin,Padania,0.0,1.0,A,L
+2017-06-06,Ellan Vannin,Felvidék,1.0,0.0,H,W
+2017-06-07,Ellan Vannin,Székely Land,2.0,4.0,H,L
+2017-06-09,Ellan Vannin,Kárpátalja,3.0,3.0,A,D
+2018-01-28,Ellan Vannin,Yorkshire,1.0,1.0,A,D
+2018-04-29,Ellan Vannin,Panjab,2.0,1.0,H,W
+2018-05-31,Ellan Vannin,Cascadia,4.0,1.0,H,W
+2018-06-02,Ellan Vannin,Tamil Eelam,2.0,0.0,H,W
+2018-06-03,Ellan Vannin,Barawa,0.0,2.0,A,L
+2025-11-13,England,Serbia,2.0,0.0,H,W
+2025-11-16,England,Albania,2.0,0.0,A,W
+2026-03-27,England,Uruguay,1.0,1.0,H,D
+2026-03-31,England,Japan,0.0,1.0,H,L
+2026-06-06,England,New Zealand,1.0,0.0,H,W
+2026-06-10,England,Costa Rica,3.0,0.0,H,W
+2026-06-17,England,Croatia,4.0,2.0,H,W
+2026-06-23,England,Ghana,0.0,0.0,H,D
+2026-06-27,England,Panama,2.0,0.0,A,W
+2026-07-01,England,DR Congo,2.0,1.0,H,W
+2025-09-08,Equatorial Guinea,Tunisia,0.0,1.0,H,L
+2025-10-09,Equatorial Guinea,Malawi,0.0,3.0,A,L
+2025-10-13,Equatorial Guinea,Liberia,1.0,1.0,H,D
+2025-11-17,Equatorial Guinea,Madagascar,0.0,2.0,A,L
+2025-12-24,Equatorial Guinea,Burkina Faso,1.0,2.0,A,L
+2025-12-28,Equatorial Guinea,Sudan,0.0,1.0,H,L
+2025-12-31,Equatorial Guinea,Algeria,1.0,3.0,H,L
+2026-03-25,Equatorial Guinea,Kyrgyzstan,1.0,0.0,H,W
+2026-03-31,Equatorial Guinea,Madagascar,1.0,1.0,H,D
+2026-06-09,Equatorial Guinea,Comoros,0.0,1.0,H,L
+2012-11-26,Eritrea,Zanzibar,0.0,0.0,A,D
+2012-11-29,Eritrea,Malawi,2.0,3.0,A,L
+2012-12-01,Eritrea,Rwanda,0.0,2.0,H,L
+2013-11-29,Eritrea,Sudan,0.0,3.0,A,L
+2013-12-02,Eritrea,Uganda,0.0,3.0,H,L
+2013-12-05,Eritrea,Rwanda,0.0,1.0,A,L
+2015-10-10,Eritrea,Botswana,0.0,2.0,H,L
+2015-10-13,Eritrea,Botswana,1.0,3.0,A,L
+2019-09-04,Eritrea,Namibia,1.0,2.0,H,L
+2019-09-10,Eritrea,Namibia,0.0,2.0,A,L
+2025-09-05,Estonia,Italy,0.0,5.0,A,L
+2025-09-09,Estonia,Andorra,0.0,0.0,H,D
+2025-10-11,Estonia,Italy,1.0,3.0,H,L
+2025-10-14,Estonia,Moldova,1.0,1.0,H,D
+2025-11-13,Estonia,Norway,1.0,4.0,A,L
+2025-11-18,Estonia,Cyprus,4.0,2.0,A,W
+2026-03-27,Estonia,Kenya,1.0,1.0,A,D
+2026-03-30,Estonia,Rwanda,0.0,2.0,A,L
+2026-06-06,Estonia,Faroe Islands,1.0,0.0,H,W
+2026-06-09,Estonia,Lithuania,1.0,0.0,H,W
+2024-10-11,Eswatini,Mozambique,1.0,1.0,A,D
+2024-10-14,Eswatini,Mozambique,0.0,3.0,H,L
+2024-11-15,Eswatini,Guinea-Bissau,1.0,1.0,H,D
+2024-11-19,Eswatini,Mali,0.0,6.0,A,L
+2025-03-19,Eswatini,Cameroon,0.0,0.0,H,D
+2025-03-23,Eswatini,Mauritius,3.0,3.0,H,D
+2025-09-04,Eswatini,Cameroon,0.0,3.0,A,L
+2025-09-08,Eswatini,Libya,0.0,2.0,A,L
+2025-10-08,Eswatini,Angola,2.0,2.0,H,D
+2025-10-13,Eswatini,Cape Verde,0.0,3.0,A,L
+2024-11-16,Ethiopia,Tanzania,0.0,2.0,H,L
+2024-11-19,Ethiopia,DR Congo,2.0,1.0,A,W
+2025-03-21,Ethiopia,Egypt,0.0,2.0,H,L
+2025-03-24,Ethiopia,Djibouti,6.0,1.0,H,W
+2025-09-05,Ethiopia,Egypt,0.0,2.0,A,L
+2025-09-09,Ethiopia,Sierra Leone,0.0,2.0,A,L
+2025-10-08,Ethiopia,Guinea-Bissau,1.0,0.0,H,W
+2025-10-12,Ethiopia,Burkina Faso,1.0,3.0,A,L
+2026-06-06,Ethiopia,Malawi,1.0,0.0,H,W
+2026-06-09,Ethiopia,Malawi,1.0,1.0,H,D
+2015-06-30,Falkland Islands,Shetland,0.0,5.0,H,L
+2015-07-02,Falkland Islands,Western Isles,1.0,2.0,H,L
+2017-06-25,Falkland Islands,Ynys Môn,0.0,3.0,A,L
+2017-06-26,Falkland Islands,Isle of Man,2.0,5.0,H,L
+2017-06-27,Falkland Islands,Hitra,1.0,2.0,A,L
+2017-06-29,Falkland Islands,Alderney,0.0,3.0,H,L
+2023-07-09,Falkland Islands,Isle of Man,0.0,3.0,A,L
+2023-07-10,Falkland Islands,Ynys Môn,1.0,5.0,H,L
+2023-07-11,Falkland Islands,Shetland,1.0,4.0,H,L
+2023-07-13,Falkland Islands,Åland Islands,1.0,1.0,A,D
+2025-06-09,Faroe Islands,Gibraltar,2.0,1.0,H,W
+2025-09-05,Faroe Islands,Croatia,0.0,1.0,H,L
+2025-09-08,Faroe Islands,Gibraltar,1.0,0.0,A,W
+2025-10-09,Faroe Islands,Montenegro,4.0,0.0,H,W
+2025-10-12,Faroe Islands,Czech Republic,2.0,1.0,H,W
+2025-11-14,Faroe Islands,Croatia,1.0,3.0,A,L
+2025-11-18,Faroe Islands,Kazakhstan,1.0,0.0,H,W
+2026-03-28,Faroe Islands,San Marino,2.0,1.0,A,W
+2026-06-06,Faroe Islands,Estonia,0.0,1.0,A,L
+2026-06-09,Faroe Islands,Latvia,1.0,0.0,A,W
+2015-06-18,Felvidék,Székely Land,3.0,1.0,A,W
+2015-06-19,Felvidék,County of Nice,1.0,4.0,H,L
+2015-06-20,Felvidék,Padania,0.0,5.0,A,L
+2015-06-21,Felvidék,Ellan Vannin,1.0,1.0,A,D
+2016-08-01,Felvidék,Kárpátalja,1.0,1.0,H,D
+2016-08-03,Felvidék,Délvidék,2.0,1.0,A,W
+2017-06-05,Felvidék,Székely Land,1.0,0.0,H,W
+2017-06-06,Felvidék,Ellan Vannin,0.0,1.0,A,L
+2017-06-07,Felvidék,Padania,0.0,2.0,A,L
+2017-06-09,Felvidék,South Ossetia,2.0,0.0,A,W
+2024-11-17,Fiji,New Caledonia,1.0,1.0,H,D
+2024-12-12,Fiji,Vanuatu,1.0,1.0,H,D
+2024-12-15,Fiji,Papua New Guinea,1.0,1.0,A,D
+2024-12-21,Fiji,Solomon Islands,3.0,1.0,A,W
+2025-03-21,Fiji,New Zealand,0.0,7.0,A,L
+2025-09-04,Fiji,Thailand,0.0,3.0,A,L
+2025-09-07,Fiji,Hong Kong,0.0,8.0,H,L
+2025-11-17,Fiji,Vanuatu,0.0,2.0,A,L
+2025-11-20,Fiji,Papua New Guinea,0.0,2.0,A,L
+2026-06-06,Fiji,Vanuatu,1.0,2.0,A,L
+2025-09-04,Finland,Norway,0.0,1.0,A,L
+2025-09-07,Finland,Poland,1.0,3.0,A,L
+2025-10-09,Finland,Lithuania,2.0,1.0,H,W
+2025-10-12,Finland,Netherlands,0.0,4.0,A,L
+2025-11-14,Finland,Malta,0.0,1.0,H,L
+2025-11-17,Finland,Andorra,4.0,0.0,H,W
+2026-03-27,Finland,New Zealand,2.0,0.0,A,W
+2026-03-30,Finland,Cape Verde,1.0,1.0,A,D
+2026-05-31,Finland,Germany,0.0,4.0,A,L
+2026-06-05,Finland,Hungary,1.0,2.0,A,L
+2025-11-16,France,Azerbaijan,3.0,1.0,A,W
+2026-03-26,France,Brazil,2.0,1.0,A,W
+2026-03-29,France,Colombia,3.0,1.0,A,W
+2026-06-04,France,Ivory Coast,1.0,2.0,H,L
+2026-06-08,France,Northern Ireland,3.0,1.0,H,W
+2026-06-16,France,Senegal,3.0,1.0,H,W
+2026-06-22,France,Iraq,3.0,0.0,H,W
+2026-06-26,France,Norway,4.0,1.0,A,W
+2026-06-30,France,Sweden,3.0,0.0,H,W
+2026-07-04,France,Paraguay,1.0,0.0,A,W
+2014-05-29,Franconia,Raetia,4.0,2.0,H,W
+2015-09-06,Franconia,Raetia,0.0,6.0,A,L
+2019-06-25,Franconia,Raetia,4.0,3.0,A,W
+2023-10-13,French Guiana,Saint Vincent and the Grenadines,4.0,1.0,A,W
+2023-10-16,French Guiana,Saint Vincent and the Grenadines,3.0,2.0,H,W
+2023-11-17,French Guiana,Belize,0.0,1.0,A,L
+2023-11-21,French Guiana,Bermuda,3.0,0.0,H,W
+2024-09-06,French Guiana,Nicaragua,0.0,1.0,H,L
+2024-09-10,French Guiana,Trinidad and Tobago,0.0,0.0,A,D
+2024-10-10,French Guiana,Honduras,2.0,3.0,H,L
+2024-10-14,French Guiana,Nicaragua,2.0,3.0,A,L
+2024-11-14,French Guiana,Belize,1.0,2.0,A,L
+2024-11-19,French Guiana,Belize,2.0,2.0,H,D
+2017-06-26,Frøya,Greenland,2.0,2.0,H,D
+2017-06-27,Frøya,Western Isles,2.0,4.0,H,L
+2017-06-29,Frøya,Saare County,2.0,4.0,A,L
+2023-07-10,Frøya,Greenland,0.0,2.0,A,L
+2023-07-11,Frøya,Orkney,2.0,3.0,H,L
+2023-07-13,Frøya,Saint Helena,4.0,2.0,H,W
+2025-07-13,Frøya,Orkney,0.0,3.0,A,L
+2025-07-14,Frøya,Isle of Man,1.0,10.0,A,L
+2025-07-15,Frøya,Hitra,0.0,6.0,H,L
+2025-07-17,Frøya,Hitra,0.0,3.0,A,L
+2025-09-03,Gabon,Seychelles,4.0,0.0,A,W
+2025-09-09,Gabon,Ivory Coast,0.0,0.0,H,D
+2025-10-10,Gabon,Gambia,4.0,3.0,A,W
+2025-10-14,Gabon,Burundi,2.0,0.0,H,W
+2025-11-13,Gabon,Nigeria,1.0,4.0,A,L
+2025-12-24,Gabon,Cameroon,0.0,1.0,A,L
+2025-12-28,Gabon,Mozambique,2.0,3.0,H,L
+2025-12-31,Gabon,Ivory Coast,2.0,3.0,H,L
+2026-03-27,Gabon,Uzbekistan,1.0,3.0,A,L
+2026-03-30,Gabon,Trinidad and Tobago,2.0,2.0,H,D
+1923-02-25,Galicia,Asturias,1.0,3.0,H,L
+1923-11-25,Galicia,Central Spain,0.0,1.0,A,L
+2005-12-25,Galicia,Uruguay,3.0,2.0,H,W
+2006-12-28,Galicia,Ecuador,1.0,1.0,H,D
+2007-12-27,Galicia,Cameroon,1.0,1.0,H,D
+2008-12-27,Galicia,Iran,3.0,2.0,H,W
+2011-02-27,Galicia,Western Sahara,2.0,1.0,A,W
+2013-12-28,Galicia,Occitania,1.0,7.0,H,L
+2016-05-20,Galicia,Venezuela,1.0,1.0,H,D
+2024-05-21,Galicia,Panama,0.0,2.0,H,L
+2025-03-24,Gambia,Ivory Coast,0.0,1.0,A,L
+2025-06-06,Gambia,Equatorial Guinea,2.0,1.0,A,W
+2025-06-09,Gambia,Uganda,1.0,1.0,A,D
+2025-09-05,Gambia,Kenya,3.0,1.0,A,W
+2025-09-09,Gambia,Burundi,2.0,0.0,H,W
+2025-10-10,Gambia,Gabon,3.0,4.0,H,L
+2025-10-14,Gambia,Seychelles,7.0,0.0,A,W
+2025-11-18,Gambia,Kuwait,2.0,2.0,A,D
+2026-03-31,Gambia,Senegal,1.0,3.0,A,L
+2026-05-29,Gambia,Iran,1.0,3.0,A,L
+2025-09-04,Georgia,Turkey,2.0,3.0,H,L
+2025-09-07,Georgia,Bulgaria,3.0,0.0,H,W
+2025-10-11,Georgia,Spain,0.0,2.0,A,L
+2025-10-14,Georgia,Turkey,1.0,4.0,A,L
+2025-11-15,Georgia,Spain,0.0,4.0,H,L
+2025-11-18,Georgia,Bulgaria,1.0,2.0,A,L
+2026-03-26,Georgia,Israel,2.0,2.0,H,D
+2026-03-29,Georgia,Lithuania,2.0,0.0,A,W
+2026-06-02,Georgia,Romania,1.0,1.0,H,D
+2026-06-05,Georgia,Bahrain,2.0,0.0,H,W
+1989-10-08,German DR,Russia,2.0,1.0,H,W
+1989-10-25,German DR,Malta,4.0,0.0,A,W
+1989-11-15,German DR,Austria,0.0,3.0,A,L
+1990-01-24,German DR,France,0.0,3.0,A,L
+1990-01-26,German DR,Kuwait,2.0,1.0,A,W
+1990-03-28,German DR,United States,3.0,2.0,H,W
+1990-04-11,German DR,Egypt,2.0,0.0,H,W
+1990-04-25,German DR,Scotland,1.0,0.0,A,W
+1990-05-13,German DR,Brazil,3.0,3.0,A,D
+1990-09-12,German DR,Belgium,2.0,0.0,A,W
+2025-11-14,Germany,Luxembourg,2.0,0.0,A,W
+2025-11-17,Germany,Slovakia,6.0,0.0,H,W
+2026-03-27,Germany,Switzerland,4.0,3.0,A,W
+2026-03-30,Germany,Ghana,2.0,1.0,H,W
+2026-05-31,Germany,Finland,4.0,0.0,H,W
+2026-06-06,Germany,United States,2.0,1.0,A,W
+2026-06-14,Germany,Curaçao,7.0,1.0,H,W
+2026-06-20,Germany,Ivory Coast,2.0,1.0,H,W
+2026-06-25,Germany,Ecuador,1.0,2.0,A,L
+2026-06-29,Germany,Paraguay,1.0,1.0,H,D
+2025-11-14,Ghana,Japan,0.0,2.0,A,L
+2025-11-18,Ghana,South Korea,0.0,1.0,A,L
+2026-03-27,Ghana,Austria,1.0,5.0,A,L
+2026-03-30,Ghana,Germany,1.0,2.0,A,L
+2026-05-22,Ghana,Mexico,0.0,2.0,A,L
+2026-06-02,Ghana,Wales,1.0,1.0,A,D
+2026-06-17,Ghana,Panama,1.0,0.0,H,W
+2026-06-23,Ghana,England,0.0,0.0,A,D
+2026-06-27,Ghana,Croatia,1.0,2.0,A,L
+2026-07-03,Ghana,Colombia,0.0,1.0,A,L
+2025-06-09,Gibraltar,Faroe Islands,1.0,2.0,A,L
+2025-09-04,Gibraltar,Albania,0.0,1.0,H,L
+2025-09-08,Gibraltar,Faroe Islands,0.0,1.0,H,L
+2025-10-08,Gibraltar,New Caledonia,0.0,2.0,H,L
+2025-10-12,Gibraltar,Croatia,0.0,3.0,A,L
+2025-11-14,Gibraltar,Montenegro,1.0,2.0,H,L
+2025-11-17,Gibraltar,Czech Republic,0.0,6.0,A,L
+2026-06-03,Gibraltar,British Virgin Islands,4.0,0.0,H,W
+2026-06-06,Gibraltar,Cayman Islands,4.0,1.0,H,W
+2026-06-06,Gibraltar,Cayman Islands,4.0,1.0,H,W
+2011-06-28,Gotland,Falkland Islands,6.0,1.0,A,W
+2011-06-30,Gotland,Ynys Môn,1.0,2.0,H,L
+2015-06-28,Gotland,Gibraltar,1.0,2.0,A,L
+2015-06-29,Gotland,Guernsey,0.0,3.0,A,L
+2015-06-30,Gotland,Ynys Môn,2.0,3.0,H,L
+2015-07-02,Gotland,Saare County,2.0,3.0,H,L
+2017-06-25,Gotland,Frøya,7.0,1.0,H,W
+2017-06-26,Gotland,Western Isles,8.0,0.0,H,W
+2017-06-27,Gotland,Greenland,0.0,1.0,H,L
+2017-06-29,Gotland,Jersey,2.0,3.0,H,L
+2010-06-02,Gozo,Occitania,0.0,5.0,H,L
+2010-06-04,Gozo,Provence,2.0,1.0,H,W
+2012-01-14,Gozo,Raetia,17.0,1.0,H,W
+2023-07-09,Gozo,Jersey,0.0,1.0,A,L
+2023-07-10,Gozo,Saint Helena,3.0,0.0,H,W
+2023-07-11,Gozo,Menorca,1.0,0.0,A,W
+2023-07-13,Gozo,Guernsey,0.0,1.0,A,L
+2025-07-13,Gozo,Shetland,0.0,0.0,H,D
+2025-07-14,Gozo,Jersey,0.0,2.0,A,L
+2025-07-17,Gozo,Western Isles,3.0,3.0,H,D
+2025-09-05,Greece,Belarus,5.0,1.0,H,W
+2025-09-08,Greece,Denmark,0.0,3.0,H,L
+2025-10-09,Greece,Scotland,1.0,3.0,A,L
+2025-10-12,Greece,Denmark,1.0,3.0,A,L
+2025-11-15,Greece,Scotland,3.0,2.0,H,W
+2025-11-18,Greece,Belarus,0.0,0.0,A,D
+2026-03-27,Greece,Paraguay,0.0,1.0,H,L
+2026-03-31,Greece,Hungary,0.0,0.0,A,D
+2026-06-04,Greece,Sweden,2.0,2.0,A,D
+2026-06-07,Greece,Italy,0.0,1.0,H,L
+2015-07-02,Greenland,Isle of Wight,2.0,1.0,A,W
+2017-06-25,Greenland,Western Isles,3.0,0.0,A,W
+2017-06-26,Greenland,Frøya,2.0,2.0,A,D
+2017-06-27,Greenland,Gotland,1.0,0.0,A,W
+2017-06-29,Greenland,Menorca,1.0,1.0,H,D
+2017-06-30,Greenland,Isle of Man,0.0,6.0,H,L
+2023-07-09,Greenland,Orkney,2.0,2.0,A,D
+2023-07-10,Greenland,Frøya,2.0,0.0,H,W
+2023-07-13,Greenland,Shetland,1.0,5.0,A,L
+2024-06-01,Greenland,Turkmenistan,0.0,5.0,H,L
+2025-03-19,Grenada,Russia,0.0,5.0,A,L
+2025-06-01,Grenada,Anguilla,2.0,0.0,H,W
+2025-06-04,Grenada,Bahamas,6.0,0.0,H,W
+2025-06-10,Grenada,Saint Kitts and Nevis,3.0,2.0,A,W
+2025-10-09,Grenada,British Virgin Islands,4.0,1.0,H,W
+2025-10-11,Grenada,Cuba,2.0,0.0,H,W
+2026-01-18,Grenada,Jamaica,0.0,1.0,H,L
+2026-03-27,Grenada,Rwanda,0.0,4.0,A,L
+2026-03-30,Grenada,Kenya,0.0,3.0,H,L
+2026-05-16,Grenada,Republic of Ireland,0.0,5.0,A,L
+2024-09-09,Guadeloupe,Suriname,1.0,0.0,H,W
+2024-10-11,Guadeloupe,Martinique,0.0,1.0,H,L
+2024-10-15,Guadeloupe,Martinique,0.0,0.0,H,D
+2024-11-15,Guadeloupe,Cayman Islands,6.0,0.0,A,W
+2024-11-19,Guadeloupe,Cayman Islands,1.0,0.0,H,W
+2025-03-21,Guadeloupe,Nicaragua,1.0,0.0,H,W
+2025-03-25,Guadeloupe,Nicaragua,1.0,0.0,A,W
+2025-06-16,Guadeloupe,Panama,2.0,5.0,A,L
+2025-06-20,Guadeloupe,Jamaica,1.0,2.0,A,L
+2025-06-24,Guadeloupe,Guatemala,2.0,3.0,H,L
+2023-10-12,Guam,Singapore,1.0,2.0,A,L
+2023-10-17,Guam,Singapore,0.0,1.0,H,L
+2024-04-06,Guam,Northern Mariana Islands,2.0,2.0,A,D
+2024-04-07,Guam,Northern Mariana Islands,1.0,2.0,A,L
+2024-12-14,Guam,Macau,2.0,1.0,A,W
+2024-12-17,Guam,Hong Kong,0.0,5.0,A,L
+2026-03-25,Guam,Puerto Rico,0.0,4.0,A,L
+2026-03-28,Guam,American Samoa,6.0,0.0,A,W
+2026-06-03,Guam,Philippines,1.0,5.0,A,L
+2026-06-06,Guam,Myanmar,1.0,6.0,A,L
+2025-07-02,Guatemala,United States,1.0,2.0,A,L
+2025-09-04,Guatemala,El Salvador,0.0,1.0,H,L
+2025-09-08,Guatemala,Panama,1.0,1.0,A,D
+2025-10-10,Guatemala,Suriname,1.0,1.0,A,D
+2025-10-14,Guatemala,El Salvador,1.0,0.0,A,W
+2025-11-13,Guatemala,Panama,2.0,3.0,H,L
+2025-11-18,Guatemala,Suriname,3.0,1.0,H,W
+2026-03-27,Guatemala,Algeria,0.0,7.0,A,L
+2026-06-04,Guatemala,Czech Republic,1.0,5.0,H,L
+2026-06-07,Guatemala,Ecuador,0.0,3.0,A,L
+2019-06-18,Guernsey,Saint Helena,9.0,0.0,H,W
+2019-06-20,Guernsey,Isle of Man,3.0,2.0,A,W
+2019-06-21,Guernsey,Ynys Môn,1.0,2.0,A,L
+2022-04-23,Guernsey,Alderney,2.0,0.0,A,W
+2022-05-13,Guernsey,Jersey,1.0,2.0,H,L
+2022-05-21,Guernsey,Jersey,0.0,1.0,A,L
+2023-07-09,Guernsey,Western Isles,1.0,0.0,H,W
+2023-07-10,Guernsey,Åland Islands,4.0,1.0,H,W
+2023-07-11,Guernsey,Isle of Wight,1.0,2.0,H,L
+2023-07-13,Guernsey,Gozo,1.0,0.0,H,W
+2025-03-25,Guinea,Uganda,0.0,1.0,A,L
+2025-09-05,Guinea,Somalia,3.0,0.0,A,W
+2025-09-08,Guinea,Algeria,0.0,0.0,H,D
+2025-10-09,Guinea,Mozambique,2.0,1.0,A,W
+2025-10-14,Guinea,Botswana,2.0,2.0,H,D
+2025-11-15,Guinea,Liberia,2.0,0.0,H,W
+2025-11-18,Guinea,Niger,1.0,1.0,H,D
+2026-03-27,Guinea,Togo,2.0,2.0,H,D
+2026-03-31,Guinea,Benin,0.0,1.0,A,L
+2026-06-04,Guinea,Northern Ireland,0.0,1.0,A,L
+2025-03-20,Guinea-Bissau,Sierra Leone,1.0,3.0,A,L
+2025-03-24,Guinea-Bissau,Burkina Faso,1.0,2.0,H,L
+2025-06-06,Guinea-Bissau,Burundi,0.0,1.0,A,L
+2025-06-09,Guinea-Bissau,Gabon,0.0,2.0,A,L
+2025-09-04,Guinea-Bissau,Sierra Leone,1.0,1.0,H,D
+2025-09-08,Guinea-Bissau,Djibouti,2.0,0.0,H,W
+2025-10-08,Guinea-Bissau,Ethiopia,0.0,1.0,A,L
+2025-10-12,Guinea-Bissau,Egypt,0.0,1.0,A,L
+2026-03-28,Guinea-Bissau,Burkina Faso,0.0,5.0,A,L
+2026-03-31,Guinea-Bissau,Burkina Faso,1.0,1.0,A,D
+2024-11-15,Guyana,Barbados,4.0,1.0,A,W
+2024-11-19,Guyana,Barbados,5.0,3.0,H,W
+2025-03-21,Guyana,Guatemala,3.0,2.0,H,W
+2025-03-25,Guyana,Guatemala,0.0,2.0,A,L
+2025-06-06,Guyana,Nicaragua,0.0,1.0,A,L
+2025-06-10,Guyana,Montserrat,3.0,0.0,H,W
+2025-11-15,Guyana,Bonaire,2.0,1.0,H,W
+2025-11-18,Guyana,Antigua and Barbuda,4.0,1.0,A,W
+2026-03-27,Guyana,Dominica,2.0,0.0,H,W
+2026-03-30,Guyana,Belize,3.0,1.0,H,W
+2006-11-19,Găgăuzia,Greenland,0.0,2.0,H,L
+2006-11-20,Găgăuzia,Kyrgyzstan,1.0,6.0,H,L
+2006-11-21,Găgăuzia,Zanzibar,1.0,1.0,H,D
+2025-10-13,Haiti,Honduras,0.0,3.0,A,L
+2025-11-13,Haiti,Costa Rica,1.0,0.0,H,W
+2025-11-18,Haiti,Nicaragua,2.0,0.0,H,W
+2026-03-28,Haiti,Tunisia,0.0,1.0,H,L
+2026-03-31,Haiti,Iceland,1.0,1.0,H,D
+2026-06-02,Haiti,New Zealand,4.0,0.0,H,W
+2026-06-05,Haiti,Peru,1.0,2.0,H,L
+2026-06-13,Haiti,Scotland,0.0,1.0,H,L
+2026-06-19,Haiti,Brazil,0.0,3.0,A,L
+2026-06-24,Haiti,Morocco,2.0,4.0,A,L
+2017-06-26,Hitra,Ynys Môn,1.0,5.0,H,L
+2017-06-27,Hitra,Falkland Islands,2.0,1.0,H,W
+2017-06-29,Hitra,Western Isles,1.0,1.0,H,D
+2019-06-16,Hitra,Alderney,4.0,2.0,A,W
+2019-06-17,Hitra,Isle of Man,1.0,7.0,A,L
+2019-06-20,Hitra,Jersey,1.0,3.0,A,L
+2025-07-13,Hitra,Isle of Man,2.0,7.0,H,L
+2025-07-14,Hitra,Orkney,2.0,3.0,A,L
+2025-07-15,Hitra,Frøya,6.0,0.0,A,W
+2025-07-17,Hitra,Frøya,3.0,0.0,H,W
+2023-08-04,Hmong,Tamil Eelam,0.0,3.0,A,L
+2023-08-05,Hmong,Tibet,5.0,4.0,H,W
+2023-08-08,Hmong,Tamil Eelam,1.0,3.0,A,L
+2025-06-28,Honduras,Panama,1.0,1.0,A,D
+2025-07-02,Honduras,Mexico,0.0,1.0,A,L
+2025-09-05,Honduras,Haiti,0.0,0.0,A,D
+2025-09-09,Honduras,Nicaragua,2.0,0.0,H,W
+2025-10-09,Honduras,Costa Rica,0.0,0.0,H,D
+2025-10-13,Honduras,Haiti,3.0,0.0,H,W
+2025-11-13,Honduras,Nicaragua,0.0,2.0,A,L
+2025-11-18,Honduras,Costa Rica,0.0,0.0,A,D
+2026-03-31,Honduras,Peru,2.0,2.0,A,D
+2026-06-06,Honduras,Argentina,0.0,2.0,A,L
+2025-06-05,Hong Kong,Nepal,0.0,0.0,H,D
+2025-06-10,Hong Kong,India,1.0,0.0,H,W
+2025-09-04,Hong Kong,Iraq,1.0,2.0,A,L
+2025-09-07,Hong Kong,Fiji,8.0,0.0,A,W
+2025-10-09,Hong Kong,Bangladesh,4.0,3.0,A,W
+2025-10-14,Hong Kong,Bangladesh,1.0,1.0,H,D
+2025-11-13,Hong Kong,Cambodia,1.0,1.0,H,D
+2025-11-18,Hong Kong,Singapore,1.0,2.0,H,L
+2026-06-05,Hong Kong,Mongolia,2.0,0.0,H,W
+2026-06-09,Hong Kong,Cambodia,0.0,2.0,A,L
+2025-09-06,Hungary,Republic of Ireland,2.0,2.0,A,D
+2025-09-09,Hungary,Portugal,2.0,3.0,H,L
+2025-10-11,Hungary,Armenia,2.0,0.0,H,W
+2025-10-14,Hungary,Portugal,2.0,2.0,A,D
+2025-11-13,Hungary,Armenia,1.0,0.0,A,W
+2025-11-16,Hungary,Republic of Ireland,2.0,3.0,H,L
+2026-03-28,Hungary,Slovenia,1.0,0.0,H,W
+2026-03-31,Hungary,Greece,0.0,0.0,H,D
+2026-06-05,Hungary,Finland,2.0,1.0,H,W
+2026-06-09,Hungary,Kazakhstan,3.0,1.0,H,W
+2025-09-09,Iceland,France,1.0,2.0,A,L
+2025-10-10,Iceland,Ukraine,3.0,5.0,H,L
+2025-10-13,Iceland,France,2.0,2.0,H,D
+2025-11-13,Iceland,Azerbaijan,2.0,0.0,A,W
+2025-11-16,Iceland,Ukraine,0.0,2.0,A,L
+2026-02-25,Iceland,Mexico,0.0,4.0,A,L
+2026-03-28,Iceland,Canada,2.0,2.0,A,D
+2026-03-31,Iceland,Haiti,1.0,1.0,A,D
+2026-05-31,Iceland,Japan,0.0,1.0,A,L
+2026-06-09,Iceland,Argentina,0.0,3.0,A,L
+2025-03-25,India,Bangladesh,0.0,0.0,H,D
+2025-06-04,India,Thailand,0.0,2.0,A,L
+2025-06-10,India,Hong Kong,0.0,1.0,A,L
+2025-10-09,India,Singapore,1.0,1.0,A,D
+2025-10-14,India,Singapore,1.0,2.0,H,L
+2025-11-18,India,Bangladesh,0.0,1.0,A,L
+2026-05-27,India,Jamaica,0.0,2.0,H,L
+2026-05-30,India,Zimbabwe,0.0,1.0,A,L
+2026-06-05,India,Tajikistan,1.0,3.0,A,L
+2026-06-09,India,Tajikistan,1.0,1.0,A,D
+2025-06-05,Indonesia,China,1.0,0.0,H,W
+2025-06-10,Indonesia,Japan,0.0,6.0,A,L
+2025-09-05,Indonesia,Taiwan,6.0,0.0,H,W
+2025-09-08,Indonesia,Lebanon,0.0,0.0,H,D
+2025-10-08,Indonesia,Saudi Arabia,2.0,3.0,A,L
+2025-10-11,Indonesia,Iraq,0.0,1.0,A,L
+2026-03-27,Indonesia,Saint Kitts and Nevis,4.0,0.0,H,W
+2026-03-30,Indonesia,Bulgaria,0.0,1.0,H,L
+2026-06-05,Indonesia,Oman,3.0,0.0,H,W
+2026-06-09,Indonesia,Mozambique,1.0,0.0,H,W
+2025-10-14,Iran,Tanzania,2.0,0.0,H,W
+2025-11-13,Iran,Cape Verde,0.0,0.0,H,D
+2025-11-18,Iran,Uzbekistan,0.0,0.0,H,D
+2026-03-27,Iran,Nigeria,1.0,2.0,H,L
+2026-03-31,Iran,Costa Rica,5.0,0.0,A,W
+2026-05-29,Iran,Gambia,3.0,1.0,H,W
+2026-06-04,Iran,Mali,2.0,0.0,H,W
+2026-06-15,Iran,New Zealand,2.0,2.0,H,D
+2026-06-21,Iran,Belgium,0.0,0.0,A,D
+2026-06-26,Iran,Egypt,1.0,1.0,A,D
+2025-12-06,Iraq,Sudan,2.0,0.0,A,W
+2025-12-09,Iraq,Algeria,0.0,2.0,A,L
+2025-12-12,Iraq,Jordan,0.0,1.0,A,L
+2026-03-31,Iraq,Bolivia,2.0,1.0,H,W
+2026-05-29,Iraq,Andorra,1.0,0.0,A,W
+2026-06-04,Iraq,Spain,1.0,1.0,A,D
+2026-06-09,Iraq,Venezuela,0.0,2.0,H,L
+2026-06-16,Iraq,Norway,1.0,4.0,H,L
+2026-06-22,Iraq,France,0.0,3.0,A,L
+2026-06-26,Iraq,Senegal,0.0,5.0,A,L
+2014-06-01,Iraqi Kurdistan,Arameans Suryoye,1.0,2.0,H,L
+2014-06-03,Iraqi Kurdistan,Tamil Eelam,9.0,0.0,A,W
+2014-06-04,Iraqi Kurdistan,Ellan Vannin,1.0,1.0,A,D
+2014-06-05,Iraqi Kurdistan,Occitania,2.0,2.0,A,D
+2014-06-07,Iraqi Kurdistan,Padania,1.0,1.0,A,D
+2016-05-29,Iraqi Kurdistan,Székely Land,3.0,0.0,H,W
+2016-05-31,Iraqi Kurdistan,United Koreans in Japan,3.0,0.0,A,W
+2016-06-02,Iraqi Kurdistan,Padania,2.0,2.0,H,D
+2016-06-03,Iraqi Kurdistan,Western Armenia,0.0,0.0,H,D
+2016-06-04,Iraqi Kurdistan,United Koreans in Japan,1.0,1.0,A,D
+2019-06-21,Isle of Man,Shetland,5.0,0.0,A,W
+2023-07-09,Isle of Man,Falkland Islands,3.0,0.0,H,W
+2023-07-10,Isle of Man,Shetland,2.0,3.0,A,L
+2023-07-11,Isle of Man,Ynys Môn,1.0,2.0,H,L
+2023-07-13,Isle of Man,Orkney,1.0,0.0,A,W
+2025-07-13,Isle of Man,Hitra,7.0,2.0,A,W
+2025-07-14,Isle of Man,Frøya,10.0,1.0,H,W
+2025-07-15,Isle of Man,Orkney,3.0,1.0,A,W
+2025-07-17,Isle of Man,Ynys Môn,0.0,1.0,H,L
+2025-07-18,Isle of Man,Jersey,3.0,2.0,H,W
+2011-06-30,Isle of Wight,Jersey,1.0,0.0,H,W
+2011-07-01,Isle of Wight,Guernsey,4.0,2.0,H,W
+2015-06-28,Isle of Wight,Shetland,0.0,0.0,A,D
+2015-06-29,Isle of Wight,Falkland Islands,3.0,0.0,H,W
+2015-06-30,Isle of Wight,Hitra,3.0,1.0,H,W
+2015-07-02,Isle of Wight,Greenland,1.0,2.0,H,L
+2023-07-09,Isle of Wight,Åland Islands,2.0,0.0,A,W
+2023-07-10,Isle of Wight,Western Isles,1.0,0.0,A,W
+2023-07-11,Isle of Wight,Guernsey,2.0,1.0,A,W
+2023-07-13,Isle of Wight,Jersey,2.0,3.0,H,L
+2025-06-06,Israel,Estonia,3.0,1.0,A,W
+2025-06-10,Israel,Slovakia,1.0,0.0,H,W
+2025-09-05,Israel,Moldova,4.0,0.0,A,W
+2025-09-08,Israel,Italy,4.0,5.0,H,L
+2025-10-11,Israel,Norway,0.0,5.0,A,L
+2025-10-14,Israel,Italy,0.0,3.0,A,L
+2025-11-13,Israel,Lithuania,0.0,0.0,A,D
+2025-11-16,Israel,Moldova,4.0,1.0,A,W
+2026-03-26,Israel,Georgia,2.0,2.0,A,D
+2026-06-03,Israel,Albania,1.0,0.0,A,W
+2025-09-05,Italy,Estonia,5.0,0.0,H,W
+2025-09-08,Italy,Israel,5.0,4.0,A,W
+2025-10-11,Italy,Estonia,3.0,1.0,A,W
+2025-10-14,Italy,Israel,3.0,0.0,H,W
+2025-11-13,Italy,Moldova,2.0,0.0,A,W
+2025-11-16,Italy,Norway,1.0,4.0,H,L
+2026-03-26,Italy,Northern Ireland,2.0,0.0,H,W
+2026-03-31,Italy,Bosnia and Herzegovina,1.0,1.0,A,D
+2026-06-03,Italy,Luxembourg,1.0,0.0,A,W
+2026-06-07,Italy,Greece,1.0,0.0,A,W
+2025-12-31,Ivory Coast,Gabon,3.0,2.0,A,W
+2026-01-06,Ivory Coast,Burkina Faso,3.0,0.0,H,W
+2026-01-10,Ivory Coast,Egypt,2.0,3.0,A,L
+2026-03-28,Ivory Coast,South Korea,4.0,0.0,H,W
+2026-03-31,Ivory Coast,Scotland,1.0,0.0,H,W
+2026-06-04,Ivory Coast,France,2.0,1.0,A,W
+2026-06-14,Ivory Coast,Ecuador,1.0,0.0,H,W
+2026-06-20,Ivory Coast,Germany,1.0,2.0,A,L
+2026-06-25,Ivory Coast,Curaçao,2.0,0.0,A,W
+2026-06-30,Ivory Coast,Norway,1.0,2.0,H,L
+2025-10-10,Jamaica,Curaçao,0.0,2.0,A,L
+2025-10-14,Jamaica,Bermuda,4.0,0.0,H,W
+2025-11-13,Jamaica,Trinidad and Tobago,1.0,1.0,A,D
+2025-11-18,Jamaica,Curaçao,0.0,0.0,H,D
+2026-01-18,Jamaica,Grenada,1.0,0.0,A,W
+2026-03-26,Jamaica,New Caledonia,1.0,0.0,A,W
+2026-03-31,Jamaica,DR Congo,0.0,1.0,A,L
+2026-05-27,Jamaica,India,2.0,0.0,A,W
+2026-05-30,Jamaica,Nigeria,0.0,3.0,A,L
+2026-06-06,Jamaica,South Africa,0.0,1.0,H,L
+2025-10-14,Japan,Brazil,3.0,2.0,H,W
+2025-11-14,Japan,Ghana,2.0,0.0,H,W
+2025-11-18,Japan,Bolivia,3.0,0.0,H,W
+2026-03-28,Japan,Scotland,1.0,0.0,A,W
+2026-03-31,Japan,England,1.0,0.0,A,W
+2026-05-31,Japan,Iceland,1.0,0.0,H,W
+2026-06-14,Japan,Netherlands,2.0,2.0,A,D
+2026-06-20,Japan,Tunisia,4.0,0.0,A,W
+2026-06-25,Japan,Sweden,1.0,1.0,H,D
+2026-06-29,Japan,Brazil,1.0,2.0,A,L
+2022-05-13,Jersey,Guernsey,2.0,1.0,A,W
+2022-05-21,Jersey,Guernsey,1.0,0.0,H,W
+2023-07-09,Jersey,Gozo,1.0,0.0,H,W
+2023-07-10,Jersey,Menorca,4.0,0.0,H,W
+2023-07-11,Jersey,Saint Helena,5.0,0.0,A,W
+2023-07-13,Jersey,Isle of Wight,3.0,2.0,A,W
+2023-07-14,Jersey,Ynys Môn,5.0,2.0,A,W
+2025-07-14,Jersey,Gozo,2.0,0.0,H,W
+2025-07-15,Jersey,Shetland,2.0,2.0,H,D
+2025-07-18,Jersey,Isle of Man,2.0,3.0,A,L
+2025-12-12,Jordan,Iraq,1.0,0.0,H,W
+2025-12-15,Jordan,Saudi Arabia,1.0,0.0,A,W
+2025-12-18,Jordan,Morocco,2.0,3.0,H,L
+2026-03-27,Jordan,Costa Rica,2.0,2.0,A,D
+2026-03-31,Jordan,Nigeria,2.0,2.0,H,D
+2026-05-31,Jordan,Switzerland,1.0,4.0,A,L
+2026-06-07,Jordan,Colombia,0.0,2.0,H,L
+2026-06-16,Jordan,Austria,1.0,3.0,A,L
+2026-06-22,Jordan,Algeria,1.0,2.0,H,L
+2026-06-27,Jordan,Argentina,1.0,3.0,H,L
+2018-05-31,Kabylia,Panjab,0.0,8.0,A,L
+2018-06-02,Kabylia,United Koreans in Japan,0.0,0.0,A,D
+2018-06-03,Kabylia,Western Armenia,0.0,4.0,A,L
+2018-06-05,Kabylia,Matabeleland,0.0,0.0,A,D
+2018-06-07,Kabylia,Tibet,8.0,1.0,A,W
+2018-06-09,Kabylia,Abkhazia,0.0,2.0,H,L
+2025-09-04,Kazakhstan,Wales,0.0,1.0,H,L
+2025-09-07,Kazakhstan,Belgium,0.0,6.0,A,L
+2025-10-10,Kazakhstan,Liechtenstein,4.0,0.0,H,W
+2025-10-13,Kazakhstan,North Macedonia,1.0,1.0,A,D
+2025-11-15,Kazakhstan,Belgium,1.0,1.0,H,D
+2025-11-18,Kazakhstan,Faroe Islands,0.0,1.0,A,L
+2026-03-25,Kazakhstan,Namibia,2.0,0.0,H,W
+2026-03-31,Kazakhstan,Comoros,1.0,0.0,H,W
+2026-06-06,Kazakhstan,Armenia,1.0,1.0,A,D
+2026-06-09,Kazakhstan,Hungary,1.0,3.0,A,L
+2025-06-07,Kenya,Chad,0.0,0.0,H,D
+2025-06-10,Kenya,Chad,2.0,1.0,A,W
+2025-09-05,Kenya,Gambia,1.0,3.0,H,L
+2025-09-09,Kenya,Seychelles,5.0,0.0,H,W
+2025-10-09,Kenya,Burundi,1.0,0.0,A,W
+2025-10-14,Kenya,Ivory Coast,0.0,3.0,A,L
+2025-11-18,Kenya,Senegal,0.0,8.0,H,L
+2026-03-27,Kenya,Estonia,1.0,1.0,H,D
+2026-03-30,Kenya,Grenada,3.0,0.0,A,W
+2026-06-04,Kenya,Lesotho,1.0,1.0,A,D
+1953-10-03,Kernow,Trinidad and Tobago,1.0,1.0,H,D
+1998-11-21,Kernow,Guernsey,6.0,1.0,A,W
+2000-02-20,Kernow,Guernsey,1.0,2.0,H,L
+2002-10-26,Kernow,Jersey,3.0,0.0,A,W
+2003-10-11,Kernow,Jersey,1.0,0.0,H,W
+2004-10-16,Kernow,Jersey,4.0,1.0,A,W
+2005-10-15,Kernow,Jersey,3.0,2.0,H,W
+2007-03-24,Kernow,Guernsey,1.0,1.0,H,D
+2019-05-25,Kernow,Barawa,5.0,0.0,H,W
+2023-07-16,Kernow,Sápmi,2.0,1.0,H,W
+1979-08-31,Kiribati,Papua New Guinea,0.0,13.0,H,L
+1979-09-05,Kiribati,Tuvalu,3.0,3.0,H,D
+2003-06-30,Kiribati,Tuvalu,2.0,3.0,A,L
+2003-07-03,Kiribati,Solomon Islands,0.0,7.0,A,L
+2003-07-05,Kiribati,Fiji,0.0,12.0,A,L
+2003-07-07,Kiribati,Vanuatu,0.0,18.0,H,L
+2011-08-30,Kiribati,Fiji,0.0,9.0,A,L
+2011-09-01,Kiribati,Cook Islands,0.0,3.0,A,L
+2011-09-03,Kiribati,Papua New Guinea,1.0,17.0,H,L
+2011-09-05,Kiribati,Tahiti,1.0,17.0,H,L
+2025-09-05,Kosovo,Switzerland,0.0,4.0,A,L
+2025-09-08,Kosovo,Sweden,2.0,0.0,H,W
+2025-10-10,Kosovo,Slovenia,0.0,0.0,H,D
+2025-10-13,Kosovo,Sweden,1.0,0.0,A,W
+2025-11-15,Kosovo,Slovenia,2.0,0.0,A,W
+2025-11-18,Kosovo,Switzerland,1.0,1.0,H,D
+2026-03-26,Kosovo,Slovakia,4.0,3.0,A,W
+2026-03-31,Kosovo,Turkey,0.0,1.0,H,L
+2026-05-31,Kosovo,Czech Republic,1.0,2.0,A,L
+2026-06-07,Kosovo,Andorra,3.0,0.0,H,W
+2012-05-15,Kurdistan,Mauritania,3.0,1.0,H,W
+2012-05-19,Kurdistan,Indonesia,1.0,1.0,A,D
+2013-06-24,Kurdistan,Western Sahara,6.0,0.0,A,W
+2013-06-27,Kurdistan,Quebec,1.0,0.0,A,W
+2013-06-28,Kurdistan,Provence,1.0,0.0,A,W
+2025-06-10,Kuwait,South Korea,0.0,4.0,A,L
+2025-09-08,Kuwait,Syria,2.0,2.0,A,D
+2025-10-10,Kuwait,Uzbekistan,0.0,2.0,A,L
+2025-11-15,Kuwait,Tanzania,4.0,3.0,H,W
+2025-11-18,Kuwait,Gambia,2.0,2.0,H,D
+2025-11-25,Kuwait,Mauritania,2.0,0.0,A,W
+2025-12-02,Kuwait,Egypt,1.0,1.0,A,D
+2025-12-06,Kuwait,Jordan,1.0,3.0,H,L
+2025-12-09,Kuwait,United Arab Emirates,1.0,3.0,A,L
+2026-06-05,Kuwait,Thailand,2.0,2.0,A,D
+2024-11-14,Kyrgyzstan,United Arab Emirates,0.0,3.0,A,L
+2024-11-19,Kyrgyzstan,Iran,2.0,3.0,H,L
+2025-03-20,Kyrgyzstan,Uzbekistan,0.0,1.0,A,L
+2025-03-25,Kyrgyzstan,Qatar,3.0,1.0,H,W
+2025-06-05,Kyrgyzstan,North Korea,2.0,2.0,A,D
+2025-06-10,Kyrgyzstan,United Arab Emirates,1.0,1.0,H,D
+2026-03-25,Kyrgyzstan,Equatorial Guinea,0.0,1.0,A,L
+2026-03-28,Kyrgyzstan,Madagascar,2.0,5.0,H,L
+2026-06-06,Kyrgyzstan,Palestine,0.0,0.0,H,D
+2026-06-09,Kyrgyzstan,Palestine,0.0,0.0,H,D
+2017-06-04,Kárpátalja,Northern Cyprus,0.0,1.0,A,L
+2017-06-06,Kárpátalja,Abkhazia,2.0,2.0,H,D
+2017-06-07,Kárpátalja,South Ossetia,4.0,1.0,A,W
+2017-06-09,Kárpátalja,Ellan Vannin,3.0,3.0,H,D
+2018-05-31,Kárpátalja,Northern Cyprus,1.0,1.0,A,D
+2018-06-02,Kárpátalja,Abkhazia,2.0,0.0,A,W
+2018-06-03,Kárpátalja,Tibet,5.0,1.0,H,W
+2018-06-05,Kárpátalja,Cascadia,3.0,1.0,H,W
+2018-06-07,Kárpátalja,Székely Land,4.0,2.0,H,W
+2018-06-09,Kárpátalja,Northern Cyprus,0.0,0.0,A,D
+2024-12-09,Laos,Vietnam,1.0,4.0,H,L
+2024-12-12,Laos,Indonesia,3.0,3.0,A,D
+2024-12-15,Laos,Philippines,1.0,1.0,H,D
+2024-12-18,Laos,Myanmar,2.0,3.0,A,L
+2025-03-20,Laos,Sri Lanka,1.0,2.0,H,L
+2025-03-25,Laos,Vietnam,0.0,5.0,A,L
+2025-06-10,Laos,Nepal,2.0,1.0,H,W
+2025-10-09,Laos,Malaysia,0.0,3.0,H,L
+2025-10-14,Laos,Malaysia,1.0,5.0,A,L
+2025-11-19,Laos,Vietnam,0.0,2.0,H,L
+2025-06-07,Latvia,Azerbaijan,0.0,0.0,H,D
+2025-06-10,Latvia,Albania,1.0,1.0,H,D
+2025-09-06,Latvia,Serbia,0.0,1.0,H,L
+2025-09-09,Latvia,Albania,0.0,1.0,A,L
+2025-10-11,Latvia,Andorra,2.0,2.0,H,D
+2025-10-14,Latvia,England,0.0,5.0,H,L
+2025-11-13,Latvia,North Macedonia,0.0,0.0,A,D
+2025-11-16,Latvia,Serbia,1.0,2.0,A,L
+2026-06-06,Latvia,Lithuania,1.0,1.0,A,D
+2026-06-09,Latvia,Faroe Islands,0.0,1.0,H,L
+2025-03-20,Lebanon,Timor-Leste,4.0,0.0,H,W
+2025-03-25,Lebanon,Brunei,5.0,0.0,H,W
+2025-05-28,Lebanon,Oman,0.0,1.0,A,L
+2025-06-10,Lebanon,Yemen,0.0,0.0,A,D
+2025-08-24,Lebanon,Qatar,2.0,2.0,A,D
+2025-09-08,Lebanon,Indonesia,0.0,0.0,A,D
+2025-10-09,Lebanon,Bhutan,2.0,0.0,H,W
+2025-10-14,Lebanon,Bhutan,4.0,0.0,A,W
+2025-11-18,Lebanon,Brunei,3.0,0.0,A,W
+2025-11-26,Lebanon,Sudan,1.0,2.0,A,L
+2024-11-18,Lesotho,Morocco,0.0,7.0,A,L
+2025-03-21,Lesotho,South Africa,3.0,0.0,A,W
+2025-03-25,Lesotho,Rwanda,1.0,1.0,A,D
+2025-09-05,Lesotho,South Africa,0.0,3.0,A,L
+2025-09-09,Lesotho,Benin,0.0,4.0,A,L
+2025-10-10,Lesotho,Nigeria,1.0,2.0,H,L
+2025-10-13,Lesotho,Zimbabwe,1.0,0.0,H,W
+2025-11-15,Lesotho,Malawi,0.0,0.0,H,D
+2025-11-18,Lesotho,Malawi,0.0,1.0,H,L
+2026-06-04,Lesotho,Kenya,1.0,1.0,H,D
+2025-03-24,Liberia,São Tomé and Príncipe,2.0,1.0,H,W
+2025-09-04,Liberia,Tunisia,0.0,3.0,A,L
+2025-09-08,Liberia,Malawi,2.0,2.0,A,D
+2025-10-09,Liberia,Namibia,3.0,1.0,H,W
+2025-10-13,Liberia,Equatorial Guinea,1.0,1.0,A,D
+2025-11-15,Liberia,Guinea,0.0,2.0,A,L
+2026-03-27,Liberia,Benin,0.0,1.0,H,L
+2026-03-31,Liberia,Libya,2.0,2.0,H,D
+2026-06-06,Liberia,Sierra Leone,0.0,1.0,A,L
+2026-06-09,Liberia,Sierra Leone,3.0,1.0,H,W
+2025-03-20,Libya,Angola,1.0,1.0,H,D
+2025-03-25,Libya,Cameroon,1.0,3.0,A,L
+2025-09-04,Libya,Angola,1.0,0.0,A,W
+2025-09-08,Libya,Eswatini,2.0,0.0,H,W
+2025-10-08,Libya,Cape Verde,3.0,3.0,H,D
+2025-10-13,Libya,Mauritius,0.0,0.0,A,D
+2025-11-15,Libya,Mauritania,1.0,0.0,H,W
+2025-11-25,Libya,Palestine,0.0,0.0,A,D
+2026-03-27,Libya,Niger,0.0,0.0,H,D
+2026-03-31,Libya,Liberia,2.0,2.0,A,D
+2025-09-04,Liechtenstein,Belgium,0.0,6.0,H,L
+2025-09-07,Liechtenstein,North Macedonia,0.0,5.0,A,L
+2025-10-10,Liechtenstein,Kazakhstan,0.0,4.0,A,L
+2025-10-13,Liechtenstein,Montenegro,1.0,2.0,A,L
+2025-11-15,Liechtenstein,Wales,0.0,1.0,H,L
+2025-11-18,Liechtenstein,Belgium,0.0,7.0,A,L
+2026-03-26,Liechtenstein,Tanzania,1.0,0.0,A,W
+2026-03-29,Liechtenstein,Aruba,1.0,4.0,A,L
+2026-06-04,Liechtenstein,Andorra,0.0,2.0,A,L
+2026-06-07,Liechtenstein,Cyprus,0.0,2.0,H,L
+2025-09-04,Lithuania,Malta,1.0,1.0,H,D
+2025-09-07,Lithuania,Netherlands,2.0,3.0,H,L
+2025-10-09,Lithuania,Finland,1.0,2.0,A,L
+2025-10-12,Lithuania,Poland,0.0,2.0,H,L
+2025-11-13,Lithuania,Israel,0.0,0.0,H,D
+2025-11-17,Lithuania,Netherlands,0.0,4.0,A,L
+2026-03-26,Lithuania,Moldova,2.0,0.0,A,W
+2026-03-29,Lithuania,Georgia,0.0,2.0,H,L
+2026-06-06,Lithuania,Latvia,1.0,1.0,H,D
+2026-06-09,Lithuania,Estonia,0.0,1.0,A,L
+2015-05-05,Luhansk PR,Abkhazia,0.0,1.0,A,L
+2015-07-09,Luhansk PR,Donetsk PR,3.0,1.0,H,W
+2015-08-08,Luhansk PR,Donetsk PR,1.0,4.0,A,L
+2016-08-13,Luhansk PR,Donetsk PR,1.0,1.0,A,D
+2019-08-09,Luhansk PR,South Ossetia,0.0,2.0,A,L
+2019-12-08,Luhansk PR,South Ossetia,4.0,3.0,H,W
+2025-06-06,Luxembourg,Slovenia,0.0,1.0,H,L
+2025-06-10,Luxembourg,Republic of Ireland,0.0,0.0,H,D
+2025-09-04,Luxembourg,Northern Ireland,1.0,3.0,H,L
+2025-09-07,Luxembourg,Slovakia,0.0,1.0,H,L
+2025-10-10,Luxembourg,Germany,0.0,4.0,A,L
+2025-10-13,Luxembourg,Slovakia,0.0,2.0,A,L
+2025-11-14,Luxembourg,Germany,0.0,2.0,H,L
+2025-11-17,Luxembourg,Northern Ireland,0.0,1.0,A,L
+2026-06-03,Luxembourg,Italy,0.0,1.0,H,L
+2026-06-06,Luxembourg,Albania,1.0,0.0,A,W
+2023-09-06,Macau,Bhutan,0.0,1.0,H,L
+2023-09-11,Macau,Cambodia,0.0,4.0,A,L
+2023-10-12,Macau,Myanmar,1.0,5.0,A,L
+2023-10-17,Macau,Myanmar,0.0,0.0,H,D
+2024-09-06,Macau,Brunei,0.0,3.0,A,L
+2024-09-10,Macau,Brunei,0.0,1.0,H,L
+2024-12-14,Macau,Guam,1.0,2.0,H,L
+2025-03-19,Macau,Hong Kong,0.0,2.0,A,L
+2026-03-26,Macau,Aruba,1.0,4.0,A,L
+2026-03-29,Macau,Tanzania,0.0,6.0,H,L
+2025-03-24,Madagascar,Ghana,0.0,3.0,H,L
+2025-06-08,Madagascar,DR Congo,1.0,3.0,A,L
+2025-09-04,Madagascar,Central African Republic,2.0,0.0,H,W
+2025-09-08,Madagascar,Chad,3.0,1.0,H,W
+2025-10-08,Madagascar,Comoros,2.0,1.0,A,W
+2025-10-12,Madagascar,Mali,1.0,4.0,A,L
+2025-11-17,Madagascar,Equatorial Guinea,2.0,0.0,H,W
+2026-03-28,Madagascar,Kyrgyzstan,5.0,2.0,A,W
+2026-03-31,Madagascar,Equatorial Guinea,1.0,1.0,A,D
+2026-06-02,Madagascar,Morocco,0.0,4.0,A,L
+2013-06-07,Madrid,Andalusia,1.0,2.0,H,L
+2025-03-24,Malawi,Tunisia,0.0,2.0,A,L
+2025-09-05,Malawi,Namibia,2.0,1.0,A,W
+2025-09-08,Malawi,Liberia,2.0,2.0,H,D
+2025-10-09,Malawi,Equatorial Guinea,3.0,0.0,H,W
+2025-10-13,Malawi,São Tomé and Príncipe,0.0,1.0,A,L
+2025-11-15,Malawi,Lesotho,0.0,0.0,A,D
+2025-11-18,Malawi,Lesotho,1.0,0.0,A,W
+2026-03-31,Malawi,Botswana,0.0,1.0,A,L
+2026-06-06,Malawi,Ethiopia,0.0,1.0,A,L
+2026-06-09,Malawi,Ethiopia,1.0,1.0,A,D
+2024-12-20,Malaysia,Singapore,0.0,0.0,H,D
+2025-03-25,Malaysia,Nepal,2.0,0.0,H,W
+2025-05-29,Malaysia,Cape Verde,1.0,1.0,H,D
+2025-06-03,Malaysia,Cape Verde,0.0,3.0,H,L
+2025-06-10,Malaysia,Vietnam,4.0,0.0,H,W
+2025-09-04,Malaysia,Singapore,2.0,1.0,H,W
+2025-09-08,Malaysia,Palestine,1.0,0.0,H,W
+2025-10-09,Malaysia,Laos,3.0,0.0,A,W
+2025-10-14,Malaysia,Laos,5.0,1.0,H,W
+2025-11-18,Malaysia,Nepal,1.0,0.0,H,W
+2025-03-25,Maldives,Philippines,1.0,4.0,A,L
+2025-06-05,Maldives,Singapore,1.0,3.0,A,L
+2025-06-10,Maldives,Timor-Leste,0.0,1.0,A,L
+2025-09-06,Maldives,Sri Lanka,3.0,0.0,A,W
+2025-09-09,Maldives,Sri Lanka,1.0,1.0,A,D
+2025-10-09,Maldives,Tajikistan,0.0,2.0,A,L
+2025-10-14,Maldives,Tajikistan,0.0,3.0,H,L
+2025-11-18,Maldives,Philippines,0.0,2.0,H,L
+2026-06-01,Maldives,Pakistan,0.0,3.0,H,L
+2026-06-01,Maldives,Afghanistan,0.0,1.0,H,L
+2025-10-08,Mali,Chad,2.0,0.0,A,W
+2025-10-12,Mali,Madagascar,4.0,1.0,H,W
+2025-11-18,Mali,Jordan,3.0,2.0,H,W
+2025-12-22,Mali,Zambia,1.0,1.0,H,D
+2025-12-26,Mali,Morocco,1.0,1.0,A,D
+2025-12-29,Mali,Comoros,0.0,0.0,A,D
+2026-01-03,Mali,Tunisia,1.0,1.0,H,D
+2026-01-09,Mali,Senegal,0.0,1.0,H,L
+2026-03-31,Mali,Russia,0.0,0.0,A,D
+2026-06-04,Mali,Iran,0.0,2.0,A,L
+2025-06-07,Malta,Lithuania,0.0,0.0,H,D
+2025-06-10,Malta,Netherlands,0.0,8.0,A,L
+2025-09-04,Malta,Lithuania,1.0,1.0,A,D
+2025-09-09,Malta,San Marino,3.0,1.0,H,W
+2025-10-09,Malta,Netherlands,0.0,4.0,H,L
+2025-10-12,Malta,Bosnia and Herzegovina,1.0,4.0,H,L
+2025-11-14,Malta,Finland,1.0,0.0,A,W
+2025-11-17,Malta,Poland,2.0,3.0,H,L
+2026-06-01,Malta,Slovakia,1.0,2.0,A,L
+2026-06-05,Malta,Azerbaijan,2.0,0.0,A,W
+1939-09-03,Manchukuo,Japan,0.0,6.0,H,L
+1940-06-07,Manchukuo,Japan,0.0,7.0,A,L
+1942-08-09,Manchukuo,Japan,0.0,3.0,H,L
+2022-06-17,Mapuche,Maule Sur,0.0,1.0,H,L
+2022-06-18,Mapuche,Aymara,3.0,1.0,H,W
+2025-08-14,Marshall Islands,United States Virgin Islands,0.0,4.0,H,L
+2025-08-16,Marshall Islands,Turks and Caicos Islands,2.0,3.0,A,L
+2024-09-05,Martinique,Guatemala,1.0,3.0,A,L
+2024-09-09,Martinique,Guyana,2.0,2.0,H,D
+2024-10-11,Martinique,Guadeloupe,1.0,0.0,A,W
+2024-10-15,Martinique,Guadeloupe,0.0,0.0,A,D
+2025-03-21,Martinique,Suriname,0.0,1.0,A,L
+2025-03-25,Martinique,Suriname,0.0,1.0,H,L
+2025-11-15,Martinique,Cuba,0.0,2.0,H,L
+2025-11-18,Martinique,Dominican Republic,0.0,0.0,A,D
+2026-03-26,Martinique,Cuba,2.0,2.0,H,D
+2026-03-29,Martinique,El Salvador,0.0,1.0,H,L
+2018-05-31,Matabeleland,Padania,1.0,6.0,A,L
+2018-06-02,Matabeleland,Székely Land,0.0,5.0,A,L
+2018-06-03,Matabeleland,Tuvalu,3.0,1.0,A,W
+2018-06-05,Matabeleland,Kabylia,0.0,0.0,H,D
+2018-06-09,Matabeleland,Tamil Eelam,1.0,0.0,H,W
+2022-05-21,Matabeleland,Yoruba Nation,1.0,1.0,A,D
+2022-05-22,Matabeleland,Biafra,1.0,0.0,A,W
+2022-05-25,Matabeleland,Biafra,0.0,1.0,A,L
+2022-06-17,Maule Sur,Mapuche,1.0,0.0,A,W
+2022-06-19,Maule Sur,Aymara,1.0,0.0,A,W
+2025-09-05,Mauritania,Togo,2.0,0.0,H,W
+2025-09-09,Mauritania,South Sudan,0.0,0.0,H,D
+2025-10-10,Mauritania,Sudan,0.0,0.0,A,D
+2025-10-14,Mauritania,Senegal,0.0,4.0,A,L
+2025-11-12,Mauritania,Tunisia,1.0,1.0,A,D
+2025-11-15,Mauritania,Libya,0.0,1.0,A,L
+2025-11-25,Mauritania,Kuwait,0.0,2.0,H,L
+2026-03-27,Mauritania,Argentina,1.0,2.0,A,L
+2026-06-05,Mauritania,Angola,1.0,1.0,A,D
+2026-06-08,Mauritania,Niger,1.0,0.0,H,W
+2024-06-11,Mauritius,Eswatini,2.0,1.0,H,W
+2024-09-03,Mauritius,India,0.0,0.0,A,D
+2024-09-06,Mauritius,Syria,0.0,2.0,A,L
+2024-11-19,Mauritius,Hong Kong,0.0,1.0,A,L
+2025-03-20,Mauritius,Cape Verde,0.0,1.0,A,L
+2025-03-23,Mauritius,Eswatini,3.0,3.0,A,D
+2025-09-04,Mauritius,Cape Verde,0.0,2.0,H,L
+2025-09-09,Mauritius,Angola,1.0,3.0,A,L
+2025-10-08,Mauritius,Cameroon,0.0,2.0,H,L
+2025-10-13,Mauritius,Libya,0.0,0.0,H,D
+2015-08-04,Mayotte,Seychelles,1.0,0.0,A,W
+2015-08-06,Mayotte,Mauritius,2.0,1.0,H,W
+2015-08-08,Mayotte,Réunion,1.0,3.0,A,L
+2019-07-18,Mayotte,Comoros,2.0,0.0,A,W
+2019-07-20,Mayotte,Réunion,0.0,1.0,A,L
+2019-07-22,Mayotte,Maldives,3.0,1.0,H,W
+2019-07-24,Mayotte,Mauritius,0.0,1.0,A,L
+2019-07-26,Mayotte,Seychelles,3.0,1.0,A,W
+2023-08-24,Mayotte,Comoros,0.0,0.0,A,D
+2023-08-26,Mayotte,Réunion,0.0,0.0,A,D
+2015-07-03,Menorca,Shetland,1.0,0.0,H,W
+2017-06-25,Menorca,Orkney,1.0,0.0,H,W
+2017-06-26,Menorca,Jersey,3.0,3.0,A,D
+2017-06-27,Menorca,Alderney,6.0,0.0,H,W
+2017-06-29,Menorca,Greenland,1.0,1.0,A,D
+2017-06-30,Menorca,Guernsey,0.0,1.0,H,L
+2023-07-09,Menorca,Saint Helena,5.0,0.0,H,W
+2023-07-10,Menorca,Jersey,0.0,4.0,A,L
+2023-07-11,Menorca,Gozo,0.0,1.0,H,L
+2023-07-13,Menorca,Western Isles,1.0,2.0,A,L
+2026-02-25,Mexico,Iceland,4.0,0.0,H,W
+2026-03-28,Mexico,Portugal,0.0,0.0,H,D
+2026-03-31,Mexico,Belgium,1.0,1.0,H,D
+2026-05-22,Mexico,Ghana,2.0,0.0,H,W
+2026-05-30,Mexico,Australia,1.0,0.0,H,W
+2026-06-04,Mexico,Serbia,5.0,1.0,H,W
+2026-06-11,Mexico,South Africa,2.0,0.0,H,W
+2026-06-18,Mexico,South Korea,1.0,0.0,H,W
+2026-06-24,Mexico,Czech Republic,3.0,0.0,H,W
+2026-06-30,Mexico,Ecuador,2.0,0.0,H,W
+1999-06-05,Micronesia,Guam,0.0,3.0,A,L
+1999-06-10,Micronesia,Guam,1.0,4.0,A,L
+1999-07-12,Micronesia,Northern Mariana Islands,7.0,0.0,H,W
+2003-06-30,Micronesia,Tahiti,0.0,17.0,A,L
+2003-07-01,Micronesia,New Caledonia,0.0,18.0,H,L
+2003-07-05,Micronesia,Tonga,0.0,7.0,A,L
+2003-07-07,Micronesia,Papua New Guinea,0.0,10.0,A,L
+2025-09-05,Moldova,Israel,0.0,4.0,H,L
+2025-09-09,Moldova,Norway,1.0,11.0,A,L
+2025-10-09,Moldova,Romania,1.0,2.0,A,L
+2025-10-14,Moldova,Estonia,1.0,1.0,A,D
+2025-11-13,Moldova,Italy,0.0,2.0,H,L
+2025-11-16,Moldova,Israel,1.0,4.0,H,L
+2026-03-26,Moldova,Lithuania,0.0,2.0,H,L
+2026-03-30,Moldova,Cyprus,2.0,3.0,A,L
+2026-06-05,Moldova,Bulgaria,2.0,2.0,H,D
+2026-06-09,Moldova,Armenia,1.0,1.0,A,D
+2008-11-08,Monaco,Occitania,2.0,2.0,A,D
+2008-12-20,Monaco,Provence,2.0,3.0,H,L
+2010-04-03,Monaco,Occitania,1.0,5.0,A,L
+2011-05-07,Monaco,Vatican City,2.0,1.0,H,W
+2012-06-10,Monaco,Raetia,1.0,2.0,H,L
+2013-02-13,Monaco,Provence,1.0,6.0,A,L
+2013-06-22,Monaco,Vatican City,2.0,0.0,H,W
+2014-04-06,Monaco,Ellan Vannin,0.0,10.0,A,L
+2014-05-10,Monaco,Vatican City,2.0,0.0,A,W
+2017-04-29,Monaco,Vatican City,0.0,0.0,A,D
+2024-03-22,Mongolia,Azerbaijan,0.0,1.0,A,L
+2024-03-25,Mongolia,Tanzania,0.0,3.0,A,L
+2024-06-07,Mongolia,Cambodia,0.0,2.0,A,L
+2024-06-11,Mongolia,Cambodia,2.0,1.0,H,W
+2024-09-05,Mongolia,Timor-Leste,1.0,4.0,A,L
+2024-09-10,Mongolia,Timor-Leste,2.0,0.0,H,W
+2024-12-08,Mongolia,Hong Kong,0.0,3.0,A,L
+2024-12-11,Mongolia,Taiwan,0.0,4.0,A,L
+2026-05-31,Mongolia,Singapore,0.0,4.0,A,L
+2026-06-05,Mongolia,Hong Kong,0.0,2.0,A,L
+2025-09-05,Montenegro,Czech Republic,0.0,2.0,H,L
+2025-09-08,Montenegro,Croatia,0.0,4.0,A,L
+2025-10-09,Montenegro,Faroe Islands,0.0,4.0,A,L
+2025-10-13,Montenegro,Liechtenstein,2.0,1.0,H,W
+2025-11-14,Montenegro,Gibraltar,2.0,1.0,A,W
+2025-11-17,Montenegro,Croatia,2.0,3.0,H,L
+2026-03-27,Montenegro,Andorra,2.0,0.0,H,W
+2026-03-31,Montenegro,Slovenia,2.0,3.0,H,L
+2026-06-01,Montenegro,Bulgaria,1.0,0.0,A,W
+2026-06-05,Montenegro,Slovakia,2.0,2.0,A,D
+2024-06-05,Montserrat,Nicaragua,1.0,4.0,A,L
+2024-06-09,Montserrat,Panama,1.0,3.0,H,L
+2024-09-05,Montserrat,El Salvador,1.0,4.0,H,L
+2024-09-08,Montserrat,Saint Vincent and the Grenadines,0.0,2.0,A,L
+2024-10-10,Montserrat,Bonaire,1.0,0.0,A,W
+2024-10-13,Montserrat,Bonaire,0.0,1.0,H,L
+2024-11-14,Montserrat,Saint Vincent and the Grenadines,1.0,2.0,H,L
+2024-11-17,Montserrat,El Salvador,0.0,1.0,A,L
+2025-06-04,Montserrat,Belize,1.0,0.0,H,W
+2025-06-10,Montserrat,Guyana,0.0,3.0,A,L
+2026-03-27,Morocco,Ecuador,1.0,1.0,H,D
+2026-03-31,Morocco,Paraguay,2.0,1.0,H,W
+2026-05-26,Morocco,Burundi,5.0,0.0,H,W
+2026-06-02,Morocco,Madagascar,4.0,0.0,H,W
+2026-06-07,Morocco,Norway,1.0,1.0,H,D
+2026-06-13,Morocco,Brazil,1.0,1.0,A,D
+2026-06-19,Morocco,Scotland,1.0,0.0,A,W
+2026-06-24,Morocco,Haiti,4.0,2.0,H,W
+2026-06-29,Morocco,Netherlands,1.0,1.0,A,D
+2026-07-04,Morocco,Canada,3.0,0.0,A,W
+2025-09-08,Mozambique,Botswana,2.0,0.0,H,W
+2025-10-09,Mozambique,Guinea,1.0,2.0,H,L
+2025-10-14,Mozambique,Somalia,1.0,0.0,A,W
+2025-11-14,Mozambique,Morocco,0.0,1.0,A,L
+2025-11-17,Mozambique,Chad,2.0,2.0,H,D
+2025-12-24,Mozambique,Ivory Coast,0.0,1.0,A,L
+2025-12-28,Mozambique,Gabon,3.0,2.0,A,W
+2025-12-31,Mozambique,Cameroon,1.0,2.0,H,L
+2026-01-05,Mozambique,Nigeria,0.0,4.0,A,L
+2026-06-09,Mozambique,Indonesia,0.0,1.0,A,L
+2024-12-12,Myanmar,Philippines,1.0,1.0,A,D
+2024-12-18,Myanmar,Laos,3.0,2.0,H,W
+2024-12-21,Myanmar,Vietnam,0.0,5.0,A,L
+2025-03-25,Myanmar,Afghanistan,2.0,1.0,H,W
+2025-06-10,Myanmar,Pakistan,1.0,0.0,H,W
+2025-09-09,Myanmar,Singapore,1.0,1.0,A,D
+2025-10-09,Myanmar,Syria,1.0,5.0,A,L
+2025-10-14,Myanmar,Syria,0.0,3.0,H,L
+2026-06-06,Myanmar,Guam,6.0,1.0,H,W
+2026-06-09,Myanmar,Philippines,1.0,5.0,A,L
+2025-03-20,Namibia,Malawi,1.0,0.0,A,W
+2025-03-24,Namibia,Equatorial Guinea,1.0,1.0,H,D
+2025-09-05,Namibia,Malawi,1.0,2.0,H,L
+2025-09-09,Namibia,São Tomé and Príncipe,3.0,0.0,H,W
+2025-10-09,Namibia,Liberia,1.0,3.0,A,L
+2025-10-13,Namibia,Tunisia,0.0,3.0,A,L
+2025-11-14,Namibia,Comoros,0.0,1.0,A,L
+2025-11-17,Namibia,Comoros,0.0,4.0,A,L
+2026-03-25,Namibia,Kazakhstan,0.0,2.0,A,L
+2026-03-28,Namibia,Comoros,0.0,0.0,H,D
+2024-11-16,Nepal,Afghanistan,2.0,0.0,H,W
+2025-03-21,Nepal,Singapore,1.0,0.0,A,W
+2025-03-25,Nepal,Malaysia,0.0,2.0,A,L
+2025-06-05,Nepal,Hong Kong,0.0,0.0,A,D
+2025-06-10,Nepal,Laos,1.0,2.0,A,L
+2025-09-06,Nepal,Bangladesh,0.0,0.0,H,D
+2025-10-09,Nepal,Vietnam,1.0,3.0,A,L
+2025-10-14,Nepal,Vietnam,0.0,1.0,A,L
+2025-11-13,Nepal,Bangladesh,2.0,2.0,A,D
+2025-11-18,Nepal,Malaysia,0.0,1.0,A,L
+2025-11-14,Netherlands,Poland,1.0,1.0,A,D
+2025-11-17,Netherlands,Lithuania,4.0,0.0,H,W
+2026-03-27,Netherlands,Norway,2.0,1.0,H,W
+2026-03-31,Netherlands,Ecuador,1.0,1.0,H,D
+2026-06-03,Netherlands,Algeria,0.0,1.0,H,L
+2026-06-08,Netherlands,Uzbekistan,2.0,1.0,H,W
+2026-06-14,Netherlands,Japan,2.0,2.0,H,D
+2026-06-20,Netherlands,Sweden,5.0,1.0,H,W
+2026-06-25,Netherlands,Tunisia,3.0,1.0,A,W
+2026-06-29,Netherlands,Morocco,1.0,1.0,H,D
+2023-11-24,New Caledonia,Cook Islands,8.0,0.0,A,W
+2023-11-28,New Caledonia,Vanuatu,1.0,0.0,H,W
+2023-12-02,New Caledonia,Solomon Islands,2.0,2.0,A,D
+2024-10-10,New Caledonia,Papua New Guinea,3.0,1.0,A,W
+2024-11-14,New Caledonia,Solomon Islands,3.0,2.0,A,W
+2024-11-17,New Caledonia,Fiji,1.0,1.0,A,D
+2025-03-21,New Caledonia,Tahiti,3.0,0.0,H,W
+2025-03-24,New Caledonia,New Zealand,0.0,3.0,A,L
+2025-10-08,New Caledonia,Gibraltar,2.0,0.0,A,W
+2026-03-26,New Caledonia,Jamaica,0.0,1.0,H,L
+2025-10-14,New Zealand,Norway,1.0,1.0,A,D
+2025-11-15,New Zealand,Colombia,1.0,2.0,A,L
+2025-11-18,New Zealand,Ecuador,0.0,2.0,A,L
+2026-03-27,New Zealand,Finland,0.0,2.0,H,L
+2026-03-30,New Zealand,Chile,4.0,1.0,H,W
+2026-06-02,New Zealand,Haiti,0.0,4.0,A,L
+2026-06-06,New Zealand,England,0.0,1.0,A,L
+2026-06-15,New Zealand,Iran,2.0,2.0,A,D
+2026-06-21,New Zealand,Egypt,1.0,3.0,H,L
+2026-06-26,New Zealand,Belgium,1.0,5.0,H,L
+2025-06-10,Nicaragua,Panama,0.0,3.0,A,L
+2025-09-05,Nicaragua,Costa Rica,1.0,1.0,H,D
+2025-09-09,Nicaragua,Honduras,0.0,2.0,A,L
+2025-10-09,Nicaragua,Haiti,0.0,3.0,H,L
+2025-10-13,Nicaragua,Costa Rica,1.0,4.0,A,L
+2025-11-13,Nicaragua,Honduras,2.0,0.0,H,W
+2025-11-18,Nicaragua,Haiti,0.0,2.0,A,L
+2026-03-27,Nicaragua,Russia,1.0,3.0,A,L
+2026-05-29,Nicaragua,South Africa,0.0,0.0,A,D
+2026-06-05,Nicaragua,Paraguay,0.0,4.0,A,L
+2025-09-05,Niger,Morocco,0.0,5.0,A,L
+2025-09-09,Niger,Tanzania,1.0,0.0,A,W
+2025-10-08,Niger,Congo,3.0,1.0,H,W
+2025-10-12,Niger,Zambia,1.0,0.0,A,W
+2025-11-14,Niger,Burkina Faso,2.0,3.0,A,L
+2025-11-18,Niger,Guinea,1.0,1.0,A,D
+2026-03-27,Niger,Libya,0.0,0.0,A,D
+2026-03-31,Niger,Togo,0.0,1.0,H,L
+2026-06-05,Niger,Benin,1.0,1.0,A,D
+2026-06-08,Niger,Mauritania,0.0,1.0,A,L
+2026-01-05,Nigeria,Mozambique,4.0,0.0,H,W
+2026-01-10,Nigeria,Algeria,2.0,0.0,A,W
+2026-01-14,Nigeria,Morocco,0.0,0.0,A,D
+2026-01-17,Nigeria,Egypt,0.0,0.0,A,D
+2026-03-27,Nigeria,Iran,2.0,1.0,A,W
+2026-03-31,Nigeria,Jordan,2.0,2.0,A,D
+2026-05-26,Nigeria,Zimbabwe,2.0,0.0,H,W
+2026-05-30,Nigeria,Jamaica,3.0,0.0,H,W
+2026-06-03,Nigeria,Poland,2.0,2.0,A,D
+2026-06-10,Nigeria,Portugal,1.0,2.0,A,L
+1983-08-20,Niue,Tahiti,0.0,14.0,H,L
+1983-08-22,Niue,Papua New Guinea,0.0,19.0,H,L
+2024-09-10,North Korea,Qatar,2.0,2.0,H,D
+2024-10-10,North Korea,United Arab Emirates,1.0,1.0,A,D
+2024-10-15,North Korea,Kyrgyzstan,0.0,1.0,A,L
+2024-11-14,North Korea,Iran,2.0,3.0,H,L
+2024-11-19,North Korea,Uzbekistan,0.0,1.0,H,L
+2025-03-14,North Korea,Jordan,1.0,1.0,A,D
+2025-03-20,North Korea,Qatar,1.0,5.0,A,L
+2025-03-25,North Korea,United Arab Emirates,1.0,2.0,H,L
+2025-06-05,North Korea,Kyrgyzstan,2.0,2.0,H,D
+2025-06-10,North Korea,Iran,0.0,3.0,A,L
+2025-09-04,North Macedonia,Saudi Arabia,1.0,2.0,A,L
+2025-09-07,North Macedonia,Liechtenstein,5.0,0.0,H,W
+2025-10-10,North Macedonia,Belgium,0.0,0.0,A,D
+2025-10-13,North Macedonia,Kazakhstan,1.0,1.0,H,D
+2025-11-13,North Macedonia,Latvia,0.0,0.0,H,D
+2025-11-18,North Macedonia,Wales,1.0,7.0,A,L
+2026-03-26,North Macedonia,Denmark,0.0,4.0,A,L
+2026-03-31,North Macedonia,Republic of Ireland,0.0,0.0,A,D
+2026-05-29,North Macedonia,Bosnia and Herzegovina,0.0,0.0,A,D
+2026-06-01,North Macedonia,Turkey,0.0,4.0,A,L
+1965-08-03,North Vietnam,Cambodia,1.0,1.0,A,D
+1965-08-06,North Vietnam,Guinea,2.0,1.0,A,W
+1965-08-09,North Vietnam,China,3.0,3.0,A,D
+1965-08-11,North Vietnam,Indonesia,1.0,2.0,A,L
+1966-11-26,North Vietnam,Yemen,9.0,0.0,H,W
+1966-11-27,North Vietnam,Palestine,4.0,0.0,A,W
+1966-11-30,North Vietnam,Cambodia,2.0,2.0,A,D
+1966-11-30,North Vietnam,China,0.0,2.0,A,L
+1966-12-06,North Vietnam,North Korea,1.0,3.0,A,L
+1970-09-20,North Vietnam,Cuba,2.0,1.0,H,W
+2017-06-06,Northern Cyprus,South Ossetia,8.0,0.0,H,W
+2017-06-07,Northern Cyprus,Abkhazia,0.0,0.0,H,D
+2017-06-09,Northern Cyprus,Székely Land,2.0,1.0,H,W
+2017-06-10,Northern Cyprus,Padania,1.0,1.0,H,D
+2018-05-31,Northern Cyprus,Kárpátalja,1.0,1.0,H,D
+2018-06-02,Northern Cyprus,Tibet,3.0,1.0,H,W
+2018-06-03,Northern Cyprus,Abkhazia,2.0,2.0,A,D
+2018-06-05,Northern Cyprus,Barawa,8.0,0.0,A,W
+2018-06-07,Northern Cyprus,Padania,3.0,2.0,H,W
+2018-06-09,Northern Cyprus,Kárpátalja,0.0,0.0,H,D
+2025-09-04,Northern Ireland,Luxembourg,3.0,1.0,A,W
+2025-09-07,Northern Ireland,Germany,1.0,3.0,A,L
+2025-10-10,Northern Ireland,Slovakia,2.0,0.0,H,W
+2025-10-13,Northern Ireland,Germany,0.0,1.0,H,L
+2025-11-14,Northern Ireland,Slovakia,0.0,1.0,A,L
+2025-11-17,Northern Ireland,Luxembourg,1.0,0.0,H,W
+2026-03-26,Northern Ireland,Italy,0.0,2.0,A,L
+2026-03-31,Northern Ireland,Wales,1.0,1.0,A,D
+2026-06-04,Northern Ireland,Guinea,1.0,0.0,H,W
+2026-06-08,Northern Ireland,France,1.0,3.0,A,L
+2016-07-04,Northern Mariana Islands,Mongolia,0.0,8.0,H,L
+2018-09-02,Northern Mariana Islands,Guam,0.0,4.0,A,L
+2018-09-04,Northern Mariana Islands,Mongolia,0.0,9.0,A,L
+2018-09-06,Northern Mariana Islands,Macau,1.0,1.0,H,D
+2023-11-18,Northern Mariana Islands,Fiji,0.0,10.0,A,L
+2023-11-24,Northern Mariana Islands,Tahiti,0.0,5.0,H,L
+2023-11-27,Northern Mariana Islands,American Samoa,4.0,0.0,H,W
+2023-11-30,Northern Mariana Islands,Tuvalu,1.0,4.0,H,L
+2024-04-06,Northern Mariana Islands,Guam,2.0,2.0,H,D
+2024-04-07,Northern Mariana Islands,Guam,2.0,1.0,H,W
+2025-11-13,Norway,Estonia,4.0,1.0,H,W
+2025-11-16,Norway,Italy,4.0,1.0,A,W
+2026-03-27,Norway,Netherlands,1.0,2.0,A,L
+2026-03-31,Norway,Switzerland,0.0,0.0,H,D
+2026-06-01,Norway,Sweden,3.0,1.0,H,W
+2026-06-07,Norway,Morocco,1.0,1.0,A,D
+2026-06-16,Norway,Iraq,4.0,1.0,A,W
+2026-06-22,Norway,Senegal,3.0,2.0,H,W
+2026-06-26,Norway,France,1.0,4.0,H,L
+2026-06-30,Norway,Ivory Coast,2.0,1.0,A,W
+2012-06-09,Occitania,Western Sahara,3.0,1.0,H,W
+2013-07-05,Occitania,Sealand,8.0,0.0,A,W
+2013-07-06,Occitania,Tamil Eelam,5.0,0.0,A,W
+2013-12-28,Occitania,Galicia,7.0,1.0,A,W
+2014-06-01,Occitania,Abkhazia,1.0,1.0,A,D
+2014-06-03,Occitania,Sápmi,1.0,0.0,A,W
+2014-06-04,Occitania,Arameans Suryoye,0.0,0.0,A,D
+2014-06-05,Occitania,Iraqi Kurdistan,2.0,2.0,H,D
+2014-06-07,Occitania,Abkhazia,1.0,0.0,A,W
+2014-12-30,Occitania,Ellan Vannin,5.0,1.0,H,W
+2025-06-10,Oman,Palestine,1.0,1.0,A,D
+2025-10-08,Oman,Qatar,0.0,0.0,A,D
+2025-10-11,Oman,United Arab Emirates,1.0,2.0,A,L
+2025-11-14,Oman,Sudan,2.0,0.0,H,W
+2025-11-18,Oman,Ivory Coast,0.0,2.0,H,L
+2025-11-26,Oman,Somalia,0.0,0.0,H,D
+2025-12-02,Oman,Saudi Arabia,1.0,2.0,A,L
+2025-12-05,Oman,Morocco,0.0,0.0,H,D
+2025-12-08,Oman,Comoros,2.0,1.0,H,W
+2026-06-05,Oman,Indonesia,0.0,3.0,A,L
+2019-06-17,Orkney,Ynys Môn,1.0,3.0,A,L
+2019-06-18,Orkney,Western Isles,2.0,1.0,A,W
+2019-06-20,Orkney,Alderney,1.0,2.0,H,L
+2023-07-09,Orkney,Greenland,2.0,2.0,H,D
+2023-07-11,Orkney,Frøya,3.0,2.0,A,W
+2023-07-13,Orkney,Isle of Man,0.0,1.0,H,L
+2025-07-13,Orkney,Frøya,3.0,0.0,H,W
+2025-07-14,Orkney,Hitra,3.0,2.0,H,W
+2025-07-15,Orkney,Isle of Man,1.0,3.0,H,L
+2025-07-17,Orkney,Shetland,3.0,2.0,H,W
+2018-06-02,Padania,Tuvalu,8.0,0.0,H,W
+2018-06-03,Padania,Székely Land,3.0,1.0,H,W
+2018-06-05,Padania,Panjab,2.0,0.0,H,W
+2018-06-07,Padania,Northern Cyprus,2.0,3.0,A,L
+2018-06-09,Padania,Székely Land,0.0,0.0,H,D
+2019-06-02,Padania,Székely Land,4.0,0.0,H,W
+2019-06-03,Padania,South Ossetia,1.0,2.0,A,L
+2019-06-04,Padania,Western Armenia,1.0,1.0,H,D
+2019-06-06,Padania,Sápmi,4.0,0.0,H,W
+2019-06-08,Padania,Artsakh,0.0,2.0,A,L
+2024-06-06,Pakistan,Saudi Arabia,0.0,3.0,H,L
+2024-06-11,Pakistan,Tajikistan,0.0,3.0,A,L
+2025-03-25,Pakistan,Syria,0.0,2.0,A,L
+2025-06-10,Pakistan,Myanmar,0.0,1.0,A,L
+2025-10-09,Pakistan,Afghanistan,0.0,0.0,H,D
+2025-10-14,Pakistan,Afghanistan,1.0,1.0,A,D
+2025-11-18,Pakistan,Syria,0.0,5.0,H,L
+2026-06-01,Pakistan,Maldives,3.0,0.0,A,W
+2026-06-07,Pakistan,Afghanistan,2.0,0.0,A,W
+2026-06-10,Pakistan,Afghanistan,2.0,0.0,A,W
+1987-03-06,Palau,Vanuatu,2.0,6.0,H,L
+1998-08-01,Palau,Guam,2.0,15.0,H,L
+2025-06-10,Palestine,Oman,1.0,1.0,H,D
+2025-09-08,Palestine,Malaysia,0.0,1.0,A,L
+2025-11-15,Palestine,Basque Country,0.0,3.0,A,L
+2025-11-25,Palestine,Libya,0.0,0.0,H,D
+2025-12-01,Palestine,Qatar,1.0,0.0,A,W
+2025-12-04,Palestine,Tunisia,2.0,2.0,H,D
+2025-12-07,Palestine,Syria,0.0,0.0,A,D
+2025-12-11,Palestine,Saudi Arabia,1.0,2.0,H,L
+2026-06-06,Palestine,Kyrgyzstan,0.0,0.0,A,D
+2026-06-09,Palestine,Kyrgyzstan,0.0,0.0,A,D
+2026-01-18,Panama,Bolivia,1.0,1.0,A,D
+2026-01-22,Panama,Mexico,0.0,1.0,H,L
+2026-03-27,Panama,South Africa,1.0,1.0,A,D
+2026-03-31,Panama,South Africa,2.0,1.0,A,W
+2026-05-31,Panama,Brazil,2.0,6.0,A,L
+2026-06-03,Panama,Dominican Republic,4.0,2.0,H,W
+2026-06-06,Panama,Bosnia and Herzegovina,1.0,1.0,H,D
+2026-06-17,Panama,Ghana,0.0,1.0,A,L
+2026-06-23,Panama,Croatia,0.0,1.0,H,L
+2026-06-27,Panama,England,0.0,2.0,H,L
+2017-04-23,Panjab,Jersey,2.0,0.0,A,W
+2018-04-29,Panjab,Ellan Vannin,1.0,2.0,A,L
+2018-05-31,Panjab,Kabylia,8.0,0.0,H,W
+2018-06-02,Panjab,Western Armenia,0.0,1.0,H,L
+2018-06-03,Panjab,United Koreans in Japan,1.0,1.0,H,D
+2018-06-05,Panjab,Padania,0.0,2.0,A,L
+2018-06-07,Panjab,Barawa,5.0,0.0,A,W
+2018-06-09,Panjab,Cascadia,3.0,3.0,H,D
+2018-11-18,Panjab,Yorkshire,4.0,5.0,A,L
+2019-12-29,Panjab,Chagos Islands,6.0,0.0,A,W
+2024-06-22,Papua New Guinea,Samoa,2.0,1.0,A,W
+2024-10-10,Papua New Guinea,New Caledonia,1.0,3.0,H,L
+2024-11-14,Papua New Guinea,Fiji,3.0,3.0,H,D
+2024-11-17,Papua New Guinea,Solomon Islands,1.0,2.0,H,L
+2024-12-15,Papua New Guinea,Fiji,1.0,1.0,H,D
+2024-12-18,Papua New Guinea,Solomon Islands,3.0,2.0,A,W
+2024-12-21,Papua New Guinea,Vanuatu,2.0,1.0,A,W
+2025-11-13,Papua New Guinea,Solomon Islands,1.0,0.0,H,W
+2025-11-20,Papua New Guinea,Fiji,2.0,0.0,H,W
+2025-11-23,Papua New Guinea,Vanuatu,2.0,2.0,H,D
+2025-11-15,Paraguay,United States,1.0,2.0,A,L
+2025-11-18,Paraguay,Mexico,2.0,1.0,A,W
+2026-03-27,Paraguay,Greece,1.0,0.0,A,W
+2026-03-31,Paraguay,Morocco,1.0,2.0,A,L
+2026-06-05,Paraguay,Nicaragua,4.0,0.0,H,W
+2026-06-12,Paraguay,United States,1.0,4.0,A,L
+2026-06-19,Paraguay,Turkey,1.0,0.0,A,W
+2026-06-25,Paraguay,Australia,0.0,0.0,H,D
+2026-06-29,Paraguay,Germany,1.0,1.0,A,D
+2026-07-04,Paraguay,France,0.0,1.0,H,L
+2018-10-21,Parishes of Jersey,Yorkshire,2.0,1.0,H,W
+2019-06-01,Parishes of Jersey,Yorkshire,0.0,1.0,A,L
+2019-06-02,Parishes of Jersey,Chagos Islands,9.0,2.0,H,W
+2025-06-10,Peru,Ecuador,0.0,0.0,H,D
+2025-09-04,Peru,Uruguay,0.0,3.0,A,L
+2025-09-09,Peru,Paraguay,0.0,1.0,H,L
+2025-10-10,Peru,Chile,1.0,2.0,A,L
+2025-11-12,Peru,Russia,1.0,1.0,A,D
+2025-11-18,Peru,Chile,1.0,2.0,A,L
+2026-03-28,Peru,Senegal,0.0,2.0,A,L
+2026-03-31,Peru,Honduras,2.0,2.0,H,D
+2026-06-05,Peru,Haiti,2.0,1.0,A,W
+2026-06-08,Peru,Spain,1.0,3.0,H,L
+2024-12-21,Philippines,Indonesia,1.0,0.0,A,W
+2024-12-27,Philippines,Thailand,2.0,1.0,H,W
+2024-12-30,Philippines,Thailand,1.0,3.0,A,L
+2025-03-25,Philippines,Maldives,4.0,1.0,H,W
+2025-06-10,Philippines,Tajikistan,2.0,2.0,H,D
+2025-10-09,Philippines,Timor-Leste,4.0,1.0,A,W
+2025-10-14,Philippines,Timor-Leste,3.0,1.0,H,W
+2025-11-18,Philippines,Maldives,2.0,0.0,A,W
+2026-06-03,Philippines,Guam,5.0,1.0,H,W
+2026-06-09,Philippines,Myanmar,5.0,1.0,H,W
+2025-09-04,Poland,Netherlands,1.0,1.0,A,D
+2025-09-07,Poland,Finland,3.0,1.0,H,W
+2025-10-09,Poland,New Zealand,1.0,0.0,H,W
+2025-10-12,Poland,Lithuania,2.0,0.0,A,W
+2025-11-14,Poland,Netherlands,1.0,1.0,H,D
+2025-11-17,Poland,Malta,3.0,2.0,A,W
+2026-03-26,Poland,Albania,2.0,1.0,H,W
+2026-03-31,Poland,Sweden,2.0,3.0,A,L
+2026-05-31,Poland,Ukraine,0.0,2.0,H,L
+2026-06-03,Poland,Nigeria,2.0,2.0,H,D
+2025-11-13,Portugal,Republic of Ireland,0.0,2.0,A,L
+2025-11-16,Portugal,Armenia,9.0,1.0,H,W
+2026-03-28,Portugal,Mexico,0.0,0.0,A,D
+2026-03-31,Portugal,United States,2.0,0.0,A,W
+2026-06-06,Portugal,Chile,2.0,1.0,H,W
+2026-06-10,Portugal,Nigeria,2.0,1.0,H,W
+2026-06-17,Portugal,DR Congo,1.0,1.0,H,D
+2026-06-23,Portugal,Uzbekistan,5.0,0.0,H,W
+2026-06-27,Portugal,Colombia,0.0,0.0,A,D
+2026-07-02,Portugal,Croatia,2.0,1.0,H,W
+2010-06-02,Provence,Iraqi Kurdistan,2.0,3.0,A,L
+2010-06-04,Provence,Gozo,1.0,2.0,A,L
+2012-06-05,Provence,Darfur,18.0,0.0,A,W
+2012-06-06,Provence,Northern Cyprus,2.0,1.0,H,W
+2012-06-08,Provence,Iraqi Kurdistan,1.0,2.0,A,L
+2012-06-09,Provence,Zanzibar,2.0,7.0,H,L
+2013-02-13,Provence,Monaco,6.0,1.0,H,W
+2013-06-24,Provence,Tibet,22.0,0.0,H,W
+2013-06-25,Provence,Quebec,1.0,3.0,H,L
+2013-06-28,Provence,Kurdistan,0.0,1.0,H,L
+2024-11-18,Puerto Rico,Haiti,0.0,3.0,H,L
+2025-03-21,Puerto Rico,Dominican Republic,2.0,2.0,H,D
+2025-03-25,Puerto Rico,Dominican Republic,0.0,2.0,A,L
+2025-06-01,Puerto Rico,Nicaragua,1.0,1.0,H,D
+2025-06-06,Puerto Rico,Suriname,0.0,1.0,A,L
+2025-06-10,Puerto Rico,Saint Vincent and the Grenadines,2.0,1.0,H,W
+2025-10-14,Puerto Rico,Argentina,0.0,6.0,H,L
+2026-03-25,Puerto Rico,Guam,4.0,0.0,H,W
+2026-03-28,Puerto Rico,United States Virgin Islands,2.0,0.0,H,W
+2026-06-05,Puerto Rico,Saudi Arabia,0.0,3.0,H,L
+2025-10-14,Qatar,United Arab Emirates,2.0,1.0,H,W
+2025-11-17,Qatar,Zimbabwe,1.0,2.0,H,L
+2025-12-01,Qatar,Palestine,0.0,1.0,H,L
+2025-12-04,Qatar,Syria,1.0,1.0,H,D
+2025-12-07,Qatar,Tunisia,0.0,3.0,H,L
+2026-05-28,Qatar,Republic of Ireland,0.0,1.0,A,L
+2026-06-06,Qatar,El Salvador,0.0,0.0,H,D
+2026-06-13,Qatar,Switzerland,1.0,1.0,H,D
+2026-06-18,Qatar,Canada,0.0,6.0,A,L
+2026-06-24,Qatar,Bosnia and Herzegovina,1.0,3.0,A,L
+2013-06-23,Quebec,Tibet,21.0,0.0,H,W
+2013-06-25,Quebec,Provence,3.0,1.0,A,W
+2013-06-27,Quebec,Kurdistan,0.0,1.0,H,L
+2016-06-02,Raetia,Székely Land,0.0,7.0,A,L
+2016-06-03,Raetia,Chagos Islands,3.0,3.0,A,D
+2017-03-12,Raetia,Tamil Eelam,0.0,5.0,H,L
+2019-03-23,Raetia,Vatican City,2.0,2.0,A,D
+2019-06-25,Raetia,Franconia,3.0,4.0,H,L
+2022-07-16,Raetia,Elba Island,0.0,5.0,A,L
+2022-08-07,Raetia,Tibet,3.0,3.0,H,D
+2022-11-13,Raetia,West Papua,1.0,1.0,A,D
+2023-06-17,Raetia,Ticino,8.0,1.0,A,W
+2023-08-06,Raetia,Ticino,5.0,1.0,H,W
+2025-09-09,Republic of Ireland,Armenia,1.0,2.0,A,L
+2025-10-11,Republic of Ireland,Portugal,0.0,1.0,A,L
+2025-10-14,Republic of Ireland,Armenia,1.0,0.0,H,W
+2025-11-13,Republic of Ireland,Portugal,2.0,0.0,H,W
+2025-11-16,Republic of Ireland,Hungary,3.0,2.0,A,W
+2026-03-26,Republic of Ireland,Czech Republic,2.0,2.0,A,D
+2026-03-31,Republic of Ireland,North Macedonia,0.0,0.0,H,D
+2026-05-16,Republic of Ireland,Grenada,5.0,0.0,H,W
+2026-05-28,Republic of Ireland,Qatar,1.0,0.0,H,W
+2026-06-05,Republic of Ireland,Canada,1.0,1.0,A,D
+2006-05-29,Republic of St. Pauli,Gibraltar,1.0,1.0,H,D
+2006-05-30,Republic of St. Pauli,Tibet,7.0,0.0,H,W
+2006-06-01,Republic of St. Pauli,Zanzibar,1.0,2.0,H,L
+2006-06-03,Republic of St. Pauli,Gibraltar,1.0,2.0,H,L
+2007-06-30,Rhodes,Saare County,2.0,0.0,H,W
+2007-07-01,Rhodes,Frøya,3.0,1.0,H,W
+2007-07-04,Rhodes,Western Isles,1.0,0.0,H,W
+2007-07-05,Rhodes,Gibraltar,0.0,4.0,H,L
+2009-06-28,Rhodes,Isle of Wight,2.0,0.0,H,W
+2009-06-29,Rhodes,Jersey,0.0,1.0,A,L
+2009-06-30,Rhodes,Saare County,3.0,0.0,H,W
+2009-07-03,Rhodes,Ynys Môn,4.0,0.0,H,W
+2011-06-26,Rhodes,Greenland,2.0,1.0,H,W
+2011-06-27,Rhodes,Jersey,0.0,2.0,A,L
+2007-06-07,Romani people,Ambazonia,3.0,1.0,H,W
+2011-05-28,Romani people,Occitania,2.0,11.0,A,L
+2015-06-17,Romani people,Padania,2.0,3.0,A,L
+2015-06-18,Romani people,Ellan Vannin,1.0,3.0,H,L
+2015-06-19,Romani people,Székely Land,4.0,2.0,A,W
+2016-03-13,Romani people,Tamil Eelam,1.0,4.0,A,L
+2016-05-16,Romani people,Padania,0.0,2.0,H,L
+2025-09-05,Romania,Canada,0.0,3.0,H,L
+2025-09-09,Romania,Cyprus,2.0,2.0,A,D
+2025-10-09,Romania,Moldova,2.0,1.0,H,W
+2025-10-12,Romania,Austria,1.0,0.0,H,W
+2025-11-15,Romania,Bosnia and Herzegovina,1.0,3.0,A,L
+2025-11-18,Romania,San Marino,7.0,1.0,H,W
+2026-03-26,Romania,Turkey,0.0,1.0,A,L
+2026-03-31,Romania,Slovakia,0.0,2.0,A,L
+2026-06-02,Romania,Georgia,1.0,1.0,A,D
+2026-06-06,Romania,Wales,2.0,1.0,H,W
+2025-09-07,Russia,Qatar,4.0,1.0,A,W
+2025-10-10,Russia,Iran,2.0,1.0,H,W
+2025-10-14,Russia,Bolivia,3.0,0.0,H,W
+2025-11-12,Russia,Peru,1.0,1.0,H,D
+2025-11-15,Russia,Chile,0.0,2.0,H,L
+2026-03-27,Russia,Nicaragua,3.0,1.0,H,W
+2026-03-31,Russia,Mali,0.0,0.0,H,D
+2026-05-28,Russia,Egypt,0.0,1.0,A,L
+2026-06-05,Russia,Burkina Faso,3.0,0.0,H,W
+2026-06-09,Russia,Trinidad and Tobago,3.0,0.0,H,W
+2025-03-21,Rwanda,Nigeria,0.0,2.0,H,L
+2025-03-25,Rwanda,Lesotho,1.0,1.0,H,D
+2025-06-05,Rwanda,Algeria,0.0,2.0,A,L
+2025-06-09,Rwanda,Algeria,0.0,2.0,A,L
+2025-09-06,Rwanda,Nigeria,0.0,1.0,A,L
+2025-09-09,Rwanda,Zimbabwe,1.0,0.0,A,W
+2025-10-10,Rwanda,Benin,0.0,1.0,H,L
+2025-10-14,Rwanda,South Africa,0.0,3.0,A,L
+2026-03-27,Rwanda,Grenada,4.0,0.0,H,W
+2026-03-30,Rwanda,Estonia,2.0,0.0,H,W
+2016-11-26,Ryūkyū,United Koreans in Japan,0.0,9.0,H,L
+2015-08-08,Réunion,Mayotte,3.0,1.0,H,W
+2019-07-18,Réunion,Maldives,4.0,0.0,H,W
+2019-07-20,Réunion,Mayotte,1.0,0.0,H,W
+2019-07-22,Réunion,Comoros,0.0,1.0,H,L
+2019-07-24,Réunion,Seychelles,4.0,0.0,H,W
+2019-07-28,Réunion,Mauritius,1.0,1.0,A,D
+2023-08-26,Réunion,Mayotte,0.0,0.0,H,D
+2023-08-28,Réunion,Comoros,1.0,1.0,A,D
+2023-08-31,Réunion,Mauritius,2.0,1.0,H,W
+2023-09-02,Réunion,Madagascar,0.0,1.0,A,L
+2011-06-28,Saare County,Western Isles,2.0,0.0,H,W
+2011-06-30,Saare County,Gibraltar,0.0,4.0,H,L
+2015-06-28,Saare County,Åland Islands,1.0,2.0,H,L
+2015-06-29,Saare County,Menorca,0.0,3.0,A,L
+2015-06-30,Saare County,Greenland,1.0,2.0,A,L
+2015-07-02,Saare County,Gotland,3.0,2.0,A,W
+2017-06-25,Saare County,Shetland,4.0,5.0,H,L
+2017-06-26,Saare County,Åland Islands,0.0,0.0,A,D
+2017-06-27,Saare County,Guernsey,1.0,1.0,A,D
+2017-06-29,Saare County,Frøya,4.0,2.0,H,W
+1953-06-24,Saarland,Norway,3.0,2.0,A,W
+1953-10-11,Saarland,Germany,0.0,3.0,A,L
+1953-11-08,Saarland,Norway,0.0,0.0,H,D
+1954-03-28,Saarland,Germany,1.0,3.0,H,L
+1954-06-05,Saarland,Uruguay,1.0,7.0,H,L
+1954-09-26,Saarland,Yugoslavia,1.0,5.0,H,L
+1955-11-16,Saarland,Netherlands,1.0,2.0,H,L
+1956-05-01,Saarland,Switzerland,1.0,1.0,H,D
+1956-06-06,Saarland,Netherlands,2.0,3.0,A,L
+2010-07-03,Saint Barthélemy,Saint Martin,0.0,3.0,A,L
+2012-09-08,Saint Barthélemy,Guadeloupe,1.0,8.0,H,L
+2018-04-29,Saint Barthélemy,Saint Martin,3.0,2.0,H,W
+2018-05-26,Saint Barthélemy,Sint Maarten,5.0,3.0,H,W
+2018-07-27,Saint Barthélemy,Anguilla,1.0,2.0,H,L
+2018-07-28,Saint Barthélemy,British Virgin Islands,3.0,4.0,H,L
+2019-02-23,Saint Barthélemy,Sint Maarten,1.0,1.0,A,D
+2019-03-17,Saint Barthélemy,Saint Martin,4.0,3.0,H,W
+2023-03-04,Saint Barthélemy,Sint Maarten,5.0,1.0,H,W
+2023-03-10,Saint Barthélemy,Saint Martin,2.0,3.0,A,L
+2019-06-12,Saint Helena,Ynys Môn,2.0,7.0,A,L
+2019-06-16,Saint Helena,Shetland,1.0,6.0,H,L
+2019-06-18,Saint Helena,Guernsey,0.0,9.0,A,L
+2019-06-20,Saint Helena,Western Isles,1.0,2.0,A,L
+2023-07-09,Saint Helena,Menorca,0.0,5.0,A,L
+2023-07-10,Saint Helena,Gozo,0.0,3.0,A,L
+2023-07-11,Saint Helena,Jersey,0.0,5.0,H,L
+2023-07-13,Saint Helena,Frøya,2.0,4.0,A,L
+2025-05-25,Saint Kitts and Nevis,Saint Vincent and the Grenadines,0.0,3.0,A,L
+2025-05-25,Saint Kitts and Nevis,Anguilla,4.0,2.0,A,W
+2025-06-06,Saint Kitts and Nevis,Trinidad and Tobago,2.0,6.0,A,L
+2025-06-10,Saint Kitts and Nevis,Grenada,2.0,3.0,H,L
+2025-10-04,Saint Kitts and Nevis,Saint Martin,5.0,0.0,H,W
+2025-10-05,Saint Kitts and Nevis,Saint Martin,2.0,1.0,H,W
+2025-11-12,Saint Kitts and Nevis,Sint Maarten,0.0,0.0,H,D
+2025-11-18,Saint Kitts and Nevis,Belize,2.0,6.0,H,L
+2026-03-27,Saint Kitts and Nevis,Indonesia,0.0,4.0,A,L
+2026-03-30,Saint Kitts and Nevis,Solomon Islands,4.0,2.0,H,W
+2024-09-09,Saint Lucia,Grenada,2.0,1.0,A,W
+2024-10-11,Saint Lucia,Saint Martin,2.0,1.0,H,W
+2024-10-14,Saint Lucia,Saint Martin,0.0,4.0,H,L
+2024-11-15,Saint Lucia,Grenada,0.0,4.0,H,L
+2024-11-18,Saint Lucia,Curaçao,1.0,4.0,H,L
+2025-06-06,Saint Lucia,Curaçao,0.0,4.0,A,L
+2025-06-10,Saint Lucia,Barbados,2.0,1.0,H,W
+2025-11-12,Saint Lucia,Cuba,0.0,3.0,A,L
+2025-11-15,Saint Lucia,Saint Vincent and the Grenadines,1.0,3.0,A,L
+2026-03-27,Saint Lucia,Azerbaijan,1.0,6.0,A,L
+2024-10-11,Saint Martin,Saint Lucia,1.0,2.0,A,L
+2024-10-14,Saint Martin,Saint Lucia,4.0,0.0,A,W
+2024-11-15,Saint Martin,Curaçao,0.0,5.0,A,L
+2024-11-18,Saint Martin,Grenada,3.0,0.0,A,W
+2025-10-04,Saint Martin,Saint Kitts and Nevis,0.0,5.0,A,L
+2025-10-05,Saint Martin,Saint Kitts and Nevis,1.0,2.0,A,L
+2025-11-12,Saint Martin,Dominica,2.0,1.0,A,W
+2025-11-15,Saint Martin,Belize,0.0,1.0,H,L
+2026-03-26,Saint Martin,Barbados,3.0,1.0,H,W
+2026-03-29,Saint Martin,Bonaire,3.0,0.0,A,W
+2010-09-22,Saint Pierre and Miquelon,Réunion,0.0,11.0,A,L
+2010-09-25,Saint Pierre and Miquelon,French Guiana,0.0,7.0,A,L
+2010-09-28,Saint Pierre and Miquelon,Mayotte,0.0,10.0,A,L
+2012-09-22,Saint Pierre and Miquelon,Guadeloupe,0.0,13.0,A,L
+2012-09-24,Saint Pierre and Miquelon,Réunion,0.0,10.0,A,L
+2012-09-26,Saint Pierre and Miquelon,French Guiana,1.0,11.0,A,L
+2012-09-28,Saint Pierre and Miquelon,New Caledonia,1.0,16.0,H,L
+2025-05-25,Saint Vincent and the Grenadines,Saint Kitts and Nevis,3.0,0.0,H,W
+2025-05-30,Saint Vincent and the Grenadines,British Virgin Islands,1.0,1.0,H,D
+2025-06-04,Saint Vincent and the Grenadines,Anguilla,6.0,0.0,H,W
+2025-06-10,Saint Vincent and the Grenadines,Puerto Rico,1.0,2.0,A,L
+2025-10-05,Saint Vincent and the Grenadines,Cuba,7.0,0.0,H,W
+2025-10-08,Saint Vincent and the Grenadines,Cuba,1.0,0.0,H,W
+2025-11-12,Saint Vincent and the Grenadines,Dominican Republic,0.0,2.0,A,L
+2025-11-15,Saint Vincent and the Grenadines,Saint Lucia,3.0,1.0,H,W
+2026-03-26,Saint Vincent and the Grenadines,Bonaire,1.0,3.0,A,L
+2026-03-29,Saint Vincent and the Grenadines,Barbados,3.0,2.0,A,W
+2024-03-20,Samoa,Tonga,4.0,1.0,A,W
+2024-03-23,Samoa,Cook Islands,1.0,0.0,H,W
+2024-06-16,Samoa,Tahiti,0.0,2.0,A,L
+2024-06-19,Samoa,Fiji,1.0,9.0,A,L
+2024-06-22,Samoa,Papua New Guinea,1.0,2.0,H,L
+2024-09-06,Samoa,American Samoa,2.0,0.0,H,W
+2024-09-09,Samoa,Tonga,2.0,1.0,H,W
+2024-10-12,Samoa,Vanuatu,1.0,4.0,A,L
+2024-11-15,Samoa,Tahiti,0.0,3.0,H,L
+2024-11-18,Samoa,New Zealand,0.0,8.0,A,L
+2025-09-06,San Marino,Bosnia and Herzegovina,0.0,6.0,H,L
+2025-09-09,San Marino,Malta,1.0,3.0,A,L
+2025-10-09,San Marino,Austria,0.0,10.0,A,L
+2025-10-12,San Marino,Cyprus,0.0,4.0,H,L
+2025-11-13,San Marino,Czech Republic,0.0,1.0,A,L
+2025-11-18,San Marino,Romania,1.0,7.0,A,L
+2026-03-28,San Marino,Faroe Islands,1.0,2.0,H,L
+2026-03-31,San Marino,Andorra,0.0,0.0,H,D
+2026-06-05,San Marino,Bangladesh,1.0,2.0,H,L
+2026-06-09,San Marino,Azerbaijan,1.0,2.0,A,L
+2003-06-29,Sark,Gibraltar,0.0,19.0,A,L
+2003-06-30,Sark,Isle of Wight,0.0,20.0,H,L
+2003-07-01,Sark,Greenland,0.0,16.0,A,L
+2003-07-03,Sark,Frøya,0.0,15.0,A,L
+2025-12-11,Saudi Arabia,Palestine,2.0,1.0,A,W
+2025-12-15,Saudi Arabia,Jordan,0.0,1.0,H,L
+2026-03-27,Saudi Arabia,Egypt,0.0,4.0,H,L
+2026-03-31,Saudi Arabia,Serbia,1.0,2.0,A,L
+2026-05-30,Saudi Arabia,Ecuador,1.0,2.0,A,L
+2026-06-05,Saudi Arabia,Puerto Rico,3.0,0.0,A,W
+2026-06-09,Saudi Arabia,Senegal,0.0,0.0,H,D
+2026-06-15,Saudi Arabia,Uruguay,1.0,1.0,H,D
+2026-06-21,Saudi Arabia,Spain,0.0,4.0,A,L
+2026-06-26,Saudi Arabia,Cape Verde,0.0,0.0,A,D
+2013-06-29,Saugeais,Raetia,1.0,1.0,H,D
+2025-10-12,Scotland,Belarus,2.0,1.0,H,W
+2025-11-15,Scotland,Greece,2.0,3.0,A,L
+2025-11-18,Scotland,Denmark,4.0,2.0,H,W
+2026-03-28,Scotland,Japan,0.0,1.0,H,L
+2026-03-31,Scotland,Ivory Coast,0.0,1.0,A,L
+2026-05-30,Scotland,Curaçao,4.0,1.0,H,W
+2026-06-06,Scotland,Bolivia,4.0,0.0,A,W
+2026-06-13,Scotland,Haiti,1.0,0.0,A,W
+2026-06-19,Scotland,Morocco,0.0,1.0,H,L
+2026-06-24,Scotland,Brazil,0.0,3.0,H,L
+2012-08-25,Sealand,Alderney,1.0,1.0,A,D
+2013-03-08,Sealand,Alderney,2.0,1.0,H,W
+2013-07-04,Sealand,Tamil Eelam,3.0,5.0,H,L
+2013-07-05,Sealand,Occitania,0.0,8.0,H,L
+2013-07-07,Sealand,Alderney,2.0,2.0,H,D
+2014-02-23,Sealand,Chagos Islands,4.0,2.0,H,W
+2014-05-05,Sealand,Chagos Islands,1.0,1.0,H,D
+2014-05-17,Sealand,Somaliland,2.0,2.0,A,D
+2014-08-09,Sealand,Raetia,6.0,1.0,A,W
+2014-08-10,Sealand,Seborga,3.0,2.0,A,W
+2014-08-10,Seborga,Sealand,2.0,3.0,H,L
+2026-01-14,Senegal,Egypt,1.0,0.0,H,W
+2026-01-18,Senegal,Morocco,0.0,3.0,A,L
+2026-03-28,Senegal,Peru,2.0,0.0,H,W
+2026-03-31,Senegal,Gambia,3.0,1.0,H,W
+2026-05-31,Senegal,United States,2.0,3.0,A,L
+2026-06-09,Senegal,Saudi Arabia,0.0,0.0,A,D
+2026-06-16,Senegal,France,1.0,3.0,A,L
+2026-06-22,Senegal,Norway,2.0,3.0,A,L
+2026-06-26,Senegal,Iraq,5.0,0.0,H,W
+2026-07-01,Senegal,Belgium,2.0,3.0,A,L
+2025-09-06,Serbia,Latvia,1.0,0.0,A,W
+2025-09-09,Serbia,England,0.0,5.0,H,L
+2025-10-11,Serbia,Albania,0.0,1.0,H,L
+2025-10-14,Serbia,Andorra,3.0,1.0,A,W
+2025-11-13,Serbia,England,0.0,2.0,A,L
+2025-11-16,Serbia,Latvia,2.0,1.0,H,W
+2026-03-27,Serbia,Spain,0.0,3.0,A,L
+2026-03-31,Serbia,Saudi Arabia,2.0,1.0,H,W
+2026-05-31,Serbia,Cape Verde,0.0,3.0,A,L
+2026-06-04,Serbia,Mexico,1.0,5.0,A,L
+2023-11-17,Seychelles,Ivory Coast,0.0,9.0,A,L
+2023-11-20,Seychelles,Kenya,0.0,5.0,H,L
+2024-06-08,Seychelles,Gambia,1.0,5.0,A,L
+2024-06-11,Seychelles,Burundi,1.0,3.0,H,L
+2025-03-20,Seychelles,Gabon,0.0,3.0,A,L
+2025-03-25,Seychelles,Burundi,0.0,5.0,A,L
+2025-09-03,Seychelles,Gabon,0.0,4.0,H,L
+2025-09-09,Seychelles,Kenya,0.0,5.0,A,L
+2025-10-10,Seychelles,Ivory Coast,0.0,7.0,H,L
+2025-10-14,Seychelles,Gambia,0.0,7.0,H,L
+2019-06-17,Shetland,Guernsey,1.0,2.0,A,L
+2019-06-20,Shetland,Ynys Môn,1.0,2.0,A,L
+2019-06-21,Shetland,Isle of Man,0.0,5.0,H,L
+2023-07-09,Shetland,Ynys Môn,0.0,2.0,A,L
+2023-07-10,Shetland,Isle of Man,3.0,2.0,H,W
+2023-07-11,Shetland,Falkland Islands,4.0,1.0,A,W
+2023-07-13,Shetland,Greenland,5.0,1.0,H,W
+2025-07-13,Shetland,Gozo,0.0,0.0,A,D
+2025-07-15,Shetland,Jersey,2.0,2.0,A,D
+2025-07-17,Shetland,Orkney,2.0,3.0,A,L
+2024-11-19,Sierra Leone,Zambia,0.0,2.0,H,L
+2025-03-20,Sierra Leone,Guinea-Bissau,3.0,1.0,H,W
+2025-03-25,Sierra Leone,Egypt,0.0,1.0,A,L
+2025-09-04,Sierra Leone,Guinea-Bissau,1.0,1.0,A,D
+2025-09-09,Sierra Leone,Ethiopia,2.0,0.0,H,W
+2025-10-08,Sierra Leone,Burkina Faso,0.0,1.0,H,L
+2025-10-12,Sierra Leone,Djibouti,2.0,1.0,A,W
+2026-03-30,Sierra Leone,Azerbaijan,1.0,1.0,A,D
+2026-06-06,Sierra Leone,Liberia,1.0,0.0,H,W
+2026-06-09,Sierra Leone,Liberia,1.0,3.0,A,L
+1933-10-04,Silesia,Poland,1.0,2.0,H,L
+1937-06-09,Silesia,Basque Country,3.0,4.0,H,L
+1948-04-20,Silesia,Czechoslovakia,2.0,1.0,H,W
+1952-08-24,Silesia,China,5.0,1.0,H,W
+1953-04-26,Silesia,Poland,2.0,3.0,H,L
+1953-09-13,Silesia,Poland,3.0,3.0,H,D
+1974-07-22,Silesia,Tanzania,7.0,2.0,H,W
+2006-12-09,Silesia,Poland,1.0,1.0,H,D
+2025-06-05,Singapore,Maldives,3.0,1.0,H,W
+2025-06-10,Singapore,Bangladesh,2.0,1.0,A,W
+2025-09-04,Singapore,Malaysia,1.0,2.0,A,L
+2025-09-09,Singapore,Myanmar,1.0,1.0,H,D
+2025-10-09,Singapore,India,1.0,1.0,H,D
+2025-10-14,Singapore,India,2.0,1.0,A,W
+2025-11-13,Singapore,Thailand,2.0,3.0,A,L
+2025-11-18,Singapore,Hong Kong,2.0,1.0,A,W
+2026-05-31,Singapore,Mongolia,4.0,0.0,H,W
+2026-06-05,Singapore,China,1.0,2.0,H,L
+2024-09-06,Sint Maarten,Aruba,2.0,0.0,H,W
+2024-09-09,Sint Maarten,Haiti,0.0,6.0,A,L
+2024-10-11,Sint Maarten,Puerto Rico,3.0,2.0,H,W
+2024-10-14,Sint Maarten,Puerto Rico,1.0,2.0,A,L
+2024-11-15,Sint Maarten,Haiti,0.0,8.0,H,L
+2024-11-18,Sint Maarten,Aruba,1.0,0.0,A,W
+2025-11-12,Sint Maarten,Saint Kitts and Nevis,0.0,0.0,A,D
+2025-11-15,Sint Maarten,Dominica,3.0,2.0,A,W
+2026-03-27,Sint Maarten,Belize,3.0,2.0,A,W
+2026-03-30,Sint Maarten,Dominica,0.0,0.0,A,D
+2025-09-04,Slovakia,Germany,2.0,0.0,H,W
+2025-09-07,Slovakia,Luxembourg,1.0,0.0,A,W
+2025-10-10,Slovakia,Northern Ireland,0.0,2.0,A,L
+2025-10-13,Slovakia,Luxembourg,2.0,0.0,H,W
+2025-11-14,Slovakia,Northern Ireland,1.0,0.0,H,W
+2025-11-17,Slovakia,Germany,0.0,6.0,A,L
+2026-03-26,Slovakia,Kosovo,3.0,4.0,H,L
+2026-03-31,Slovakia,Romania,2.0,0.0,H,W
+2026-06-01,Slovakia,Malta,2.0,1.0,H,W
+2026-06-05,Slovakia,Montenegro,2.0,2.0,H,D
+2025-09-05,Slovenia,Sweden,2.0,2.0,H,D
+2025-09-08,Slovenia,Switzerland,0.0,3.0,A,L
+2025-10-10,Slovenia,Kosovo,0.0,0.0,A,D
+2025-10-13,Slovenia,Switzerland,0.0,0.0,H,D
+2025-11-15,Slovenia,Kosovo,0.0,2.0,H,L
+2025-11-18,Slovenia,Sweden,1.0,1.0,A,D
+2026-03-28,Slovenia,Hungary,0.0,1.0,A,L
+2026-03-31,Slovenia,Montenegro,3.0,2.0,A,W
+2026-06-04,Slovenia,Cyprus,1.0,1.0,H,D
+2026-06-07,Slovenia,Croatia,1.0,2.0,A,L
+2024-10-10,Solomon Islands,Fiji,0.0,1.0,A,L
+2024-11-14,Solomon Islands,New Caledonia,2.0,3.0,H,L
+2024-11-17,Solomon Islands,Papua New Guinea,2.0,1.0,A,W
+2024-12-09,Solomon Islands,Vanuatu,4.0,1.0,H,W
+2024-12-18,Solomon Islands,Papua New Guinea,2.0,3.0,H,L
+2024-12-21,Solomon Islands,Fiji,1.0,3.0,H,L
+2025-11-13,Solomon Islands,Papua New Guinea,0.0,1.0,A,L
+2025-11-20,Solomon Islands,Vanuatu,1.0,2.0,A,L
+2026-03-27,Solomon Islands,Bulgaria,2.0,10.0,H,L
+2026-03-30,Solomon Islands,Saint Kitts and Nevis,2.0,4.0,A,L
+2024-06-07,Somalia,Mozambique,1.0,2.0,A,L
+2024-06-10,Somalia,Botswana,1.0,3.0,H,L
+2025-03-21,Somalia,Guinea,0.0,0.0,A,D
+2025-03-25,Somalia,Botswana,0.0,2.0,A,L
+2025-09-05,Somalia,Guinea,0.0,3.0,H,L
+2025-09-08,Somalia,Uganda,0.0,2.0,A,L
+2025-10-09,Somalia,Algeria,0.0,3.0,A,L
+2025-10-14,Somalia,Mozambique,0.0,1.0,H,L
+2025-11-17,Somalia,Bahrain,2.0,1.0,A,W
+2025-11-26,Somalia,Oman,0.0,0.0,A,D
+2014-05-17,Somaliland,Sealand,2.0,2.0,H,D
+2016-05-29,Somaliland,Sápmi,0.0,5.0,A,L
+2016-05-31,Somaliland,Panjab,0.0,5.0,H,L
+2016-06-02,Somaliland,Chagos Islands,3.0,2.0,A,W
+2016-06-03,Somaliland,Székely Land,7.0,0.0,H,W
+2019-05-04,Somaliland,Yorkshire,2.0,6.0,A,L
+2025-12-29,South Africa,Zimbabwe,3.0,2.0,A,W
+2026-01-04,South Africa,Cameroon,1.0,2.0,H,L
+2026-03-27,South Africa,Panama,1.0,1.0,H,D
+2026-03-31,South Africa,Panama,1.0,2.0,H,L
+2026-05-29,South Africa,Nicaragua,0.0,0.0,H,D
+2026-06-06,South Africa,Jamaica,1.0,0.0,A,W
+2026-06-11,South Africa,Mexico,0.0,2.0,A,L
+2026-06-18,South Africa,Czech Republic,1.0,1.0,A,D
+2026-06-24,South Africa,South Korea,1.0,0.0,H,W
+2026-06-28,South Africa,Canada,0.0,1.0,H,L
+2025-10-14,South Korea,Paraguay,2.0,0.0,H,W
+2025-11-14,South Korea,Bolivia,2.0,0.0,H,W
+2025-11-18,South Korea,Ghana,1.0,0.0,H,W
+2026-03-28,South Korea,Ivory Coast,0.0,4.0,A,L
+2026-03-31,South Korea,Austria,0.0,1.0,A,L
+2026-05-30,South Korea,Trinidad and Tobago,5.0,0.0,H,W
+2026-06-03,South Korea,El Salvador,1.0,0.0,H,W
+2026-06-11,South Korea,Czech Republic,2.0,1.0,H,W
+2026-06-18,South Korea,Mexico,0.0,1.0,A,L
+2026-06-24,South Korea,South Africa,0.0,1.0,A,L
+2017-06-06,South Ossetia,Northern Cyprus,0.0,8.0,A,L
+2017-06-07,South Ossetia,Kárpátalja,1.0,4.0,H,L
+2017-06-09,South Ossetia,Felvidék,0.0,2.0,H,L
+2019-06-02,South Ossetia,Western Armenia,2.0,1.0,A,W
+2019-06-03,South Ossetia,Padania,2.0,1.0,H,W
+2019-06-04,South Ossetia,Székely Land,2.0,2.0,H,D
+2019-06-06,South Ossetia,Chameria,0.0,0.0,H,D
+2019-06-09,South Ossetia,Western Armenia,1.0,0.0,A,W
+2019-08-09,South Ossetia,Luhansk PR,2.0,0.0,H,W
+2019-12-08,South Ossetia,Luhansk PR,3.0,4.0,A,L
+2024-10-15,South Sudan,Uganda,1.0,2.0,H,L
+2024-11-14,South Sudan,Congo,3.0,2.0,H,W
+2024-11-19,South Sudan,South Africa,0.0,3.0,A,L
+2025-03-21,South Sudan,DR Congo,0.0,1.0,A,L
+2025-03-25,South Sudan,Sudan,1.0,1.0,A,D
+2025-09-05,South Sudan,DR Congo,1.0,4.0,H,L
+2025-09-09,South Sudan,Mauritania,0.0,0.0,A,D
+2025-10-10,South Sudan,Senegal,0.0,5.0,H,L
+2025-10-13,South Sudan,Togo,0.0,0.0,H,D
+2025-11-25,South Sudan,Syria,0.0,2.0,A,L
+1982-11-21,South Yemen,South Korea,0.0,3.0,A,L
+1982-11-23,South Yemen,Japan,1.0,3.0,A,L
+1982-11-25,South Yemen,Iran,0.0,2.0,A,L
+2025-11-15,Spain,Georgia,4.0,0.0,A,W
+2025-11-18,Spain,Turkey,2.0,2.0,H,D
+2026-03-27,Spain,Serbia,3.0,0.0,H,W
+2026-03-31,Spain,Egypt,0.0,0.0,H,D
+2026-06-04,Spain,Iraq,1.0,1.0,H,D
+2026-06-08,Spain,Peru,3.0,1.0,A,W
+2026-06-15,Spain,Cape Verde,0.0,0.0,H,D
+2026-06-21,Spain,Saudi Arabia,4.0,0.0,H,W
+2026-06-26,Spain,Uruguay,1.0,0.0,A,W
+2026-07-02,Spain,Austria,3.0,0.0,H,W
+2024-11-19,Sri Lanka,Yemen,0.0,2.0,H,L
+2025-03-20,Sri Lanka,Laos,2.0,1.0,A,W
+2025-03-25,Sri Lanka,Thailand,0.0,1.0,A,L
+2025-06-05,Sri Lanka,Brunei,1.0,0.0,H,W
+2025-06-10,Sri Lanka,Taiwan,3.0,1.0,H,W
+2025-09-06,Sri Lanka,Maldives,0.0,3.0,H,L
+2025-09-09,Sri Lanka,Maldives,1.0,1.0,H,D
+2025-10-09,Sri Lanka,Turkmenistan,1.0,0.0,H,W
+2025-10-14,Sri Lanka,Turkmenistan,1.0,2.0,A,L
+2025-11-18,Sri Lanka,Thailand,0.0,4.0,H,L
+2025-10-14,Sudan,DR Congo,0.0,1.0,A,L
+2025-11-14,Sudan,Oman,0.0,2.0,A,L
+2025-11-26,Sudan,Lebanon,2.0,1.0,H,W
+2025-12-03,Sudan,Algeria,0.0,0.0,A,D
+2025-12-06,Sudan,Iraq,0.0,2.0,H,L
+2025-12-09,Sudan,Bahrain,1.0,3.0,A,L
+2025-12-24,Sudan,Algeria,0.0,3.0,A,L
+2025-12-28,Sudan,Equatorial Guinea,1.0,0.0,A,W
+2025-12-31,Sudan,Burkina Faso,0.0,2.0,H,L
+2026-01-03,Sudan,Senegal,1.0,3.0,A,L
+2025-06-15,Suriname,Costa Rica,3.0,4.0,A,L
+2025-06-18,Suriname,Mexico,0.0,2.0,H,L
+2025-06-22,Suriname,Dominican Republic,0.0,0.0,A,D
+2025-09-04,Suriname,Panama,0.0,0.0,H,D
+2025-09-08,Suriname,El Salvador,2.0,1.0,A,W
+2025-10-10,Suriname,Guatemala,1.0,1.0,H,D
+2025-10-14,Suriname,Panama,1.0,1.0,A,D
+2025-11-13,Suriname,El Salvador,4.0,0.0,H,W
+2025-11-18,Suriname,Guatemala,1.0,3.0,A,L
+2026-03-26,Suriname,Bolivia,1.0,2.0,A,L
+2018-05-06,Surrey,Barawa,3.0,1.0,A,W
+2025-11-15,Sweden,Switzerland,1.0,4.0,A,L
+2025-11-18,Sweden,Slovenia,1.0,1.0,H,D
+2026-03-26,Sweden,Ukraine,3.0,1.0,A,W
+2026-03-31,Sweden,Poland,3.0,2.0,H,W
+2026-06-01,Sweden,Norway,1.0,3.0,A,L
+2026-06-04,Sweden,Greece,2.0,2.0,H,D
+2026-06-14,Sweden,Tunisia,5.0,1.0,H,W
+2026-06-20,Sweden,Netherlands,1.0,5.0,A,L
+2026-06-25,Sweden,Japan,1.0,1.0,A,D
+2026-06-30,Sweden,France,0.0,3.0,A,L
+2025-11-15,Switzerland,Sweden,4.0,1.0,H,W
+2025-11-18,Switzerland,Kosovo,1.0,1.0,A,D
+2026-03-27,Switzerland,Germany,3.0,4.0,H,L
+2026-03-31,Switzerland,Norway,0.0,0.0,A,D
+2026-05-31,Switzerland,Jordan,4.0,1.0,H,W
+2026-06-06,Switzerland,Australia,1.0,1.0,A,D
+2026-06-13,Switzerland,Qatar,1.0,1.0,A,D
+2026-06-18,Switzerland,Bosnia and Herzegovina,4.0,1.0,H,W
+2026-06-24,Switzerland,Canada,2.0,1.0,A,W
+2026-07-02,Switzerland,Algeria,2.0,0.0,H,W
+2025-09-08,Syria,Kuwait,2.0,2.0,H,D
+2025-10-09,Syria,Myanmar,5.0,1.0,H,W
+2025-10-14,Syria,Myanmar,3.0,0.0,A,W
+2025-11-18,Syria,Pakistan,5.0,0.0,A,W
+2025-11-25,Syria,South Sudan,2.0,0.0,H,W
+2025-12-01,Syria,Tunisia,1.0,0.0,A,W
+2025-12-04,Syria,Qatar,1.0,1.0,A,D
+2025-12-07,Syria,Palestine,0.0,0.0,H,D
+2025-12-11,Syria,Morocco,0.0,1.0,A,L
+2026-06-05,Syria,Belarus,1.0,4.0,A,L
+2018-06-05,Székely Land,Western Armenia,4.0,0.0,A,W
+2018-06-07,Székely Land,Kárpátalja,2.0,4.0,A,L
+2018-06-09,Székely Land,Padania,0.0,0.0,A,D
+2019-06-02,Székely Land,Padania,0.0,4.0,A,L
+2019-06-03,Székely Land,Western Armenia,0.0,5.0,H,L
+2019-06-04,Székely Land,South Ossetia,2.0,2.0,A,D
+2019-06-06,Székely Land,Artsakh,1.0,2.0,A,L
+2019-06-08,Székely Land,Sápmi,2.0,3.0,A,L
+2023-06-30,Székely Land,Chameria,3.0,2.0,H,W
+2023-07-02,Székely Land,Two Sicilies,7.0,0.0,H,W
+2016-05-30,Sápmi,Panjab,0.0,1.0,H,L
+2016-06-01,Sápmi,Abkhazia,0.0,2.0,A,L
+2016-06-03,Sápmi,United Koreans in Japan,2.0,1.0,A,W
+2016-06-04,Sápmi,Western Armenia,3.0,0.0,H,W
+2019-06-02,Sápmi,Artsakh,2.0,3.0,A,L
+2019-06-03,Sápmi,Abkhazia,0.0,1.0,H,L
+2019-06-04,Sápmi,Chameria,0.0,4.0,A,L
+2019-06-06,Sápmi,Padania,0.0,4.0,A,L
+2019-06-08,Sápmi,Székely Land,3.0,2.0,H,W
+2023-07-16,Sápmi,Kernow,1.0,2.0,A,L
+2024-03-22,São Tomé and Príncipe,South Sudan,1.0,1.0,H,D
+2024-03-26,São Tomé and Príncipe,South Sudan,0.0,0.0,A,D
+2024-06-06,São Tomé and Príncipe,Malawi,1.0,3.0,A,L
+2024-06-09,São Tomé and Príncipe,Liberia,0.0,1.0,H,L
+2025-03-21,São Tomé and Príncipe,Equatorial Guinea,0.0,2.0,A,L
+2025-03-24,São Tomé and Príncipe,Liberia,1.0,2.0,A,L
+2025-09-04,São Tomé and Príncipe,Equatorial Guinea,2.0,3.0,H,L
+2025-09-09,São Tomé and Príncipe,Namibia,0.0,3.0,A,L
+2025-10-10,São Tomé and Príncipe,Tunisia,0.0,6.0,A,L
+2025-10-13,São Tomé and Príncipe,Malawi,1.0,0.0,H,W
+2023-11-30,Tahiti,Papua New Guinea,2.0,0.0,H,W
+2024-06-16,Tahiti,Samoa,2.0,0.0,H,W
+2024-06-19,Tahiti,Papua New Guinea,1.0,1.0,A,D
+2024-06-22,Tahiti,Fiji,0.0,1.0,A,L
+2024-06-27,Tahiti,New Zealand,0.0,5.0,A,L
+2024-06-30,Tahiti,Fiji,2.0,1.0,H,W
+2024-10-11,Tahiti,New Zealand,0.0,3.0,A,L
+2024-11-15,Tahiti,Samoa,3.0,0.0,A,W
+2024-11-18,Tahiti,Vanuatu,2.0,0.0,H,W
+2025-03-21,Tahiti,New Caledonia,0.0,3.0,A,L
+2024-10-11,Taiwan,Cambodia,2.0,3.0,A,L
+2024-11-18,Taiwan,Singapore,3.0,2.0,A,W
+2024-12-11,Taiwan,Mongolia,4.0,0.0,H,W
+2024-12-14,Taiwan,Hong Kong,1.0,2.0,A,L
+2025-03-25,Taiwan,Turkmenistan,1.0,2.0,H,L
+2025-06-10,Taiwan,Sri Lanka,1.0,3.0,A,L
+2025-09-05,Taiwan,Indonesia,0.0,6.0,A,L
+2025-10-09,Taiwan,Thailand,0.0,2.0,A,L
+2025-10-14,Taiwan,Thailand,1.0,6.0,H,L
+2025-11-18,Taiwan,Turkmenistan,1.0,3.0,A,L
+2024-11-19,Tajikistan,Afghanistan,3.0,1.0,H,W
+2025-03-20,Tajikistan,Belarus,0.0,5.0,H,L
+2025-03-25,Tajikistan,Timor-Leste,1.0,0.0,H,W
+2025-06-05,Tajikistan,Cambodia,2.0,1.0,A,W
+2025-06-10,Tajikistan,Philippines,2.0,2.0,A,D
+2025-10-09,Tajikistan,Maldives,2.0,0.0,H,W
+2025-10-14,Tajikistan,Maldives,3.0,0.0,A,W
+2025-11-18,Tajikistan,Timor-Leste,5.0,0.0,A,W
+2026-06-05,Tajikistan,India,3.0,1.0,H,W
+2026-06-09,Tajikistan,India,1.0,1.0,H,D
+2018-06-05,Tamil Eelam,Abkhazia,0.0,6.0,A,L
+2018-06-07,Tamil Eelam,Tuvalu,4.0,3.0,H,W
+2018-06-09,Tamil Eelam,Matabeleland,0.0,1.0,A,L
+2019-12-14,Tamil Eelam,East Turkestan,3.0,0.0,H,W
+2023-08-04,Tamil Eelam,Hmong,3.0,0.0,H,W
+2023-08-06,Tamil Eelam,Tibet,3.0,1.0,A,W
+2023-08-08,Tamil Eelam,Hmong,3.0,1.0,H,W
+2025-07-01,Tamil Eelam,Tibet,4.0,0.0,H,W
+2025-07-02,Tamil Eelam,East Turkestan,2.0,1.0,H,W
+2025-07-04,Tamil Eelam,East Turkestan,5.0,0.0,H,W
+2025-09-09,Tanzania,Niger,0.0,1.0,H,L
+2025-10-08,Tanzania,Zambia,0.0,1.0,H,L
+2025-10-14,Tanzania,Iran,0.0,2.0,A,L
+2025-11-15,Tanzania,Kuwait,3.0,4.0,A,L
+2025-12-23,Tanzania,Nigeria,1.0,2.0,A,L
+2025-12-27,Tanzania,Uganda,1.0,1.0,A,D
+2025-12-30,Tanzania,Tunisia,1.0,1.0,H,D
+2026-01-04,Tanzania,Morocco,0.0,1.0,A,L
+2026-03-26,Tanzania,Liechtenstein,0.0,1.0,H,L
+2026-03-29,Tanzania,Macau,6.0,0.0,A,W
+2025-06-04,Thailand,India,2.0,0.0,H,W
+2025-06-10,Thailand,Turkmenistan,1.0,3.0,A,L
+2025-09-04,Thailand,Fiji,3.0,0.0,H,W
+2025-09-07,Thailand,Iraq,0.0,1.0,H,L
+2025-10-09,Thailand,Taiwan,2.0,0.0,H,W
+2025-10-14,Thailand,Taiwan,6.0,1.0,A,W
+2025-11-13,Thailand,Singapore,3.0,2.0,H,W
+2025-11-18,Thailand,Sri Lanka,4.0,0.0,A,W
+2026-06-05,Thailand,Kuwait,2.0,2.0,H,D
+2026-06-09,Thailand,China,0.0,0.0,A,D
+2018-05-31,Tibet,Abkhazia,0.0,3.0,A,L
+2018-06-02,Tibet,Northern Cyprus,1.0,3.0,A,L
+2018-06-03,Tibet,Kárpátalja,1.0,5.0,A,L
+2018-06-07,Tibet,Kabylia,1.0,8.0,H,L
+2018-06-09,Tibet,United Koreans in Japan,1.0,1.0,H,D
+2022-08-07,Tibet,Raetia,3.0,3.0,A,D
+2023-08-05,Tibet,Hmong,4.0,5.0,A,L
+2023-08-06,Tibet,Tamil Eelam,1.0,3.0,H,L
+2025-07-01,Tibet,Tamil Eelam,0.0,4.0,A,L
+2025-07-03,Tibet,East Turkestan,4.0,6.0,H,L
+2023-06-17,Ticino,Raetia,1.0,8.0,H,L
+2023-08-06,Ticino,Raetia,1.0,5.0,A,L
+2024-12-08,Timor-Leste,Thailand,0.0,10.0,H,L
+2024-12-11,Timor-Leste,Malaysia,2.0,3.0,A,L
+2024-12-14,Timor-Leste,Singapore,0.0,3.0,H,L
+2024-12-17,Timor-Leste,Cambodia,1.0,2.0,A,L
+2025-03-20,Timor-Leste,Lebanon,0.0,4.0,A,L
+2025-03-25,Timor-Leste,Tajikistan,0.0,1.0,A,L
+2025-06-10,Timor-Leste,Maldives,1.0,0.0,H,W
+2025-10-09,Timor-Leste,Philippines,1.0,4.0,H,L
+2025-10-14,Timor-Leste,Philippines,1.0,3.0,A,L
+2025-11-18,Timor-Leste,Tajikistan,0.0,5.0,H,L
+2025-03-22,Togo,Mauritania,2.0,2.0,H,D
+2025-03-25,Togo,Senegal,0.0,2.0,A,L
+2025-09-05,Togo,Mauritania,0.0,2.0,A,L
+2025-09-09,Togo,Sudan,1.0,0.0,H,W
+2025-10-10,Togo,DR Congo,0.0,1.0,H,L
+2025-10-13,Togo,South Sudan,0.0,0.0,A,D
+2026-03-27,Togo,Guinea,2.0,2.0,A,D
+2026-03-31,Togo,Niger,1.0,0.0,A,W
+2026-06-05,Togo,Central African Republic,1.0,1.0,A,D
+2026-06-09,Togo,Benin,5.0,1.0,H,W
+2019-07-15,Tonga,Vanuatu,0.0,14.0,H,L
+2019-07-18,Tonga,Papua New Guinea,0.0,8.0,A,L
+2023-11-18,Tonga,New Caledonia,0.0,7.0,A,L
+2023-11-21,Tonga,Cook Islands,1.0,2.0,H,L
+2023-11-27,Tonga,Tuvalu,0.0,4.0,H,L
+2023-11-30,Tonga,American Samoa,6.0,2.0,A,W
+2024-03-20,Tonga,Samoa,1.0,4.0,H,L
+2024-03-26,Tonga,Cook Islands,0.0,1.0,H,L
+2024-09-06,Tonga,Cook Islands,3.0,1.0,A,W
+2024-09-09,Tonga,Samoa,1.0,2.0,A,L
+2025-09-09,Trinidad and Tobago,Jamaica,0.0,2.0,A,L
+2025-10-10,Trinidad and Tobago,Bermuda,3.0,0.0,A,W
+2025-10-14,Trinidad and Tobago,Curaçao,1.0,1.0,A,D
+2025-11-13,Trinidad and Tobago,Jamaica,1.0,1.0,H,D
+2025-11-18,Trinidad and Tobago,Bermuda,2.0,2.0,H,D
+2026-03-15,Trinidad and Tobago,Bolivia,0.0,3.0,A,L
+2026-03-27,Trinidad and Tobago,Venezuela,1.0,4.0,A,L
+2026-03-30,Trinidad and Tobago,Gabon,2.0,2.0,A,D
+2026-05-30,Trinidad and Tobago,South Korea,0.0,5.0,A,L
+2026-06-09,Trinidad and Tobago,Russia,0.0,3.0,A,L
+2025-12-27,Tunisia,Nigeria,2.0,3.0,A,L
+2025-12-30,Tunisia,Tanzania,1.0,1.0,A,D
+2026-01-03,Tunisia,Mali,1.0,1.0,A,D
+2026-03-28,Tunisia,Haiti,1.0,0.0,A,W
+2026-03-31,Tunisia,Canada,0.0,0.0,A,D
+2026-06-01,Tunisia,Austria,0.0,1.0,A,L
+2026-06-06,Tunisia,Belgium,0.0,5.0,A,L
+2026-06-14,Tunisia,Sweden,1.0,5.0,A,L
+2026-06-20,Tunisia,Japan,0.0,4.0,H,L
+2026-06-25,Tunisia,Netherlands,1.0,3.0,H,L
+2025-10-14,Turkey,Georgia,4.0,1.0,H,W
+2025-11-15,Turkey,Bulgaria,2.0,0.0,H,W
+2025-11-18,Turkey,Spain,2.0,2.0,A,D
+2026-03-26,Turkey,Romania,1.0,0.0,H,W
+2026-03-31,Turkey,Kosovo,1.0,0.0,A,W
+2026-06-01,Turkey,North Macedonia,4.0,0.0,H,W
+2026-06-06,Turkey,Venezuela,2.0,1.0,A,W
+2026-06-13,Turkey,Australia,0.0,2.0,A,L
+2026-06-19,Turkey,Paraguay,0.0,1.0,H,L
+2026-06-25,Turkey,United States,3.0,2.0,A,W
+2024-03-21,Turkmenistan,Iran,0.0,5.0,A,L
+2024-03-26,Turkmenistan,Iran,0.0,1.0,H,L
+2024-06-01,Turkmenistan,Greenland,5.0,0.0,A,W
+2024-06-06,Turkmenistan,Uzbekistan,1.0,3.0,A,L
+2024-06-11,Turkmenistan,Hong Kong,0.0,0.0,H,D
+2025-03-25,Turkmenistan,Taiwan,2.0,1.0,A,W
+2025-06-10,Turkmenistan,Thailand,3.0,1.0,H,W
+2025-10-09,Turkmenistan,Sri Lanka,0.0,1.0,A,L
+2025-10-14,Turkmenistan,Sri Lanka,2.0,1.0,H,W
+2025-11-18,Turkmenistan,Taiwan,3.0,1.0,H,W
+2023-10-16,Turks and Caicos Islands,British Virgin Islands,2.0,2.0,H,D
+2023-11-20,Turks and Caicos Islands,Dominica,0.0,2.0,A,L
+2024-03-22,Turks and Caicos Islands,Anguilla,0.0,0.0,A,D
+2024-03-26,Turks and Caicos Islands,Anguilla,1.0,1.0,H,D
+2024-09-04,Turks and Caicos Islands,Anguilla,0.0,2.0,H,L
+2024-09-07,Turks and Caicos Islands,Belize,0.0,4.0,H,L
+2024-10-12,Turks and Caicos Islands,Anguilla,2.0,1.0,H,W
+2024-10-15,Turks and Caicos Islands,Belize,0.0,3.0,A,L
+2025-08-13,Turks and Caicos Islands,United States Virgin Islands,1.0,1.0,A,D
+2025-08-16,Turks and Caicos Islands,Marshall Islands,3.0,2.0,H,W
+2018-06-07,Tuvalu,Tamil Eelam,3.0,4.0,A,L
+2019-07-08,Tuvalu,Solomon Islands,0.0,13.0,H,L
+2019-07-10,Tuvalu,Tahiti,0.0,7.0,H,L
+2019-07-12,Tuvalu,American Samoa,1.0,1.0,A,D
+2019-07-15,Tuvalu,Fiji,1.0,10.0,A,L
+2019-07-18,Tuvalu,New Caledonia,0.0,11.0,A,L
+2023-11-17,Tuvalu,Papua New Guinea,0.0,3.0,A,L
+2023-11-20,Tuvalu,Vanuatu,0.0,6.0,H,L
+2023-11-27,Tuvalu,Tonga,4.0,0.0,A,W
+2023-11-30,Tuvalu,Northern Mariana Islands,4.0,1.0,A,W
+2010-05-31,Two Sicilies,Iraqi Kurdistan,1.0,4.0,A,L
+2010-06-01,Two Sicilies,Provence,1.0,0.0,A,W
+2010-06-04,Two Sicilies,Padania,0.0,2.0,A,L
+2010-06-05,Two Sicilies,Occitania,0.0,2.0,A,L
+2023-07-01,Two Sicilies,Chameria,1.0,3.0,A,L
+2023-07-02,Two Sicilies,Székely Land,0.0,7.0,A,L
+2025-06-09,Uganda,Gambia,1.0,1.0,H,D
+2025-09-05,Uganda,Mozambique,4.0,0.0,H,W
+2025-09-08,Uganda,Somalia,2.0,0.0,H,W
+2025-10-09,Uganda,Botswana,1.0,0.0,A,W
+2025-10-14,Uganda,Algeria,1.0,2.0,A,L
+2025-11-14,Uganda,Chad,2.0,1.0,H,W
+2025-11-18,Uganda,Morocco,0.0,4.0,A,L
+2025-12-23,Uganda,Tunisia,1.0,3.0,A,L
+2025-12-27,Uganda,Tanzania,1.0,1.0,H,D
+2025-12-30,Uganda,Nigeria,1.0,3.0,H,L
+2025-09-05,Ukraine,France,0.0,2.0,H,L
+2025-09-09,Ukraine,Azerbaijan,1.0,1.0,A,D
+2025-10-10,Ukraine,Iceland,5.0,3.0,A,W
+2025-10-13,Ukraine,Azerbaijan,2.0,1.0,H,W
+2025-11-13,Ukraine,France,0.0,4.0,A,L
+2025-11-16,Ukraine,Iceland,2.0,0.0,H,W
+2026-03-26,Ukraine,Sweden,1.0,3.0,H,L
+2026-03-31,Ukraine,Albania,1.0,0.0,H,W
+2026-05-31,Ukraine,Poland,2.0,0.0,A,W
+2026-06-07,Ukraine,Denmark,1.0,2.0,A,L
+2025-09-08,United Arab Emirates,Bahrain,1.0,0.0,H,W
+2025-10-11,United Arab Emirates,Oman,2.0,1.0,H,W
+2025-10-14,United Arab Emirates,Qatar,1.0,2.0,A,L
+2025-11-13,United Arab Emirates,Iraq,1.0,1.0,H,D
+2025-11-18,United Arab Emirates,Iraq,1.0,2.0,A,L
+2025-12-03,United Arab Emirates,Jordan,1.0,2.0,A,L
+2025-12-06,United Arab Emirates,Egypt,1.0,1.0,H,D
+2025-12-09,United Arab Emirates,Kuwait,3.0,1.0,H,W
+2025-12-12,United Arab Emirates,Algeria,1.0,1.0,A,D
+2025-12-15,United Arab Emirates,Morocco,0.0,3.0,A,L
+2016-06-01,United Koreans in Japan,Northern Cyprus,1.0,1.0,H,D
+2016-06-03,United Koreans in Japan,Sápmi,1.0,2.0,H,L
+2016-06-04,United Koreans in Japan,Iraqi Kurdistan,1.0,1.0,H,D
+2016-11-26,United Koreans in Japan,Ryūkyū,9.0,0.0,A,W
+2018-05-31,United Koreans in Japan,Western Armenia,0.0,0.0,H,D
+2018-06-02,United Koreans in Japan,Kabylia,0.0,0.0,H,D
+2018-06-03,United Koreans in Japan,Panjab,1.0,1.0,A,D
+2018-06-05,United Koreans in Japan,Tuvalu,5.0,0.0,H,W
+2018-06-07,United Koreans in Japan,Abkhazia,0.0,2.0,A,L
+2018-06-09,United Koreans in Japan,Tibet,1.0,1.0,A,D
+2025-11-15,United States,Paraguay,2.0,1.0,H,W
+2025-11-18,United States,Uruguay,5.0,1.0,H,W
+2026-03-28,United States,Belgium,2.0,5.0,H,L
+2026-03-31,United States,Portugal,0.0,2.0,H,L
+2026-05-31,United States,Senegal,3.0,2.0,H,W
+2026-06-06,United States,Germany,1.0,2.0,H,L
+2026-06-12,United States,Paraguay,4.0,1.0,H,W
+2026-06-19,United States,Australia,2.0,0.0,H,W
+2026-06-25,United States,Turkey,2.0,3.0,H,L
+2026-07-01,United States,Bosnia and Herzegovina,2.0,0.0,H,W
+2024-03-22,United States Virgin Islands,British Virgin Islands,1.0,1.0,H,D
+2024-03-26,United States Virgin Islands,British Virgin Islands,0.0,0.0,A,D
+2024-09-04,United States Virgin Islands,Bahamas,3.0,3.0,H,D
+2024-09-10,United States Virgin Islands,Barbados,0.0,3.0,H,L
+2024-10-09,United States Virgin Islands,Barbados,0.0,5.0,A,L
+2024-10-12,United States Virgin Islands,Bahamas,1.0,3.0,A,L
+2025-08-13,United States Virgin Islands,Turks and Caicos Islands,1.0,1.0,H,D
+2025-08-14,United States Virgin Islands,Marshall Islands,4.0,0.0,A,W
+2026-03-25,United States Virgin Islands,American Samoa,5.0,2.0,H,W
+2026-03-28,United States Virgin Islands,Puerto Rico,0.0,2.0,A,L
+2025-09-09,Uruguay,Chile,0.0,0.0,A,D
+2025-10-10,Uruguay,Dominican Republic,1.0,0.0,H,W
+2025-10-13,Uruguay,Uzbekistan,2.0,1.0,A,W
+2025-11-15,Uruguay,Mexico,0.0,0.0,A,D
+2025-11-18,Uruguay,United States,1.0,5.0,A,L
+2026-03-27,Uruguay,England,1.0,1.0,A,D
+2026-03-31,Uruguay,Algeria,0.0,0.0,A,D
+2026-06-15,Uruguay,Saudi Arabia,1.0,1.0,A,D
+2026-06-21,Uruguay,Cape Verde,2.0,2.0,H,D
+2026-06-26,Uruguay,Spain,0.0,1.0,H,L
+2025-11-14,Uzbekistan,Egypt,2.0,0.0,H,W
+2025-11-18,Uzbekistan,Iran,0.0,0.0,A,D
+2026-01-26,Uzbekistan,China,2.0,2.0,H,D
+2026-03-27,Uzbekistan,Gabon,3.0,1.0,H,W
+2026-03-30,Uzbekistan,Venezuela,0.0,0.0,H,D
+2026-06-01,Uzbekistan,Canada,0.0,2.0,A,L
+2026-06-08,Uzbekistan,Netherlands,1.0,2.0,A,L
+2026-06-17,Uzbekistan,Colombia,1.0,3.0,H,L
+2026-06-23,Uzbekistan,Portugal,0.0,5.0,A,L
+2026-06-27,Uzbekistan,DR Congo,1.0,3.0,A,L
+2024-10-12,Vanuatu,Samoa,4.0,1.0,H,W
+2024-11-15,Vanuatu,New Zealand,1.0,8.0,A,L
+2024-11-18,Vanuatu,Tahiti,0.0,2.0,A,L
+2024-12-09,Vanuatu,Solomon Islands,1.0,4.0,A,L
+2024-12-12,Vanuatu,Fiji,1.0,1.0,A,D
+2024-12-21,Vanuatu,Papua New Guinea,1.0,2.0,H,L
+2025-11-17,Vanuatu,Fiji,2.0,0.0,H,W
+2025-11-20,Vanuatu,Solomon Islands,2.0,1.0,H,W
+2025-11-23,Vanuatu,Papua New Guinea,2.0,2.0,A,D
+2026-06-06,Vanuatu,Fiji,2.0,1.0,H,W
+2002-11-23,Vatican City,Monaco,0.0,0.0,A,D
+2011-05-07,Vatican City,Monaco,1.0,2.0,A,L
+2011-06-12,Vatican City,Palestine,1.0,9.0,A,L
+2013-06-22,Vatican City,Monaco,0.0,2.0,A,L
+2014-05-10,Vatican City,Monaco,0.0,2.0,H,L
+2017-04-29,Vatican City,Monaco,0.0,0.0,H,D
+2019-03-23,Vatican City,Raetia,2.0,2.0,H,D
+2022-04-22,Vatican City,Elba Island,2.0,4.0,A,L
+2025-06-10,Venezuela,Uruguay,0.0,2.0,A,L
+2025-09-04,Venezuela,Argentina,0.0,3.0,A,L
+2025-09-09,Venezuela,Colombia,3.0,6.0,H,L
+2025-10-10,Venezuela,Argentina,0.0,1.0,A,L
+2025-11-14,Venezuela,Australia,1.0,0.0,A,W
+2025-11-18,Venezuela,Canada,0.0,2.0,A,L
+2026-03-27,Venezuela,Trinidad and Tobago,4.0,1.0,H,W
+2026-03-30,Venezuela,Uzbekistan,0.0,0.0,A,D
+2026-06-06,Venezuela,Turkey,1.0,2.0,H,L
+2026-06-09,Venezuela,Iraq,2.0,0.0,A,W
+2024-12-29,Vietnam,Singapore,3.0,1.0,H,W
+2025-01-02,Vietnam,Thailand,2.0,1.0,H,W
+2025-01-05,Vietnam,Thailand,3.0,2.0,A,W
+2025-03-19,Vietnam,Cambodia,2.0,1.0,H,W
+2025-03-25,Vietnam,Laos,5.0,0.0,H,W
+2025-06-10,Vietnam,Malaysia,0.0,4.0,A,L
+2025-10-09,Vietnam,Nepal,3.0,1.0,H,W
+2025-10-14,Vietnam,Nepal,1.0,0.0,H,W
+2025-11-19,Vietnam,Laos,2.0,0.0,A,W
+2026-03-26,Vietnam,Bangladesh,3.0,0.0,H,W
+1974-11-05,Vietnam Republic,Malaysia,1.0,0.0,H,W
+1974-11-07,Vietnam Republic,Taiwan,1.0,1.0,H,D
+1974-11-09,Vietnam Republic,Thailand,3.0,2.0,H,W
+1974-12-11,Vietnam Republic,Cambodia,2.0,3.0,A,L
+1974-12-15,Vietnam Republic,South Korea,2.0,2.0,A,D
+1974-12-16,Vietnam Republic,Cambodia,0.0,2.0,A,L
+1975-03-17,Vietnam Republic,Indonesia,1.0,2.0,A,L
+1975-03-19,Vietnam Republic,South Korea,0.0,1.0,A,L
+1975-03-21,Vietnam Republic,Thailand,0.0,4.0,A,L
+1975-03-23,Vietnam Republic,Malaysia,0.0,3.0,A,L
+2025-09-04,Wales,Kazakhstan,1.0,0.0,A,W
+2025-09-09,Wales,Canada,0.0,1.0,H,L
+2025-10-09,Wales,England,0.0,3.0,A,L
+2025-10-13,Wales,Belgium,2.0,4.0,H,L
+2025-11-15,Wales,Liechtenstein,1.0,0.0,A,W
+2025-11-18,Wales,North Macedonia,7.0,1.0,H,W
+2026-03-26,Wales,Bosnia and Herzegovina,1.0,1.0,H,D
+2026-03-31,Wales,Northern Ireland,1.0,1.0,H,D
+2026-06-02,Wales,Ghana,1.0,1.0,H,D
+2026-06-06,Wales,Romania,1.0,2.0,A,L
+1987-12-17,Wallis Islands and Futuna,Papua New Guinea,0.0,2.0,A,L
+1991-09-10,Wallis Islands and Futuna,Vanuatu,0.0,4.0,A,L
+1991-09-11,Wallis Islands and Futuna,Solomon Islands,0.0,5.0,A,L
+1991-09-15,Wallis Islands and Futuna,Papua New Guinea,0.0,5.0,A,L
+1991-09-17,Wallis Islands and Futuna,Tahiti,0.0,5.0,H,L
+1991-09-18,Wallis Islands and Futuna,Guam,5.0,0.0,H,W
+1995-08-16,Wallis Islands and Futuna,Solomon Islands,1.0,12.0,A,L
+1995-08-17,Wallis Islands and Futuna,Tahiti,0.0,13.0,A,L
+1995-08-19,Wallis Islands and Futuna,Cook Islands,1.0,2.0,A,L
+1995-08-20,Wallis Islands and Futuna,New Caledonia,0.0,10.0,A,L
+2019-10-19,West Papua,East Turkestan,2.0,8.0,H,L
+2022-11-13,West Papua,Raetia,1.0,1.0,H,D
+2018-06-02,Western Armenia,Panjab,1.0,0.0,A,W
+2018-06-03,Western Armenia,Kabylia,4.0,0.0,H,W
+2018-06-05,Western Armenia,Székely Land,0.0,4.0,H,L
+2018-06-07,Western Armenia,Cascadia,0.0,4.0,A,L
+2018-06-09,Western Armenia,Barawa,7.0,0.0,A,W
+2019-06-02,Western Armenia,South Ossetia,1.0,2.0,H,L
+2019-06-03,Western Armenia,Székely Land,5.0,0.0,A,W
+2019-06-04,Western Armenia,Padania,1.0,1.0,A,D
+2019-06-06,Western Armenia,Abkhazia,1.0,1.0,A,D
+2019-06-09,Western Armenia,South Ossetia,0.0,1.0,H,L
+1970-08-01,Western Australia,Myanmar,0.0,1.0,A,L
+1970-08-03,Western Australia,Vietnam Republic,3.0,1.0,A,W
+1970-08-05,Western Australia,India,0.0,2.0,A,L
+1970-08-07,Western Australia,Malaysia,1.0,4.0,A,L
+1970-08-09,Western Australia,Taiwan,3.0,1.0,A,W
+1970-08-12,Western Australia,Thailand,0.0,2.0,A,L
+1971-06-06,Western Australia,Cambodia,2.0,2.0,A,D
+1971-06-09,Western Australia,Malaysia,2.0,3.0,A,L
+1980-11-16,Western Australia,Brunei,2.0,0.0,A,W
+1980-11-25,Western Australia,Singapore,1.0,1.0,A,D
+2019-06-16,Western Isles,Ynys Môn,1.0,2.0,A,L
+2019-06-17,Western Isles,Jersey,0.0,7.0,A,L
+2019-06-18,Western Isles,Orkney,1.0,2.0,H,L
+2019-06-20,Western Isles,Saint Helena,2.0,1.0,H,W
+2023-07-09,Western Isles,Guernsey,0.0,1.0,A,L
+2023-07-10,Western Isles,Isle of Wight,0.0,1.0,H,L
+2023-07-11,Western Isles,Åland Islands,2.0,0.0,A,W
+2023-07-13,Western Isles,Menorca,2.0,1.0,H,W
+2025-07-14,Western Isles,Ynys Môn,0.0,1.0,A,L
+2025-07-17,Western Isles,Gozo,3.0,3.0,A,D
+2001-02-27,Western Sahara,Basque Country,2.0,2.0,H,D
+2011-02-27,Western Sahara,Galicia,1.0,2.0,H,L
+2012-06-04,Western Sahara,Iraqi Kurdistan,0.0,6.0,A,L
+2012-06-05,Western Sahara,Occitania,2.0,6.0,H,L
+2012-06-07,Western Sahara,Darfur,5.0,1.0,H,W
+2012-06-08,Western Sahara,Raetia,3.0,0.0,H,W
+2012-06-09,Western Sahara,Occitania,1.0,3.0,A,L
+2013-06-24,Western Sahara,Kurdistan,0.0,6.0,H,L
+2013-06-28,Western Sahara,Tibet,2.0,12.0,H,L
+2024-11-19,Yemen,Sri Lanka,2.0,0.0,A,W
+2024-12-22,Yemen,Iraq,0.0,1.0,A,L
+2024-12-25,Yemen,Saudi Arabia,2.0,3.0,H,L
+2024-12-28,Yemen,Bahrain,2.0,1.0,A,W
+2025-03-25,Yemen,Bhutan,0.0,0.0,A,D
+2025-06-10,Yemen,Lebanon,0.0,0.0,H,D
+2025-10-09,Yemen,Brunei,2.0,0.0,A,W
+2025-10-14,Yemen,Brunei,9.0,0.0,H,W
+2025-11-18,Yemen,Bhutan,7.0,1.0,H,W
+2025-11-26,Yemen,Comoros,4.0,4.0,A,D
+1981-05-17,Yemen DPR,Ethiopia,1.0,1.0,A,D
+1985-03-29,Yemen DPR,Bahrain,1.0,4.0,H,L
+1985-04-12,Yemen DPR,Bahrain,3.0,3.0,A,D
+1988-02-25,Yemen DPR,Djibouti,1.0,4.0,A,L
+1988-06-17,Yemen DPR,Indonesia,0.0,1.0,A,L
+1988-06-19,Yemen DPR,South Korea,1.0,1.0,A,D
+1988-06-22,Yemen DPR,Bahrain,0.0,2.0,A,L
+1989-11-01,Yemen DPR,Iran,0.0,2.0,A,L
+1989-11-03,Yemen DPR,Iraq,2.0,6.0,A,L
+1989-11-05,Yemen DPR,Guinea,1.0,0.0,A,W
+2019-06-17,Ynys Môn,Orkney,3.0,1.0,H,W
+2019-06-18,Ynys Môn,Jersey,1.0,0.0,H,W
+2019-06-20,Ynys Môn,Shetland,2.0,1.0,H,W
+2019-06-21,Ynys Môn,Guernsey,2.0,1.0,H,W
+2023-07-09,Ynys Môn,Shetland,2.0,0.0,H,W
+2023-07-10,Ynys Môn,Falkland Islands,5.0,1.0,A,W
+2023-07-11,Ynys Môn,Isle of Man,2.0,1.0,A,W
+2023-07-14,Ynys Môn,Jersey,2.0,5.0,H,L
+2025-07-14,Ynys Môn,Western Isles,1.0,0.0,H,W
+2025-07-17,Ynys Môn,Isle of Man,1.0,0.0,A,W
+2018-01-28,Yorkshire,Ellan Vannin,1.0,1.0,H,D
+2018-03-25,Yorkshire,Chagos Islands,6.0,0.0,H,W
+2018-04-15,Yorkshire,Barawa,7.0,2.0,A,W
+2018-10-21,Yorkshire,Parishes of Jersey,1.0,2.0,A,L
+2018-11-18,Yorkshire,Panjab,5.0,4.0,H,W
+2019-05-04,Yorkshire,Somaliland,6.0,2.0,H,W
+2019-06-01,Yorkshire,Parishes of Jersey,1.0,0.0,H,W
+2022-05-21,Yoruba Nation,Matabeleland,1.0,1.0,H,D
+2022-05-23,Yoruba Nation,Biafra,0.0,1.0,H,L
+1991-02-27,Yugoslavia,Turkey,1.0,1.0,A,D
+1991-03-27,Yugoslavia,Northern Ireland,4.0,1.0,H,W
+1991-05-01,Yugoslavia,Denmark,1.0,2.0,H,L
+1991-05-16,Yugoslavia,Faroe Islands,7.0,0.0,H,W
+1991-08-08,Yugoslavia,Czechoslovakia,0.0,0.0,A,D
+1991-09-04,Yugoslavia,Sweden,3.0,4.0,A,L
+1991-10-16,Yugoslavia,Faroe Islands,2.0,0.0,A,W
+1991-10-30,Yugoslavia,Brazil,1.0,3.0,A,L
+1991-11-13,Yugoslavia,Austria,2.0,0.0,A,W
+1992-03-25,Yugoslavia,Netherlands,0.0,2.0,A,L
+2025-03-25,Zambia,Russia,0.0,5.0,A,L
+2025-09-08,Zambia,Morocco,0.0,2.0,H,L
+2025-10-08,Zambia,Tanzania,1.0,0.0,A,W
+2025-10-12,Zambia,Niger,0.0,1.0,H,L
+2025-11-15,Zambia,South Africa,1.0,3.0,A,L
+2025-11-18,Zambia,Angola,2.0,3.0,A,L
+2025-12-22,Zambia,Mali,1.0,1.0,A,D
+2025-12-26,Zambia,Comoros,0.0,0.0,H,D
+2025-12-29,Zambia,Morocco,0.0,3.0,A,L
+2026-03-31,Zambia,Argentina,0.0,5.0,A,L
+2017-12-05,Zanzibar,Rwanda,3.0,1.0,H,W
+2017-12-07,Zanzibar,Tanzania,2.0,1.0,A,W
+2017-12-09,Zanzibar,Kenya,0.0,0.0,A,D
+2017-12-11,Zanzibar,Libya,0.0,1.0,A,L
+2017-12-15,Zanzibar,Uganda,2.0,1.0,A,W
+2017-12-17,Zanzibar,Kenya,2.0,2.0,A,D
+2025-01-03,Zanzibar,Tanzania,1.0,0.0,H,W
+2025-01-06,Zanzibar,Burkina Faso,0.0,1.0,H,L
+2025-01-10,Zanzibar,Kenya,1.0,0.0,H,W
+2025-01-13,Zanzibar,Burkina Faso,2.0,1.0,H,W
+2025-10-10,Zimbabwe,South Africa,0.0,0.0,A,D
+2025-10-13,Zimbabwe,Lesotho,0.0,1.0,A,L
+2025-11-13,Zimbabwe,Algeria,1.0,3.0,A,L
+2025-11-17,Zimbabwe,Qatar,2.0,1.0,A,W
+2025-12-22,Zimbabwe,Egypt,1.0,2.0,A,L
+2025-12-26,Zimbabwe,Angola,1.0,1.0,A,D
+2025-12-29,Zimbabwe,South Africa,2.0,3.0,H,L
+2026-03-28,Zimbabwe,Botswana,3.0,0.0,A,W
+2026-05-26,Zimbabwe,Nigeria,0.0,2.0,A,L
+2026-05-30,Zimbabwe,India,1.0,0.0,H,W
+2015-06-30,Åland Islands,Menorca,1.0,3.0,H,L
+2015-07-02,Åland Islands,Gibraltar,0.0,0.0,A,D
+2017-06-25,Åland Islands,Guernsey,1.0,1.0,A,D
+2017-06-26,Åland Islands,Saare County,0.0,0.0,H,D
+2017-06-27,Åland Islands,Shetland,2.0,1.0,H,W
+2017-06-29,Åland Islands,Ynys Môn,2.0,0.0,A,W
+2023-07-09,Åland Islands,Isle of Wight,0.0,2.0,H,L
+2023-07-10,Åland Islands,Guernsey,1.0,4.0,A,L
+2023-07-11,Åland Islands,Western Isles,0.0,2.0,H,L
+2023-07-13,Åland Islands,Falkland Islands,1.0,1.0,H,D

@@ -15,6 +15,8 @@ data/*.zip
 !data/latest_h2h.csv
 !data/latest_match_date.csv
 !data/training_data.csv
+!data/recent_matches.csv
+!data/recent_h2h.csv
 
 models/*.joblib
 
