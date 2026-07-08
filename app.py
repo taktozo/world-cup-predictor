@@ -172,7 +172,9 @@ else:
 
     st.subheader("Expected score")
     st.markdown(
-        f"### {home_team} **{result['home_goals']:.2f}** — **{result['away_goals']:.2f}** {away_team}"
+        f"<h3 style='font-weight: 300;'>{home_team} {result['home_goals']:.2f} — "
+        f"{result['away_goals']:.2f} {away_team}</h3>",
+        unsafe_allow_html=True,
     )
 
     st.subheader("Outcome probabilities")
