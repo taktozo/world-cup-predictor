@@ -29,7 +29,7 @@ FORM_COLUMNS = ["home_form_goals_for", "home_form_goals_against", "away_form_goa
 
 
 def load_training_data() -> pd.DataFrame:
-    df = pd.read_csv(DATA_DIR / "results_with_h2h.csv", parse_dates=["date"])
+    df = pd.read_csv(DATA_DIR / "results_with_rest.csv", parse_dates=["date"])
     df = df.dropna(subset=["home_elo", "away_elo", "home_score", "away_score", *FORM_COLUMNS])
     return df.sort_values("date").reset_index(drop=True)
 

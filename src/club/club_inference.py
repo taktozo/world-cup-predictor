@@ -16,7 +16,7 @@ from sklearn.linear_model import PoissonRegressor
 from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import StandardScaler
 
-from add_rest_days import DEFAULT_REST_DAYS, MAX_REST_DAYS
+from club_add_rest_days import DEFAULT_REST_DAYS, MAX_REST_DAYS
 from club_features import build_features, build_live_features
 
 DATA_DIR = Path(__file__).resolve().parent.parent.parent / "data" / "club"

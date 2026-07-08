@@ -14,7 +14,15 @@ import streamlit as st
 
 from features import FEATURE_COLUMNS
 from fixtures import get_upcoming_fixtures
-from inference import fit_model, h2h_diff_for_pair, load_latest_elo, load_latest_form, load_latest_h2h, predict_match
+from inference import (
+    fit_model,
+    h2h_diff_for_pair,
+    load_latest_elo,
+    load_latest_form,
+    load_latest_h2h,
+    load_latest_match_date,
+    predict_match,
+)
 from ui import apply_theme, render_footer
 
 OUTCOME_COLORS = {"Home win": "#4C72B0", "Draw": "#8C8C8C", "Away win": "#C44E52"}
@@ -58,6 +66,11 @@ def get_latest_h2h():
     return load_latest_h2h()
 
 
+@st.cache_data
+def get_latest_match_date():
+    return load_latest_match_date()
+
+
 @st.cache_data(ttl=6 * 60 * 60)  # tournament fixtures/results can change during an active World Cup
 def get_fixtures(_api_token):
     return get_upcoming_fixtures(_api_token)
@@ -72,6 +85,7 @@ st.caption(
 latest_elo = get_latest_elo()
 latest_form = get_latest_form()
 latest_h2h = get_latest_h2h()
+latest_match_date = get_latest_match_date()
 model = get_model(_model_cache_key())
 teams = sorted(set(latest_elo.index) & set(latest_form.index))
 
@@ -84,7 +98,7 @@ mode = st.radio("Mode", mode_options, horizontal=True)
 if not api_token:
     st.caption("Real fixtures unavailable (no football-data.org API token configured).")
 
-home_team = away_team = None
+home_team = away_team = fixture_date = None
 neutral = True
 
 if mode == "Real upcoming fixture":
@@ -105,7 +119,7 @@ if mode == "Real upcoming fixture":
         ]
         choice = st.selectbox("Upcoming fixture", labels)
         chosen = fixtures.iloc[labels.index(choice)]
-        home_team, away_team = chosen["home_team"], chosen["away_team"]
+        home_team, away_team, fixture_date = chosen["home_team"], chosen["away_team"], chosen["date"]
 else:
     col1, col2 = st.columns(2)
     with col1:
@@ -119,7 +133,10 @@ else:
 if home_team == away_team:
     st.warning("Pick two different teams.")
 else:
-    result = predict_match(home_team, away_team, neutral, latest_elo, latest_form, latest_h2h, model)
+    result = predict_match(
+        home_team, away_team, neutral, latest_elo, latest_form, latest_h2h,
+        latest_match_date, model, match_date=fixture_date,
+    )
 
     col_elo1, col_elo2, col_h2h = st.columns(3)
     with col_elo1:
@@ -132,6 +149,11 @@ else:
             int(latest_h2h.loc[h2h_pair_key, "count"]) if h2h_pair_key in latest_h2h.index else 0
         )
         st.metric("Past meetings", h2h_count)
+
+    st.caption(
+        f"Rest: {home_team} {result['home_rest_days']:.0f} day(s) vs. "
+        f"{away_team} {result['away_rest_days']:.0f} day(s)"
+    )
 
     st.subheader("Expected score")
     st.markdown(

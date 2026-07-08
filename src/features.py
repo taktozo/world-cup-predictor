@@ -17,11 +17,14 @@ FEATURE_COLUMNS = [
     "away_form_goals_for",
     "away_form_goals_against",
     "h2h_diff",
+    "home_rest_days",
+    "away_rest_days",
+    "rest_days_diff",
 ]
 
 
 def build_features(df: pd.DataFrame) -> pd.DataFrame:
-    """Given rows with elo/form/h2h/neutral columns, return the model feature matrix."""
+    """Given rows with elo/form/h2h/rest/neutral columns, return the model feature matrix."""
     features = pd.DataFrame(index=df.index)
     features["home_elo"] = df["home_elo"]
     features["away_elo"] = df["away_elo"]
@@ -32,4 +35,7 @@ def build_features(df: pd.DataFrame) -> pd.DataFrame:
     features["away_form_goals_for"] = df["away_form_goals_for"]
     features["away_form_goals_against"] = df["away_form_goals_against"]
     features["h2h_diff"] = df["h2h_diff"]
+    features["home_rest_days"] = df["home_rest_days"]
+    features["away_rest_days"] = df["away_rest_days"]
+    features["rest_days_diff"] = df["home_rest_days"] - df["away_rest_days"]
     return features[FEATURE_COLUMNS]

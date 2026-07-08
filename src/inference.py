@@ -14,6 +14,7 @@ from sklearn.linear_model import PoissonRegressor
 from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import StandardScaler
 
+from add_rest_days import DEFAULT_REST_DAYS, MAX_REST_DAYS
 from features import build_features
 
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
@@ -31,6 +32,18 @@ def load_latest_elo() -> pd.Series:
 def load_latest_form() -> pd.DataFrame:
     latest = pd.read_csv(DATA_DIR / "latest_form.csv")
     return latest.set_index("team")
+
+
+def load_latest_match_date() -> pd.Series:
+    latest = pd.read_csv(DATA_DIR / "latest_match_date.csv", parse_dates=["last_match_date"])
+    return latest.set_index("team")["last_match_date"]
+
+
+def rest_days_for_team(team: str, match_date: pd.Timestamp, latest_match_date: pd.Series) -> float:
+    if team not in latest_match_date.index or pd.isna(latest_match_date[team]):
+        return DEFAULT_REST_DAYS
+    days = (match_date - latest_match_date[team]).days
+    return float(np.clip(days, 0, MAX_REST_DAYS))
 
 
 def load_latest_h2h() -> pd.DataFrame:
@@ -126,8 +139,14 @@ def predict_match(
     latest_elo: pd.Series,
     latest_form: pd.DataFrame,
     latest_h2h: pd.DataFrame,
+    latest_match_date: pd.Series,
     model: dict,
+    match_date: pd.Timestamp | None = None,
 ) -> dict:
+    match_date = match_date or pd.Timestamp.now().normalize()
+    home_rest_days = rest_days_for_team(home_team, match_date, latest_match_date)
+    away_rest_days = rest_days_for_team(away_team, match_date, latest_match_date)
+
     row = pd.DataFrame(
         [
             {
@@ -139,6 +158,8 @@ def predict_match(
                 "away_form_goals_for": latest_form.loc[away_team, "form_goals_for"],
                 "away_form_goals_against": latest_form.loc[away_team, "form_goals_against"],
                 "h2h_diff": h2h_diff_for_pair(home_team, away_team, latest_h2h),
+                "home_rest_days": home_rest_days,
+                "away_rest_days": away_rest_days,
             }
         ]
     )
@@ -155,6 +176,8 @@ def predict_match(
     return {
         "home_elo": latest_elo[home_team],
         "away_elo": latest_elo[away_team],
+        "home_rest_days": home_rest_days,
+        "away_rest_days": away_rest_days,
         "home_goals": home_lambda[0],
         "away_goals": away_lambda[0],
         "p_home_win": outcome_probs[0],

@@ -21,6 +21,8 @@ LEAN_COLUMNS = [
     "neutral",
     *FORM_COLUMNS,
     "h2h_diff",
+    "home_rest_days",
+    "away_rest_days",
     "home_score",
     "away_score",
     "tournament",
@@ -28,7 +30,7 @@ LEAN_COLUMNS = [
 
 
 def main() -> None:
-    df = pd.read_csv(DATA_DIR / "results_with_h2h.csv", parse_dates=["date"])
+    df = pd.read_csv(DATA_DIR / "results_with_rest.csv", parse_dates=["date"])
     df = df.dropna(subset=["home_elo", "away_elo", "home_score", "away_score", *FORM_COLUMNS])
     lean = df[LEAN_COLUMNS]
 
