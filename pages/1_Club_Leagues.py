@@ -22,7 +22,7 @@ from club_inference import (
     predict_match,
 )
 from export_recent_history import RECENT_H2H_WINDOW, build_h2h_log, build_match_log
-from fixtures import get_upcoming_fixtures
+from club_fixtures import get_upcoming_fixtures
 from live_refresh import get_refreshed_snapshots
 from standings import compute_standings
 from ui import apply_theme, render_footer

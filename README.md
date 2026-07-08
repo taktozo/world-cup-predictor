@@ -125,11 +125,18 @@ Without the football-data.org token, the Club Leagues page still works fine in
   offline research/evaluation only (not the deployed "live" model), since
   neither is knowable for a hypothetical matchup — only for specific,
   already-scheduled real fixtures.
-- **Streamlit multi-page caching gotcha:** every `@st.cache_data`/
-  `@st.cache_resource` wrapper function must have a name that's unique across
-  *both* pages (they run in one shared process). The club page's wrappers are
-  all prefixed `get_club_*` for exactly this reason — see the git history for
-  the incident this was fixed after.
+- **Streamlit multi-page collision gotcha (bit us twice):** every `.py` module
+  imported via `sys.path` tricks, and every `@st.cache_data`/`@st.cache_resource`
+  wrapper function, must have a name that's unique across *both* pages -- they
+  run in one shared Python process, so a same-named module or wrapper in the
+  other pipeline silently shadows this one instead of raising an error. Fixed
+  twice already: `features.py`/`inference.py` -> `club_features.py`/
+  `club_inference.py`, and `fixtures.py` -> `club_fixtures.py`. Two more
+  filenames are still duplicated between `src/` and `src/club/`
+  (`export_training_data.py`, `train_baseline.py`) but are currently safe
+  since neither page imports them (only run standalone via `python
+  script.py`) -- **if either ever gets imported by app.py or the club page,
+  rename the club copy first.**
 
 ## Model performance (last evaluated)
 

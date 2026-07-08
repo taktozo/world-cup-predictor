@@ -13,6 +13,7 @@ import matplotlib.pyplot as plt
 import streamlit as st
 
 from features import FEATURE_COLUMNS
+from fixtures import get_upcoming_fixtures
 from inference import fit_model, h2h_diff_for_pair, load_latest_elo, load_latest_form, load_latest_h2h, predict_match
 from ui import apply_theme, render_footer
 
@@ -57,6 +58,11 @@ def get_latest_h2h():
     return load_latest_h2h()
 
 
+@st.cache_data(ttl=6 * 60 * 60)  # tournament fixtures/results can change during an active World Cup
+def get_fixtures(_api_token):
+    return get_upcoming_fixtures(_api_token)
+
+
 st.title("⚽ World Cup Score Predictor")
 st.caption(
     "Baseline model: independent Poisson regressions on Elo rating and venue. "
@@ -69,14 +75,46 @@ latest_h2h = get_latest_h2h()
 model = get_model(_model_cache_key())
 teams = sorted(set(latest_elo.index) & set(latest_form.index))
 
-col1, col2 = st.columns(2)
-with col1:
-    home_team = st.selectbox("Home team", teams, index=teams.index("Brazil") if "Brazil" in teams else 0)
-with col2:
-    away_default = "Argentina" if "Argentina" in teams else teams[1]
-    away_team = st.selectbox("Away team", teams, index=teams.index(away_default))
+try:
+    api_token = st.secrets.get("FOOTBALL_DATA_API_TOKEN")
+except FileNotFoundError:
+    api_token = None  # no secrets.toml configured at all -- fall back gracefully
+mode_options = ["Real upcoming fixture", "Hypothetical matchup"] if api_token else ["Hypothetical matchup"]
+mode = st.radio("Mode", mode_options, horizontal=True)
+if not api_token:
+    st.caption("Real fixtures unavailable (no football-data.org API token configured).")
 
-neutral = st.checkbox("Neutral venue (e.g. World Cup match)", value=True)
+home_team = away_team = None
+neutral = True
+
+if mode == "Real upcoming fixture":
+    try:
+        fixtures = get_fixtures(api_token)
+    except Exception as e:
+        st.error(f"Couldn't fetch fixtures right now ({e}). Try hypothetical matchup mode instead.")
+        fixtures = None
+
+    if fixtures is not None:
+        fixtures = fixtures[fixtures["home_team"].isin(teams) & fixtures["away_team"].isin(teams)]
+    if fixtures is None or fixtures.empty:
+        st.warning("No predictable upcoming World Cup fixtures found. Try hypothetical matchup mode instead.")
+    else:
+        labels = [
+            f"{row.date.strftime('%a %d %b')} ({row.stage}): {row.home_team} vs {row.away_team}"
+            for row in fixtures.itertuples()
+        ]
+        choice = st.selectbox("Upcoming fixture", labels)
+        chosen = fixtures.iloc[labels.index(choice)]
+        home_team, away_team = chosen["home_team"], chosen["away_team"]
+else:
+    col1, col2 = st.columns(2)
+    with col1:
+        home_team = st.selectbox("Home team", teams, index=teams.index("Brazil") if "Brazil" in teams else 0)
+    with col2:
+        away_default = "Argentina" if "Argentina" in teams else teams[1]
+        away_team = st.selectbox("Away team", teams, index=teams.index(away_default))
+
+    neutral = st.checkbox("Neutral venue (e.g. World Cup match)", value=True)
 
 if home_team == away_team:
     st.warning("Pick two different teams.")
