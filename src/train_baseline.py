@@ -19,7 +19,7 @@ from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import StandardScaler
 
 from features import FEATURE_COLUMNS, build_features
-from inference import outcome_probabilities
+from inference import compute_recency_weights, outcome_probabilities
 
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 MODELS_DIR = Path(__file__).resolve().parent.parent / "models"
@@ -54,14 +54,15 @@ def main() -> None:
     print(f"Test:  {len(test):,} matches (from {cutoff_date.date()} onward)")
 
     X_train, X_test = build_features(train), build_features(test)
+    weights = compute_recency_weights(train["date"])
 
     def make_model():
         return make_pipeline(StandardScaler(), PoissonRegressor(alpha=1.0, max_iter=500))
 
     with warnings.catch_warnings():
         warnings.simplefilter("ignore", category=UserWarning)
-        home_model = make_model().fit(X_train, train["home_score"])
-        away_model = make_model().fit(X_train, train["away_score"])
+        home_model = make_model().fit(X_train, train["home_score"], poissonregressor__sample_weight=weights)
+        away_model = make_model().fit(X_train, train["away_score"], poissonregressor__sample_weight=weights)
 
     home_pred = home_model.predict(X_test)
     away_pred = away_model.predict(X_test)

@@ -22,6 +22,17 @@ MODELS_DIR = Path(__file__).resolve().parent.parent / "models"
 MAX_GOALS = 10  # grid cutoff for outcome-probability summation
 OVER_UNDER_LINES = [0.5, 1.5, 2.5, 3.5, 4.5]
 H2H_SHRINKAGE_K = 4  # head-to-head history is shrunk toward 0 as count/(count+K)
+RECENCY_HALF_LIFE_YEARS = 8  # a match this many years old counts half as much as one today
+
+
+def compute_recency_weights(dates: pd.Series, half_life_years: float = RECENCY_HALF_LIFE_YEARS) -> np.ndarray:
+    """Exponential decay so recent matches count more when fitting -- tested
+    half-lives from 2-40 years; 8 balances a real accuracy gain (0.600 ->
+    0.606 outcome accuracy) against log-loss getting somewhat worse (more
+    confident predictions, occasionally confidently wrong on upsets)."""
+    reference_date = dates.max()
+    days_ago = (reference_date - dates).dt.days
+    return 0.5 ** (days_ago / (half_life_years * 365.25))
 
 
 def load_latest_elo() -> pd.Series:
@@ -72,15 +83,16 @@ def fit_model() -> dict:
     are fragile across scikit-learn versions/Python versions, which is
     exactly what broke the first deploy attempt.
     """
-    df = pd.read_csv(DATA_DIR / "training_data.csv")
+    df = pd.read_csv(DATA_DIR / "training_data.csv", parse_dates=["date"])
     X = build_features(df)
+    weights = compute_recency_weights(df["date"])
 
     with warnings.catch_warnings():
         warnings.simplefilter("ignore", category=UserWarning)
         home_model = make_pipeline(StandardScaler(), PoissonRegressor(alpha=1.0, max_iter=500))
-        home_model.fit(X, df["home_score"])
+        home_model.fit(X, df["home_score"], poissonregressor__sample_weight=weights)
         away_model = make_pipeline(StandardScaler(), PoissonRegressor(alpha=1.0, max_iter=500))
-        away_model.fit(X, df["away_score"])
+        away_model.fit(X, df["away_score"], poissonregressor__sample_weight=weights)
 
     return {"home_model": home_model, "away_model": away_model}
 

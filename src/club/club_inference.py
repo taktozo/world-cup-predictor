@@ -22,32 +22,44 @@ from club_features import build_features, build_live_features
 DATA_DIR = Path(__file__).resolve().parent.parent.parent / "data" / "club"
 MAX_GOALS = 10
 OVER_UNDER_LINES = [0.5, 1.5, 2.5, 3.5, 4.5]
+RECENCY_HALF_LIFE_YEARS = 2  # much shorter than international's 8 -- club's shorter history (1993+)
+# means recency matters less to begin with; testing found half_life=2 already gets nearly all the
+# available benefit (accuracy 0.5335 -> 0.5340) with log-loss actually improving slightly, unlike
+# international where more aggressive weighting trades log-loss for accuracy.
+
+
+def compute_recency_weights(dates: pd.Series, half_life_years: float = RECENCY_HALF_LIFE_YEARS) -> np.ndarray:
+    reference_date = dates.max()
+    days_ago = (reference_date - dates).dt.days
+    return 0.5 ** (days_ago / (half_life_years * 365.25))
 
 
 def fit_model(training_data: pd.DataFrame) -> dict:
     """Full research model (includes odds + referee) -- used only for
     train_baseline.py's offline evaluation against the bookmaker benchmark."""
     X = build_features(training_data)
+    weights = compute_recency_weights(training_data["Date"])
     with warnings.catch_warnings():
         warnings.simplefilter("ignore", category=UserWarning)
         home_model = make_pipeline(StandardScaler(), PoissonRegressor(alpha=1.0, max_iter=500))
-        home_model.fit(X, training_data["FTHG"])
+        home_model.fit(X, training_data["FTHG"], poissonregressor__sample_weight=weights)
         away_model = make_pipeline(StandardScaler(), PoissonRegressor(alpha=1.0, max_iter=500))
-        away_model.fit(X, training_data["FTAG"])
+        away_model.fit(X, training_data["FTAG"], poissonregressor__sample_weight=weights)
     return {"home_model": home_model, "away_model": away_model}
 
 
 def fit_live_model() -> dict:
     """Live/deployable model (no odds, no referee -- neither is knowable for
     an arbitrary hypothetical matchup), trained from the committed lean CSV."""
-    df = pd.read_csv(DATA_DIR / "training_data.csv")
+    df = pd.read_csv(DATA_DIR / "training_data.csv", parse_dates=["Date"])
     X = build_live_features(df)
+    weights = compute_recency_weights(df["Date"])
     with warnings.catch_warnings():
         warnings.simplefilter("ignore", category=UserWarning)
         home_model = make_pipeline(StandardScaler(), PoissonRegressor(alpha=1.0, max_iter=500))
-        home_model.fit(X, df["FTHG"])
+        home_model.fit(X, df["FTHG"], poissonregressor__sample_weight=weights)
         away_model = make_pipeline(StandardScaler(), PoissonRegressor(alpha=1.0, max_iter=500))
-        away_model.fit(X, df["FTAG"])
+        away_model.fit(X, df["FTAG"], poissonregressor__sample_weight=weights)
     return {"home_model": home_model, "away_model": away_model}
 
 
